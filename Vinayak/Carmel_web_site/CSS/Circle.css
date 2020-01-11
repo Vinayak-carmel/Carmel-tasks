@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway';   
+}
+.image-1{
+    display: flex;
+}
+.number-04{
+text-align: right;
+font: Regular 15px/21px Raleway;
+letter-spacing: 0;
+color: #939393;
+opacity: 1;
+padding-bottom: 11%;
+}
+.more{
+text-align: right;
+font: Medium 15px/21px Raleway;
+letter-spacing: 0;
+color: #505050;
+opacity: 1;
+padding-bottom: 6%;
+
+}
+.Credibility{
+text-align: right;
+font: Medium 13px/16px Raleway;
+letter-spacing: 0;
+color: #747474;
+opacity: 1;
+padding-bottom: 6%;
+
+}
+.explore-1{
+text-align: right;
+font: SemiBold 13px/16px Raleway;
+letter-spacing: 0;
+color: #257B84;
+opacity: 1;
+padding-bottom: 6%;
+
+}
+.cw-22a{
+    margin-top:3.4%;
+}
+
+.number{
+    text-align: left;
+    font: Regular 15px/21px Raleway;
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 1.5%;
+    }
+    .DISRUPTIVE{
+    text-align: left;
+    font: Medium 15px/21px Raleway;
+    letter-spacing: 0;
+    color: #505050;
+    opacity: 1;
+    padding-bottom: .5%;
+    
+    }
+    .Manifesting{
+    text-align: left;
+    font: Medium 13px/16px Raleway;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+    
+    }
+    .explore{
+    text-align: left;
+    font: SemiBold 13px/16px Raleway;
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    padding-bottom: .5%;
+    
+    }
+
+    .number-02{
+        text-align: left;
+        font: Regular 15px/21px Raleway;
+        letter-spacing: 0;
+        color: #939393;
+        opacity: 1;
+        padding-bottom: 11%;
+        }
+        .STRATEGIC{
+        text-align: left;
+        font: Medium 15px/21px Raleway;
+        letter-spacing: 0;
+        color: #505050;
+        opacity: 1;
+        padding-bottom: 6%;
+        
+        }
+        .Software{
+        text-align: left;
+        font: Medium 13px/16px Raleway;
+        letter-spacing: 0;
+        color: #747474;
+        opacity: 1;
+        padding-bottom: 6%;
+        
+        }
+        .explore-03{
+        text-align: left;
+        font: SemiBold 13px/16px Raleway;
+        letter-spacing: 0;
+        color: #257B84;
+        opacity: 1;
+        padding-bottom: 6%;
+        
+        }
+
+        .number-03{
+            text-align: right;
+            font: Regular 15px/21px Raleway;
+            letter-spacing: 0;
+            color: #939393;
+            opacity: 1;
+            padding-bottom: 2%;
+            }
+            .BUILT{
+            text-align: right;
+            font: Medium 15px/21px Raleway;
+            letter-spacing: 0;
+            color: #505050;
+            opacity: 1;
+            padding-bottom: 1%;
+            
+            }
+            .Economies{
+            text-align: right;
+            font: Medium 13px/16px Raleway;
+            letter-spacing: 0;
+            color: #747474;
+            opacity: 1;
+            padding-bottom: 1%;
+            
+            }
+            .explore-03{
+            text-align: left;
+            font: SemiBold 13px/16px Raleway;
+            letter-spacing: 0;
+            color: #257B84;
+            opacity: 1;
+            padding-bottom: 1%;
+            
+            }
+            .cw-built{
+                text-align: right;
+            }
