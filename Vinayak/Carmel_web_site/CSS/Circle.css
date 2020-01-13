@@ -4,8 +4,20 @@
     box-sizing: border-box;
     font-family: 'Raleway';   
 }
+/** Peace 04 css */
 .image-1{
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.relaible{
+    margin-top: 7.1%
+}
+.peace-4{
+    width: 100%;
+    display:flex;
+    margin-top: 33.3%
 }
 .number-04{
 text-align: right;
@@ -13,7 +25,7 @@ font: Regular 15px/21px Raleway;
 letter-spacing: 0;
 color: #939393;
 opacity: 1;
-padding-bottom: 11%;
+
 }
 .more{
 text-align: right;
@@ -21,7 +33,7 @@ font: Medium 15px/21px Raleway;
 letter-spacing: 0;
 color: #505050;
 opacity: 1;
-padding-bottom: 6%;
+
 
 }
 .Credibility{
@@ -30,22 +42,35 @@ font: Medium 13px/16px Raleway;
 letter-spacing: 0;
 color: #747474;
 opacity: 1;
-padding-bottom: 6%;
 
-}
-.explore-1{
-text-align: right;
-font: SemiBold 13px/16px Raleway;
-letter-spacing: 0;
-color: #257B84;
-opacity: 1;
-padding-bottom: 6%;
 
 }
 .cw-22a{
-    margin-top:3.4%;
+    flex: 3;
+}
+.explore-04{
+width: 100%;
+float: right;
+clear: right
+}
+.explore-peace-04{
+    text-align: right;
+    font: SemiBold 13px/16px Raleway;
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    width: 92%;
+    float: left;
+    padding-top: 1%
+    }
+.icon-peace-04{
+  float: right;
+  text-align: right;
+  width: 8%
 }
 
+
+/** Peace-1 css*/
 .number{
     text-align: left;
     font: Regular 15px/21px Raleway;
@@ -72,23 +97,42 @@ padding-bottom: 6%;
     padding-bottom: .5%;
     
     }
-    .explore{
-    text-align: left;
-    font: SemiBold 13px/16px Raleway;
-    letter-spacing: 0;
-    color: #257B84;
-    opacity: 1;
-    padding-bottom: .5%;
+    .explore-01{
+        text-align: left;
+        font: SemiBold 13px/16px Raleway;
+        letter-spacing: 0;
+        color: #257B84;
+        opacity: 1;
+        padding-bottom: 1%;
+        width:18%;
+        float: left;
+        clear: left;
+        padding-top: .9%;
     
     }
-
+    .explore-icon-peace-1{
+        width: 100%;
+        float: left;
+        clear: left;
+            
+    }
+    .icon-peace-1{
+        float: right;
+        width: 82%;
+        text-align: left;
+     }
+     /* peace-02  CSS */
+     .software{
+         display: flex;
+         width: 100%;
+     }
     .number-02{
         text-align: left;
         font: Regular 15px/21px Raleway;
         letter-spacing: 0;
         color: #939393;
         opacity: 1;
-        padding-bottom: 11%;
+        padding-bottom: 5%;
         }
         .STRATEGIC{
         text-align: left;
@@ -96,28 +140,42 @@ padding-bottom: 6%;
         letter-spacing: 0;
         color: #505050;
         opacity: 1;
-        padding-bottom: 6%;
+        padding-bottom: 1%;
         
         }
-        .Software{
+        .Software-02{
         text-align: left;
         font: Medium 13px/16px Raleway;
         letter-spacing: 0;
         color: #747474;
         opacity: 1;
-        padding-bottom: 6%;
+        
         
         }
-        .explore-03{
-        text-align: left;
-        font: SemiBold 13px/16px Raleway;
-        letter-spacing: 0;
-        color: #257B84;
-        opacity: 1;
-        padding-bottom: 6%;
-        
+        .explore-peace-02{
+            text-align: left;
+            font: SemiBold 13px/16px Raleway;
+            letter-spacing: 0;
+            color: #257B84;
+            opacity: 1;
+            padding-bottom: 1%;
+            width: 25%;
+            float: left;
+            clear: left;
+            padding-top: 1.5%;
         }
-
+        .icon-peace-2{
+            float: right;
+            width: 75%;
+            text-align: left;
+         }
+         .explore-02{
+            width: 100%;
+            float: right;
+            clear: right;
+            padding-top: 1%;
+        }
+        /* peace-3 css */
         .number-03{
             text-align: right;
             font: Regular 15px/21px Raleway;
@@ -132,7 +190,7 @@ padding-bottom: 6%;
             letter-spacing: 0;
             color: #505050;
             opacity: 1;
-            padding-bottom: 1%;
+            padding-bottom: .5%;
             
             }
             .Economies{
@@ -141,18 +199,33 @@ padding-bottom: 6%;
             letter-spacing: 0;
             color: #747474;
             opacity: 1;
-            padding-bottom: 1%;
+            padding-bottom: .5%;
             
             }
             .explore-03{
-            text-align: left;
+            text-align: right;
             font: SemiBold 13px/16px Raleway;
             letter-spacing: 0;
             color: #257B84;
             opacity: 1;
             padding-bottom: 1%;
-            
+            width: 92%;
+            float: left;
+            clear: left;
+            padding-top: 01%;
             }
             .cw-built{
                 text-align: right;
+            }
+
+            .explore-icon-peace-3{
+                width: 100%;
+                float: right;
+                clear: right
+                    
+            }
+            .icon-peace-3{
+               float: right;
+               width: 8%;
+               text-align: right;
             }

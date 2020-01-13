@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
+}
+.container{
+    background-color: #fff;
+    padding: 4% 3% 6% 3%;
+}
+.helped{
+    color: #4B6A77;
+    font-size: 25px;
+    font-family: 'Raleway';
+    width: 40%
+}
+.PRO{
+    font-size: 75px;
+    font-family: 'Raleway', sans-serif; 
+    text-align: left;
+    letter-spacing: 0;
+    color: #4B6A77;
+    opacity: 0.6;
+    border-top: 10px solid #4B6A77;
+   
+}
+.number{
+    margin-top: 5%;
+    width: 34.5%
+}
+.delevered{
+    text-align: left;
+    font-size: 75px;
+    letter-spacing: 0;
+    color: #4B6A77;
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+}
+.reliable{
+    margin-top: 4%;
+    width: 25%
+}
+.more{
+    text-align: left;
+    font-size: 80px;
+    letter-spacing: 3.1px;
+    color: #32BDD2;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.quality-entirety{
+    margin-top: 5%;
+    width: 39%;
+}
+.quality{
+    color: #4B6A77;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3.1px;
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.entirety{
+    color: #4B6A77;
+    font-size: 26px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway'; 
+    margin-top: 4%;
+}
