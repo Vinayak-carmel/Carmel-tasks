@@ -17,7 +17,7 @@
 .peace-4{
     width: 100%;
     display:flex;
-    margin-top: 31.5%
+    margin-top: 33%
 }
 .number-04{
 text-align: right;
@@ -66,7 +66,7 @@ opacity: 1;
    
     }
 .icon-peace-04{
- flex: 0.8;
+ flex: 0.8 ;
 }
 
 
@@ -107,12 +107,11 @@ opacity: 1;
     .explore-01{
         text-align: left;
         font-family: Raleway;
-  font-size: 14px;
+        font-size: 16px;
         letter-spacing: 0;
         color: #257B84;
         opacity: 1;
-       
-    }
+        }
     
     .icon-peace-1{
        flex: 2;
@@ -135,7 +134,7 @@ opacity: 1;
         .STRATEGIC{
         text-align: left;
         font-family: Raleway;
-  font-size: 14px;
+        font-size: 14px;
         letter-spacing: 0;
         color: #505050;
         opacity: 1;
@@ -145,7 +144,7 @@ opacity: 1;
         .Software-02{
         text-align: left;
         font-family: Raleway;
-  font-size: 14px;
+  font-size: 17px;
         letter-spacing: 0;
         color: #747474;
         opacity: 1;
@@ -155,7 +154,7 @@ opacity: 1;
         .explore-peace-02{
             text-align: left;
             font-family: Raleway;
-            font-size: 14px;
+            font-size: 18px;
             letter-spacing: 0;
             color: #257B84;
             opacity: 1;
@@ -192,7 +191,7 @@ opacity: 1;
             .Economies{
             text-align: right;
             font-family: Raleway;
-            font-size: 14px;
+            font-size: 18px;
             letter-spacing: 0;
             color: #747474;
             opacity: 1;
