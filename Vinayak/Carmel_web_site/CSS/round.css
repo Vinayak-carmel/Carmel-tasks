@@ -11,25 +11,240 @@ width: 100%
     float: left;
     clear: left;
     background-color: #e31010;
-}
+    margin-top: 9.5%;
+   }
 .right{
     width: 50%;
     float: right;
     clear: right;
     background-color: #59db0d;
-}
+   
+   }
 .left-bottom{
     width: 50%;
     float: left;
     clear: left;
-    background-color: #1a30d9;
-}
+   
+   
+  }
 .right-bottom{
     width: 50%;
     float: right;
     clear: right;
     background-color: #ebf20c;
-}
-.img{
+    
+  }
+.peace-1{
     float: right;
+}
+.peace-2{
+    float: left;
+}
+.peace-3{
+    float: right;
+}
+.peace-4{
+    float: left;
+    
+}
+.number-01{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.DISRUPTIVE{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Manifesting{
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    vertical-align: middle;
+    padding-bottom: .5%;
+}
+.ero-icon{
+    vertical-align: middle;
+}
+.left-bottom-container{
+    width: 100%;
+}
+.image{
+    float: left;
+    width: 20%;
+    clear: left;
+}
+.containt{
+    float: right;
+    width: 80%;
+    clear: right;
+}
+
+.number-02{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.STRATEGIC{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Software{
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    vertical-align: middle;
+    padding-bottom: .5%;
+    padding-right: 1%;
+}
+.ero-icon{
+    vertical-align: middle;
+}
+
+.number-03{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.BUILT{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Economies{
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore-built{
+    text-align: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+   vertical-align: middle;
+    flex: 2;
+    padding-right: 1%;
+   }
+.ero-icon-built{
+    vertical-align: middle;
+    float: right;
+    
+  
+}
+.time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-04{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.more{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Credibility{
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore-built{
+    text-align: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+   vertical-align: middle;
+    flex: 2;
+    padding-right: 1%;
+   }
+.ero-icon-built{
+    vertical-align: middle;
+    float: right;
+    
+  
+}
+.time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

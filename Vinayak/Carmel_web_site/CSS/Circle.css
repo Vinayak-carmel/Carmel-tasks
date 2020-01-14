@@ -1,224 +1,250 @@
 *{
-    margin: 0%;
     padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
-    font-family: 'Raleway';   
 }
-/** Peace 04 css */
-.image-1{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container{
+width: 100%
 }
-.relaible{
-    margin-top: 7.1%
-}
-.peace-4{
-    width: 100%;
-    display:flex;
-    margin-top: 33%
-}
-.number-04{
-text-align: right;
-font: Regular 15px/21px Raleway;
-letter-spacing: 0;
-color: #939393;
-opacity: 1;
-
-}
-.more{
-text-align: right;
-font: Medium 15px/21px Raleway;
-letter-spacing: 0;
-color: #505050;
-opacity: 1;
-
-
-}
-.Credibility{
-text-align: right;
-font: Medium 13px/16px Raleway;
-letter-spacing: 0;
-color: #747474;
-opacity: 1;
-
-
-}
-.cw-22a{
-    flex: 3;
-}
-.explore-04{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.left{
+    width: 50%;
+    float: left;
+    clear: left;
+    background-color: #e31010;
+    margin-top: 9.5%;
+   }
+.right{
+    width: 50%;
+    float: right;
+    clear: right;
+    background-color: #59db0d;
+   
+   }
+.left-bottom{
+    width: 50%;
+    float: left;
+    clear: left;
+   
+   
+  }
+.right-bottom{
+    width: 50%;
+    float: right;
+    clear: right;
+    background-color: #ebf20c;
+    
+  }
+.peace-1{
     float: right;
 }
-.explore-peace-04{
-    text-align: right;
-    font-family: Raleway;
-    font-size: 14px;
-    letter-spacing: 0;
-    color: #257B84;
-    opacity: 1;
-    flex: 6;
-   
-    }
-.icon-peace-04{
- flex: 0.8 ;
+.peace-2{
+    float: left;
 }
-
-
-/** Peace-1 css*/
-.number{
+.peace-3{
+    float: right;
+}
+.peace-4{
+    float: left;
+    
+}
+.number-01{
     text-align: left;
-    font: Regular 15px/21px Raleway;
+    font-size: 15px;
+    font-family: 'Raleway';
     letter-spacing: 0;
     color: #939393;
     opacity: 1;
-    padding-bottom: 1.5%;
-    }
-    .DISRUPTIVE{
+    padding-bottom: 2%;
+}
+.DISRUPTIVE{
     text-align: left;
-    font: Medium 15px/21px Raleway;
-    letter-spacing: 0;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
     color: #505050;
     opacity: 1;
+    line-height: 20px;
     padding-bottom: .5%;
-    
-    }
-    .Manifesting{
+}
+.Manifesting{
     text-align: left;
-    font: Medium 13px/16px Raleway;
+    font-size: 13px;
     letter-spacing: 0;
+    font-family: "Raleway";
     color: #747474;
     opacity: 1;
     padding-bottom: .5%;
+}
+.explore{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    vertical-align: middle;
+    padding-bottom: .5%;
+}
+.ero-icon{
+    vertical-align: middle;
+}
+.left-bottom-container{
+    width: 100%;
+}
+.image{
+    float: left;
+    width: 20%;
+    clear: left;
+}
+.containt{
+    float: right;
+    width: 80%;
+    clear: right;
+}
+
+.number-02{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.STRATEGIC{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Software{
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    vertical-align: middle;
+    padding-bottom: .5%;
+    padding-right: 1%;
+}
+.ero-icon{
+    vertical-align: middle;
+}
+
+.number-03{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.BUILT{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Economies{
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore-built{
+    text-align: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+   vertical-align: middle;
+    flex: 2;
+    padding-right: 1%;
+   }
+.ero-icon-built{
+    vertical-align: middle;
+    float: right;
     
-    }
-    .explore-icon-peace-1{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-            
-    }
-    .explore-01{
-        text-align: left;
-        font-family: Raleway;
-        font-size: 16px;
-        letter-spacing: 0;
-        color: #257B84;
-        opacity: 1;
-        }
+  
+}
+.time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-04{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.more{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Credibility{
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore-built{
+    text-align: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+   vertical-align: middle;
+    flex: 2;
+    padding-right: 1%;
+   }
+.ero-icon-built{
+    vertical-align: middle;
+    float: right;
     
-    .icon-peace-1{
-       flex: 2;
-        text-align: left;
-     }
-     /* peace-02  CSS */
-     .software{
-         display: flex;
-         width: 100%;
-     }
-    .number-02{
-        text-align: left;
-        font-family: Raleway;
-  font-size: 14px;
-        letter-spacing: 0;
-        color: #939393;
-        opacity: 1;
-        padding-bottom: 5%;
-        }
-        .STRATEGIC{
-        text-align: left;
-        font-family: Raleway;
-        font-size: 14px;
-        letter-spacing: 0;
-        color: #505050;
-        opacity: 1;
-        padding-bottom: 1%;
-        
-        }
-        .Software-02{
-        text-align: left;
-        font-family: Raleway;
-  font-size: 17px;
-        letter-spacing: 0;
-        color: #747474;
-        opacity: 1;
-        
-        
-        }
-        .explore-peace-02{
-            text-align: left;
-            font-family: Raleway;
-            font-size: 18px;
-            letter-spacing: 0;
-            color: #257B84;
-            opacity: 1;
-        }
-        .icon-peace-2{
-            flex: 2;
-         }
-         .explore-02{
-            width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-        /* peace-3 css */
-        .number-03{
-            text-align: right;
-            font-family: Raleway;
-  font-size: 14px;
-            letter-spacing: 0;
-            color: #939393;
-            opacity: 1;
-            padding-bottom: 2.5%;
-            }
-            .BUILT{
-            text-align: right;
-            font-family: Raleway;
-  font-size: 14px;
-            letter-spacing: 0;
-            color: #505050;
-            opacity: 1;
-            padding-bottom: .5%;
-            
-            }
-            .Economies{
-            text-align: right;
-            font-family: Raleway;
-            font-size: 18px;
-            letter-spacing: 0;
-            color: #747474;
-            opacity: 1;
-            padding-bottom: .5%;
-            
-            }
-            .explore-03{
-            text-align: right;
-            font-size: 14px;
-            color: #257B84;
-            opacity: 1;
-            flex: 3;
-            }
-            .cw-built{
-                text-align: right;
-
-            }
-
-            .explore-icon-peace-3{
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                float: right;
-            }
-
-            .icon-peace-3{
-            flex: .05; 
-               
-            }
+  
+}
+.time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -6,56 +6,57 @@
 }
 .container{
     background-color: #32BDD2;
-    padding: 3% 3% 15.6% 3%;
+    padding: 4% 3% 13% 4.5%;
 }
+
 .our{
     color: #fff;
     font-size: 25px;
-        border-top: 3px solid #fff;
+    border-top: 3px solid #fff;
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 .approch{
     color: #fff;
     font-size: 25px;
-       font-family: 'Raleway', sans-serif;
-   
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.number{
+ margin-top: 2% 
 }
 .number-03{
-    font-size: 75px;
+    font-size: 90px;
     font-family: 'Anton', sans-serif;
     text-align: left;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 0.6;
-   
+   font-weight: 400;   
 }
-.number{
-    margin-top: 2%;
-}
+
 .number-04{
     text-align: left;
-    font-size: 28px;
+    font-size: 35px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 0.6;
     font-family: 'Raleway', sans-serif;
 }
-.time{
-    margin-top: 4%;
-    width: 25%
+.built_in{
+    margin-top:3%
 }
 .built{
     text-align: left;
-    font-size: 62px;
+    font-size: 80px;
     letter-spacing: 3.1px;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
 }
 .head-start{
-    margin-top: 5%;
-    width: 30%;
+    margin-top: 4%
 }
 .head{
     color: #212121;
@@ -64,7 +65,7 @@
     font-weight: 400;
     letter-spacing: 3.1px;
     opacity: 1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 600;
 }
 .we{
@@ -73,11 +74,17 @@
     text-align: left;
     opacity: 1;
     font-family: 'Raleway'; 
-    margin-top: 4%;
+    padding-top: 1%;
 }
-
+.heavily{
+    color: #212121;
+    font-size: 26px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway'; 
+  
+}
 .svg{
     width: 100%;
 }
 
-<path d="M 10 33 H 40 V 23 H 10 Z"  stroke="#D3DEE0" stroke-width="0.4"fill="#EAF2F4"/>
