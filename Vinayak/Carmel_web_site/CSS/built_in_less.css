@@ -75,3 +75,9 @@
     font-family: 'Raleway'; 
     margin-top: 4%;
 }
+
+.svg{
+    width: 100%;
+}
+
+<path d="M 10 33 H 40 V 23 H 10 Z"  stroke="#D3DEE0" stroke-width="0.4"fill="#EAF2F4"/>
