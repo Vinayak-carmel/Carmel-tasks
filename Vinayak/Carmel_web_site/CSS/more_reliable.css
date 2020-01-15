@@ -3,12 +3,28 @@
     margin: 0%;
     box-sizing: border-box;
     }
+    .main-container{
+        width: 100%;
+        height: 100vh;
+    }
+    .left-part{
+        width: 50%;
+        float: left;
+        clear: left;
+        margin: 0% 5%
+    }
+    .right-part{
+        width: 40%;
+        float: right;
+        clear: right;
+        
+    }
 .container{
     background-color: #fff;
-    margin: 0 5%
+    
 }
 .our-approch{
-    margin-top: 5%
+    margin-top: 6%
 }
 .our{
     color: #32BDD2;
@@ -25,7 +41,7 @@
    
 }
 .number-03{
-    font-size: 75px;
+    font-size: 90px;
     font-family: 'Anton';
     text-align: left;
     letter-spacing: 0;
@@ -38,24 +54,24 @@
 }
 .number-04{
     text-align: left;
-    font-size: 28px;
+    font-size: 38px;
     letter-spacing: 0;
     color: #32BDD2;
     opacity: 0.6;
     font-family: 'Raleway';
 }
 .reliable{
-    margin-top: 6%;
+    margin-top: 7%;
     
 }
 .more{
     text-align: left;
-    font-size: 80px;
+    font-size: 85px;
     letter-spacing: 3.1px;
     color: #32BDD2;
     opacity: 1;
     font-family: 'Raleway';
-    font-weight: bold;
+    font-weight: 600;
 }
 .quality-entirety{
     margin-top: 10%;
@@ -63,7 +79,7 @@
 .quality{
     color: #212121;
     text-align: left;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
     letter-spacing: 3.1px;
     opacity: 1;
@@ -72,7 +88,7 @@
 }
 .entirety{
     color: #212121;
-    font-size: 26px;
+    font-size: 30px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway';
@@ -81,7 +97,7 @@
 
 .culture{
     color: #212121;
-    font-size: 26px;
+    font-size: 30px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway';
@@ -94,6 +110,18 @@
     font-family: 'Raleway';
     color: #1C1C1C;
     opacity: 1;
+}
+.svg{
+  
+}
+.svg-view{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%) */
+   align-self: center;
+   width: 100%;
+   height: 100vh;
 }
 @media screen and (max-width: 1024px) {
    
