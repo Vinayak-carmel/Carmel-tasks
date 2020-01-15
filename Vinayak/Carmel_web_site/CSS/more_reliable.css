@@ -2,27 +2,31 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif; 
-}
+    }
 .container{
     background-color: #fff;
-    padding: 3% 3% 12% 3%;
+    margin: 0 5%
+}
+.our-approch{
+    margin-top: 5%
 }
 .our{
     color: #32BDD2;
     font-size: 25px;
-    border-top: 3px solid #32BDD2;
-    font-family: 'Raleway', sans-serif;
+    border-top: 5px solid #32BDD2;
+    font-family: 'Raleway';
+    font-weight: 600;
 }
 .approch{
+    font-weight: 600;
     color: #32BDD2;
     font-size: 25px;
-       font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
    
 }
 .number-03{
     font-size: 75px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Anton';
     text-align: left;
     letter-spacing: 0;
     color: #32BDD2;
@@ -30,7 +34,7 @@
    
 }
 .number{
-    margin-top: 2%;
+    margin-top: 4%;
 }
 .number-04{
     text-align: left;
@@ -38,11 +42,11 @@
     letter-spacing: 0;
     color: #32BDD2;
     opacity: 0.6;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 }
 .reliable{
-    margin-top: 4%;
-    width: 25%
+    margin-top: 6%;
+    
 }
 .more{
     text-align: left;
@@ -50,12 +54,11 @@
     letter-spacing: 3.1px;
     color: #32BDD2;
     opacity: 1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: bold;
 }
 .quality-entirety{
-    margin-top: 5%;
-    width: 30%;
+    margin-top: 10%;
 }
 .quality{
     color: #212121;
@@ -64,7 +67,7 @@
     font-weight: 400;
     letter-spacing: 3.1px;
     opacity: 1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 600;
 }
 .entirety{
@@ -72,6 +75,92 @@
     font-size: 26px;
     text-align: left;
     opacity: 1;
-    font-family: 'Raleway'; 
-    margin-top: 4%;
+    font-family: 'Raleway';
+    padding-top: 2%;
 }
+
+.culture{
+    color: #212121;
+    font-size: 26px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway';
+    }
+
+.box-1{
+    text-align: center;
+   font-size: 14px;
+    letter-spacing: 0;
+    font-family: 'Raleway';
+    color: #1C1C1C;
+    opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+   
+.our{
+       
+    font-size: 20px;
+    border-top: 3px solid #32BDD2;
+   
+}
+.approch{
+    font-size: 20px;
+    font-family: 'Raleway';
+   
+}
+.number-03{
+    font-size: 70px;
+}
+.number-04{
+    font-size: 23px;
+}
+.more{
+
+    font-size: 70px;
+}
+.quality{
+    font-size: 35px;
+}
+.entirety{
+    font-size: 21px;
+}
+
+.culture{
+    font-size: 21px;
+    }
+
+
+  @media screen and (min-width: 2560px) {
+    .our{
+       
+        font-size: 35px;
+        border-top: 10px solid #32BDD2;
+       
+    }
+    .approch{
+        font-size: 35px;
+        font-family: 'Raleway';
+       
+    }
+    .number-03{
+        font-size: 85px;
+    }
+    .number-04{
+        font-size: 38px;
+    }
+    .more{
+
+        font-size: 90px;
+    }
+    .quality{
+        font-size: 40px;
+    }
+    .entirety{
+        font-size: 36px;
+    }
+    
+    .culture{
+        font-size: 36px;
+        }
+  
+  }
