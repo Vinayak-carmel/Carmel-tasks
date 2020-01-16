@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #32BDD2;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.left-part{
+    width: 45%;
+    height: 90vh;
+    float: left;
+    clear: left;
+    position: relative;
+}
+.right-part{
+    width: 55%;
+    height: 90vh;
+    float: right;
+    clear: right;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    transform: translate(-10% ,-15%);
+}
+.dep{
+   
+    text-align: left;
+    font-size:73px;
+    font-family: 'Raleway';
+    letter-spacing: 3.1px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 600;
+    border-top: 10px solid #FFFFFF;
+}
+.end{
+    font-weight: 600;
+    text-align: left;
+    font-size:73px;
+    font-family: 'Raleway';
+    letter-spacing: 3.1px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+.we_take{
+    margin-top: 7%;
+}
+.responsibility{
+    width: 69%;
+    text-align: left;
+    font-size:24px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding:1% 0;
+}
+
+.launch{
+    margin-top: 8%;
+    padding: 3% 3.5%;
+    float: left;
+    clear: left;
+    background-color: #A7DEE5;
+    border:1px solid #7FD2DB;
+}
+.concept{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: #1C1C1C;
+    opacity: 1;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.engineering{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Raleway';
+    letter-spacing: 0.6px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.svg_viewport{
+    width: 83%;
+    height: 83%;
+    position: absolute;
+    top: 31%;
+    left: 15%;
+    transform: translate(-10% ,-15%);
+}
+.cls-1 {
+    fill: #eaf2f4;
+    stroke: #a2ced9;
+}
+
+.cls-1,
+.cls-2 {
+    stroke-miterlimit: 10;
+    stroke-width: 0.5px;
+}
+
+.cls-2 {
+    fill: none;
+    stroke: #eaf2f4;
+}
+.box-1{
+    font-size:18px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #3D656F;
+    opacity: 1;
+}
