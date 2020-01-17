@@ -15,15 +15,16 @@
     }
     .right-part{
         width: 50%;
+        height: 100vh;
         float: right;
         clear: right;
-      
+      position: relative;
     }
 .container{
     background-color: #fff;
 }
 .our-approch{
-    margin-top: 9%
+    margin-top: 10%
 }
 .our{
     color: #32BDD2;
@@ -111,7 +112,11 @@
     opacity: 1;
 }
 .svg-view{
-  margin-top: 13%
+width: 100%;
+position: absolute;
+top: 24%;
+left: 28%;
+transform: translate(-20%,-10%);
 }
 @media screen and (max-width: 768px) {
    
@@ -149,7 +154,7 @@
     }
 }
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-device-width:1024px){
    
         .our{
                
@@ -163,17 +168,17 @@
            
         }
         .number-03{
-            font-size: 70px;
+            font-size: 65px;
         }
         .number-04{
             font-size: 23px;
         }
         .more{
         
-            font-size: 65px;
+            font-size: 58px;
         }
         .quality{
-            font-size: 30px;
+            font-size: 28px;
             letter-spacing: 2px;
         }
         .entirety{
@@ -184,37 +189,79 @@
             font-size: 19px;
             }
         }
-  @media only screen and (min-width: 2560px) {
+        @media screen and (max-device-width:1440px) and (min-device-width:1025px){
+   
+.our{
+       
+    font-size: 30px;
+    border-top: 6px solid #32BDD2;
+   
+}
+.approch{
+    font-size: 30px;
+    font-family: 'Raleway';
+   
+}
+.number-03{
+    font-size: 78px;
+}
+.number-04{
+    font-size: 35px;
+}
+.more{
+
+    font-size: 80px;
+}
+.quality{
+    font-size: 40px;
+}
+.entirety{
+    font-size: 25px;
+}
+
+.culture{
+    font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+
     .our{
        
-        font-size: 35px;
+        font-size: 48px;
         border-top: 10px solid #32BDD2;
        
     }
     .approch{
-        font-size: 35px;
+        font-size: 48px;
         font-family: 'Raleway';
        
     }
     .number-03{
-        font-size: 85px;
+        font-size: 100px;
     }
     .number-04{
-        font-size: 38px;
+        font-size: 50px;
     }
     .more{
 
-        font-size: 90px;
+        font-size: 115px;
     }
     .quality{
-        font-size: 40px;
+        font-size: 55px;
     }
     .entirety{
-        font-size: 36px;
+        font-size: 40px;
     }
     
     .culture{
-        font-size: 36px;
+        font-size: 40px;
         }
+        .svg-view{
+            width: 100%;
+            position: absolute;
+            top: 15%;
+            left: 28%;
+            transform: translate(-20%,-10%);
+            }   
   
   }

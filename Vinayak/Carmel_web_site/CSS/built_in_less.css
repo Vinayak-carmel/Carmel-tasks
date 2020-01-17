@@ -24,10 +24,10 @@
 }
 .container{
     background-color: #32BDD2;
-    padding: 0 5%
+    padding: 0 0%
 }
 .our-approch{
-    padding-top: 6.3%;
+    padding-top: 7%;
 }
 .our{
     color: #fff;
@@ -35,7 +35,8 @@
     border-top: 3px solid #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-   
+   padding-right: 0%;
+   width: fit-content;
 }
 .approch{
     color: #fff;
@@ -66,7 +67,7 @@
     font-family: 'Raleway', sans-serif;
 }
 .built_in{
-    padding-top: 8%
+    padding-top: 7%
 }
 .built{
     text-align: left;
@@ -83,7 +84,7 @@
 .head{
     color: #212121;
     text-align: left;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 400;
     letter-spacing: 3.1px;
     opacity: 1;
@@ -92,24 +93,23 @@
 }
 .we{
     color: #212121;
-    font-size: 26px;
+    font-size: 29px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway'; 
-    padding-top: 1%;
+    padding-top: 2%;
 }
 .heavily{
     color: #212121;
-    font-size: 26px;
+    font-size: 29px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway'; 
   
 }
 .svg{
-   width: 70%;
-  
-    padding-top: 15%;
+    width: 70%;
+    padding-top: 18%;
     background-color: #32BDD2;
 }
 .box-1{
@@ -121,10 +121,49 @@
     opacity: 1;
    
 }
+@media screen and (max-device-width:768px){
+    .our{
+       
+        font-size: 15px;
+        border-top: 3px solid #fff;
+       
+    }
+    .approch{
+       
+        font-size: 15px;
+        
+    }
+    .number-03{
+        font-size: 62px;  
+    }
+    
+    .number-04{
+     
+        font-size: 20px;
+        
+    }
+    
+    .built{
+        font-size: 50px;
+        letter-spacing: 2.5px;
+       
+    }
+   
+    .head{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+    .we{
+        
+        font-size: 14px;      
+    }
+    .heavily{
+       font-size: 14px;
+            
+    }
+}
 
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-device-width:1024px){
     .our{
        
         font-size: 20px;
@@ -164,70 +203,82 @@
        font-size: 20px;
             
     }
-
-    
 }
 
 
-  @media screen and (min-width: 2560px) {
-   
+@media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .our{
        
-        font-size: 33px;
-        border-top: 6px solid #fff;
-        
+        font-size: 23px;
+        border-top: 3px solid #fff;
        
     }
     .approch{
-     
-        font-size: 33px;
-      
-      
+       
+        font-size: 23px;
+        
     }
-  
     .number-03{
-        font-size: 100px;
-        opacity: 0.8;
-       font-weight: 400;   
+        font-size: 78px;  
     }
     
     .number-04{
-        font-size: 45px;
+     
+        font-size: 31px;
+        
+    }
+    
+    .built{
+        font-size: 64px;
+        letter-spacing: 2.5px;
+       
+    }
+   
+    .head{
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .we{
+        
+        font-size: 23px;      
+    }
+    .heavily{
+       font-size: 23px;
+            
+    }
+    
+}
+
+  @media screen and (min-width: 1920px) {
+   
+    .our{
+        font-size: 53px;
+        border-top: 6px solid #fff;
+    }
+    .approch{
+        font-size: 53px;
+    }
+  
+    .number-03{
+        font-size: 135px;   
+    }
+    
+    .number-04{
+        font-size: 64px;
         opacity: 0.8;
         }
     .built{
         text-align: left;
-        font-size: 90px;
+        font-size: 115px;
         letter-spacing: 3.5px;
-        
-    }
-    .head-start{
-        padding-top: 10%;
     }
     .head{
-        color: #212121;
-        text-align: left;
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 3.1px;
-        opacity: 1;
-        font-family: 'Raleway';
-        font-weight: 600;
+        font-size: 60px;
     }
     .we{
-        color: #212121;
-        font-size: 26px;
-        text-align: left;
-        opacity: 1;
-        font-family: 'Raleway'; 
-        padding-top: 1%;
+        font-size: 45px;
     }
     .heavily{
-        color: #212121;
-        font-size: 26px;
-        text-align: left;
-        opacity: 1;
-        font-family: 'Raleway'; 
-      
+        font-size: 45px;
     }
   }
