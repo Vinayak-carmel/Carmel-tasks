@@ -80,6 +80,10 @@ body{
     position: relative;
     width: 100%;
 }
+.line{
+    padding-top: 11%;
+    padding-left: 55%;
+}
  @media screen and (max-device-width:1024px){
     .container{
         position: absolute;
@@ -236,7 +240,7 @@ body{
        opacity: 1;
    }
    .line{
-    padding-top: 36%;
+    padding-top: 35%;
     padding-left: 55%;
    
 }
