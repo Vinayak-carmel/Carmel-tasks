@@ -14,16 +14,12 @@
         width: 60%;
         float: left;
         clear: left;
-       
-       
+        padding-left: 5%;
     }
     .right-part{
         width: 40%;
         float: right;
         clear: right;
-    }
-    .container{
-        padding-left: 8%;
     }
     .helped{
         margin-top: 10%;
@@ -42,7 +38,7 @@
         text-align: left;
         letter-spacing: 0;
         color: #4B6A77;
-        opacity: 0.6;
+        opacity: 1;
         font-weight: 600;
         border-top: 10px solid #4B6A77;
     }
@@ -51,7 +47,7 @@
         font-size: 70px;
         letter-spacing: 0;
         color: #4B6A77;
-        opacity: 0.6;
+        opacity: 01;
         font-family: 'Raleway';
         font-weight: 600;
     }
@@ -91,8 +87,11 @@
     .svg-viewport{
         margin: auto;
         margin-top: 10%;
-        width: 67%;
-        height: 57%;
+        width: 65%;
+        
+    }
+    .icon img{
+        width: 77px;
     }
     .cls-1,
     .cls-3 {
@@ -108,4 +107,112 @@
     .cls-3 {
         stroke-width: 0.5px;
     }
-    
+    @media screen and (max-width: 768px) {
+        .helped{
+            font-size: 18px;
+        }
+        .PRO{
+            font-size: 40px;
+            border-top: 5px solid #4B6A77;
+        }
+        .delevered{
+            font-size: 40px;
+        }
+        .impact{
+            font-size: 18px;
+        }
+        .obsessed{
+            font-size: 14px;
+        }
+        .lasting{
+            font-size: 14px;
+        }
+        .icon img{
+            width: 50px;
+        }
+    }
+    @media screen and (max-device-width:1024px){
+        .helped{
+            font-size: 18px;
+            width: 90%;
+        }
+        .PRO{
+            font-size: 55px;
+            border-top: 7px solid #4B6A77;
+        }
+        .delevered{
+            font-size: 55px;
+        }
+        .impact{
+            font-size: 25px;
+        }
+        .obsessed{
+            font-size: 18px;
+        }
+        .lasting{
+            font-size: 18px;
+        }
+        .icon img{
+            width: 68px;
+        }
+        .svg-viewport{
+            margin: auto;
+            margin-top: 10%;
+            width: 83%;
+            
+        }
+    } 
+    @media screen and (max-device-width:1440px) and (min-device-width:1025px){
+        .helped{
+            font-size: 23px;
+        }
+        .PRO{
+            font-size: 66px;
+        }
+        .delevered{
+            font-size: 66px;
+        }
+        .impact{
+            font-size: 30px;
+        }
+        .obsessed{
+            font-size: 26px;
+        }
+        .lasting{
+            font-size: 26px;
+        }
+        .icon img{
+            width: 75px;
+        }
+        .svg-viewport{
+            margin: auto;
+            margin-top: 10%;
+            width: 80%;
+            
+        }
+    }
+    @media screen and (min-width: 1920px) {
+        .helped{
+            font-size: 35px;
+            width: 90%;
+        }
+        .PRO{
+            font-size: 80px;
+        }
+        .delevered{
+            font-size: 80px;
+        }
+        .impact{
+            font-size: 43px;
+        }
+        .obsessed{
+            font-size: 38px;
+        }
+        .lasting{
+            font-size: 38px;
+        }
+        .icon img{
+            width: 99px;
+        }
+       
+    }

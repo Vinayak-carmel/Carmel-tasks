@@ -77,7 +77,7 @@ body{
 }
 .concept{
     text-align: center;
-    font-size:30px;
+    font-size:28px;
     font-family: 'Raleway';
     letter-spacing: 2px;
     color: #1C1C1C;
@@ -117,11 +117,11 @@ body{
     stroke: #eaf2f4;
 }
 .box-1{
-    font-size:18px;
+    font-size:15px;
     font-family: 'Raleway';
     letter-spacing: 0;
     color: #3D656F;
-    opacity: 1;
+    opacity: .5;
 }
 
 @media screen and (max-device-width:768px){
@@ -179,11 +179,12 @@ body{
 }
  @media screen and (max-device-width:1024px){
     .dep{
-        font-size:62px;
+        font-size:60px;
         letter-spacing: 3.1px;
+        border-top: 7px solid #FFFFFF;
     }
     .end{
-        font-size:62px;
+        font-size:60px;
         letter-spacing: 3.1px;
     }
 
@@ -213,29 +214,29 @@ body{
 } 
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .dep{
-        font-size:80px;
+        font-size:70px;
         letter-spacing: 3.1px;
     }
     .end{
-        font-size:80px;
+        font-size:70px;
         letter-spacing: 3.1px;
     }
 
     .responsibility{
-        width: 99%;
-        font-size:25px;
+        width: 76%;
+        font-size:20px;
         padding:4% 0;
     }
     .concept{
-        font-size:34px;
+        font-size:28px;
     }
     .engineering{
-        font-size:23px;
+        font-size:19px;
         letter-spacing: 0.6px;
     }
     .svg_viewport{
-        width: 93%;
-        height:93%;
+        width: 85%;
+        height:85%;
         position: absolute;
         top: 25%;
         left: 15%;
@@ -243,30 +244,29 @@ body{
     }
 
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1921px) {
     .dep{
-        font-size:90px;
+        font-size:85px;
         letter-spacing: 3.1px;
     }
     .end{
-        font-size:90px;
+        font-size:85px;
         letter-spacing: 3.1px;
     }
-
     .responsibility{
-        padding:1% 0;
-        width: 99%;
-        font-size:36px;
+        padding:2% 0;
+        width: 78%;
+        font-size:34px;
     }
     .launch{
         margin-top: 10%;
         padding: 5% 5.5%;
     }
     .concept{
-        font-size:50px;
+        font-size:46px;
     }
     .engineering{
-        font-size:33px;
+        font-size:30px;
         letter-spacing: 0.6px;
     }
 }
