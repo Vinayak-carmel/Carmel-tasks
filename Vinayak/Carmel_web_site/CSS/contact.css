@@ -1,0 +1,368 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.sub{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.contact_container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left_part{
+    width: 50%;
+    float: left;
+    clear: left;
+ margin-top: 5%;
+}
+.right_part{
+    width: 50%;
+    float: right;
+    clear: right;
+    vertical-align: middle;
+}
+.right_containt{
+ top: 30%;
+ margin: auto;
+  border-left: 5px solid #EAF2F4;
+  text-align: center;
+}
+.text{
+    padding-top: 3%;
+}
+.banner{
+    text-align: center;
+    padding: 3% 0;
+    background-color: #32BDD2;
+    display: block;
+}
+.innovation{
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 22px;
+    padding: 0% .5%;
+}
+.comma{
+    vertical-align: middle;
+    opacity: 1;
+    width: 50px;
+}
+.carmel img{
+    width: 745px;
+    padding-left: 18%;
+}
+.info{
+    margin-left: 2%;
+    border-left: 5px solid #EAF2F4;
+}
+.results{
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Italianno';
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #747474;
+    opacity: 1;
+}
+.technology{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Raleway';
+    letter-spacing: 0.65px;
+    color: #505050;
+    opacity: 1;
+    font-weight: bold;
+}
+.input{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.capicha{
+    text-align: center;
+}
+.placeholder input{
+    margin: 1% 0;
+    padding: 1.5%;
+    width: 70%;
+    font-size: 15px;
+    text-align: left;
+    font-family:'Raleway';
+    letter-spacing: 0.5px;
+    color: #909090;
+    opacity: 1;
+}
+.placeholder{
+    padding: 0.8% 0;
+}
+.robot{
+    text-align: left;
+    font-family:'Raleway';
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #909090;
+    opacity: 1;
+  margin-top: 2.5%;
+}
+.recapita_container{
+    width: 100%;
+border: 10px solid tomato;
+}
+.recapita_left{
+    width: 50%;
+    float: left;
+    clear: left;
+}
+.recapita_right{
+    width: 50%;
+    float: right;
+    clear: right;
+}
+.recapita img{
+    width: 50px;
+    margin-left: 4%;
+}
+.privacy{
+    margin-left: 3%;
+    font-family:'Raleway';
+    font-size: 10px;
+    letter-spacing: 0;
+    color: #909090;
+    opacity: 1;
+}
+.reCAPITA{
+    font-family:'Raleway';
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #909090;
+    opacity: 1;
+}
+ .website{
+    font-family:'Raleway';
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #909090;
+    opacity: 1;
+}
+.address{
+width: 100%;
+}
+.left{
+    width: 50%;
+    float: left;
+    clear: left;
+}
+.carmel_full_logo img{
+    width: 350px;
+   margin-left: 8%;
+}
+.banglore_address{
+float: left;
+width: 28%;
+margin-left: 17%;
+margin-right: 5%;
+}
+
+.hubli_address{
+    float: right;
+    width: 32%;
+    margin-right: 6%;
+    margin-left: 12%;
+    }
+.hubli{
+   text-align: right;
+    text-align:right;
+    font-family:'Raleway';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #080808;
+    opacity: 1;
+    font-style: italic;
+    font-weight: 600;
+}
+.banglore{
+    text-align: left;
+    font-family:'Raleway';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #080808;
+    opacity: 1;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.submit{
+    margin-top: 2%;
+    padding: .3% 1%;
+    text-align: center;
+    font-family:'Raleway';
+    font-size: 22px;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #505050;
+    color: #fff;
+    border: 1px solid #505050;
+    border-radius: 25px;
+    box-shadow: 2px 2px 6px #505050;
+}
+.copy_right{
+    margin: 6%  6% 2% 0;
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-device-width:1024px){
+    .innovation{
+        font-size: 17px;
+    }
+    .comma{
+        vertical-align: middle;
+        opacity: 1;
+        width: 25px;
+    }
+    .carmel img{
+        width: 500px;
+        padding-left: 6%;
+    }
+    .results{
+        font-size: 30px;
+    }
+    .technology{
+        font-size: 12px;
+    }
+    .placeholder input{
+        font-size: 11px;
+    }
+     .website{
+        font-size: 13px;
+    }
+    .carmel_full_logo img{
+        width: 280px;
+       margin-left: 8%;
+    }
+    .hubli{
+        font-size: 12px;
+    }
+    .banglore{
+        font-size: 12px;
+    }
+    
+    .submit{
+        font-size: 14px;
+    }
+    .website{
+        font-size: 8px;
+    }
+}
+@media screen and (max-device-width:1440px) and (min-device-width:1025px){
+
+    .innovation{
+        font-size: 20px;
+    }
+    .comma{
+        vertical-align: middle;
+        opacity: 1;
+        width: 35px;
+    }
+    .carmel img{
+        width: 645px;
+        padding-left: 12%;
+    }
+    .results{
+        font-size: 40px;
+    }
+    .technology{
+        font-size: 16px;
+    }
+    .placeholder input{
+        font-size: 13px;
+    }
+     .website{
+        font-size: 15px;
+    }
+    .carmel_full_logo img{
+        width: 300px;
+       margin-left: 8%;
+    }
+    .hubli{
+        font-size: 16px;
+    }
+    .banglore{
+        font-size: 16px;
+    }
+    
+    .submit{
+        font-size: 22px;
+    }
+    .website{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .innovation{
+        font-size: 22px;
+    }
+    .comma{
+        vertical-align: middle;
+        opacity: 1;
+        width: 50px;
+    }
+    .carmel img{
+        width: 745px;
+        padding-left: 18%;
+    }
+    .results{
+        font-size: 50px;
+    }
+    .technology{
+        font-size: 20px;
+    }
+    .placeholder input{
+        font-size: 15px;
+    }
+    .robot{
+        font-size: 23px;
+    }
+    .recapita img{
+        width: 50px;
+    }
+    .privacy{
+        font-size: 10px;
+    }
+    .reCAPITA{
+        font-size: 23px;
+
+    }
+     .website{
+        font-size: 15px;
+    }
+    .carmel_full_logo img{
+        width: 350px;
+       margin-left: 8%;
+    }
+    .hubli{
+        font-size: 20px;
+    }
+    .banglore{
+        font-size: 20px;
+    }
+    
+    .submit{
+        font-size: 22px;
+    }
+ 
+}

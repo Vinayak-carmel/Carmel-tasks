@@ -6,10 +6,18 @@
 body{
     background-color: #fff;
 }
+.develop{
+      width: 930px;
+      margin-top: 2%;
+      margin-left: 25%;
+}
+.under{
+    margin-top: 5%;
+}
 .page{
     text-align: center;
     color: #4B6A77;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Raleway';
     font-weight: 600;
 }
@@ -21,9 +29,93 @@ body{
     font-family: 'Raleway';
     opacity: 0.8;
 }
+
 .eiro{
-   position: absolute;
-   top: 15%;
-   left: 50%;
-   transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    width: 93px;
+    margin-top: 2%;
+}
+
+@media screen and (max-device-width:768px){
+    .develop{
+      width: 630px;
+      margin-top: 6%;
+      margin-left: 8%;
+}
+.page{
+    font-size: 40px;
+}
+
+.ipsum{
+    font-size: 14px;
+}
+
+.eiro{
+    width: 63px;
+}
+}
+ @media screen and (max-device-width:1024px){
+    .develop{
+        width: 750px;
+        margin-top: 3%;
+        margin-left: 15%;
+  }
+  .under{
+      margin-top: 5%;
+  }
+  .page{
+      font-size: 45px;
+  }
+  
+  .ipsum{
+      font-size: 16px;
+  }
+  
+  .eiro{
+      width: 75px;
+  }
+}
+@media screen and (max-device-width:1440px) and (min-device-width:1025px){
+    .develop{
+        width: 850px;
+        margin-top: 3%;
+        margin-left: 18%;
+  }
+  .under{
+      margin-top: 5%;
+  }
+  .page{
+      font-size: 50px;
+  }
+  
+  .ipsum{
+      font-size: 17px;
+  }
+  
+  .eiro{
+      width: 88px;
+  }
+}
+@media screen and (min-width: 1921px) {
+    .develop{
+        width: 1200px;
+        margin-top: 3%;
+        margin-left: 18%;
+  }
+  .under{
+      margin-top: 5%;
+  }
+  .page{
+      font-size: 70px;
+  }
+  
+  .ipsum{
+      font-size: 25px;
+  }
+  
+  .eiro{
+      width: 110px;
+  }
 }
