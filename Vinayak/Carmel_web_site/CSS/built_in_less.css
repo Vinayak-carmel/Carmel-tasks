@@ -1,66 +1,74 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #32BDD2;
 }
-.main-container{
+
+.main-container {
     width: 100%;
     height: 100vh;
     background-color: #32BDD2;
 }
-.left-part{
+
+.left-part {
     width: 50%;
     float: left;
     clear: left;
     margin: 0 5%;
 }
-.right-part{
+
+.right-part {
     width: 40%;
     float: right;
     clear: right;
-    
-    
+    position: relative;
 }
-.container{
+
+.container {
     background-color: #32BDD2;
     padding: 0 0%
 }
-.our-approch{
+
+.our-approch {
     padding-top: 7%;
 }
-.our{
+
+.our {
     color: #fff;
     font-size: 25px;
     border-top: 3px solid #fff;
     font-family: 'Raleway';
     font-weight: 600;
-   padding-right: 0%;
-   width: fit-content;
+    padding-right: 0%;
+    width: fit-content;
 }
-.approch{
+
+.approch {
     color: #fff;
     font-size: 25px;
     font-family: 'Raleway';
     font-weight: 600;
-  
 }
-.number{
+
+.number {
     padding-top: 4%;
 }
-.number-03{
+
+.number-03 {
     font-size: 90px;
     font-family: 'Anton';
     text-align: left;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 0.6;
-   font-weight: 400;   
+    font-weight: 400;
 }
 
-.number-04{
+.number-04 {
     text-align: left;
     font-size: 35px;
     letter-spacing: 0;
@@ -68,10 +76,12 @@ body{
     opacity: 0.6;
     font-family: 'Raleway';
 }
-.built_in{
+
+.built_in {
     padding-top: 7%
 }
-.built{
+
+.built {
     text-align: left;
     font-size: 80px;
     letter-spacing: 3.1px;
@@ -80,10 +90,12 @@ body{
     font-family: 'Raleway';
     font-weight: 600;
 }
-.head-start{
+
+.head-start {
     padding-top: 10%;
 }
-.head{
+
+.head {
     color: #212121;
     text-align: left;
     font-size: 33px;
@@ -93,197 +105,179 @@ body{
     font-family: 'Raleway';
     font-weight: 600;
 }
-.we{
-    color: #212121;
-    font-size: 29px;
-    text-align: left;
-    opacity: 1;
-    font-family: 'Raleway'; 
-    padding-top: 2%;
-}
-.heavily{
+
+.we {
     color: #212121;
     font-size: 29px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway';
-  
+    padding-top: 2%;
 }
-.svg{
-    width: 70%;
-    padding-top: 25%;
+
+.heavily {
+    color: #212121;
+    font-size: 29px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway';
+}
+
+.svg {
+    width: 100%;
     background-color: #32BDD2;
+    margin-top: 14%;
 }
-.box-1{
+
+.box-1 {
     text-align: center;
     font-size: 15px;
     font-family: 'Raleway';
     letter-spacing: 0;
     color: #1C1C1C;
     opacity: 0.5;
-   
 }
-@media screen and (max-device-width:768px){
-    .our{
-       
+
+@media screen and (max-device-width:768px) {
+    .our {
         font-size: 15px;
         border-top: 3px solid #fff;
-       
     }
-    .approch{
-       
+    .approch {
         font-size: 15px;
-        
     }
-    .number-03{
-        font-size: 62px;  
+    .number-03 {
+        font-size: 62px;
     }
-    
-    .number-04{
-     
+    .number-04 {
         font-size: 20px;
-        
     }
-    
-    .built{
+    .built {
         font-size: 50px;
         letter-spacing: 2.5px;
-       
     }
-   
-    .head{
+    .head {
         font-size: 18px;
         letter-spacing: 1.5px;
     }
-    .we{
-        
-        font-size: 14px;      
+    .we {
+        font-size: 14px;
     }
-    .heavily{
-       font-size: 14px;
-            
+    .heavily {
+        font-size: 14px;
+    }
+    .svg {
+        width: 100%;
+        background-color: #32BDD2;
+        margin-top: 14%;
     }
 }
 
-@media screen and (max-device-width:1024px){
-    .our{
-       
+@media screen and (max-device-width:1024px) {
+    .our {
         font-size: 20px;
         border-top: 3px solid #fff;
-       
     }
-    .approch{
-       
+    .approch {
         font-size: 20px;
-        
     }
-    .number-03{
-        font-size: 75px;  
+    .number-03 {
+        font-size: 75px;
     }
-    
-    .number-04{
-     
+    .number-04 {
         font-size: 28px;
-        
     }
-    
-    .built{
+    .built {
         font-size: 60px;
         letter-spacing: 2.5px;
-       
     }
-   
-    .head{
+    .head {
         font-size: 25px;
         letter-spacing: 3px;
     }
-    .we{
-        
-        font-size: 20px;      
+    .we {
+        font-size: 20px;
     }
-    .heavily{
-       font-size: 20px;
-            
+    .heavily {
+        font-size: 20px;
+    }
+    .svg {
+        width: 100%;
+        background-color: #32BDD2;
+        margin-top: 14%;
     }
 }
 
-
-@media screen and (max-device-width:1440px) and (min-device-width:1025px){
-    .our{
-       
+@media screen and (max-device-width:1440px) and (min-device-width:1025px) {
+    .our {
         font-size: 23px;
         border-top: 3px solid #fff;
-       
     }
-    .approch{
-       
+    .approch {
         font-size: 23px;
-        
     }
-    .number-03{
-        font-size: 78px;  
+    .number-03 {
+        font-size: 78px;
     }
-    
-    .number-04{
-     
+    .number-04 {
         font-size: 31px;
-        
     }
-    
-    .built{
+    .built {
         font-size: 58px;
         letter-spacing: 2.5px;
-       
     }
-   
-    .head{
+    .head {
         font-size: 25px;
         letter-spacing: 3px;
     }
-    .we{
-        
-        font-size: 20px;      
+    .we {
+        font-size: 20px;
     }
-    .heavily{
-       font-size: 20px;
-            
+    .heavily {
+        font-size: 20px;
     }
-    
+    .svg {
+        width: 100%;
+        background-color: #32BDD2;
+        margin-top: 14%;
+    }
 }
 
-  @media screen and (min-width: 1920px) {
-   
-    .our{
+@media screen and (min-width: 1920px) {
+    .our {
         font-size: 53px;
         border-top: 6px solid #fff;
     }
-    .approch{
+    .approch {
         font-size: 53px;
     }
-  
-    .number-03{
-        font-size: 135px;   
+    .number-03 {
+        font-size: 135px;
     }
-    
-    .number-04{
+    .number-04 {
         font-size: 64px;
         opacity: 0.8;
-        }
-    .built{
+    }
+    .built {
         text-align: left;
         font-size: 115px;
         letter-spacing: 3.5px;
     }
-    .head{
+    .head {
         font-size: 60px;
     }
-    .we{
+    .we {
         font-size: 45px;
     }
-    .heavily{
+    .heavily {
         font-size: 45px;
     }
-    .svg{
+    .svg {
         padding-top: 30%;
     }
-  }
+    .svg {
+        width: 100%;
+        background-color: #32BDD2;
+        margin-top: 14%;
+    }
+}

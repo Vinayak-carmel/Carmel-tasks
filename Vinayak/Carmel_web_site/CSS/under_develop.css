@@ -9,7 +9,9 @@ body{
 .develop{
       width: 930px;
       margin-top: 2%;
-      margin-left: 25%;
+}
+.image{
+    text-align: center;
 }
 .under{
     margin-top: 5%;
@@ -28,6 +30,7 @@ body{
     font-size: 18px;
     font-family: 'Raleway';
     opacity: 0.8;
+
 }
 
 .eiro{
@@ -40,54 +43,47 @@ body{
 
 @media screen and (max-device-width:768px){
     .develop{
-      width: 630px;
+      width: 530px;
       margin-top: 6%;
-      margin-left: 8%;
 }
 .page{
-    font-size: 40px;
+    font-size: 23.5px;
 }
 
 .ipsum{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .eiro{
-    width: 63px;
+    width: 58px;
 }
 }
  @media screen and (max-device-width:1024px){
     .develop{
-        width: 750px;
-        margin-top: 3%;
-        margin-left: 15%;
-  }
-  .under{
-      margin-top: 5%;
+        width: 520px;
+        margin-top: 2%;
   }
   .page{
-      font-size: 45px;
+      font-size: 30px;
   }
   
   .ipsum{
-      font-size: 16px;
+      width: 50%;
+ margin-left: 25%;
   }
   
   .eiro{
-      width: 75px;
+      width: 52px;
+
   }
 }
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .develop{
         width: 850px;
         margin-top: 3%;
-        margin-left: 18%;
-  }
-  .under{
-      margin-top: 5%;
   }
   .page{
-      font-size: 50px;
+      font-size: 44px;
   }
   
   .ipsum{
@@ -95,27 +91,23 @@ body{
   }
   
   .eiro{
-      width: 88px;
+      width: 85px;
   }
 }
 @media screen and (min-width: 1921px) {
     .develop{
         width: 1200px;
         margin-top: 3%;
-        margin-left: 18%;
-  }
-  .under{
-      margin-top: 5%;
   }
   .page{
-      font-size: 70px;
+      font-size: 79px;
   }
   
   .ipsum{
-      font-size: 25px;
+      font-size: 22px;
   }
   
   .eiro{
-      width: 110px;
+      width: 105px;
   }
 }

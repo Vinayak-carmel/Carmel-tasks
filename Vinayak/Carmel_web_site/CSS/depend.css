@@ -69,7 +69,7 @@ body{
 
 .launch{
     margin-top: 8%;
-    padding: 5% 5.5%;
+    padding: 4% 4.5%;
     float: left;
     clear: left;
     background-color: #A7DEE5;
@@ -179,28 +179,28 @@ body{
 }
  @media screen and (max-device-width:1024px){
     .dep{
-        font-size:60px;
+        font-size:35px;
         letter-spacing: 3.1px;
         border-top: 7px solid #FFFFFF;
     }
     .end{
-        font-size:60px;
+        font-size:36px;
         letter-spacing: 3.1px;
     }
 
     .responsibility{
         width: 95%;
-        font-size:18px;
+        font-size:12px;
         padding:2% 0;
     }
     .concept{
-        font-size:25px;
+        font-size:15px;
     }
     .launch{
         margin-top: 10%;
     }
     .engineering{
-        font-size:17px;
+        font-size:11px;
         letter-spacing: 0.6px;
     }
     .svg_viewport{
@@ -214,24 +214,24 @@ body{
 } 
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .dep{
-        font-size:70px;
+        font-size:51px;
         letter-spacing: 3.1px;
     }
     .end{
-        font-size:70px;
+        font-size:51px;
         letter-spacing: 3.1px;
     }
 
     .responsibility{
         width: 76%;
-        font-size:20px;
+        font-size:16px;
         padding:4% 0;
     }
     .concept{
-        font-size:28px;
+        font-size:24px;
     }
     .engineering{
-        font-size:19px;
+        font-size:15px;
         letter-spacing: 0.6px;
     }
     .svg_viewport{
@@ -246,27 +246,27 @@ body{
 }
 @media screen and (min-width: 1921px) {
     .dep{
-        font-size:85px;
+        font-size:90px;
         letter-spacing: 3.1px;
     }
     .end{
-        font-size:85px;
+        font-size:90px;
         letter-spacing: 3.1px;
     }
     .responsibility{
         padding:2% 0;
         width: 78%;
-        font-size:34px;
+        font-size:29px;
     }
     .launch{
         margin-top: 10%;
         padding: 5% 5.5%;
     }
     .concept{
-        font-size:46px;
+        font-size:42px;
     }
     .engineering{
-        font-size:30px;
+        font-size:28px;
         letter-spacing: 0.6px;
     }
 }

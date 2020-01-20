@@ -109,23 +109,23 @@
     }
     @media screen and (max-width: 768px) {
         .helped{
-            font-size: 18px;
+            font-size: 9px;
         }
         .PRO{
-            font-size: 40px;
+            font-size: 27px;
             border-top: 5px solid #4B6A77;
         }
         .delevered{
-            font-size: 40px;
+            font-size: 27px;
         }
         .impact{
-            font-size: 18px;
+            font-size: 12px;
         }
         .obsessed{
-            font-size: 14px;
+            font-size: 13px;
         }
         .lasting{
-            font-size: 14px;
+            font-size: 13px;
         }
         .icon img{
             width: 50px;
@@ -133,53 +133,52 @@
     }
     @media screen and (max-device-width:1024px){
         .helped{
-            font-size: 18px;
+            font-size: 13px;
             width: 90%;
         }
         .PRO{
-            font-size: 55px;
+            font-size: 36px;
             border-top: 7px solid #4B6A77;
         }
         .delevered{
-            font-size: 55px;
+            font-size: 36px;
         }
         .impact{
-            font-size: 25px;
+            font-size: 16px;
         }
         .obsessed{
-            font-size: 18px;
+            font-size: 13px;
         }
         .lasting{
-            font-size: 18px;
+            font-size: 13px;
         }
         .icon img{
-            width: 68px;
+            width: 62px;
         }
         .svg-viewport{
             margin: auto;
             margin-top: 10%;
-            width: 83%;
             
         }
     } 
     @media screen and (max-device-width:1440px) and (min-device-width:1025px){
         .helped{
-            font-size: 23px;
+            font-size: 18px;
         }
         .PRO{
-            font-size: 66px;
+            font-size: 51px;
         }
         .delevered{
-            font-size: 66px;
+            font-size: 51px;
         }
         .impact{
-            font-size: 30px;
+            font-size: 23px;
         }
         .obsessed{
-            font-size: 26px;
+            font-size: 22.5px;
         }
         .lasting{
-            font-size: 26px;
+            font-size: 22.5px;
         }
         .icon img{
             width: 75px;
@@ -187,29 +186,27 @@
         .svg-viewport{
             margin: auto;
             margin-top: 10%;
-            width: 80%;
-            
         }
     }
     @media screen and (min-width: 1920px) {
         .helped{
-            font-size: 35px;
+            font-size: 32px;
             width: 90%;
         }
         .PRO{
-            font-size: 80px;
+            font-size: 92px;
         }
         .delevered{
-            font-size: 80px;
+            font-size: 92px;
         }
         .impact{
-            font-size: 43px;
+            font-size: 39px;
         }
         .obsessed{
-            font-size: 38px;
+            font-size: 29px;
         }
         .lasting{
-            font-size: 38px;
+            font-size: 29px;
         }
         .icon img{
             width: 99px;
