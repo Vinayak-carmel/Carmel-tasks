@@ -6,46 +6,84 @@
 .container{
 width: 100%
 }
-.left{
-    width: 50%;
-    float: left;
-    clear: left;
-    background-color: #e31010;
-    margin-top: 9.5%;
-   }
-.right{
+.right_side{
     width: 50%;
     float: right;
     clear: right;
-    background-color: #59db0d;
-   
-   }
-.left-bottom{
+}
+.left_side{
     width: 50%;
     float: left;
     clear: left;
-   
-   
-  }
-.right-bottom{
-    width: 50%;
-    float: right;
-    clear: right;
-    background-color: #ebf20c;
+
+}
+.lorem{
+    font-size: 1.5vw;
+}
+.left_top{
+    text-align: right;
+    background-color: #e82507;
+    height: 100px;
+
+}
+.left_bottom{
+    text-align: left;
+    background-color: #4ff507;
+    height: 100px;
+
     
-  }
-.peace-1{
-    float: right;
 }
-.peace-2{
-    float: left;
+.right_top{
+    text-align: right;
+    background-color: #a607f5;
+    height: 100px;
+
 }
-.peace-3{
-    float: right;
+.right_bottom{
+    text-align: left;
+    background-color: #edf507;
+    height: 100px;
+
 }
-.peace-4{
-    float: left;
-    
+.left_top_1{
+text-align: right;
+color: tomato;
+    height: 100px;
+
+}
+.left_bottom_1{
+    text-align: left;
+    color: violet;
+    height: 100px;
+
+}
+.right_top_1{
+ text-align: right;
+ color: yellowgreen;
+    height: 100px;
+
+}
+.right_bottom_1{
+text-align: left;
+color: #660033;
+    height: 100px;
+  
+}
+.position{
+    position: relative;
+    height: 100vh;
+}
+.text_position{
+    position: absolute;
+    bottom: 0;
+}
+.text_position_4{
+    position: absolute;
+    bottom: 0;
+    right: 11%;
+}
+.image_part img{
+    width: 400px;
 }
 .number-01{
     text-align: left;
@@ -77,13 +115,14 @@ width: 100%
 }
 .explore{
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Raleway";
     letter-spacing: 0;
     color: #257B84;
     opacity: 1;
     vertical-align: middle;
     padding-bottom: .5%;
+    font-weight: 600;
 }
 .ero-icon{
     vertical-align: middle;
@@ -144,7 +183,10 @@ width: 100%
 .ero-icon{
     vertical-align: middle;
 }
-
+.peace-3{
+    text-align: right;
+    width: 400px;
+}
 .number-03{
     text-align: right;
     font-size: 15px;
@@ -174,27 +216,21 @@ width: 100%
     padding-bottom: .5%;
 }
 .explore-built{
-    text-align: right;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Raleway";
     letter-spacing: 0;
     color: #257B84;
     opacity: 1;
-   vertical-align: middle;
-    flex: 2;
-    padding-right: 1%;
+    vertical-align: middle;
+    padding-bottom: .5%;
+    font-weight: 600;
    }
 .ero-icon-built{
     vertical-align: middle;
-    float: right;
     
-  
 }
-.time{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.position_top_right{
+    float: right;
 }
 
 .number-04{
@@ -225,26 +261,34 @@ width: 100%
     opacity: 1;
     padding-bottom: .5%;
 }
-.explore-built{
-    text-align: right;
-    font-size: 14px;
-    font-family: "Raleway";
-    letter-spacing: 0;
-    color: #257B84;
-    opacity: 1;
-   vertical-align: middle;
-    flex: 2;
-    padding-right: 1%;
+.explore-built_4{
+        text-align: right;
+        font-size: 20px;
+        font-family: "Raleway";
+        letter-spacing: 0;
+        color: #257B84;
+        opacity: 1;
+        padding-right: 1%;
    }
-.ero-icon-built{
+.ero-icon-built_4{
     vertical-align: middle;
-    float: right;
-    
-  
+    text-align: right;
 }
 .time{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.right_part_4{
+    width: 50%;
+    float: right;
+    clear: right;
+}
+.left_part_4{
+    width: 50%;
+    float: left;
+    clear: left;
+    position: absolute;
+    bottom: 0;
 }

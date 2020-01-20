@@ -93,10 +93,9 @@
     text-align: center;
 }
 .placeholder input{
-    border: 2px solid #EAF2F4;
-    margin: 1% 0 0 0;
-    padding: 1.5%;
-    width: 80%;
+    border: 0px solid #EAF2F4;
+    padding: 2.5%;
+    width: 70%;
     font-size: 13px;
     text-align: left;
     font-family:'Raleway';
@@ -105,7 +104,16 @@
     opacity: 1;
 }
 .placeholder{
-    padding: 2% 0 0 0 ;
+    margin: 4% 0 0 0;
+    width: 80%;
+    border: 2px solid #EAF2F4;
+}
+.placeholder img{
+    width: 47px;
+    float: right;
+    clear: right;
+    padding: 0%;
+    display: none;
 }
 .erroe_msg{
     text-align: left;
@@ -115,6 +123,8 @@
     color: #242424;
     opacity: 1;
     color: #772309;
+    margin-left: 2%;
+    display: none;
 }
 .robot{
     text-align: left;
@@ -128,6 +138,7 @@
 .recapita_container{
     width: 35%;
     margin-left: 27%;
+    margin-top: 2%;
 }
 
  .website{
@@ -246,6 +257,15 @@ margin-right: 5%;
         width: 30%;
         font-size: 14px;
     }
+    .placeholder img{
+        width: 47px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 7px;
+    }
 }
 @media screen and (max-device-width:1024px){
     .innovation{
@@ -286,6 +306,15 @@ margin-right: 5%;
     .submit{
         width: 35%;
         font-size: 12px;
+    }
+    .placeholder img{
+        width: 27px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 10px;
     }
 }
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
@@ -331,6 +360,15 @@ margin-right: 5%;
     }
     .website{
         font-size: 10px;
+    }
+    .placeholder img{
+        width: 38px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 3px;
     }
 }
 
@@ -386,6 +424,15 @@ margin-right: 5%;
     .submit{
         width: 30%;
         font-size: 22px;
+    }
+    .placeholder img{
+        width: 47px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 18px;
     }
  
 }
