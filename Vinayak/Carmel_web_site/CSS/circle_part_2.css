@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.left-bottom-container{
+    width: 100%;
+}
+.image{
+    float: left;
+    width: 20%;
+    clear: left;
+}
+.containt{
+    float: right;
+    width: 80%;
+    clear: right;
+}
+
+.number-02{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 2%;
+}
+.STRATEGIC{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+}
+.Software{
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway";
+    letter-spacing: 0;
+    color: #257B84;
+    opacity: 1;
+    vertical-align: middle;
+    padding-bottom: .5%;
+    padding-right: 1%;
+}

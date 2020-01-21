@@ -16,23 +16,19 @@
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateY(-50%);
 }
 .left_part{
     width: 50%;
     float: left;
     clear: left;
- margin-top: 5%;
 }
 .right_part{
     width: 50%;
     float: right;
     clear: right;
-    vertical-align: middle;
 }
 .right_containt{
- top: 30%;
   border-left: 5px solid #EAF2F4;
   padding-right: 10%;
 }
@@ -43,24 +39,24 @@
     text-align: center;
     padding: 3% 0;
     background-color: #32BDD2;
-    display: block;
 }
 .innovation{
     font-family: 'Raleway';
     letter-spacing: 1px;
     color: #FFFFFF;
-    opacity: 1;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0% .5%;
 }
 .comma{
     vertical-align: middle;
-    opacity: 1;
     width: 50px;
+}
+.left_container{
+margin-top: 15%;
+text-align: center;
 }
 .carmel img{
     width: 745px;
-    margin-left: 10%;
 }
 .info{
     margin-left: 2%;
@@ -68,12 +64,10 @@
 }
 .results{
     padding-top: 3%;
-    text-align: center;
     font-family: 'Italianno';
     font-size: 50px;
     letter-spacing: 3px;
     color: #747474;
-    opacity: 1;
 }
 .technology{
     width: 80%;
@@ -82,7 +76,6 @@
     font-size: 20px;
     font-family:'Raleway';
     color: #505050;
-    opacity: 1;
     font-weight: bold;
 }
 .input{
@@ -101,7 +94,6 @@
     font-family:'Raleway';
     letter-spacing: 0.5px;
     color: #909090;
-    opacity: 1;
 }
 .placeholder{
     margin: 4% 0 0 0;
@@ -121,7 +113,6 @@
     font-family:'Raleway';
     letter-spacing: 0.5px;
     color: #242424;
-    opacity: 1;
     color: #772309;
     margin-left: 2%;
     display: none;
@@ -132,7 +123,6 @@
     font-size: 23px;
     letter-spacing: 0;
     color: #909090;
-    opacity: 1;
   margin-top: 2.5%;
 }
 .recapita_container{
@@ -143,18 +133,23 @@
 
  .website{
     font-family:'Raleway';
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 0px;
     color: #909090;
-    opacity: 1;
 }
 .address{
 width: 100%;
 }
 .left{
-    width: 50%;
+    width: 40%;
     float: left;
     clear: left;
+}
+.right{
+    width: 60%;
+    float: right;
+    clear: right;
+    margin-right: 2%;
 }
 .carmel_full_logo img{
     width: 350px;
@@ -163,34 +158,30 @@ width: 100%;
 .banglore_address{
 float: left;
 width: 28%;
-margin-left: 17%;
-margin-right: 5%;
+margin-left: 37%;
+margin-right: 0%;
 }
 
 .hubli_address{
     float: right;
-    width: 32%;
-    margin-right: 6%;
-    margin-left: 12%;
+    width: 30%;
+    margin-left: 5%;
     }
 .hubli{
-   text-align: right;
     text-align:right;
     font-family:'Raleway';
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1.2px;
     color: #080808;
-    opacity: 1;
     font-style: italic;
     font-weight: 600;
 }
 .banglore{
     text-align: left;
     font-family:'Raleway';
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1.2px;
     color: #080808;
-    opacity: 1;
     font-style: italic;
     font-weight: 600;
 }
@@ -204,7 +195,6 @@ margin-right: 5%;
     font-size: 18px;
     letter-spacing: 1.4px;
     color: #FFFFFF;
-    opacity: 1;
     background-color: #505050;
     color: #fff;
     border: 1px solid #505050;
@@ -212,23 +202,21 @@ margin-right: 5%;
     box-shadow: 2px 2px 6px #505050;
 }
 .copy_right{
-    margin: 6%  6% 2% 0;
+    margin: 6%  0% 2% 0;
     width: 100%;
     float: right;
     text-align: right;
 }
 @media screen and (max-device-width:768px){
     .innovation{
-        font-size: 17px;
+        font-size: 15px;
     }
     .comma{
         vertical-align: middle;
-        opacity: 1;
         width: 25px;
     }
     .carmel img{
-        width: 500px;
-        margin-left: 6%;
+        width: 350px;
     }
     .results{
         font-size: 25px;
@@ -240,17 +228,17 @@ margin-right: 5%;
         font-size: 7px;
     }
      .website{
-        font-size: 7px;
+        font-size: 6.5px;
     }
     .carmel_full_logo img{
         width: 180px;
        margin-left: 8%;
     }
     .hubli{
-        font-size: 9px;
+        font-size: 8px;
     }
     .banglore{
-        font-size: 9px;
+        font-size: 8px;
     }
     
     .submit{
@@ -269,16 +257,14 @@ margin-right: 5%;
 }
 @media screen and (max-device-width:1024px){
     .innovation{
-        font-size: 17px;
+        font-size: 15px;
     }
     .comma{
         vertical-align: middle;
-        opacity: 1;
         width: 25px;
     }
     .carmel img{
         width: 450px;
-        margin-left: 4%;
     }
     .results{
         font-size: 33px;
@@ -297,10 +283,10 @@ margin-right: 5%;
        margin-left: 8%;
     }
     .hubli{
-        font-size: 10px;
+        font-size: 12px;
     }
     .banglore{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .submit{
@@ -324,12 +310,10 @@ margin-right: 5%;
     }
     .comma{
         vertical-align: middle;
-        opacity: 1;
         width: 35px;
     }
     .carmel img{
         width: 645px;
-        margin-left: 5%;
     }
     .results{
         font-size: 40px;
@@ -355,11 +339,11 @@ margin-right: 5%;
     }
     
     .submit{
-        width: 30%;
-        font-size: 22px;
+        width: 35%;
+        font-size: 14px;
     }
     .website{
-        font-size: 10px;
+        font-size: 12px;
     }
     .placeholder img{
         width: 38px;
@@ -378,12 +362,10 @@ margin-right: 5%;
     }
     .comma{
         vertical-align: middle;
-        opacity: 1;
         width: 50px;
     }
     .carmel img{
         width: 745px;
-        margin-left: 18%;
     }
     .results{
         font-size: 50px;
@@ -408,17 +390,20 @@ margin-right: 5%;
 
     }
      .website{
-        font-size: 15px;
+        font-size: 21px;
+            width: 25%;
+            float: left;
+            clear: left;
     }
     .carmel_full_logo img{
         width: 350px;
        margin-left: 8%;
     }
     .hubli{
-        font-size: 20px;
+        font-size: 29px;
     }
     .banglore{
-        font-size: 20px;
+        font-size: 29px;
     }
     
     .submit{

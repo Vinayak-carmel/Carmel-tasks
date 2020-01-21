@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.text_position__bottom_right{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+.right_part{
+    float: right;
+    clear: right;
+}
+.left_part{
+    float: left;
+    clear:left;
+    margin-top: 34%;
+}
+.image_part_4{
+    width: 400px;
+}
+.number-04{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #939393;
+    opacity: 1;
+    padding-bottom: 15%;
+}
+.more{
+  
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Raleway';
+    letter-spacing: 0.38px;
+    color: #505050;
+    opacity: 1;
+    line-height: 20px;
+    padding-bottom: .5%;
+    font-weight: 600;
+    padding-bottom:5% ;
+}
+.Credibility{
+    text-align: right;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-family: "Raleway";
+    color: #747474;
+    opacity: 1;
+    padding-bottom: .5%;
+}
+.explore{
+        text-align: right;
+        font-size: 20px;
+        font-family: "Raleway";
+        letter-spacing: 0;
+        color: #257B84;
+        opacity: 1;
+        padding-right: 5%;
+   }
+.icon{
+    vertical-align: middle;
+    text-align: right;
+}
+@media screen and (max-device-width:1024px){}
+@media screen and (max-device-width:1440px) and (min-device-width:1025px){}

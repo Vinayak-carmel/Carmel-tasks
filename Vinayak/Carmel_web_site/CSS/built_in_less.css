@@ -126,7 +126,7 @@ body {
 .svg {
     width: 100%;
     background-color: #32BDD2;
-    margin-top: 14%;
+    margin-top: 20%;
 }
 
 .box-1 {
@@ -193,7 +193,7 @@ body {
     }
     .head {
         font-size: 25px;
-        letter-spacing: 3px;
+        letter-spacing: 1.5px;
     }
     .we {
         font-size: 20px;
@@ -204,7 +204,7 @@ body {
     .svg {
         width: 100%;
         background-color: #32BDD2;
-        margin-top: 14%;
+        margin-top: 32%;
     }
 }
 

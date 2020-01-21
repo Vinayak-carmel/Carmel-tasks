@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+width: 100%
+}
+.right_side{
+    width: 50%;
+    float: right;
+    clear: right;
+}
+.left_side{
+    width: 50%;
+    float: left;
+    clear: left;
+
+}
+.lorem{
+    font-size: 1.5vw;
+}
+.left_top{
+    text-align: right;
+    background-color: #e82507;
+    height: 100px;
+
+}
+.left_bottom{
+    text-align: left;
+    background-color: #4ff507;
+    height: 100px;
+
+    
+}
+.right_top{
+    text-align: right;
+    background-color: #a607f5;
+    height: 100px;
+
+}
+.right_bottom{
+    text-align: left;
+    background-color: #edf507;
+    height: 100px;
+}
