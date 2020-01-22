@@ -23,11 +23,11 @@
 }
 
 .container {
-    background-color: #fff;
+    margin-top: 10%
 }
 
 .our-approch {
-    margin-top: 10%
+  
 }
 
 .our {
@@ -123,7 +123,7 @@
 }
 
 .svg-view {
-    width: 79%;
+    width: 63%;
     margin: 18% 0 0 7%;
 }
 

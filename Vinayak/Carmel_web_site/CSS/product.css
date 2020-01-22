@@ -21,8 +21,11 @@
         float: right;
         clear: right;
     }
-    .helped{
+    .container{
         margin-top: 10%;
+    }
+    .helped{
+
         color: #4B6A77;
         font-size: 23px;
         font-family: 'Raleway';
@@ -85,28 +88,14 @@
         font-family: 'Raleway'; 
     }
     .svg-viewport{
-        margin: auto;
-        margin-top: 10%;
-        width: 65%;
-        
+      margin-left: 10%;
+        margin-top: 12%;
+        width: 52%;
     }
     .icon img{
         width: 77px;
     }
-    .cls-1,
-    .cls-3 {
-        fill: none;
-        stroke: #4b6a77;
-        stroke-miterlimit: 10;
-    }
-
-    .cls-2 {
-        fill: #4b6a77;
-    }
-
-    .cls-3 {
-        stroke-width: 0.5px;
-    }
+   
     @media screen and (max-width: 768px) {
         .helped{
             font-size: 9px;
