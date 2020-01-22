@@ -21,14 +21,12 @@ body{
     width: 40%;
     float: right;
     clear: right; 
+    padding-left: 8%;
 }
 .container{
-    background-color: #32BDD2;
-    padding: 0 0%
-}
-.our-approch{
     padding-top: 7%;
 }
+
 .our{
     color: #fff;
     font-size: 25px;
@@ -101,9 +99,8 @@ body{
     padding-top: 2%;
 }
 .svg{
-    width: 51%;
-    margin-top: 21%;
-    margin-left: 9.5%;
+    margin-top: 16%;
+    width: 55%;
 }
 .box-1{
     text-align: center;
@@ -116,13 +113,7 @@ body{
 .icon img{
     width: 80px;
     padding-top: 4%;
-   
-}
-.cls-1 {
-    fill: none;
-    stroke: #fff;
-    stroke-miterlimit: 10;
-    stroke-width: 2px;
+
 }
 @media screen and (max-device-width:768px){
     .our{
