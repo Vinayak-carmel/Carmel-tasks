@@ -29,11 +29,6 @@ body {
 }
 
 .container {
-    background-color: #32BDD2;
-    padding: 0 0%
-}
-
-.our-approch {
     padding-top: 7%;
 }
 
@@ -125,7 +120,6 @@ body {
 
 .svg {
     width: 100%;
-    background-color: #32BDD2;
     margin-top: 20%;
 }
 
