@@ -19,7 +19,7 @@ body{
 .page{
     text-align: center;
     color: #4B6A77;
-    font-size: 55px;
+    font-size: 58px;
     font-family: 'Raleway';
     font-weight: 600;
 }
@@ -27,10 +27,11 @@ body{
 .ipsum{
     text-align: center;
     color: #4B6A77;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Raleway';
-    opacity: 0.8;
-
+    opacity: 1;
+    width: 50%;
+    margin: auto;
 }
 
 .eiro{
@@ -40,8 +41,8 @@ body{
 
 @media screen and (max-device-width:768px){
     .develop{
-      width: 530px;
-      margin-top: 6%;
+      width: 380px;
+      margin-top: 3%;
 }
 .page{
     font-size: 23.5px;
@@ -55,9 +56,9 @@ body{
     width: 58px;
 }
 }
- @media screen and (max-device-width:1024px){
+ @media screen and (max-device-width:1024px) and (min-device-width:769px){
     .develop{
-        width: 520px;
+        width: 510px;
         margin-top: 2%;
   }
   .page{
@@ -65,10 +66,8 @@ body{
   }
   
   .ipsum{
-      width: 50%;
- margin-left: 25%;
-  }
-  
+    font-size: 14px;
+}
   .eiro{
       width: 52px;
 
@@ -76,7 +75,7 @@ body{
 }
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .develop{
-        width: 850px;
+        width: 720px;
         margin-top: 3%;
   }
   .page{
@@ -84,7 +83,7 @@ body{
   }
   
   .ipsum{
-      font-size: 17px;
+      font-size: 15px;
   }
   
   .eiro{

@@ -21,7 +21,7 @@ body{
     width: 40%;
     float: right;
     clear: right; 
-    padding-left: 8%;
+    padding-left: 5%;
 }
 .container{
     padding-top: 7%;
@@ -29,7 +29,7 @@ body{
 
 .our{
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     border-top: 3px solid #fff;
     font-family: 'Raleway';
     font-weight: 600;
@@ -38,7 +38,7 @@ body{
 }
 .approch{
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Raleway';
     font-weight: 600;
   
@@ -47,7 +47,7 @@ body{
     padding-top: 4%;
 }
 .number-03{
-    font-size: 90px;
+    font-size: 93px;
     font-family: 'Anton';
     text-align: left;
     letter-spacing: 0;
@@ -58,7 +58,7 @@ body{
 
 .number-04{
     text-align: left;
-    font-size: 35px;
+    font-size: 42px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 0.6;
@@ -69,7 +69,7 @@ body{
 }
 .disruptive{
     text-align: left;
-    font-size: 80px;
+    font-size: 78px;
     letter-spacing: 3.1px;
     color: #FFFFFF;
     opacity: 1;
@@ -78,13 +78,13 @@ body{
 }
 .stretch_clarify{
     padding-top: 10%;
+    width: 85%;
 }
 .stretch{
     color: #212121;
     text-align: left;
-    font-size: 33px;
+    font-size: 32px;
     font-weight: 400;
-    letter-spacing: 3.1px;
     opacity: 1;
     font-family: 'Raleway';
     font-weight: 600;
@@ -92,15 +92,16 @@ body{
 }
 .clarify{
     color: #212121;
-    font-size: 29px;
+    font-size: 28px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway'; 
     padding-top: 2%;
+    
 }
 .svg{
     margin-top: 19%;
-    width: 55%;
+    width: 50%;
 }
 .box-1{
     text-align: center;
@@ -117,32 +118,30 @@ body{
 }
 @media screen and (max-device-width:768px){
     .our{
-        font-size: 15px;
+        font-size: 9px;
         border-top: 3px solid #fff;
     }
     .approch{
-       
-        font-size: 15px;
-        
+        font-size: 9px;
     }
     .number-03{
-        font-size: 52px;  
+        font-size: 37px;  
     }
     
     .number-04{
-        font-size: 18px;
+        font-size: 16.5px;
     }
     .disruptive{
-        font-size: 40px;
+        font-size: 31px;
     }
     .stretch{
-        font-size: 14px;
-        letter-spacing: 2.5px;
-       
-    }
-   
-    .clarify{
         font-size: 12px;
+    }
+    .stretch_clarify{
+        width: 100%;
+    }
+    .clarify{
+        font-size: 10px;
         letter-spacing: 1px;
     }
     .icon img{
@@ -154,45 +153,38 @@ body{
  @media screen and (max-device-width:1024px){
     .our{
        
-        font-size: 20px;
+        font-size: 13px;
         border-top: 3px solid #fff;
        
     }
     .approch{
        
-        font-size: 20px;
+        font-size: 13px;
         
     }
     .number-03{
-        font-size: 68px;  
+        font-size: 50px;  
     }
     
     .number-04{
      
-        font-size: 26px;
+        font-size: 22.5px;
         
     }
     .disruptive{
-        font-size: 60px;
+        font-size: 41.5px;
     }
     .stretch{
-        font-size: 25px;
-        letter-spacing: 2px;
-       
+        font-size: 18px;
     }
    
     .clarify{
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing:1px;
     }
     .icon img{
         width: 60px;
         padding-top: 4%;
-    }
-    .svg{
-        width: 63%;
-        margin-top: 23%;
-        margin-left: 9.5%;
     }
 }
 
@@ -200,86 +192,72 @@ body{
 @media screen and (max-device-width:1440px) and (min-device-width:1025px){
     .our{
        
-        font-size: 23px;
+        font-size: 18px;
         border-top: 3px solid #fff;
        
     }
     .approch{
        
-        font-size: 23px;
+        font-size: 18px;
         
     }
     .number-03{
-        font-size: 78px;  
+        font-size: 70px;  
     }
     
     .number-04{
-        font-size: 31px;
+        font-size: 31.5px;
     }
-    
+    .stretch_clarify{
+        width: 96%;
+    }
     .disruptive{
-        font-size: 58px;
-        letter-spacing: 2.5px;
-       
+        font-size: 59px;
     }
    
     .stretch{
-        font-size: 27px;
-        letter-spacing: 3px;
+        font-size: 24px;
     }
     .clarify{
         font-size: 22px;
-        letter-spacing:1px;
-        width: 95%;
     }
     .icon img{
         width: 60px;
         padding-top: 4%;
     }
-    .svg{
-        width: 52%;
-        margin-top: 22%;
-        margin-left: 9.5%;
-    }
     
 }
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1921px) {
    
     .our{
-        font-size: 53px;
+        font-size: 32px;
         border-top: 6px solid #fff;
     }
     .approch{
-        font-size: 53px;
+        font-size: 32px;
     }
   
     .number-03{
-        font-size: 135px;   
+        font-size: 124px;   
     }
     
     .number-04{
-        font-size: 64px;
+        font-size: 55.5px;
         opacity: 0.8;
         }
     .disruptive{
         text-align: left;
-        font-size: 115px;
-        letter-spacing: 3.5px;
+        font-size: 104px;
     }
     .stretch{
-        font-size: 60px;
+        font-size: 44px;
     }
     .clarify{
-        font-size: 45px;
+        font-size: 39.5px;
     }
     .icon img{
         width: 115px;
         padding-top: 4%;
-    }
-    .svg{
-        width: 55%;
-        margin-top: 22%;
-        margin-left: 9.5%;
     }
   }

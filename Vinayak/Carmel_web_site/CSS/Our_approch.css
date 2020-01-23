@@ -36,7 +36,7 @@
         }
         
         .our {
-            width: fit-content;
+            width: 30%;
             text-align: left;
             font-size: 112px;
             font-family: 'Raleway';
@@ -95,9 +95,11 @@
         
             .four {
                 font-size: 10.5px;
+                width: 84%;
             }
             .complete {
                 font-size: 10.5px;
+                width: 91%;
             }
         }
         @media screen and (max-device-width:1024px) {

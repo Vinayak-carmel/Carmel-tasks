@@ -26,13 +26,9 @@
     margin-top: 10%
 }
 
-.our-approch {
-  
-}
-
 .our {
     color: #32BDD2;
-    font-size: 25px;
+    font-size: 24px;
     border-top: 5px solid #32BDD2;
     font-family: 'Raleway';
     font-weight: 600;
@@ -41,12 +37,12 @@
 .approch {
     font-weight: 600;
     color: #32BDD2;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Raleway';
 }
 
 .number-03 {
-    font-size: 90px;
+    font-size: 93px;
     font-family: 'Anton';
     text-align: left;
     letter-spacing: 0;
@@ -60,7 +56,7 @@
 
 .number-04 {
     text-align: left;
-    font-size: 38px;
+    font-size: 42px;
     letter-spacing: 0;
     color: #32BDD2;
     opacity: 0.6;
@@ -73,7 +69,7 @@
 
 .more {
     text-align: left;
-    font-size: 85px;
+    font-size: 78px;
     letter-spacing: 3.1px;
     color: #32BDD2;
     opacity: 1;
@@ -88,7 +84,7 @@
 .quality {
     color: #212121;
     text-align: left;
-    font-size: 35px;
+    font-size: 37px;
     font-weight: 400;
     letter-spacing: 1.5px;
     opacity: 1;
@@ -98,7 +94,7 @@
 
 .entirety {
     color: #212121;
-    font-size: 30px;
+    font-size: 28px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway';
@@ -107,7 +103,7 @@
 
 .culture {
     color: #212121;
-    font-size: 30px;
+    font-size: 28px;
     text-align: left;
     opacity: 1;
     font-family: 'Raleway';
@@ -122,38 +118,38 @@
     opacity: 0.8;
 }
 
-.svg-view {
+.more_reliable_svg_view {
     width: 63%;
     margin: 18% 0 0 7%;
 }
 
 @media screen and (max-width: 768px) {
     .our {
-        font-size: 15px;
+        font-size: 9px;
         border-top: 2px solid #32BDD2;
     }
     .approch {
-        font-size: 15px;
+        font-size: 9px;
         font-family: 'Raleway';
     }
     .number-03 {
-        font-size: 55px;
+        font-size: 37px;
     }
     .number-04 {
-        font-size: 18px;
+        font-size: 16.5px;
     }
     .more {
-        font-size: 50px;
+        font-size: 31px;
     }
     .quality {
-        font-size: 20px;
+        font-size: 12px;
         letter-spacing: 1.8px;
     }
     .entirety {
-        font-size: 14px;
+        font-size: 10px;
     }
     .culture {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
@@ -177,14 +173,14 @@
         letter-spacing: 1.5px;
     }
     .quality {
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 1.5px;
     }
     .entirety {
-        font-size: 14px;
+        font-size: 16px;
     }
     .culture {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -204,10 +200,10 @@
         font-size: 31.5px;
     }
     .more {
-        font-size: 60px;
+        font-size: 59px;
     }
     .quality {
-        font-size: 25px;
+        font-size: 24px;
     }
     .entirety {
         font-size: 22px;
