@@ -1284,6 +1284,39 @@ margin-left: 10%;
     padding-top: 7%;
 }
 
+/* -------------------------under develop------------------------- */
+.develop{
+    width: 930px;
+    margin-top: 2%;
+}
+.image{
+  text-align: center;
+}
+.under{
+  margin-top: 5%;
+}
+.page{
+  text-align: center;
+  color: #4B6A77;
+  font-size: 58px;
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+
+.ipsum{
+  text-align: center;
+  color: #4B6A77;
+  font-size: 15px;
+  font-family: 'Raleway';
+  opacity: 1;
+  width: 50%;
+  margin: auto;
+}
+
+.eiro{
+  width: 93px;
+  margin-top: 2%;
+}
 
 /* --------------------------------------------media Queries------------------------------------------- */
 
@@ -1519,6 +1552,23 @@ margin-left: 10%;
     .strategicSoftwareContent {
         font-size: 7px;
     }
+
+    /* -------------------------under develop----------------- */
+    .develop{
+        width: 380px;
+        margin-top: 3%;
+  }
+  .page{
+      font-size: 23.5px;
+  }
+  
+  .ipsum{
+      font-size: 12px;
+  }
+  
+  .eiro{
+      width: 58px;
+  }
 }
 @media screen and (max-device-width:1024px) and (min-device-width:769px) {
     
@@ -1770,6 +1820,23 @@ margin-left: 10%;
     .strategicSoftwareSvgContainer {
         width: 55%;
     }
+ /* ------------------------------------under develop----------------- */
+
+ .develop{
+    width: 510px;
+    margin-top: 2%;
+}
+.page{
+  font-size: 30px;
+}
+
+.ipsum{
+font-size: 14px;
+}
+.eiro{
+  width: 52px;
+
+}
 }
 
 @media screen and (max-device-width:1440px) and (min-device-width:1025px) {
@@ -2009,6 +2076,24 @@ margin-left: 10%;
     .strategicSoftwareContent {
         font-size: 13px;
     }
+
+    /* ------------------------------under develop----------------- */
+
+    .develop{
+        width: 720px;
+        margin-top: 3%;
+  }
+  .page{
+      font-size: 44px;
+  }
+  
+  .ipsum{
+      font-size: 15px;
+  }
+  
+  .eiro{
+      width: 85px;
+  }
 }
 
 @media screen and (min-width: 1921px) {
@@ -2259,5 +2344,23 @@ margin-left: 10%;
 }
 .strategicSoftwareContent {
     font-size: 23px;
+}
+
+/* -------------------------------------under develop----------------- */
+
+.develop{
+    width: 1200px;
+    margin-top: 3%;
+}
+.page{
+  font-size: 79px;
+}
+
+.ipsum{
+  font-size: 22px;
+}
+
+.eiro{
+  width: 105px;
 }
 }
