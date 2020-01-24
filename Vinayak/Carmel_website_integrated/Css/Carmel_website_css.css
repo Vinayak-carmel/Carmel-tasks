@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 .main_container{
-    width: 100%;
-    height: 100vh;
+
+   
 }
 /* our page css start */
-.our_page_container {
+.our_page_main_container {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -18,6 +18,7 @@
     width: 45%;
     float: left;
     clear: left;
+    margin-right: 5%
 }
 
 .our_approch_right_part {
@@ -106,7 +107,7 @@ margin-left: 10%;
     padding-left: 8%;
 }
 .distruptive_ideation_container{
-    padding-top: 10%;
+    margin-top: 10%;
 }
 .built_in_main_container {
     height: 100vh;
@@ -114,7 +115,7 @@ margin-left: 10%;
     position: relative;
 }
 .built_in_container {
-    padding-top: 5%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -273,14 +274,23 @@ margin-left: 10%;
 .icon img{
     width: 80px;
     padding-top: 4%;
-
 }
 
+.depend_on_us_box{
+    font-size:13px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #3D656F;
+    opacity: .8;
+}
+/* -------product we delivered------------ */
 .products_main_container {
     width: 100%;
     height: 100vh;
 }
-
+.products_container{
+    margin-top: 10%;
+}
 .products_left_part{
     width: 60%;
     float: left;
@@ -292,9 +302,1010 @@ margin-left: 10%;
     float: right;
     clear: right;
 }
-/* media Queries */
+
+.helped{
+    color: #4B6A77;
+    font-size: 23px;
+    font-family: 'Raleway';
+    line-height: 1.5;
+    width: 70%;
+}
+
+.number{
+    margin-top: 10%;
+}
+.PRO{
+    font-size: 70px;
+    font-family: 'Raleway'; 
+    text-align: left;
+    letter-spacing: 0;
+    color: #4B6A77;
+    opacity: 1;
+    font-weight: 600;
+    border-top: 10px solid #4B6A77;
+}
+.delevered{
+    text-align: left;
+    font-size: 70px;
+    letter-spacing: 0;
+    color: #4B6A77;
+    opacity: 01;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.icon{
+    margin-top: 5%;
+    float: left;
+}
+.impact-obsessed{
+    margin-top: 10%;
+}
+
+.impact{
+    color: #4B6A77;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    opacity: 1;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.obsessed{
+    color: #4B6A77;
+    font-size: 26px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway'; 
+    margin-top: 2%;
+}
+.lasting{
+    color: #4B6A77;
+    font-size: 26px;
+    text-align: left;
+    opacity: 1;
+    font-family: 'Raleway'; 
+}
+.svg-viewport{
+  margin-left: 10%;
+    margin-top: 12%;
+    width: 52%;
+}
+.icon img{
+    width: 77px;
+}
+
+/* -----------depend on us------------- */
+
+.depend_on_us_main_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #32BDD2;
+}
+.depend_on_us_left_part{
+    width: 40%;
+    float: left;
+    clear: left;
+ 
+}
+.depend_on_us_right_part{
+    width: 60%;
+    float: right;
+    clear: right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.depend_on_us_container{
+   margin-left: 13%;
+   margin-top: 25%;
+}
+
+.dep{
+    text-align: left;
+    font-size:69px;
+    font-family: 'Raleway';
+    letter-spacing: 3.1px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 600;
+    border-top: 10px solid #FFFFFF;
+}
+.end{
+    font-weight: 600;
+    text-align: left;
+    font-size:69px;
+    font-family: 'Raleway';
+    letter-spacing: 3.1px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+.we_take{
+    margin-top: 9%;
+    width: 66%;
+}
+.responsibility{
+    text-align: left;
+    font-size:22px;
+    font-family: 'Raleway';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding:4% 0;
+}
+
+.launch{
+    margin-top: 10%;
+    padding: 5% 7%;
+    float: left;
+    clear: left;
+    background-color: #A7DEE5;
+    border:1px solid #7FD2DB;
+}
+.concept{
+    text-align: center;
+    font-size:32px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: #1C1C1C;
+    opacity: 1;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+.engineering{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Raleway';
+    letter-spacing: 0.6px;
+    color: #1C1C1C;
+    opacity: 1;
+}
+.depend_on_us_svg_viewport{
+  width: 70%;
+  margin: auto;
+  margin-top: 16%;
+}
+/* ---------contact form----------  */
+
+.contact_form_main_container{
+    width: 100%;
+}
+.contact_form_sub{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.contact_container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contact_form_left_part{
+    width: 50%;
+    float: left;
+    clear: left;
+}
+.contact_form_right_part{
+    width: 50%;
+    float: right;
+    clear: right;
+}
+
+.contact_form_left_container{
+    margin-top: 15%;
+    text-align: center;
+    }
+
+    
+.carmel img{
+     width: 745px;
+ }
+
+.contact_form_right_containt{
+      border-left: 5px solid #EAF2F4;
+      padding-right: 10%;
+     }
+
+.text{
+     padding-top: 3%;
+     }
+
+.banner{
+    text-align: center;
+    padding: 3% 0;
+    background-color: #32BDD2;
+    }
+
+.innovation{
+        font-family: 'Raleway';
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding: 0% .5%;
+    }
+    .comma{
+        vertical-align: middle;
+        width: 50px;
+    }
+    .info{
+        margin-left: 2%;
+        border-left: 5px solid #EAF2F4;
+    }
+    .results{
+        padding-top: 3%;
+        font-family: 'Italianno';
+        font-size: 50px;
+        letter-spacing: 3px;
+        color: #747474;
+    }
+    .technology{
+        width: 80%;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 20px;
+        font-family:'Raleway';
+        color: #505050;
+        font-weight: bold;
+    }
+    .input{
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+    .capicha{
+        text-align: center;
+    }
+    .placeholder input{
+        border: 0px solid #EAF2F4;
+        padding: 2.5%;
+        width: 70%;
+        font-size: 13px;
+        text-align: left;
+        font-family:'Raleway';
+        letter-spacing: 0.5px;
+        color: #909090;
+    }
+    .placeholder{
+        margin: 4% 0 0 0;
+        width: 80%;
+        border: 2px solid #EAF2F4;
+    }
+    .placeholder img{
+        width: 47px;
+        float: right;
+        clear: right;
+        padding: 0%;
+        display: none;
+    }
+    .erroe_msg{
+        text-align: left;
+        font-size: 15px;
+        font-family:'Raleway';
+        letter-spacing: 0.5px;
+        color: #242424;
+        color: #772309;
+        margin-left: 2%;
+        display: none;
+    }
+    .robot{
+        text-align: left;
+        font-family:'Raleway';
+        font-size: 23px;
+        letter-spacing: 0;
+        color: #909090;
+      margin-top: 2.5%;
+    }
+    .recapita_container{
+        width: 35%;
+        margin-left: 27%;
+        margin-top: 4%;
+    }
+    
+     .website{
+        font-family:'Raleway';
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #909090;
+    }
+    .address{
+    width: 100%;
+    }
+    .left{
+        width: 40%;
+        float: left;
+        clear: left;
+    }
+    .right{
+        width: 58%;
+        float: right;
+        clear: right;
+        margin-right: 2%;
+    }
+    .carmel_full_logo img{
+        width: 350px;
+       margin-left: 8%;
+    }
+    .banglore_address{
+    float: left;
+    width: 28%;
+    margin-left: 37%;
+    margin-right: 0%;
+    }
+    
+    .hubli_address{
+        float: right;
+        width: 30%;
+        margin-left: 5%;
+        }
+    .hubli{
+        text-align:right;
+        font-family:'Raleway';
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        color: #080808;
+        font-style: italic;
+        font-weight: 600;
+    }
+    .banglore{
+        text-align: left;
+        font-family:'Raleway';
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        color: #080808;
+        font-style: italic;
+        font-weight: 600;
+    }
+    
+    .submit_btn{
+        margin-top: 4%;
+        padding: 1% 1%;
+        width: 30%;
+        text-align: center;
+        font-family:'Raleway';
+        font-size: 18px;
+        letter-spacing: 1.4px;
+        color: #FFFFFF;
+        background-color: #505050;
+        border: 1px solid #505050;
+        border-radius: 25px;
+        box-shadow: 2px 2px 6px #505050;
+    }
+    .copy_right{
+        margin: 6%  0% 2% 0;
+        width: 100%;
+        float: right;
+        text-align: right;
+    }
+    .parent {
+        height: 100vh;
+    }
+    .leftContainer {
+        height: 100vh;
+        width: 5%;
+        float: left;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .row {
+        flex-grow: 1;
+        background-color: #FFFFFF;
+    }
+    
+    .lastRow {
+        flex-grow: 8;
+        background-color: #FFFFFF;
+    }
+    
+    .imageContainer {
+        padding: 2vh 0 5vh 0;
+        width: 70%;
+        margin: auto;
+    }
+    
+    .disruptContainer {
+        text-align: center;
+    }
+    
+    .disruptiveIdeation {
+        font-size: 26px;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg);
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+    
+    .navContainer {
+        padding-top: 8vh;
+        width: 45%;
+        margin: auto;
+    }
+    
+    .rightContainer {
+        height: 100vh;
+        width: 95%;
+        float: right;
+        position: relative;
+    }
+    
+    .rightContent {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .heading {
+        letter-spacing: 2.85px;
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 55px;
+    }
+    
+    .text {
+        font-family: 'Raleway';
+        font-size: 26px;
+        letter-spacing: 0.2px;
+        line-height: 1.3;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        text-align: justify;
+    }
+    
+    .buttons {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .space {
+        margin-right: 0.75vw;
+    }
+    
+    
+    /* -----------------------------Generative & Analytical----------------------------- */
+    
+    .generativeBackgroundColor {
+        background-color: #E25959;
+    }
+    
+    .generativeTextContainer {
+        padding: 0 10% 0 5%;
+        width: 55%;
+        float: left;
+    }
+    
+    .generativeTextColor {
+        color: #5C2323;
+    }
+    
+    .generativeSvgContainer {
+        width: 45%;
+        float: right;
+    }
+    
+    .generativeSvg {
+        width: 50%;
+        margin: auto;
+    }
+    
+    
+    /* ------------------------People--------------------------------- */
+    
+    .peopleBackgroundColor {
+        background-color: #E0AE3F;
+    }
+    
+    .peopletextContainer {
+        padding: 5% 10% 0 5%;
+        width: 55%;
+        float: left;
+    }
+    
+    .peopleTextColor {
+        color: #5D4716;
+    }
+    
+    .peopleSvgContainer {
+        width: 45%;
+        float: right;
+    }
+    
+    .peopleSvg {
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+    
+    
+    /* ------------------------Empathy----------------------------------------- */
+    
+    .empathyBackgroundColor {
+        background-color: #B676F4;
+    }
+    
+    .empathyTextContainer {
+        padding: 0 10% 0 5%;
+        width: 50%;
+        float: left;
+    }
+    
+    .empathyTextColor {
+        color: #49256C;
+    }
+    
+    .empathySvgContainer {
+        width: 50%;
+        float: right;
+    }
+    
+    .empathySvg {
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+    
+    
+    /* ----------------------------------------Journey----------------------------------- */
+    
+    .journeyBackgroundColor {
+        background-color: #8296AD;
+    }
+    
+    .journeyTextContainer {
+        padding: 5% 10% 0 5%;
+        width: 50%;
+        float: left;
+    }
+    
+    .journeyTextColor {
+        color: #324153;
+    }
+    
+    .journeySvgContainer {
+        width: 50%;
+        float: right;
+    }
+    
+    .journeySvg {
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+    
+    
+    /* ------------------------------Rapid----------------------------------------------------- */
+    
+    .rapidBackgroundColor {
+        background-color: #A2C121;
+    }
+    
+    .rapidTextContainer {
+        padding: 0 7% 0 5%;
+        width: 50%;
+        float: left;
+    }
+    
+    .rapidTextColor {
+        color: #4D5C0F;
+    }
+    
+    .rapidSvgContainer {
+        width: 50%;
+        float: right;
+    }
+    
+    .rapidSvg {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+
+    /* -------------------------------------------HR DESK------------------------------- */
+    .hrParent{
+        overflow: auto;
+    }
+    .HRleftContainer {
+        width: 30%;
+        float: left;
+    }
+    
+    .HRleftContent {
+        padding-left: 16%;
+    }
+    
+    .hrDesk {
+        padding-top: 87%;
+    }
+    
+    .hr {
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 60px;
+        color: #32BDD2;
+        border-top: 0.6vw solid #32BDD2;
+    }
+    
+    .desk {
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 60px;
+        color: #32BDD2;
+    }
+    
+    .hrText {
+        color: #505050;
+        padding-top: 5%;
+        width: 58%;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .emailSpace {
+        padding-top: 5%;
+    }
+    
+    .hrEmail {
+        border-bottom: 1px solid #505050;
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 22px;
+        color: #505050;
+    }
+    
+    .HRrightContainer {
+        width: 70%;
+        float: right;
+    }
+    
+    .HRrightContent {
+        padding: 10% 13% 5% 0;
+    }
+    
+    .join {
+        color: #505050;
+        font-family: 'Raleway';
+        padding-bottom: 3%;
+        font-size: 37px;
+        font-weight: 600;
+    }
+    
+    .joinText {
+        color: #505050;
+        font-family: 'Raleway';
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 3%;
+        letter-spacing: 1px;
+    }
+    
+    .textBackground {
+        background-color: #EAF2F4;
+        padding: 5% 4% 3% 5%;
+    }
+    
+    .come {
+        color: #505050;
+        font-family: 'Raleway';
+        font-size: 37px;
+        font-weight: 600;
+        padding-bottom: 3%;
+    }
+    
+    .comeText {
+        color: #505050;
+        font-family: 'Raleway';
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 3%;
+        letter-spacing: 0.8px;
+    }
+    
+    .fileContainer {
+        margin-bottom: 2%;
+    }
+    
+    .selectContainer {
+        height: inherit;
+        background-color: white;
+        border: 1px solid #DFEBEF;
+        padding: 2% 2%;
+        width: 45%;
+        float: left;
+    }
+    
+    .select {
+        padding-bottom: 1%;
+        font-size: 19px;
+        color: #595959;
+        font-family: 'Raleway';
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .maximum {
+        padding-bottom: 6%;
+        font-size: 17px;
+        color: #707070;
+        font-family: 'Raleway';
+        font-weight: 400;
+        width: 90%;
+        letter-spacing: 1px;
+    }
+    
+    .browse {
+        font-family: 'Raleway';
+        font-size: 15px;
+        background-color: #32BDD2;
+        font-weight: 500;
+        border-radius: 5%;
+        padding: 2% 3%;
+        color: #FFFFFF;
+        border: 0;
+        letter-spacing: 1px;
+    }
+    
+    .uploadContainer {
+        background-color: #32BDD2;
+        border: 1px solid #DFEBEF;
+        padding: 2%;
+        width: 45%;
+        float: left;
+    }
+    
+    .uploadBackground {
+        border: 1px dashed white;
+        padding: 8% 0;
+    }
+    
+    .upload {
+        display: block;
+        margin: auto;
+        width: 32px;
+        height: 32px;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .drop {
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 19px;
+        color: #FFFFFF;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    
+    .alertFile {
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding: 2%;
+        width: 90%;
+        color: #FFFFFF;
+        background-color: #E65959;
+        display: none;
+    }
+    
+    
+    .alertCaptcha {
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding: 2%;
+        width: 45%;
+        color: #FFFFFF;
+        background-color: #E65959;
+        margin-top: 4%;
+        display: none;
+    }
+    
+    .submit {
+        box-shadow: 0px 1px 1px 2px rgba(80, 80, 80, 0.75);
+        border-radius: 18px;
+        background-color: #505050;
+        padding: 1% 3%;
+        color: #FFFFFF;
+        border: 0 solid #505050;
+        margin-top: 1%;
+        font-size: 18px;
+        font-family: 'Raleway';
+        font-weight: 500;
+    }
+    
+    .workExperience {
+        padding-top: 12%;
+    }
+
+    /* -------------------------Cup Page-------------------------------- */
+
+.carmelLeftContainer {
+    height: 100vh;
+    width: 65%;
+    float: left;
+}
+
+.carmelLeftContent {
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+
+.cup {
+    width: 21%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.text1 {
+    font-family: 'Raleway';
+    letter-spacing: 1.4px;
+    color: #050505;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.textSpace {
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+.text2 {
+    font-family: 'Tangerine';
+    letter-spacing: 1px;
+    color: #050505;
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+.carmelBlack {
+    width: 10%;
+}
+
+.carmelRightContainer {
+    height: 100vh;
+    width: 35%;
+    float: right;
+}
+
+
+/* ---------------------------Strategic Software------------------------- */
+
+.strategicSoftwareLeftContainer {
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-color: #fff;
+}
+
+.strategicSoftwareleftContent {
+    padding: 7% 0 0 12%;
+}
+
+.ourSS {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #32BDD2;
+    border-top: 4px solid #32BDD2;
+}
+
+.approachSS {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #32BDD2;
+}
+
+.numbers {
+    padding-top: 7%;
+}
+
+.largeNumber {
+    font-family: 'Anton';
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #32BDD2;
+    opacity: 0.6;
+}
+
+.smallNumber {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #32BDD2;
+    opacity: 0.6;
+}
+
+.strategicSoftware {
+    padding-top: 13%;
+}
+
+.strategic {
+    font-family: 'Raleway';
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #32BDD2;
+}
+
+.futureProofing {
+    padding-top: 13%;
+}
+
+.future {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #212121;
+}
+
+.strategicSoftwareText {
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #212121;
+    padding-top: 4%;
+}
+
+.strategicSoftwareRightContainer {
+    height: 100vh;
+    width: 60%;
+    float: right;
+}
+
+.strategicSoftwareRightContent {
+    margin-top: 8%;
+}
+
+.strategicSoftwareContent {
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    background-color: #B8D5DD;
+}
+
+.strategicSoftwareSvgContainer {
+    width: 50%;
+    margin: auto;
+    padding-top: 7%;
+}
+
+
+/* --------------------------------------------media Queries------------------------------------------- */
 
 @media screen and (max-device-width:768px) {
+
+    /* -----------our approach---------- */
+    .our_approch_our {
+        font-size: 43px;
+        border-top: 8px solid #FFFFFF;
+    }
+    .our_approch_approch {
+        font-size: 43px;
+    }
+
+    .four {
+        font-size: 10.5px;
+        width: 84%;
+    }
+    .complete {
+        font-size: 10.5px;
+        width: 91%;
+    }
 
  .our {
     font-size: 9px;
@@ -323,8 +1334,210 @@ margin-left: 10%;
     font-size: 10px;
 }
 
+/* products we delivered */
+
+.helped{
+    font-size: 9px;
 }
-@media screen and (max-device-width:1024px) {
+.PRO{
+    font-size: 27px;
+    border-top: 5px solid #4B6A77;
+}
+.delevered{
+    font-size: 27px;
+}
+.impact{
+    font-size: 12px;
+}
+.obsessed{
+    font-size: 13px;
+}
+.lasting{
+    font-size: 13px;
+}
+.icon img{
+    width: 50px;
+}
+/* -----------depend on us------------- */
+.dep{
+    font-size:56px;
+    letter-spacing: 3.1px;
+}
+.end{
+    font-size:56px;
+    letter-spacing: 3.1px;
+}
+
+.responsibility{
+    font-size:17px;
+}
+.concept{
+    font-size:20px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+}
+.engineering{
+    font-size:10px;
+    letter-spacing: 0.6px;
+}
+/* --------------contact form---------------- */
+
+.innovation{
+    font-size: 15px;
+}
+.comma{
+    vertical-align: middle;
+    width: 25px;
+}
+.carmel img{
+    width: 350px;
+}
+.results{
+    font-size: 25px;
+}
+.technology{
+    font-size: 8px;
+}
+.placeholder input{
+    font-size: 7px;
+}
+ .website{
+    font-size: 6.5px;
+}
+.carmel_full_logo img{
+    width: 180px;
+   margin-left: 8%;
+}
+.hubli{
+    font-size: 8px;
+}
+.banglore{
+    font-size: 8px;
+}
+
+.submit_btn{
+    width: 30%;
+    font-size: 14px;
+}
+.placeholder img{
+    width: 47px;
+    float: right;
+    clear: right;
+    padding: 0%;
+}
+.erroe_msg{
+    font-size: 7px;
+}
+
+.disruptiveIdeation {
+    font-size: 10px;
+}
+.heading {
+    font-size: 22px;
+}
+.text {
+    font-size: 10px;
+}
+.buttons {
+    width: 35px;
+    height: 35px;
+}
+/* --------------------Media Queries for HR Desk-------------------- */
+
+    .hr {
+        font-size: 23px;
+    }
+    .desk {
+        font-size: 23px;
+    }
+    .hrText {
+        font-size: 7px;
+    }
+    .hrEmail {
+        font-size: 8px;
+    }
+    .join {
+        font-size: 15px;
+    }
+    .joinText {
+        font-size: 9px;
+    }
+    .come {
+        font-size: 15px;
+    }
+    .comeText {
+        font-size: 9px;
+    }
+    .select {
+        font-size: 7px;
+    }
+    .maximum {
+        font-size: 6px;
+    }
+    .browse {
+        font-size: 5px;
+    }
+    .drop {
+        font-size: 7px;
+    }
+    .submit {
+        font-size: 7px;
+    }
+  /* ----------------------cup ------------------------------------- */
+
+  .text1 {
+    font-size: 11px;
+}
+.text2 {
+    font-size: 20px;
+}
+
+
+/* --------------------Media Queries for Strategic Software-------------------- */
+
+    .ourSS {
+        font-size: 9px;
+    }
+    .approachSS {
+        font-size: 9px;
+    }
+    .largeNumber {
+        font-size: 37px;
+    }
+    .smallNumber {
+        font-size: 16px;
+    }
+    .strategic {
+        font-size: 31px;
+    }
+    .future {
+        font-size: 11px;
+    }
+    .strategicSoftwareText {
+        font-size: 10px;
+    }
+    .strategicSoftwareContent {
+        font-size: 7px;
+    }
+}
+@media screen and (max-device-width:1024px) and (min-device-width:769px) {
+    
+   /* ------------------our approach------------------ */
+   
+   .our_approch_our {
+    font-size: 55.5px;
+    border-top: 8px solid #FFFFFF;
+}
+.our_approch_approch {
+    font-size: 55.5px;
+}
+.four {
+    font-size: 14.2px;
+}
+.complete {
+    font-size: 14.2px;
+}
+   
     .our {
         font-size: 13px;
         border-top: 2px solid #32BDD2;
@@ -354,9 +1567,229 @@ margin-left: 10%;
         font-size: 16px;
     }
 
+    /* ----------------------products we delivered---------------------------------- */
+
+    .helped{
+        font-size: 13px;
+        width: 90%;
+    }
+    .PRO{
+        font-size: 36px;
+        border-top: 7px solid #4B6A77;
+    }
+    .delevered{
+        font-size: 36px;
+    }
+    .impact{
+        font-size: 16px;
+    }
+    .obsessed{
+        font-size: 13px;
+    }
+    .lasting{
+        font-size: 13px;
+    }
+    .icon img{
+        width: 62px;
+    }
+    .svg-viewport{
+        margin: auto;
+        margin-top: 10%;
+    }
+    /* -----------depend on us------------- */
+    .dep{
+        font-size:35px;
+        letter-spacing: 3.1px;
+        border-top: 7px solid #FFFFFF;
+    }
+    .end{
+        font-size:36px;
+        letter-spacing: 3.1px;
+    }
+
+    .responsibility{
+        font-size:12px;
+        padding:2% 0;
+    }
+    .we_take{
+        margin-top: 9%;
+        width: 65%;
+    }
+    .concept{
+        font-size:15px;
+    }
+    .launch{
+        margin-top: 10%;
+    }
+    .engineering{
+        font-size:11px;
+        letter-spacing: 0.6px;
+    }
+
+    /* -------------------contact form-------------------- */
+    
+    .innovation{
+        font-size: 15px;
+    }
+    .comma{
+        vertical-align: middle;
+        width: 25px;
+    }
+    .carmel img{
+        width: 450px;
+    }
+    .results{
+        font-size: 33px;
+    }
+    .technology{
+        font-size: 11px;
+    }
+    .placeholder input{
+        font-size: 8px;
+    }
+     .website{
+        font-size: 9px;
+    }
+    .carmel_full_logo img{
+        width: 280px;
+       margin-left: 8%;
+    }
+    .hubli{
+        font-size: 12px;
+    }
+    .banglore{
+        font-size: 12px;
+    }
+
+    .submit_btn{
+        width: 35%;
+        font-size: 12px;
+    }
+    .placeholder img{
+        width: 27px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 10px;
+    }
+
+    .disruptiveIdeation {
+        font-size: 14px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* ----------------------------------------HR DESK------------------------------------------- */
+
+    .hr {
+        font-size: 31px;
+    }
+    .desk {
+        font-size: 31px;
+    }
+    .hrText {
+        font-size: 10px;
+    }
+    .hrEmail {
+        font-size: 11px;
+    }
+    .join {
+        font-size: 20px;
+    }
+    .joinText {
+        font-size: 12px;
+    }
+    .come {
+        font-size: 20px;
+    }
+    .comeText {
+        font-size: 12px;
+    }
+    .select {
+        font-size: 10px;
+    }
+    .maximum {
+        font-size: 9px;
+    }
+    .browse {
+        font-size: 7px;
+    }
+    .drop {
+        font-size: 10px;
+    }
+    .submit {
+        font-size: 9px;
+    }
+
+    /* ----------------------------------------Cup-------------------------------- */
+
+    .text1 {
+        font-size: 14px;
+    }
+    .text2 {
+        font-size: 27px;
+    }
+
+    /* --------------------startegic Software-------------------- */
+
+    .ourSS {
+        font-size: 12px;
+    }
+    .approachSS {
+        font-size: 12px;
+    }
+    .largeNumber {
+        font-size: 49px;
+    }
+    .smallNumber {
+        font-size: 22px;
+    }
+    .strategic {
+        font-size: 41px;
+    }
+    .future {
+        font-size: 15px;
+    }
+    .strategicSoftwareText {
+        font-size: 14px;
+    }
+    .strategicSoftwareContent {
+        font-size: 9px;
+        width: 70%;
+    }
+    .strategicSoftwareSvgContainer {
+        width: 55%;
+    }
 }
 
 @media screen and (max-device-width:1440px) and (min-device-width:1025px) {
+
+    /* -----------our approach---------- */
+
+    .our_approch_our {
+        font-size: 79.5px;
+        border-top: 8px solid #FFFFFF;
+    }
+    .our_approch_approch {
+        font-size: 79.5px;
+    }
+    .four {
+        font-size: 20px;
+    }
+    .complete {
+        font-size: 20px;
+    }
+
     .our {
         font-size: 18px;
         border-top: 4px solid #32BDD2;
@@ -383,9 +1816,219 @@ margin-left: 10%;
     .description_2 {
         font-size: 22px;
     }
+     /* -------------products we delivered -----------------------*/
+     .helped{
+        font-size: 18px;
+    }
+    .PRO{
+        font-size: 51px;
+    }
+    .delevered{
+        font-size: 51px;
+    }
+    .impact{
+        font-size: 23px;
+    }
+    .obsessed{
+        font-size: 22.5px;
+    }
+    .lasting{
+        font-size: 22.5px;
+    }
+    .icon img{
+        width: 75px;
+    }
+    .svg-viewport{
+        margin: auto;
+        margin-top: 10%;
+    }
+    /* -----------depend on us------------- */
+
+    .dep{
+        font-size:51px;
+        letter-spacing: 3.1px;
+    }
+    .end{
+        font-size:51px;
+        letter-spacing: 3.1px;
+    }
+
+    .responsibility{
+        font-size:16px;
+    }
+    .concept{
+        font-size:24px;
+    }
+    .we_take{
+        margin-top: 9%;
+        width: 62%;
+    }
+    .engineering{
+        font-size:15px;
+        letter-spacing: 0.6px;
+    }
+
+    /* ------------contact form---------------  */
+
+    .innovation{
+        font-size: 20px;
+    }
+    .comma{
+        vertical-align: middle;
+        width: 35px;
+    }
+    .carmel img{
+        width: 645px;
+    }
+    .results{
+        font-size: 40px;
+    }
+    .technology{
+        font-size: 16px;
+    }
+    .placeholder input{
+        font-size: 13px;
+    }
+     .website{
+        font-size: 15px;
+    }
+    .carmel_full_logo img{
+        width: 300px;
+       margin-left: 8%;
+    }
+    .hubli{
+        font-size: 16px;
+    }
+    .banglore{
+        font-size: 16px;
+    }
+    
+    .submit_btn{
+        width: 35%;
+        font-size: 14px;
+    }
+    .website{
+        font-size: 12px;
+    }
+    .placeholder img{
+        width: 38px;
+        float: right;
+        clear: right;
+        padding: 0%;
+    }
+    .erroe_msg{
+        font-size: 3px;
+    }
+
+    .disruptiveIdeation {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 42px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .buttons {
+        width: 35px;
+        height: 35px;
+    }
+    /* --------------------------HR DESK-------------------- */
+
+    .hr {
+        font-size: 46px;
+    }
+    .desk {
+        font-size: 46px;
+    }
+    .hrText {
+        font-size: 15px;
+    }
+    .hrEmail {
+        font-size: 17px;
+    }
+    .join {
+        font-size: 28px;
+    }
+    .joinText {
+        font-size: 17px;
+    }
+    .come {
+        font-size: 28px;
+    }
+    .comeText {
+        font-size: 17px;
+    }
+    .select {
+        font-size: 14px;
+    }
+    .maximum {
+        font-size: 13px;
+    }
+    .browse {
+        font-size: 11px;
+    }
+    .drop {
+        font-size: 14px;
+    }
+    .submit {
+        font-size: 13px;
+    }
+
+    /* ------------------------------Cup----------------------------- */
+
+    .text1 {
+        font-size: 20px;
+    }
+    .text2 {
+        font-size: 37px;
+    }
+
+    /* ---------------------strategic Software-------------------- */
+    .ourSS {
+        font-size: 17px;
+    }
+    .approachSS {
+        font-size: 17px;
+    }
+    .largeNumber {
+        font-size: 70px;
+    }
+    .smallNumber {
+        font-size: 30px;
+    }
+    .strategic {
+        font-size: 58px;
+    }
+    .future {
+        font-size: 25px;
+    }
+    .strategicSoftwareText {
+        font-size: 22px;
+    }
+    .strategicSoftwareContent {
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 1921px) {
+
+    /* ---------------------our approch--------------- */
+
+    .our_approch_our {
+        font-size: 79.5px;
+        border-top: 8px solid #FFFFFF;
+    }
+    .our_approch_approch {
+        font-size: 79.5px;
+    }
+    .four {
+        font-size: 20px;
+    }
+    .complete {
+        font-size: 20px;
+    }
+
     .our {
         font-size: 32px;
         border-top: 10px solid #32BDD2;
@@ -412,4 +2055,209 @@ margin-left: 10%;
     .description_2 {
         font-size: 39px;
     }
+    /* -----------------------products we delivered---------------------- */
+
+    .helped{
+        font-size: 32px;
+        width: 90%;
+    }
+    .PRO{
+        font-size: 92px;
+    }
+    .delevered{
+        font-size: 92px;
+    }
+    .impact{
+        font-size: 39px;
+    }
+    .obsessed{
+        font-size: 29px;
+    }
+    .lasting{
+        font-size: 29px;
+    }
+    .icon img{
+        width: 99px;
+    }
+   /* -----------depend on us------------- */
+
+   .dep{
+    font-size:90px;
+    letter-spacing: 3.1px;
+}
+.end{
+    font-size:90px;
+    letter-spacing: 3.1px;
+}
+
+.launch{
+    margin-top: 10%;
+    padding: 5% 5.5%;
+}
+.concept{
+    font-size:42px;
+}
+.we_take{
+    margin-top: 9%;
+    width: 64%;
+}
+.engineering{
+    font-size:28px;
+    letter-spacing: 0.6px;
+}
+
+/* ------------------contact form------------------- */
+.innovation{
+    font-size: 22px;
+}
+.comma{
+    vertical-align: middle;
+    width: 50px;
+}
+.carmel img{
+    width: 745px;
+}
+.results{
+    font-size: 50px;
+}
+.technology{
+    font-size: 20px;
+}
+.placeholder input{
+    font-size: 15px;
+}
+.robot{
+    font-size: 23px;
+}
+.recapita img{
+    width: 50px;
+}
+.privacy{
+    font-size: 10px;
+}
+.reCAPITA{
+    font-size: 23px;
+
+}
+ .website{
+    font-size: 21px;
+        float: left;
+        clear: left;
+}
+.carmel_full_logo img{
+    width: 350px;
+   margin-left: 8%;
+}
+.hubli{
+    font-size: 29px;
+}
+.banglore{
+    font-size: 29px;
+}
+
+.submit_btn{
+    width: 30%;
+    font-size: 22px;
+}
+.placeholder img{
+    width: 47px;
+    float: right;
+    clear: right;
+    padding: 0%;
+}
+.erroe_msg{
+    font-size: 18px;
+}
+
+.disruptiveIdeation {
+    font-size: 36px;
+}
+.heading {
+    font-size: 75px;
+}
+.text {
+    font-size: 36px;
+}
+.buttons {
+    width: 60px;
+    height: 60px;
+}
+
+/* -------------------------------HR DESK------------------- */
+    
+.hr {
+    font-size: 82px;
+}
+.desk {
+    font-size: 82px;
+}
+.hrText {
+    font-size: 28px;
+}
+.hrEmail {
+    font-size: 30px;
+}
+.join {
+    font-size: 51px;
+}
+.joinText {
+    font-size: 30px;
+}
+.come {
+    font-size: 51px;
+}
+.comeText {
+    font-size: 30px;
+}
+.select {
+    font-size: 25px;
+}
+.maximum {
+    font-size: 23px;
+}
+.browse {
+    font-size: 19px;
+}
+.drop {
+    font-size: 25px;
+}
+.submit {
+    font-size: 23px;
+}
+ 
+/* --------------------------------------Cup------------------------ */
+
+.text1 {
+    font-size: 36px;
+}
+.text2 {
+    font-size: 67px;
+}
+
+/* ---------------------------------strategic Software-------------------- */
+
+.ourSS {
+    font-size: 30px;
+}
+.approachSS {
+    font-size: 30px;
+}
+.largeNumber {
+    font-size: 124px;
+}
+.smallNumber {
+    font-size: 55px;
+}
+.strategic {
+    font-size: 104px;
+}
+.future {
+    font-size: 44px;
+}
+.strategicSoftwareText {
+    font-size: 39px;
+}
+.strategicSoftwareContent {
+    font-size: 23px;
+}
 }
