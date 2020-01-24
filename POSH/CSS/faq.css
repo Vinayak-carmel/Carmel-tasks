@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main_container{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 6px #00000029;
+}
+.header{
+    border-bottom: 1px solid #909090;
+    padding: 2%;
+}
+.faq{
+text-align: left;
+font-family: "Anton";
+font-size: 29px;
+letter-spacing: 1.4px;
+color: #000000;
+}
+.explore{
+    float: right;
+    text-align: left;
+    font-family: "Lato";
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-size: 16px;
+    
+}
+.explore img{
+    width: 10px;
+}
+.quesition{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    margin: 2%;
+}
+.meant{
+    text-align: left;
+    font-family: "Lato";
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #505050;
+    padding: 1%;
+}
+.lorem{
+    padding: 1%;
+    text-align: left;
+    font-family: "Lato";
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+.read{
+    text-align: right;
+    padding: 2%;
+    font-family: "Lato";
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #505050;
+    font-weight: bold;
+   
+}
+.footer{
+    display: flex;
+    padding: 2%;
+}
+.left_icon img{
+    width: 13px;
+}
+.right_icon img{
+    width: 13px;
+}
+.number{
+    font-size: 15px;
+    font-family:"Lato";
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    padding: 0 1%;
+}

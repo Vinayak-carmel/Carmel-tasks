@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.policy_header{
+    display: flex;
+    border-bottom: 1px solid #505050;
+    padding: 01%;
+}
+.policy{
+    font-family: "Anton";
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: 1.4px;
+    color: #000000;
+    flex: 1;
+}
+.last{
+    text-align: left;
+    font-family: "Lato";
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #747474;
+}
+.pdf{
+    padding-right: 01%;
+    text-align: left;
+    font-family: "Lato";
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: #747474;
+}
+.download img{
+    width: 40px;
+}
+.policies{
+    padding: 2%;
+}
+.paragraph{
+    text-align: left;
+    font-family: "Lato";
+    font-size: 22px;
+    color: #505050;
+    padding: 0.5%;
+}
+.comment_bar{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+   
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.bar{
+    background-color: #EAF2F4;
+    padding: 3%;
+}
+.profile img{
+    width: 60px;
+    align-content: center;
+    margin-left: auto;
+}
+.profile{
+     align-self: center;
+     
+}
+.comment input{
+    flex: 0;
+    width: 100%;
+   border: 0px;
+   font-size: 20px; 
+   padding: 2.5%;
+   border-top:0.35px  solid #B5B5B5;
+   border-bottom:0.35px  solid #B5B5B5;
+}
+
+.comment{
+    flex: 10;
+ }
+.submit{
+    background-color: #32BDD2;
+    color: #fff;
+    border: #32BDD2;
+    font-size: 18px;
+    padding: 30% 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+   
+}
+.comments{
+    width: 96%;
+    margin: auto;
+}
+.left_part{
+    width: 25%;
+    float: left;
+    clear: left;
+}
+.right_part{
+    width: 75%;
+    float: right;
+    clear: right;
+}

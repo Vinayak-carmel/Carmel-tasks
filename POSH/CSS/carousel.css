@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #FF6262;
+}
+.carousel_left{
+    width: 30%;
+    float: left;
+    clear: left;
+}
+.carousel_right{
+    width: 70%;
+    float: right;
+    clear: right;
+}
+.Harassment_Bullying{
+width: 100%;
+}
+.comma{
+    width: 35%;
+    float: left;
+    clear: left;
+}
+.and{
+    width: 65%;
+    float: right;
+    clear: right;
+    
+}
+.stop{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 165px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+  
+}
+.harassment{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 59px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    border-left: 10px solid #FFFFFF;
+    padding: 2%;
+    width: 45%;
+}
+.Unwelcome{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 29px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+   width: 60%;
+   margin-top: 10%;
+}
