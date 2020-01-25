@@ -10,7 +10,7 @@
 }
 .policy{
     font-family: "Anton";
-    font-size: 25px;
+    font-size: 14px;
     text-align: left;
     letter-spacing: 1.4px;
     color: #000000;
@@ -19,7 +19,7 @@
 .last{
     text-align: left;
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0;
     color: #747474;
 }
@@ -27,7 +27,7 @@
     padding-right: 01%;
     text-align: left;
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0.3px;
     color: #747474;
 }
@@ -40,66 +40,139 @@
 .paragraph{
     text-align: left;
     font-family: "Lato";
-    font-size: 22px;
+    font-size: 14px;
     color: #505050;
     padding: 0.5%;
 }
 .comment_bar{
-    width: 50%;
+    width: 98%;
     margin: auto;
     display: flex;
     align-content: center;
-   
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border:0.35px  solid #B5B5B5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #fff;
 }
 .bar{
     background-color: #EAF2F4;
-    padding: 3%;
+    padding: 2%;
 }
 .profile img{
     width: 60px;
     align-content: center;
     margin-left: auto;
+    padding-top: 2%;
 }
 .profile{
      align-self: center;
      
 }
-.comment input{
-    flex: 0;
-    width: 100%;
+.drop_comment input{
+   flex: 0;
+   width: 100%;
    border: 0px;
-   font-size: 20px; 
-   padding: 2.5%;
-   border-top:0.35px  solid #B5B5B5;
-   border-bottom:0.35px  solid #B5B5B5;
+   font-size: 12px; 
+   padding: 1.6%;
 }
 
-.comment{
+.drop_comment{
     flex: 10;
  }
 .submit{
     background-color: #32BDD2;
     color: #fff;
     border: #32BDD2;
-    font-size: 18px;
-    padding: 30% 50%;
+    font-size: 12px;
+    padding: 26px 47px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    cursor: pointer;
+   
+}
+.comment_section{
+    width: 95%;
+    margin: auto;
    
 }
 .comments{
-    width: 96%;
-    margin: auto;
+  padding: 2.5% 0;
+  overflow: hidden;
 }
 .left_part{
-    width: 25%;
+    width: 10%;
     float: left;
     clear: left;
 }
+.left_part img{
+    width: 100px;
+}
+.thumb img{
+    width: 20px;
+}
 .right_part{
-    width: 75%;
+    width: 90%;
     float: right;
     clear: right;
 }
+.name{
+    text-align: left;
+   font-size: 14px;
+   font-family: "Lato";
+    letter-spacing: 0;
+    color: #505050;
+    padding:.5%;
+}
+.date{
+    text-align: left;
+    font-size: 12px;
+    font-family: "Lato";
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding:.5%;
+}
+.text{
+    text-align: left;
+    font-size: 12px;
+    font-family: "Lato";
+    letter-spacing: 1.1px;
+    color: #747474;
+    padding:.5%;
+}
+.likes{
+    text-align: left;
+    font-size: 10px;
+    font-family: "Lato";
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding:.5%;
+    padding-right: 2%;
+}
+.show_more{
+    width: 95%;
+    margin: auto;
+    background-color: #EEEEEE;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.center{
+    width: 12   %;
+    margin: auto;
+}
+.show{
+    text-align: left;
+    font-size: 12px;
+    font-family: "Lato";
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: bold;
+}
+.down img{
+  width: 12px;
+}
+
+.down{
+    padding-left: 8%;
+  }

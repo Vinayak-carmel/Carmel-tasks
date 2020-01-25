@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.circle_main_container{
+    height: 100vh;
+}
+.header_part{
+    width: 90%;
+    margin: auto;
+}
+.header_left{
+    width: 50%;
+    float: left;
+    clear: left;
+}
+.header_right{
+    width: 50%;
+    float: right;
+    clear: right;
+}
+..header_right img{}
+.our{
+color: #32BDD2;
+font-size: 25px;
+border-top: 3px solid #32BDD2;
+font-family: 'Raleway';
+font-weight: 600;
+padding-right: 0%;
+width: fit-content;
+}
+
+.head_color{
+color: #32BDD2; 
+border-top: 3px solid #32BDD2;
+}
+.head{
+color: #32BDD2; 
+}
+.approch{
+color: #32BDD2;
+font-size: 25px;
+font-family: 'Raleway';
+font-weight: 600;
+
+}
