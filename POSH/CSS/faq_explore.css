@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header_container{
+    width: 98%;
+    display:flex ;
+    align-items: center;
+    padding: 1% 0;
+    margin: auto;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.posh{
+    flex: 25;
+    font-family: 'Anton';
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.profile_pic img{
+    width: 40px;
+}
+
+.profile_pic{
+ flex: .8;
+}
+
+.notification {
+    flex: 1;
+}
+.notification img{
+    width: 40px;
+}
+.lucy{
+    flex: 1.3;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+.down_icon img{
+    width: 13px;
+
+}
+.faq{
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+}
+.explore img{
+    width: 35px;
+}
+.topics{
+    text-align: left;
+    font: Regular 12px/15px Lato;
+    letter-spacing: 0.6px;
+    color: #424242;
+}

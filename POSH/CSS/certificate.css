@@ -1,81 +1,100 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-.main_container{
-    border: 20px solid #000000B2;
-}
-.sub_container{
-   width: 100%;
-   padding: 5%;
-}
-.sub{
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #313131;
+    }
+    .main_container{
+    height: 90vh;
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-color: #E9F0F1;
+    border-top: 130px solid #313131;
+    border-bottom: 130px solid #313131;
+    }
+    .sub_container{
     width: 100%;
- }
-.logo{
-    width: 100%;
-}
-.logo_left_part{
-    width: 10%;
-    float: left;
-}
-.logo_right_part{
-    width: 89%;
-    float: right;
-}
-.logo_left_part img{
-width: 100px;
-}
-.certificate{
-    text-align: left;
-    font-family: "Roboto";
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 2.5px;
-    color: #505050;
-    padding: 1% 1% 1% 0 ;
-}
-.attendance{
-    text-align: left;
-    font-family: "Roboto";
-    font-size: 14px;
-    letter-spacing: 0.7px;
-    color: #505050;
-    padding: 0 1% 4% 0%;
-}
+   
 
-.left_side{
-    text-align: left;
-    font-family: "Roboto";
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    color: #747474;
-    padding-bottom: 23%;
-}
-.right_side{
-    text-align: left;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.8px;
-    color: #747474; 
-    padding-bottom: 2%;
-}
-.padding{
-    padding: 0 2%;
-}
-.padding_bottom{
-    padding-bottom: 2%;
-}
-.left{
-    width: 8%;
-    float:left;
-    clear: left;
-}
-.right{
-    width: 92%;
-    float: right;
-    clear: right;
-}
+    }
+    .sub{
+        width: 100%;
+        margin-left: 7%;
+    }
+    .logo{
+        width: 100%;
+        margin-bottom: 5%;
+        padding-top: 12%;
+        margin-left: 8%;
+    }
+    .logo_left_part{
+        width: 6%;
+        float: left;
+
+    }
+    .logo_right_part{
+        width: 94%;
+        float: right;
+
+    }
+    .logo_left_part img{
+    width: 80px;
+    }
+    .certificate{
+        text-align: left;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        color: #505050;
+        padding: 1% 1% 1% 0 ;
+
+    }
+    .attendance{
+        text-align: left;
+        font-family: 'Roboto';
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        color: #505050;
+        padding: 0% 1% 4% 0%;
+    }
+
+    .left_side{
+        text-align: right;
+        font-family: 'Roboto';
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        color: #747474;
+        margin-bottom: 25%;
+    }
+    .right_side{
+        text-align: left;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.8px;
+        color: #747474; 
+        padding-bottom: 2%;
+    }
+    .padding{
+        padding: 0 2%;
+    }
+    .padding_bottom{
+        padding-bottom: 3%;
+    }
+    .left{
+        width:8%;
+        float:left;
+        clear: left;
+        margin-right: 2%;
+
+    }
+    .right{
+        width: 88%;
+        float: right;
+        clear: right;
+        margin-left: 2%;
+    }
