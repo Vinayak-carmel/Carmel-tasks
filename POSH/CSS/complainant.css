@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header_container{
+    width: 98%;
+    display:flex ;
+    align-items: center;
+    padding: 1% 0;
+    margin: auto;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.posh{
+    flex: 25;
+    font-family: 'Anton';
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.profile_pic img{
+    width: 40px;
+}
+
+.profile_pic{
+ flex: 1;
+}
+
+.notification {
+    flex: 1;
+}
+.notification img{
+    width: 40px;
+}
+.lucy{
+    flex: 1.5;
+    text-align: left;
+    font-size: 12px;
+    font-family: "Roboto";
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+.down_icon img{
+    width: 15px;
+
+}
+.containt_container{
+    width: 100%;
+    display: flex;
+}
+.left_part{
+flex: 0;
+}
+.rotate{
+    height: 20vh;
+    margin-top: 30%;
+}
+.complainant{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    transform: rotateZ(-90deg);
+    padding-right: 5%;
+}
+
+.circle_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+.svg_view_port{
+height: 80vh;
+width: 80%;
+margin-left: auto;   
+}
+
+.right_part{
+flex: 2;
+background-color: #FCFCFC;
+}
+.header{
+    text-align: left;
+    font-size: 14px;
+    font-family:'Lato';
+    letter-spacing: 1.4px;
+    color: #000000;
+    font-weight: bold;
+}

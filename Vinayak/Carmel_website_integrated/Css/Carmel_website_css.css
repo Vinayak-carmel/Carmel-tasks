@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main_container{
-
+width: 100%;
    
 }
 /* our page css start */
@@ -18,7 +18,8 @@
     width: 45%;
     float: left;
     clear: left;
-    margin-right: 5%
+    margin-right: 5%;
+    
 }
 
 .our_approch_right_part {
@@ -26,20 +27,18 @@
     float: right;
     clear: right;
     margin-right: 10%;
+    margin-top: 16%;
 }
-.our_approch_container{
+.left_content{
+    margin-left: 5%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-.left_content{
-margin-left: 10%;
-
-}
 .our_approch_our {
-    width: 30%;
+    width: 38%;
     text-align: left;
-    font-size: 112px;
+    font-size: 108px;
     font-family: 'Raleway';
     letter-spacing: 3.1px;
     color: #FFFFFF;
@@ -50,7 +49,7 @@ margin-left: 10%;
 .our_approch_approch {
     font-weight: 600;
     text-align: left;
-    font-size: 112px;
+    font-size: 108px;
     font-family: 'Raleway';
     letter-spacing: 3.1px;
     color: #FFFFFF;
@@ -60,12 +59,12 @@ margin-left: 10%;
 .four {
     width: 78%;
     text-align: left;
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Raleway';
     letter-spacing: 0;
     color: #FFFFFF;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
+    border-top: 2px solid #7FD2DB;
+    border-bottom: 2px solid #7FD2DB;
     padding: 3% 0;
     font-weight: 600;
     line-height: 1.5;
@@ -85,6 +84,9 @@ margin-left: 10%;
    left: 68%;
 }
 
+line_image{
+    width: 10px;
+}
 /* our page css end */ 
 
 /* --------- circle page-------- */
@@ -185,7 +187,6 @@ margin-left: 10%;
     border-top: 3px solid #fff;
     font-family: 'Raleway';
     font-weight: 600;
-    padding-right: 0%;
     width: fit-content;
 }
 
@@ -275,8 +276,8 @@ margin-left: 10%;
     font-family: 'Raleway';
 }
 .distruptive_ideation_svg{
-    margin-top: 19%;
-    width: 55%;
+    margin-top: 30%;
+    width: 52%;
 }
 .buit_in_svg {
     margin-top: 15%;
@@ -293,8 +294,8 @@ margin-left: 10%;
     font-size: 15px;
     font-family: 'Raleway';
     letter-spacing: 0;
-    color: #1C1C1C;
-    opacity: 0.5;
+    fill: #1C1C1C;
+    font-weight: 400;
 }
 .icon img{
     width: 80px;
@@ -305,13 +306,14 @@ margin-left: 10%;
     font-size:13px;
     font-family: 'Raleway';
     letter-spacing: 0;
-    color: #3D656F;
+    fill: #3D656F;
     opacity: .8;
 }
 /* -------product we delivered------------ */
 .products_main_container {
     width: 100%;
     height: 100vh;
+    background-color: #F8FAFA;
 }
 .products_container{
     margin-top: 10%;
@@ -333,7 +335,8 @@ margin-left: 10%;
     font-size: 23px;
     font-family: 'Raleway';
     line-height: 1.5;
-    width: 70%;
+    letter-spacing: 1.5px;
+    width: 72%;
 }
 
 .number{
@@ -347,7 +350,7 @@ margin-left: 10%;
     color: #4B6A77;
     opacity: 1;
     font-weight: 600;
-    border-top: 10px solid #4B6A77;
+    border-top: 7px solid #4B6A77;
 }
 .delevered{
     text-align: left;
@@ -372,7 +375,6 @@ margin-left: 10%;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
-    opacity: 1;
     font-family: 'Raleway';
     font-weight: 600;
 }
@@ -380,7 +382,7 @@ margin-left: 10%;
     color: #4B6A77;
     font-size: 26px;
     text-align: left;
-    opacity: 1;
+    letter-spacing: 1.5px;
     font-family: 'Raleway'; 
     margin-top: 2%;
 }
@@ -388,7 +390,7 @@ margin-left: 10%;
     color: #4B6A77;
     font-size: 26px;
     text-align: left;
-    opacity: 1;
+    letter-spacing: 1.5px;
     font-family: 'Raleway'; 
 }
 .svg-viewport{
@@ -406,6 +408,7 @@ margin-left: 10%;
     width: 100%;
     height: 100vh;
     background-color: #32BDD2;
+    position: relative;
 }
 .depend_on_us_left_part{
     width: 40%;
@@ -414,26 +417,26 @@ margin-left: 10%;
  
 }
 .depend_on_us_right_part{
-    width: 60%;
+    width: 50%;
     float: right;
     clear: right;
-    padding-left: 5%;
-    padding-right: 5%;
+   margin-left: 10%;
 }
 .depend_on_us_container{
-   margin-left: 13%;
-   margin-top: 25%;
+   margin-left: 5%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .dep{
     text-align: left;
     font-size:69px;
     font-family: 'Raleway';
-    letter-spacing: 3.1px;
     color: #FFFFFF;
     opacity: 1;
     font-weight: 600;
-    border-top: 10px solid #FFFFFF;
+    border-top: 7px solid #FFFFFF;
 }
 .end{
     font-weight: 600;
@@ -447,7 +450,7 @@ margin-left: 10%;
 }
 .we_take{
     margin-top: 9%;
-    width: 66%;
+    width: 64%;
 }
 .responsibility{
     text-align: left;
@@ -455,9 +458,10 @@ margin-left: 10%;
     font-family: 'Raleway';
     letter-spacing: 0;
     color: #FFFFFF;
-    opacity: 1;
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
+    letter-spacing: .8px;
+    line-height: 1.3;
+    border-top: 1px solid #7FD2DB;
+    border-bottom: 1px solid #7FD2DB;
     padding:4% 0;
 }
 
@@ -473,9 +477,8 @@ margin-left: 10%;
     text-align: center;
     font-size:32px;
     font-family: 'Raleway';
-    letter-spacing: 2px;
     color: #1C1C1C;
-    opacity: 1;
+    letter-spacing: 1.5px;
     font-weight: 600;
     padding-bottom: 4%;
 }
@@ -488,9 +491,8 @@ margin-left: 10%;
     opacity: 1;
 }
 .depend_on_us_svg_viewport{
-  width: 70%;
-  margin: auto;
-  margin-top: 16%;
+  width: 97%;
+  padding-left: 15%;
 }
 /* ---------contact form----------  */
 
@@ -563,7 +565,7 @@ margin-left: 10%;
         padding-top: 3%;
         font-family: 'Italianno';
         font-size: 50px;
-        letter-spacing: 3px;
+        letter-spacing: 1.5px;
         color: #747474;
     }
     .technology{
@@ -574,6 +576,7 @@ margin-left: 10%;
         font-family:'Raleway';
         color: #505050;
         font-weight: bold;
+        letter-spacing: 1px;
     }
     .input{
         margin-left: 8%;
@@ -623,11 +626,13 @@ margin-left: 10%;
       margin-top: 2.5%;
     }
     .recapita_container{
-        width: 35%;
-        margin-left: 27%;
-        margin-top: 4%;
+ 
+        padding: 4%;
     }
-    
+    .btn{
+        width: 10%;
+        margin: auto;
+    }
      .website{
         font-family:'Raleway';
         font-size: 17px;
@@ -685,9 +690,8 @@ margin-left: 10%;
     
     .submit_btn{
         margin-top: 4%;
-        padding: 1% 1%;
+        padding: 10px 50px;
         width: 30%;
-        text-align: center;
         font-family:'Raleway';
         font-size: 18px;
         letter-spacing: 1.4px;
@@ -940,7 +944,7 @@ margin-left: 10%;
     }
     
     .hrDesk {
-        padding-top: 87%;
+        padding-top: 84%;
     }
     
     .hr {
@@ -1003,7 +1007,7 @@ margin-left: 10%;
         font-size: 22px;
         font-weight: 400;
         padding-bottom: 3%;
-        letter-spacing: 1px;
+        letter-spacing: .5px;
     }
     
     .textBackground {
@@ -1066,7 +1070,7 @@ margin-left: 10%;
         background-color: #32BDD2;
         font-weight: 500;
         border-radius: 5%;
-        padding: 2% 3%;
+        padding: 3% 4%;
         color: #FFFFFF;
         border: 0;
         letter-spacing: 1px;
@@ -1300,6 +1304,7 @@ margin-left: 10%;
     font-size: 16px;
     font-weight: 400;
     color: #505050;
+    letter-spacing: 1px;
     background-color: #B8D5DD;
 }
 
@@ -1598,7 +1603,13 @@ margin-left: 10%;
 @media screen and (max-device-width:1024px) and (min-device-width:769px) {
     
    /* ------------------our approach------------------ */
-   
+   .our_approch_right_part {
+    width: 40%;
+    float: right;
+    clear: right;
+    margin-right: 10%;
+    margin-top: 30%;
+}
    .our_approch_our {
     font-size: 55.5px;
     border-top: 8px solid #FFFFFF;
@@ -1664,7 +1675,7 @@ margin-left: 10%;
         font-size: 13px;
     }
     .icon img{
-        width: 62px;
+        width: 42px;
     }
     .svg-viewport{
         margin: auto;
@@ -1685,10 +1696,6 @@ margin-left: 10%;
         font-size:12px;
         padding:2% 0;
     }
-    .we_take{
-        margin-top: 9%;
-        width: 65%;
-    }
     .concept{
         font-size:15px;
     }
@@ -1703,14 +1710,14 @@ margin-left: 10%;
     /* -------------------contact form-------------------- */
     
     .innovation{
-        font-size: 15px;
+        font-size: 12px;
     }
     .comma{
         vertical-align: middle;
-        width: 25px;
+        width: 35px;
     }
     .carmel img{
-        width: 450px;
+        width: 420px;
     }
     .results{
         font-size: 33px;
@@ -1719,14 +1726,13 @@ margin-left: 10%;
         font-size: 11px;
     }
     .placeholder input{
-        font-size: 8px;
+        font-size: 13px;
     }
      .website{
         font-size: 9px;
     }
     .carmel_full_logo img{
-        width: 280px;
-       margin-left: 8%;
+        width: 200px;
     }
     .hubli{
         font-size: 12px;
@@ -1790,7 +1796,7 @@ margin-left: 10%;
         font-size: 12px;
     }
     .select {
-        font-size: 10px;
+        font-size: 11px;
     }
     .maximum {
         font-size: 9px;
@@ -1883,7 +1889,6 @@ font-size: 14px;
 
     .our {
         font-size: 18px;
-        border-top: 4px solid #32BDD2;
     }
     .approch {
         font-size: 18px;
@@ -1902,14 +1907,14 @@ font-size: 14px;
         font-size: 24px;
     }
     .description_1 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .description_2 {
-        font-size: 22px;
+        font-size: 20px;
     }
      /* -------------products we delivered -----------------------*/
      .helped{
-        font-size: 18px;
+        font-size: 16px;
     }
     .PRO{
         font-size: 51px;
@@ -1921,23 +1926,22 @@ font-size: 14px;
         font-size: 23px;
     }
     .obsessed{
-        font-size: 22.5px;
+        font-size: 16px;
     }
     .lasting{
-        font-size: 22.5px;
+        font-size: 16px;
     }
     .icon img{
-        width: 75px;
+        width: 55px;
     }
     .svg-viewport{
         margin: auto;
-        margin-top: 10%;
+        margin-top: 14%;
     }
     /* -----------depend on us------------- */
 
     .dep{
         font-size:51px;
-        letter-spacing: 3.1px;
     }
     .end{
         font-size:51px;
@@ -1945,7 +1949,7 @@ font-size: 14px;
     }
 
     .responsibility{
-        font-size:16px;
+        font-size:14px;
     }
     .concept{
         font-size:24px;
@@ -1955,24 +1959,24 @@ font-size: 14px;
         width: 62%;
     }
     .engineering{
-        font-size:15px;
+        font-size:14px;
         letter-spacing: 0.6px;
     }
 
     /* ------------contact form---------------  */
 
     .innovation{
-        font-size: 20px;
+        font-size: 15px;
     }
     .comma{
         vertical-align: middle;
         width: 35px;
     }
     .carmel img{
-        width: 645px;
+        width: 550px;
     }
     .results{
-        font-size: 40px;
+        font-size: 42px;
     }
     .technology{
         font-size: 16px;
@@ -1984,8 +1988,7 @@ font-size: 14px;
         font-size: 15px;
     }
     .carmel_full_logo img{
-        width: 300px;
-       margin-left: 8%;
+        width: 260px;
     }
     .hubli{
         font-size: 16px;
@@ -2018,11 +2021,11 @@ font-size: 14px;
         font-size: 42px;
     }
     .text {
-        font-size: 20px;
+        font-size: 18px;
     }
     .buttons {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
     /* --------------------------HR DESK-------------------- */
 
@@ -2042,7 +2045,7 @@ font-size: 14px;
         font-size: 28px;
     }
     .joinText {
-        font-size: 17px;
+        font-size: 15px;
     }
     .come {
         font-size: 28px;
@@ -2054,7 +2057,7 @@ font-size: 14px;
         font-size: 14px;
     }
     .maximum {
-        font-size: 13px;
+        font-size: 12px;
     }
     .browse {
         font-size: 11px;
@@ -2098,7 +2101,7 @@ font-size: 14px;
         font-size: 22px;
     }
     .strategicSoftwareContent {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     /* ------------------------------under develop----------------- */
@@ -2192,7 +2195,6 @@ font-size: 14px;
 
    .dep{
     font-size:90px;
-    letter-spacing: 3.1px;
 }
 .end{
     font-size:90px;

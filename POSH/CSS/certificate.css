@@ -7,36 +7,33 @@
         background-color: #313131;
     }
     .main_container{
-    height: 90vh;
-    position: relative;
-    width: 85%;
+    height: 60vh;
+    width: 80%;
     margin: auto;
     background-color: #E9F0F1;
-    border-top: 130px solid #313131;
-    border-bottom: 130px solid #313131;
+   
     }
     .sub_container{
     width: 100%;
-   
-
+    margin: 14% 0;
     }
     .sub{
-        width: 100%;
-        margin-left: 7%;
+        width: 77%;
+        margin: auto;
+        padding-top: 12%;
     }
     .logo{
-        width: 100%;
-        margin-bottom: 5%;
-        padding-top: 12%;
-        margin-left: 8%;
+        width: 80%;
+        margin: auto;
+        padding-top: 7%;
     }
     .logo_left_part{
-        width: 6%;
+        width: 10%;
         float: left;
 
     }
     .logo_right_part{
-        width: 94%;
+        width: 90%;
         float: right;
 
     }
@@ -59,7 +56,6 @@
         font-size: 14px;
         letter-spacing: 0.7px;
         color: #505050;
-        padding: 0% 1% 4% 0%;
     }
 
     .left_side{

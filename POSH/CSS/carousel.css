@@ -4,27 +4,31 @@
     box-sizing: border-box;
     background-color: #FF6262;
 }
+.parent{
+    padding: 3%;
+}
 .carousel_left{
-    width: 30%;
+    width: 40%;
     float: left;
     clear: left;
 }
 .carousel_right{
-    width: 70%;
+    width: 50%;
     float: right;
     clear: right;
+    margin: auto;
 }
 .Harassment_Bullying{
 width: 100%;
-margin-bottom: 20%;
+margin-bottom: 19%;
 }
 .comma{
-    width: 35%;
+    width: 44%;
     float: left;
     clear: left;
 }
 .and{
-    width: 65%;
+    width: 56%;
     float: right;
     clear: right;
     
@@ -32,27 +36,46 @@ margin-bottom: 20%;
 .stop{
     text-align: left;
     font-family: 'Roboto';
-    font-size: 165px;
+    font-size: 88px;
+    font-weight:bold;
     letter-spacing: 0;
     color: #FFFFFF;
+    padding: 2%;
   
 }
 .harassment{
     text-align: left;
     font-family: 'Roboto';
-    font-size: 59px;
+    font-size: 31px;
     letter-spacing: 0;
     color: #FFFFFF;
-    border-left: 10px solid #FFFFFF;
+    border-left: 6px solid #FFFFFF;
     padding: 2%;
-    width: 45%;
+    width: 50%;
 }
 .Unwelcome{
     text-align: left;
     font-family: 'Roboto';
-    font-size: 29px;
+    font-size: 16px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
-   width: 60%;
-   margin-top: 10%;
+    width: 80%;
+    line-height: 1.5;
+}
+.page_select img{
+  width: 10px;
+}
+
+.page_select{
+    width: 20%;
+    float: right;
+    margin: auto;padding-top: 7%;
+}
+.page_no{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #DBC5C5;
 }
