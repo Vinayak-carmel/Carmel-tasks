@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 .header_container{
-    width: 98%;
-    display:flex ;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     padding: 1% 0;
-    margin: auto;
+    box-shadow: 0px 0px 4px #212121;
 }
 
 .posh{
@@ -17,6 +18,7 @@
     font-size: 30px;
     letter-spacing: 1.1px;
     color: #000000;
+    padding-left: 1%;
 }
 
 .profile_pic img{
@@ -25,23 +27,145 @@
 
 .profile_pic{
  flex: 1;
+ justify-content: center;
 }
 
 .notification {
     flex: 1;
+    justify-content: center;
 }
 .notification img{
     width: 40px;
 }
 .lucy{
     flex: 1.5;
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     font-family: "Roboto";
     letter-spacing: 0.9px;
     color: #595959;
 }
-.down_icon img{
-    width: 15px;
-
+.down_icon{
+   flex: 1;
+   text-align: center;
 }
+.down_icon img{
+    width: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .posh{
+        font-size: 15px;
+    }
+    
+    .profile_pic img{
+        width: 25px;
+    }
+    
+    .profile_pic{
+     flex: 2;
+    }
+    
+    .notification {
+        flex: 2;
+    }
+    .notification img{
+        width: 25px;
+    }
+    .lucy{
+        flex: 3;
+        font-size: 10px;
+    }
+    .down_icon img{
+        width: 10px;
+    }
+    
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .posh{
+        font-size: 24px;
+    }
+    
+    .profile_pic img{
+        width: 40px;
+    }
+    
+    .profile_pic{
+     flex: 2;
+    }
+    
+    .notification {
+        flex: 2;
+    }
+    .notification img{
+        width: 40px;
+    }
+    .lucy{
+        flex: 2.7;
+        font-size: 12px;
+    }
+    .down_icon img{
+        width: 12px;
+    }
+
+    .down_icon{
+        flex: 2;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .posh{
+        font-size: 27px;
+    }
+    
+    .profile_pic img{
+        width: 42px;
+    }
+    
+    .profile_pic{
+     flex: 1;
+    }
+    
+    .notification {
+        flex: 1;
+    }
+    .notification img{
+        width: 42px;
+    }
+    .lucy{
+        flex: 2.5;
+        font-size: 15px;
+    }
+    .down_icon img{
+        width: 15px;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .posh{
+        font-size: 50px;
+    }
+    
+    .profile_pic img{
+        width: 63px;
+    }
+    
+    .profile_pic{
+     flex: 1;
+    }
+    
+    .notification {
+        flex: 1;
+    }
+    .notification img{
+        width: 63px;
+    }
+    .lucy{
+        flex: 2.5;
+        font-size: 25px;
+    }
+    .down_icon img{
+        width: 21px;
+    }
+}
+

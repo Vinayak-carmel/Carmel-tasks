@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #FCFCFC;
+}
+
+
+.heading{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #B5B5B5;
+}
+.ack{
+    font-weight: bold;
+    color: #505050;
+    padding-top: 1%;
+}
+.lorem{
+    color: #505050;
+    padding-top: 1%;
+}
+.links{
+    padding-top: 1%;
+}
+.print{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    border-bottom: 1px solid #505050;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 1%;
+}
