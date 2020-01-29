@@ -68,7 +68,9 @@
     background-color: #F6F8F9;
     padding: 2%;
 }
-
+.video{
+    padding: 3% 0;
+}
 .faq {
     text-align: left;
     font-size: 12px;

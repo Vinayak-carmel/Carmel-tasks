@@ -53,7 +53,112 @@ width: 40px;
     width: 12px;
     height: 12px;
 }
+.complaints{
+    text-align: left;
+   font-family: 'Anton';
+   font-size: 16px;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+.first_row{
+    padding: 1.5%;
+    border-bottom: 1px solid #000000;
+}
 
+.items{
+    width: 100%;
+}
+.first_colom{
+    width: 34%;
+    float: left;
+}
+.second_colom{
+    width: 33%;
+    float: left;
+}
+.third_colom{ 
+    width: 33%;
+    float: left;
+}
+.tmp{
+    text-align: left;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    color: #595959;
+}
+.respondent{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+.nishant{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+.address{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #4C5264;
+    width: 60%;
+    padding-bottom: 2%;
+}
+.seen{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+.date{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.delete_section{}
+.left{
+    width: 15%;
+    float: left;
+    clear: left;
+}
+
+.right{
+    width: 85%;
+    clear: right;
+    float: right;
+}
+.delete_section img{
+    width: 55px;
+}
+.delete{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+.draft_btn{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: #D0C824 ;
+    border-radius: 26px;
+    padding: 2% 5%;
+    border: 1px solid #D0C824 ;
+    
+}
 @media only screen and (max-width: 768px) {
     .posh{
         font-size: 15px;

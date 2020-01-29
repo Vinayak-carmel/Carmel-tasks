@@ -1,96 +1,72 @@
-    *{
-        padding: 0%;
-        margin: 0%;
-        box-sizing: border-box;
-    }
-    body{
-        background-color: #313131;
-    }
-    .main_container{
-    height: 60vh;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.left_part{
+ width: 20%;
+ float: left;
+}
+.right_part{
     width: 80%;
-    margin: auto;
-    background-color: #E9F0F1;
-   
-    }
-    .sub_container{
-    width: 100%;
-    margin: 14% 0;
-    }
-    .sub{
-        width: 77%;
-        margin: auto;
-        padding-top: 12%;
-    }
-    .logo{
-        width: 80%;
-        margin: auto;
-        padding-top: 7%;
-    }
-    .logo_left_part{
-        width: 10%;
-        float: left;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    display: block;
+    margin-left: auto;
 
-    }
-    .logo_right_part{
-        width: 90%;
-        float: right;
+    width: 100px;
+    height: 100px;
+}
+.title{
+    padding: 1% 0 0 2%;
+}
+.cirtificate{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #505050;
+}
+.attendance{
+    padding-top:1%;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #505050;
+}
 
-    }
-    .logo_left_part img{
-    width: 80px;
-    }
-    .certificate{
-        text-align: left;
-        font-family: 'Roboto';
-        font-size: 25px;
-        font-weight: bold;
-        letter-spacing: 2.5px;
-        color: #505050;
-        padding: 1% 1% 1% 0 ;
+.naming_senction{
+width: 20%;
+float: left;
+margin-right: auto;
+}
+.participation{
+    width: 78%;
+    float: right;
+}
 
-    }
-    .attendance{
-        text-align: left;
-        font-family: 'Roboto';
-        font-size: 14px;
-        letter-spacing: 0.7px;
-        color: #505050;
-    }
+.left_senction{
+    text-align: right;
+}
 
-    .left_side{
-        text-align: right;
-        font-family: 'Roboto';
-        font-size: 16px;
-        letter-spacing: 0.8px;
-        color: #747474;
-        margin-bottom: 25%;
-    }
-    .right_side{
-        text-align: left;
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 0.8px;
-        color: #747474; 
-        padding-bottom: 2%;
-    }
-    .padding{
-        padding: 0 2%;
-    }
-    .padding_bottom{
-        padding-bottom: 3%;
-    }
-    .left{
-        width:8%;
-        float:left;
-        clear: left;
-        margin-right: 2%;
+.name{
+    font-size: 16px;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #747474;
 
-    }
-    .right{
-        width: 88%;
-        float: right;
-        clear: right;
-        margin-left: 2%;
-    }
+}
+
+.person{
+    font-size: 16px;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #505050;
+    font-weight: 500;
+
+}
