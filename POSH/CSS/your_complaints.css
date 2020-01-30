@@ -53,6 +53,14 @@ width: 40px;
     width: 12px;
     height: 12px;
 }
+.container{
+    background-color: #F6F8F9;
+    padding: 02% 02% 3%;
+}
+.containt_background{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000029;
+}
 .complaints{
     text-align: left;
    font-family: 'Anton';
@@ -62,29 +70,51 @@ width: 40px;
 }
 .first_row{
     padding: 1.5%;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .items{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2% 8% 2.5% 4%;
 }
+
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+    padding: 2% 8% 2.5% 4%;
+}
+
 .first_colom{
-    width: 34%;
-    float: left;
+    /* width: 34%;
+    float: left; */
+    
 }
 .second_colom{
-    width: 33%;
-    float: left;
+    /* width: 33%;
+    float: left; */
+  
+
 }
 .third_colom{ 
-    width: 33%;
-    float: left;
+    /* width: 33%;
+    float: left; */
+   
 }
 .tmp{
     text-align: left;
-    padding-bottom: 3%;
+    font-family: 'Lato';
+    padding-bottom: 4%;
+    font-size: 18px;
     letter-spacing: 1.4px;
     color: #595959;
+    font-weight: bold;
 }
 .respondent{
     text-align: left;
@@ -106,8 +136,8 @@ width: 40px;
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #4C5264;
-    width: 60%;
-    padding-bottom: 2%;
+    width: 90%;
+    padding: 3% 0%;
 }
 .seen{
     text-align: left;
@@ -125,7 +155,7 @@ width: 40px;
     font-weight: bold;
     padding-bottom: 2%;
 }
-.delete_section{}
+
 .left{
     width: 15%;
     float: left;
@@ -136,6 +166,7 @@ width: 40px;
     width: 85%;
     clear: right;
     float: right;
+    padding-top: 2.5%;
 }
 .delete_section img{
     width: 55px;
@@ -148,18 +179,43 @@ width: 40px;
     color: #747474;
 }
 .draft_btn{
-    text-align: center;
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #FFFFFF;
     background: #D0C824 ;
     border-radius: 26px;
-    padding: 2% 5%;
+    padding: 15px 50px;
     border: 1px solid #D0C824 ;
-    
+}
+.review_btn{
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: #D05224 ;
+    border-radius: 26px;
+    padding: 15px 15px;
+    border: 1px solid #D05224 ;
+}
+.submit_on{
+    padding-top: 4%;
+}
+
+.second_colom img{
+    width: 60px;
+    height: 60px;
 }
 @media only screen and (max-width: 768px) {
+
+    .left_section{
+        width: 78%;
+        float: left;
+    }
+    .right_section{
+        width: 22%;
+        float: right;
+    }
     .posh{
         font-size: 15px;
     }
@@ -177,9 +233,71 @@ width: 40px;
         width: 10px;
     }
     
+    .complaints{
+       font-size: 12px;
+    }
+    
+    .first_colom{
+    
+        
+    }
+    .second_colom{
+
+        padding-right: 17%;
+    }
+    .third_colom{ 
+
+       
+    }
+    .tmp{
+        font-size: 12px;
+    }
+    .respondent{
+        font-size: 10px;
+    }
+    .nishant{
+        font-size: 12px;
+    }
+    .address{
+        font-size: 10px;
+        width: 60%;
+    }
+    .seen{
+        font-size: 10px;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .delete_section img{
+        width: 40px;
+    }
+    .delete{
+        font-size: 10px;
+    }
+    .draft_btn{
+        font-size: 10px;
+        padding: 9px 39px;
+    }
+    .review_btn{
+        font-size: 10px;
+        padding: 9px 12px;
+    }
+    
+    .second_colom img{
+        width: 40px;
+        height: 40px;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
+    .left_section{
+        width: 78%;
+        float: left;
+    }
+    .right_section{
+        width: 22%;
+        float: right;
+    }
     .posh{
         font-size: 24px;
     }
@@ -197,12 +315,80 @@ width: 40px;
     .down_icon img{
         width: 12px;
     }
-
+   
+    .address{
+        width: 80%;
+    }
+      
     .down_icon{
         flex: 2;
     }
+
+    .complaints{
+        font-size: 14px;
+     }
+     
+     .first_colom{
+     
+         
+     }
+     .second_colom{
+ 
+         padding-right: 17%;
+     }
+     .third_colom{ 
+ 
+        
+     }
+     .tmp{
+         font-size: 14px;
+     }
+     .respondent{
+         font-size: 12px;
+     }
+     .nishant{
+         font-size: 14px;
+     }
+     .address{
+         font-size: 12px;
+         width: 60%;
+     }
+     .seen{
+         font-size: 12px;
+     }
+     .date{
+         font-size: 14px;
+     }
+     .delete_section img{
+         width: 50px;
+         height: 50px;
+     }
+     .delete{
+         font-size: 12px;
+     }
+     .draft_btn{
+         font-size: 12px;
+         padding: 9px 39px;
+     }
+     .review_btn{
+         font-size: 12px;
+         padding: 9px 12px;
+     }
+     
+     .second_colom img{
+         width: 50px;
+         height: 50px;
+     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .left_section{
+        width: 82%;
+        float: left;
+    }
+    .right_section{
+        width: 18%;
+        float: right;
+    }
     .posh{
         font-size: 27px;
     }
@@ -221,6 +407,61 @@ width: 40px;
     .down_icon img{
         width: 15px;
     }
+
+    .complaints{
+        font-size: 18px;
+     }
+     
+     .first_colom{
+     
+         
+     }
+     .second_colom{
+         padding-right: 17%;
+     }
+     .third_colom{ 
+ 
+        
+     }
+     .tmp{
+         font-size: 16px;
+     }
+     .respondent{
+         font-size: 14px;
+     }
+     .nishant{
+         font-size: 16px;
+     }
+     .address{
+         font-size: 14px;
+         width: 60%;
+     }
+     .seen{
+         font-size: 14px;
+     }
+     .date{
+         font-size: 16px;
+     }
+     .delete_section img{
+         width: 50px;
+         height: 50px;
+     }
+     .delete{
+         font-size: 14px;
+     }
+     .draft_btn{
+         font-size: 14px;
+         padding: 11px 41px;
+     }
+     .review_btn{
+         font-size: 14px;
+         padding: 11px 14px;
+     }
+     
+     .second_colom img{
+         width: 40px;
+         height: 40px;
+     }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
@@ -229,18 +470,78 @@ width: 40px;
     }
     
     .profile_pic img{
-        width: 63px;
+        width: 70px;
     }
     
     .notification img{
-        width: 63px;
+        width: 70px;
     }
     .lucy{
-  
-        font-size: 25px;
+        font-size: 28px;
     }
-    .down_icon img{
-        width: 21px;
+    .down_icon{
+        width: 20px;
+        height: 20px;
     }
+
+    .complaints{
+        font-size: 32px;
+     }
+     .dropdown {
+        padding-right: 2%;
+    }
+     .first_colom{
+     
+         
+     }
+     .second_colom{
+ 
+         padding-right: 17%;
+     }
+     .third_colom{ 
+ 
+        
+     }
+     .tmp{
+         font-size: 28px;
+     }
+     .respondent{
+         font-size: 22px;
+     }
+     .nishant{
+         font-size: 28px;
+     }
+     .address{
+         font-size: 22px;
+         width: 60%;
+     }
+     .seen{
+         font-size: 22px;
+     }
+     .date{
+         font-size: 28px;
+     }
+     .delete_section img{
+         width: 75px;
+        height: 75px;
+     }
+     .delete{
+         font-size: 22px;
+     }
+     .draft_btn{
+         font-size: 22px;
+         padding: 20px 73px;
+         border-radius: 46px;
+     }
+     .review_btn{
+         font-size: 22px;
+         padding: 20px 29px;
+         border-radius: 46px;
+     }
+     
+     .second_colom img{
+         width: 75px;
+         height: 75px;
+     }
 }
 

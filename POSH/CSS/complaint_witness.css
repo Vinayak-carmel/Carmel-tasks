@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.witness_top{
+    width: 6%;
+    padding: 1%;
+    background: #F3F5B3;
+    border-top-left-radius: 20px;
+}
+.witness{
+    background: #F3F5B3;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+}
+
+.description{
+    background: #FBFCE7;
+    padding: 2%;
+}
+.lorem{
+    width: 86%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.customer{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+.bold{
+    font-weight: bold;
+}
+
+.first_witness{
+    border-bottom: 1px solid #F3F5B3;
+    padding: 02%;
+}
+.append_witness{
+    background: #FBFCE7 ;
+}
+.plus_icon{
+    width: 20px;
+}
+.dropdown{
+    width: 10px;
+}
