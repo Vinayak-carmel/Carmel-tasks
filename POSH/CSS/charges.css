@@ -1,0 +1,715 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header_container{
+    width: 100%;
+    box-shadow: 0px 0px 4px #212121;
+    padding: 01%;
+}
+.left_section{
+    width: 85%;
+    float: left;
+}
+.right_section{
+    width: 15%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.posh{
+    font-family: 'Anton';
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.profile_pic img{
+    width: 40px;
+}
+.containt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.notification img {
+width: 40px;
+
+}
+.dropdown{
+    padding-right: 5%;
+}
+.lucy{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto";
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+
+.down_icon{
+    width: 12px;
+    height: 12px;
+}
+
+.container{
+    background-color: #F6F8F9;
+    padding: 02% 02% 3%;
+}
+
+.under_riview{
+height: 273px;
+border: 1px solid #CCCCCC;
+margin: 2% 0;
+}
+
+.containt_background{
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000029;
+    padding: 0% 7.47% 0 7.66%;
+}
+
+.return_container{
+    padding: 4.15% 89.15% 2.15% 0%;
+   
+}
+
+.return{
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 0px 8px #00000029;
+    border-radius: 42px;
+    background-color: #fff;
+}
+
+.charges_container{
+    border: 1px solid #CCCCCC;
+    padding: 1.78% 8.25% 2.022% 12.62%;
+    position: relative;
+}
+
+
+.white_space{
+    height: 900px;
+}
+
+
+.charges{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+    padding: 1.5% 0;
+}
+
+.lorem_text{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+   
+    line-height: 1.7;
+} 
+
+.lorem{    
+padding-top: 3%;
+}
+
+.may{
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #747474;
+}
+
+.heading{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #464646;
+    font-weight: bold;
+    padding: 4% 0 2% 0;
+}
+
+.append_charges{
+    padding: 04% 0;
+}
+
+.append{
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    vertical-align: middle;
+    padding: 0% 1% .5%;
+}
+
+.pluse_icon{
+        width: 42px;
+        height: 42px;
+        vertical-align: middle;
+}
+
+.error_msg{
+   background: #F0F0F0;
+   border-radius: 50px;
+   padding: 01% 02%;
+   margin-top: 2%;
+   width: 35%;
+}
+
+.error_icon{
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+
+.msg{
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.evidence_section{
+    padding: 2% 0 1% 0%;
+}
+
+
+.evidence_container{
+    padding: 1% 2%;
+    background-color: #FBFCE7;
+    border: 1px solid #F3F5B3;
+}
+
+
+.append_container{
+    padding: 1% 2%;
+    background-color: #FBFCE7;
+}
+
+.drop_down{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.evidence_description{
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.evidence{
+    width: 12%;
+    background: #F3F5B3;
+    border-top-left-radius: 20px;
+    padding: 1%;
+}
+
+
+.task_container{
+    width: 6.79%;
+    margin-right: auto;
+    background-color: #32BDD2;
+    border: 1px solid #D6D4E0;
+    border-radius: 50px;
+    position:absolute;
+    left: 0%;
+    top: 1.78%;
+    transform: translateX(-50%);
+}
+
+.mail img{
+    display: block;
+    margin:auto;
+    width: 55px;
+    height: 55px;
+}
+
+.mail_mail img{
+    display: block;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+}
+
+.mail{
+    padding: 43% 0;
+}
+.mail_mail{
+    padding: 43% 0;
+}
+
+.home img{
+    display: block;
+    margin:auto;
+    width: 55px;
+    height: 55px;
+}
+.home{
+    padding: 10% 0 0 5%;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #3B3B3B29;
+    border-radius: 200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .left_section{
+        width: 78%;
+        float: left;
+    }
+    .right_section{
+        width: 22%;
+        float: right;
+    }
+    .posh{
+        font-size: 15px;
+    }
+    .profile_pic img{
+        width: 25px;
+    }
+
+    .notification img{
+        width: 25px;
+    }
+    .lucy{
+        font-size: 10px;
+    }
+    .down_icon img{
+        width: 10px;
+    }
+    
+
+    .mail img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .mail_mail img{
+        width: 17px;
+        height: 17px;
+    }
+    
+    
+    .home img{
+        width: 20px;
+        height: 20px;
+    }
+    .home{
+        padding-top: 10%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .return{
+        width: 24px;
+        height: 24px;
+    }
+
+    .charges{
+        font-size: 10px;
+    }
+    
+    .lorem_text{
+        font-size: 10px;
+    } 
+    
+    .may{
+        font-size: 8px;
+    }
+    
+    .heading{
+        font-size: 10px;
+    }
+    
+    .append{
+        font-size: 8px;
+    }
+    
+    .pluse_icon{
+            width: 19px;
+            height: 19px;
+    }
+    
+    .evidence{
+        border-top-left-radius:8px;
+    }
+
+    .error_msg{
+       border-radius: 50px;
+    }
+    
+    .error_icon{    
+        width: 10px;
+        height: 9px;
+    }
+    
+    .msg{
+        font-size: 8px;
+    }
+
+    .drop_down{
+        width: 5px;
+        height: 5px;
+    }
+    
+    .evidence_description{
+        font-size: 8px;
+    }
+    
+    
+    
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .left_section{
+        width: 78%;
+        float: left;
+    }
+    .right_section{
+        width: 22%;
+        float: right;
+    }
+    .posh{
+        font-size: 24px;
+    }
+    
+    .profile_pic img{
+        width: 40px;
+    }
+    
+    .notification img{
+        width: 40px;
+    }
+    .lucy{
+        font-size: 12px;
+    }
+    .down_icon img{
+        width: 12px;
+    }
+   
+    .address{
+        width: 80%;
+    }
+      
+    .down_icon{
+        flex: 2;
+    }
+
+    .mail img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .mail_mail img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .home img{
+        width: 25px;
+        height: 25px;
+    }
+    .home{
+        padding-top: 10%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .return{
+        width: 32px;
+        height: 32px;
+    }
+
+    .charges{
+        font-size:140px;
+    }
+    
+    .lorem_text{
+        font-size: 14px;
+    } 
+    
+    .may{
+        font-size: 12px;
+    }
+    
+    .heading{
+        font-size: 14px;
+    }
+    
+    .append{
+        font-size: 12px;
+    }
+    
+    .pluse_icon{
+            width: 26px;
+            height: 26px;
+    }
+    
+    .error_msg{
+        border-radius: 50px;
+        width: 37%;
+     }
+     
+    
+    .error_icon{    
+        width: 14px;
+        height: 14px;
+        vertical-align:middle;
+    }
+    
+    .msg{
+        font-size: 12px;
+    }
+
+    .drop_down{
+        width: 10px;
+        height: 6px;
+    }
+    
+    .evidence_description{
+        font-size: 12px;
+    }
+    
+    .evidence{
+        border-top-left-radius:10px;
+    }
+    
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .left_section{
+        width: 82%;
+        float: left;
+    }
+    .right_section{
+        width: 18%;
+        float: right;
+    }
+    .posh{
+        font-size: 27px;
+    }
+    
+    .profile_pic img{
+        width: 42px;
+    }
+
+    .notification img{
+        width: 42px;
+    }
+    .lucy{
+
+        font-size: 15px;
+    }
+    .down_icon img{
+        width: 15px;
+    }
+
+    .mail img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mail_mail img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    .home img{
+        width: 30px;
+        height: 30px;
+    }
+    .home{
+        padding-top: 5%;
+        width: 40px;
+        height: 40px;
+    }
+   
+
+    .return{
+        width: 45px;
+        height: 45px;
+    }
+
+    .charges{
+        font-size: 19px;
+    }
+    
+    .lorem_text{
+        font-size: 19px;
+    } 
+    
+    .may{
+        font-size: 17px;
+    }
+    
+    .heading{
+        font-size: 19px;
+    }
+    
+    .append{
+        font-size: 17px;
+    }
+    
+    .pluse_icon{
+            width: 36px;
+            height: 36px;
+    }
+    
+    .error_msg{
+        width: 36%;
+    }
+    .error_icon{    
+        width: 15px;
+        height: 15px;
+    }
+    
+    .msg{
+        font-size: 17px;
+    }
+
+    .drop_down{
+        width: 12px;
+        height: 10px;
+        vertical-align: middle;
+    }
+    
+    .evidence_description{
+        font-size: 17px;
+    }
+    
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .posh{
+        font-size: 50px;
+    }
+    
+    .profile_pic img{
+        width: 70px;
+    }
+    
+    .notification img{
+        width: 70px;
+    }
+    .lucy{
+        font-size: 28px;
+    }
+    .down_icon{
+        width: 20px;
+        height: 20px;
+    }
+
+    .complaints{
+        font-size: 32px;
+     }
+     .dropdown {
+        padding-right: 2%;
+    }
+
+    .container{
+        border-radius: 70px;
+    }
+        .mail img{
+            width: 60px;
+            height: 60px;
+        }
+        
+        .mail_mail img{
+            width: 45px;
+            height: 45px;
+        }
+        
+        
+        .home img{
+            width: 60px;
+            height: 60px;
+        }
+        .home{
+            padding-top: 4%;
+            width: 70px;
+            height: 70px;
+        }
+    
+        .return{
+            width: 80px;
+            height: 80px;
+        }
+    
+        .charges{
+            font-size: 35px;
+        }
+        
+        .lorem_text{
+            font-size: 35px;
+        } 
+        
+        .may{
+            font-size: 30px;
+        }
+        
+        .heading{
+            font-size: 35px;
+        }
+        
+        .append{
+            font-size: 35px;
+        }
+        
+        .pluse_icon{
+                width: 65px;
+                height: 65px;
+        }
+        
+        .error_msg{
+           border-radius: 70px;
+        }
+        
+        .error_icon{    
+            width: 23px;
+            height: 20px;
+            vertical-align:middle;
+        }
+        
+        .msg{
+            font-size: 30px;
+        }
+    
+        .drop_down{
+            width: 20px;
+            height: 18px;
+            vertical-align: middle;
+        }
+        
+        .evidence_description{
+            font-size: 30px;
+        }
+
+        .task_container{
+            border-radius: 70px;
+        }
+        
+        .evidence{
+            border-top-left-radius: 35px;
+        }
+}
+

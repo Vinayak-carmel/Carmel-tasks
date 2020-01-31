@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container{
+.task_container{
     width: 5%;
     margin: auto;
     background-color: #32BDD2;
