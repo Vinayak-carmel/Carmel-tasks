@@ -68,7 +68,7 @@ margin: 2% 0;
 .containt_background{
     background-color: #fff;
     box-shadow: 0px 0px 4px #00000029;
-    padding: 0% 7.47% 0 7.66%;
+    padding: 0% 7.47% 2.79% 7.66%;
 }
 
 .return_container{
@@ -188,7 +188,7 @@ padding-top: 3%;
 
 
 .evidence_container{
-    padding: 1% 2%;
+    padding: 3% 2%;
     background-color: #FBFCE7;
     border: 1px solid #F3F5B3;
 }
@@ -441,7 +441,7 @@ padding-top: 3%;
     }
 
     .charges{
-        font-size:140px;
+        font-size:14px;
     }
     
     .lorem_text{
@@ -579,8 +579,8 @@ padding-top: 3%;
         width: 36%;
     }
     .error_icon{    
-        width: 15px;
-        height: 15px;
+        width: 14px;
+        height: 13px;
     }
     
     .msg{
@@ -625,10 +625,6 @@ padding-top: 3%;
      .dropdown {
         padding-right: 2%;
     }
-
-    .container{
-        border-radius: 70px;
-    }
         .mail img{
             width: 60px;
             height: 60px;
@@ -672,7 +668,7 @@ padding-top: 3%;
         }
         
         .append{
-            font-size: 35px;
+            font-size: 30px;
         }
         
         .pluse_icon{

@@ -11,7 +11,7 @@
     float: left;
 }
 .svg_viewport{
-    width: 12%;
+    width: 5.09vw;
     margin-left: auto;
 }
 .data_container{
@@ -24,7 +24,7 @@
 }
 
 .days{
-    font-size: 20px;
+    font-size: 1.66vw;
     font-family: 'Lato';
     letter-spacing: 1.7px;
     color: #464646;
@@ -34,7 +34,7 @@
 
 
 .complaint{
-    margin-top: 12.3%;
+    margin-top: 30%;
 }
 
 .date_time{
@@ -47,7 +47,7 @@
 
 .sent{
     text-align: left;
-    font-size: 1.35vw;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 1.4px;
     color: #909090;
@@ -56,7 +56,7 @@
 .jeret{
     padding-top: 1%;
     text-align: left;
-    font-size: 1.3vw;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 1.4px;
     color: #505050;
@@ -75,7 +75,7 @@
 .mob_number{
     width: 25%;
     text-align: left;
-    font-size: 16px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 1.4px;
     color: #505050;
@@ -86,7 +86,7 @@
 .Gurgaon{
     width: 38%;
     text-align: left;
-    font-size: 1.17;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 1.4px;
     color: #505050;
@@ -94,5 +94,5 @@
     line-height: 1.5;
 }
 .accepted{
-    margin-top: 3%;
+    margin-top: 19.5%;
 }
