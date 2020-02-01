@@ -26,6 +26,10 @@
     color: #000000;
 }
 
+.notification{
+   width: 24%;
+}
+
 .profile_pic img{
     width: 40px;
 }
@@ -91,22 +95,6 @@ width: 40px;
     padding: 2% 8% 2.5% 4%;
 }
 
-.first_colom{
-    /* width: 34%;
-    float: left; */
-    
-}
-.second_colom{
-    /* width: 33%;
-    float: left; */
-  
-
-}
-.third_colom{ 
-    /* width: 33%;
-    float: left; */
-   
-}
 .tmp{
     text-align: left;
     font-family: 'Lato';

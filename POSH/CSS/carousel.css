@@ -7,19 +7,19 @@
 
 .stop{
     font-family: 'Roboto';
-    font-size: 100px;
+    font-size: 66px;
     fill: #FFFFFF;
     font-weight: bold;
 }
 .harassment{
     font-family: 'Roboto';
-    font-size: 35px;
+    font-size: 23px;
     fill: #FFFFFF;
     border: 1px solid #FFFFFF;
 }
 .Unwelcome{
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 0.4px;
     fill: #FFFFFF;
 }
@@ -31,49 +31,49 @@
 @media only screen and (max-width: 768px) {
 
     .stop{
-        font-size: 88px;
+        font-size: 66px;
     }
 
     .harassment{
-        font-size: 31;
+        font-size: 23px;
     }
     .Unwelcome{
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .stop{
-        font-size: 88px;
-    }
-    
-    .harassment{
-        font-size: 31;
-    }
-    .Unwelcome{
-        font-size: 16px;
-    }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .stop{
         font-size: 100px;
     }
     
     .harassment{
-        font-size: 38px;
+        font-size: 50px;
     }
     .Unwelcome{
-        font-size: 19px;
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .stop{
+        font-size: 123px;
+    }
+    
+    .harassment{
+        font-size: 44px;
+    }
+    .Unwelcome{
+        font-size: 22px;
     }
 }
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
     .stop{
-        font-size: 105px;
+        font-size: 220px;
     }
     
     .harassment{
-        font-size: 42px;
+        font-size: 79px;
     }
     .Unwelcome{
-        font-size: 22px;
+        font-size: 40px;
     }
 }

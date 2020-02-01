@@ -46,7 +46,6 @@
     border: 1px solid #DFEBEF;
     padding: 2% 2%;
     width: 50%;
-    float: left;
    
 }
 
@@ -78,6 +77,7 @@
     color: #FFFFFF;
     border: 0;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 
@@ -93,7 +93,6 @@
     border: 1px solid #32BDD2;
     padding: 2%;
     width: 50%;
-    float: right;
 }
 
 .uploadBackground {
@@ -101,7 +100,8 @@
     padding: 5.5% 0;
 }
 .file{
-    opacity: 1;
+   display: flex;
+   width: 100%;
 }
 .upload {
     display: block;

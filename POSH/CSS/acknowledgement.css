@@ -27,7 +27,9 @@
     letter-spacing: 1.1px;
     color: #000000;
 }
-
+.notification{
+    width: 24%;
+ }
 .profile_pic img{
     width: 40px;
 }
@@ -69,15 +71,19 @@ width: 40px;
 .left_part{
     background-color: #fff;
     padding-top: 4%;
+    width: 07.60%;
 }
 .rotate{
-transform: rotate(-90deg); 
+text-align: center;
+padding-bottom: 50%;
 }
 .complainant{
-    font-size: 14px;
+    font-size: 25px;
     font-family: 'Anton';
     letter-spacing: 2.8px;
     color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
 
 }
 
@@ -96,7 +102,7 @@ transform: rotate(-90deg);
 }
 
 .svg_view_port{
-    padding-top: 63%;
+
     width: 50%;
     margin: auto;
 }
@@ -111,7 +117,7 @@ transform: rotate(-90deg);
 .heading{
     text-align: left;
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 25px;
     letter-spacing: 1.4px;
     color: #B5B5B5;
 }
@@ -131,7 +137,7 @@ transform: rotate(-90deg);
 .print{
     text-align: left;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 23px;
     letter-spacing: 0.6px;
     color: #505050;
     border-bottom: 1px solid #505050;
@@ -198,7 +204,7 @@ a{
         padding-top: 2%;
     }
     .print{
-        font-size: 8px;
+        font-size: 9px;
     }
     
 }
@@ -315,7 +321,7 @@ a{
     }
    
     .print{
-        font-size: 14px;
+        font-size: 17px;
     }
 }
 
@@ -340,7 +346,7 @@ a{
     }
 
     .complaints{
-        font-size: 32px;
+        font-size: 35px;
      }
      .dropdown {
         padding-right: 2%;
@@ -372,6 +378,6 @@ a{
 
         
     .print{
-        font-size: 25px;
+        font-size: 30px;
     }
 } 
