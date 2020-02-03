@@ -5,7 +5,7 @@
 }
 .policy_header{
     border-bottom: 1px solid #505050;
-    padding: 01%;
+    padding: 2.95% 3.0% 2.82% 3.49%;
 }
 
 .download{
@@ -51,7 +51,7 @@
 .pdf{
     width: 75%;
     float: left;
-
+    padding-right: 5%;
 }
 
 .image{
@@ -64,14 +64,17 @@
     vertical-align: middle;
 }
 .policies{
-    padding: 2%;
+    padding: 3.62% 3.0% 4.4% 3.44%;
+}
+.comment{
+    margin-bottom: 6.18%;
 }
 .paragraph{
     text-align: left;
     font-family: "Lato";
     font-size: 14px;
     color: #505050;
-    padding: 0.5%;
+   padding-top: 1%;
 }
 .comment_bar{
     width: 98%;
@@ -88,62 +91,74 @@
 }
 .bar{
     background-color: #EAF2F4;
-    padding: 2%;
+    padding: 3% 5.3%;
+    margin-bottom: 6.98%;
 }
 .profile img{
-    width: 60px;
+    width: 43px;
+    height: 43px;
     align-content: center;
-    margin-left: auto;
-    padding-top: 2%;
 }
+
 .profile{
-     align-self: center;
-     
+    width: 10%;
 }
+
 .drop_comment input{
    flex: 0;
    width: 100%;
    border: 0px;
    font-size: 12px; 
-   padding: 1.6%;
 }
 
 .drop_comment{
-    flex: 10;
+   width: 80%;
+   margin: 2.10%;
+ }
+
+ .btn{
+     width: 10%;
  }
 .submit{
     background-color: #32BDD2;
     color: #fff;
     border: #32BDD2;
     font-size: 12px;
-    padding: 26px 47px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     cursor: pointer;
    
 }
 .comment_section{
-    width: 95%;
-    margin: auto;
-   
+    width: 100%;
 }
-.comments{
-  padding: 2.5% 0;
+
+.right_containt{
+    width: 60.48%;
+   padding-right: 3.49%;
 }
 .left_part{
     width: 10%;
     float: left;
+    padding-left: 2.82%;
 }
 .left_part img{
-    width: 100px;
+    width: 58px;
+    width: 58px;
+}
+.thumb{
+    padding-top: 3.36%;
 }
 .thumb img{
-    width: 20px;
+    width: 010px;
+    height: 15px;
 }
 .right_part{
-    width: 85%;
+    width: 90%;
     float: right;
-    margin-left: left;
+
 }
 .name{
  text-align: left;
@@ -159,7 +174,7 @@
     font-family: "Lato";
     letter-spacing: 0.6px;
     color: #909090;
-    padding:.5%;
+    padding:.3%;
 }
 .text{
     text-align: left;
@@ -167,7 +182,7 @@
     font-family: "Lato";
     letter-spacing: 1.1px;
     color: #747474;
-    padding:.5%;
+    padding-top: 1.61%;
 }
 .likes{
     text-align: left;
@@ -179,15 +194,13 @@
     padding-right: 2%;
 }
 .show_more{
-    width: 95%;
-    margin: auto;
     background-color: #EEEEEE;
-    padding: 2%;
-    margin-bottom: 2%;
+    margin: 9% 2.82% 4.97% 2.82%;
 }
 .center{
     width: 12%;
     margin: auto;
+    padding: 2.82% 0%;
 }
 .show{
     text-align: left;
@@ -207,7 +220,287 @@
     padding-left: 1%;
   }
 
-  @media only screen and (max-width: 768px) {}
-  @media only screen and (min-width: 1025px) and (max-width: 1440px) {}
-  @media only screen and (min-width: 1441px) and (max-width: 1920px) {}
-  @media only screen and (min-width: 1921px) and (max-width: 2560px) {}
+  @media only screen and (max-width: 768px) {
+    .policy{
+        font-size: 10px;
+    }
+    
+    .last{
+        font-size: 9px;
+    }
+
+    .kb{ 
+        font-size: 9px;
+
+    }
+    
+    .image img{
+        width: 25.5px;
+        height: 23.5px;
+    }
+
+    .paragraph{
+        font-size: 10px;
+    }
+
+    .profile img{
+        width: 32px;
+        height: 32px;
+    }
+    .drop_comment input{
+       font-size: 10px; 
+    }
+    
+    .submit{
+        font-size: 10px;
+        padding: 15.5px 35px;
+       
+    }
+
+    .left_part img{
+        width: 42px;
+        height: 43px;
+    }
+    .thumb img{
+        width: 010px;
+        height: 15px;
+    }
+    .name{
+       font-size: 10px;
+    }
+    .date{
+        font-size: 9px;
+    }
+    .text{
+        font-size: 8px;
+    }
+    .likes{
+        font-size: 9px;
+    }
+
+    .show{
+        font-size: 9px;
+    }
+    .down img{
+      width: 6.75px;
+      height: 7.75px;
+    }
+    
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .policy{
+        font-size: 19px;
+    }
+    
+    .last{
+        font-size: 19px;
+    }
+    .kb{ 
+        font-size: 17px;
+
+    }
+    
+    
+    .image img{
+        width: 47.8px;
+        height: 47.8px;
+    }
+
+    .paragraph{
+        font-size: 19px;
+    }
+
+    .profile img{
+        width: 59.5px;
+        height: 59.5px;
+    }
+    .drop_comment input{
+       font-size: 12px; 
+    }
+    
+    .submit{
+        font-size: 12px;
+        padding: 26px 47px;
+       
+    }
+
+    .left_part img{
+        width: 81.5px;
+        height: 81.5px;
+    }
+    .thumb img{
+        width: 18px;
+        height: 20.5px;
+    }
+    .name{
+       font-size: 19px;
+    }
+    .date{
+        font-size: 17px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .likes{
+        font-size: 17px;
+    }
+
+    .show{
+        font-size: 17px;
+    }
+    .down img{
+      width: 17.7px;
+      height: 12.51px;
+    }
+  }
+  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
+
+    .policy{
+        font-size: 25px;
+    }
+    
+    .last{
+        font-size: 23px;
+    }
+    .kb{ 
+        font-size: 23px;
+
+    }
+    
+    .image img{
+        width: 63.7px;
+        height: 63.7px;
+    }
+
+    .paragraph{
+        font-size: 25px;
+    }
+
+    .profile img{
+        width: 105px;
+        height: 105px;
+    }
+    .drop_comment input{
+       font-size: 12px; 
+    }
+    
+  
+
+    .drop_comment{
+        flex-grow: 10;
+     }
+    .submit{
+        font-size: 23px;
+        padding: 26px 47px;
+    
+    }
+
+    .left_part img{
+        width: 142px;
+        height: 142px;
+    }
+    .thumb img{
+        width: 30px;
+        height: 45.5px;
+    }
+    .name{
+       font-size: 25px;
+    }
+    .date{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 27px;
+    }
+    .likes{
+        font-size: 23px;
+    }
+
+    .show{
+        font-size: 23px;
+    }
+    .down img{
+      width: 17px;
+      height: 18px;
+    }
+  }
+  @media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+    .policy{
+        font-size: 35px;
+    }
+    
+    .last{
+        font-size: 30px;
+    }
+    .kb{ 
+        font-size: 30px;
+
+    }
+    
+    
+    .image img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .paragraph{
+        font-size: 35px;
+    }
+
+    .profile img{
+        width: 105px;
+        height: 105px;
+    }
+    .drop_comment input{
+       font-size: 30px; 
+    }
+    
+    .drop_comment{
+        flex-grow: 10;
+     }
+    .submit{
+        font-size: 30px;
+        padding: 44px 87.5px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+       
+    }
+
+    .comment_bar {
+        border-top-left-radius: 90px;
+        border-bottom-left-radius: 90px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 90px;
+    }
+
+    .left_part img{
+        width: 142px;
+        height: 142px;
+    }
+    .thumb img{
+        width: 24.9px;
+        height: 36.5px;
+    }
+    .name{
+       font-size: 35px;
+    }
+    .date{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 26.5px;
+    }
+    .likes{
+        font-size: 30px;
+    }
+
+    .show{
+        font-size: 30px;
+    }
+    .down img{
+      width: 32.6px;
+      height: 24.8px;
+    }
+  }

@@ -9,7 +9,10 @@
 }
 .header{
     border-bottom: 1px solid #CCCCCC;
-    padding: 2%;
+}
+
+.faq_top{
+    padding: 6.81%  0 7.84% 4.81%;
 }
 .faq{
 text-align: left;
@@ -17,6 +20,10 @@ font-family: "Anton";
 font-size: 14px;
 letter-spacing: 1.4px;
 color: #000000;
+}
+
+.explore_top{
+    padding: 0 5.56% 3.30% 0;
 }
 .explore{
     float: right;
@@ -26,25 +33,38 @@ color: #000000;
     color: #505050;
     font-size: 12px;
     font-weight: 600;
+    padding-right: 1%;
+
 }
-.explore img{
+.icon{
+    padding-top: 0.3%;
     width: 8.61px;
+    float: right;
+    vertical-align: middle;
+
 }
+
+.message{
+    margin: 8.56% 5.56% 8.61% 5.56%;
+}
+  
 .quesition{
     background-color: #EEEEEE;
     border-radius: 15px;
-    margin: 2%;
+    padding: 4.80% 5.16% 5.5% ;
+    margin-bottom: 3.81%;
 }
+
 .meant{
     text-align: left;
     font-family: "Lato";
     font-size: 14px;
     letter-spacing: 0;
     color: #505050;
-    padding: 1%;
+   
 }
 .lorem{
-    padding: 1%;
+    padding: 3.95% 0 3.84% 0;
     text-align: left;
     font-family: "Lato";
     font-size: 12px;
@@ -53,7 +73,6 @@ color: #000000;
 }
 .read{
     text-align: right;
-    padding: 2%;
     font-family: "Lato";
     font-size: 7px;
     letter-spacing: 0.35px;
@@ -63,7 +82,18 @@ color: #000000;
 }
 .footer{
     display: flex;
-    padding: 2%;
+    align-items: center;
+    align-content: center;
+    margin:  0 0 6.16% 5.56%;
+}
+.left_icon{
+    width: 1%;
+}
+.right_icon{
+    width: 92%;
+}
+.number{
+    width: 6%;
 }
 .left_icon img{
     width: 8.02px;
@@ -73,7 +103,7 @@ color: #000000;
 }
 .number{
     font-size: 8px;
-    font-family:"Lato";
+    font-family:'Lato';
     letter-spacing: 0.6px;
     color: #B5B5B5;
     padding: 0 1%;
@@ -83,10 +113,12 @@ color: #000000;
          .faq{
         font-size: 10px;
         }
+
+
         .explore{
             font-size: 9px;
         }
-        .explore img{
+        .icon{
             width: 7px;
         }
         .meant{
@@ -117,7 +149,7 @@ color: #000000;
         .explore{
             font-size: 17px;
         }
-        .explore img{
+        .icon{
             width: 10px;
         }
         .meant{
@@ -150,7 +182,7 @@ color: #000000;
     .explore{
         font-size: 23px;
     }
-    .explore img{
+    .icon{
         width: 18px;
     }
     .meant{
@@ -181,7 +213,7 @@ color: #000000;
         .explore{
             font-size: 30px;
         }
-        .explore img{
+        .icon{
             width: 18px;
         }
         .meant{

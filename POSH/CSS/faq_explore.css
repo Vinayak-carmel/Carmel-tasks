@@ -4,59 +4,60 @@
     box-sizing: border-box;
 }
 
-.header_container {
+
+.header_container{
     width: 100%;
+    box-shadow: 0px 0px 4px #00000029;
+    padding: 01%;
+}
+.left_section{
+    width: 78%;
+    float: left;
+}
+.right_section{
+    width: 22%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.header_containt{
     display: flex;
     align-items: center;
-    padding: 1% 0;
-    box-shadow: 0px 0px 4px #00000029;
+    justify-content: space-around;
 }
 
-.posh {
-    flex: 26;
+.posh{
     font-family: 'Anton';
     font-size: 24px;
     letter-spacing: 1.1px;
     color: #000000;
-    padding-left: 2%;
 }
 
-.profile_pic img {
-    width: 43px;
+.notification img{
+    width: 40px;
 }
-
-.profile_pic {
-    flex: 1;
-}
-
-.notification {
-    flex: 1.5;
-}
-
-.notification img {
-    width: 43px;
-}
-
-.lucy {
-    flex: 2.5;
-    text-align: left;
-    font-size: 12px;
-    font-family: 'Roboto';
+.lucy{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto";
     letter-spacing: 0.9px;
     color: #595959;
-    text-align: center;
+}
+.down_icon img{
+    width: 12px;
+}
+.notification{
+   width: 24%;
 }
 
-.down_icon img {
-    width: 13px;
+.profile_pic img{
+    width: 40px;
 }
 
-.down_icon {
-    padding-right: 2%;
-}
-
-.down_icon {
-    padding-right: 2%;
+.down_icon{
+    width: 9.32px;
+    height: 5.83px;
 }
 
 .containt {
@@ -80,7 +81,8 @@
     padding: 2% 0;
 }
 .group img{
- width: 350px;
+ width: 305px;
+ height: 249px;
 }
 .group{
     padding-bottom: 2%;
@@ -92,19 +94,20 @@
 .explore {
     width: 3%;
     float: left;
-    clear: left;
 }
-
+.clear{
+    clear: both;
+}
 .topics {
     width: 97%;
     float: right;
-    clear: right;
     padding-top: 0.5%;
     text-align: left;
     font-size: 12px;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #424242;
+    padding-left: 01%;
 }
 
 .description {
@@ -112,7 +115,6 @@
 }
 
 .meant {
-    text-align: left;
     text-align: left;
     font-size: 12px;
     font-family: 'Lato';
@@ -124,7 +126,6 @@
 }
 
 .lorem {
-    text-align: left;
     text-align: left;
     font-size: 12px;
     font-family: 'Lato';
@@ -140,61 +141,80 @@
 }
 
 .coloumn_one {
-    flex: 4;
+    width: 25%;
     background-color: #EEEEEE;
     padding: 4% 2%;
 }
 
 .coloumn_two {
-    flex: 5;
+    width: 75%;
+    margin-right: 1%;
     background-color: #EEEEEE;
-    padding: 4% 1%;
+    padding: 4.54% 04%;
+    border-left: 4px solid #fff;
 }
 
 .usefull {
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     font-family: 'Lato';
     color: #000000;
     letter-spacing: 0;
     color: #505050;
-    padding-left: 13%;
     font-weight: 600;
     padding-bottom: 4.5%;
+    padding-top: 10%;
 }
 
+textarea{
+    width: 100%;
+}
 .like_part {
-    width: 30%;
+    width: 50%;
     float: left;
-    clear: left;
 }
 
-.likes img {
+.like img{
+    width:56px;
+    vertical-align: middle;
+}
+
+.dislike img{
     width: 60px;
+    vertical-align: middle;
+}
+.like{
+    width: 60%;
+    margin: auto;
 }
 
+.dislike{
+    width: 60%;
+    margin: auto;
+}
 .dis_like_part {
-    width: 70%;
+    width: 50%;
     float: right;
-    clear: right;
 }
 
 .percent {
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #747474;
-    padding-left: 11%;
+    
+    padding-top: 10%;
 }
 
 .percent_10 {
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #747474;
-    padding-left: 5%;
+    
+    padding-top: 10%;
 }
 
 .btn {
@@ -205,6 +225,8 @@
     border: 1px solid #32BDD2;
     border-radius: 8px;
     margin-top: 2%;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .review {
@@ -230,7 +252,6 @@
 .left_part {
     width: 10%;
     float: left;
-    clear: left;
 }
 
 .left_part img {
@@ -242,9 +263,9 @@
 }
 
 .right_part {
-    width: 90%;
+    width: 85%;
     float: right;
-    clear: right;
+    margin: auto;
 }
 
 .name {
@@ -307,11 +328,630 @@
 }
 
 .footer {
-    width: 11%;
+    width: 12%;
     margin: auto
 }
 
 .drop_down {
-    width: 17px;
+    width: 15px;
+    height: 12px;
     padding-left: 5%;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .left_section{
+        width: 80%;
+        float: left;
+    }
+    .right_section{
+        width: 20%;
+        float: right;
+    }
+    .posh{
+        font-size: 17.9px;
+    }
+    .profile_pic img{
+        width: 24px;
+    }
+
+    .notification img{
+        width: 24px;
+    }
+    .lucy{
+        font-size: 10px;
+    }
+    .down_icon img{
+        width: 10px;
+    }
+    
+    .second_colom{
+        padding-right: 17%;
+    }
+ 
+    .down_icon{
+        width: 6.5px;
+        height: 6.5px;
+    }
+    
+    .faq {
+
+        font-size: 9px;
+
+    }
+    .group img{
+     width: 230px;
+     height: 188px;
+    }
+
+    .explore img {
+        width: 21px;
+        height: 20px;
+    }
+
+    .topics {
+        font-size: 9px;
+
+    }
+
+    
+    .meant {
+
+        font-size: 9px;
+   
+    }
+    
+    .lorem {
+        font-size: 9px;
+    }
+
+    
+    .usefull {
+
+        font-size: 9px;
+    }
+
+
+    
+    .like img{
+        width: 42px;
+        height: 41px;
+     
+    }
+    
+    .dislike img{
+        width: 42px;
+        height: 41px;
+    }
+ 
+
+    
+    .percent {
+        font-size: 9px;
+
+    }
+    
+    .percent_10 {
+
+        font-size: 9px;
+
+    }
+    
+    .btn {
+   font-size: 9px;
+    }
+    
+    .review {
+        font-size: 12px;
+
+    }
+    
+
+    
+    .left_part img {
+        width: 42px;
+        height: 41px;
+    }
+    
+    .thumb img {
+        width: 7.5px;
+        height: 12px;
+    }
+    
+    .name {
+        font-size: 10px;
+
+    }
+    
+    .date {
+        font-size: 9px;
+    }
+    
+    .text {
+
+        font-size: 9px;
+
+    }
+    
+    .likes {
+        font-size: 7.5px;
+
+    }
+    
+    .more {
+        font-size: 9px;
+    }
+
+    .drop_down {
+        width: 7.5px;
+        height: 5.2px;
+        padding-left: 5%;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .left_section{
+        width: 80%;
+        float: left;
+    }
+    .right_section{
+        width: 20%;
+        float: right;
+    }
+    .posh{
+        font-size: 37.7px;
+    }
+    
+    .profile_pic img{
+        width: 45px;
+    }
+
+    .notification img{
+        width: 45px;
+    }
+    .lucy{
+
+        font-size: 15px;
+    }
+    .down_icon img{
+        width: 17px;
+    } .down_icon{
+        width: 17px;
+        height: 17px;
+    }
+    .secod_colom{
+         padding-right: 17%;
+     }
+     
+     .down_icon{
+        width: 12.5px;
+        height: 12.5px;
+}
+.faq {
+
+    font-size: 17px;
+
+}
+.group img{
+ width: 420px;
+ height: 349px;
+}
+
+.explore img {
+    width: 39.3px;
+    height: 38.5px;
+}
+
+.topics {
+    font-size: 17px;
+
+}
+
+
+.meant {
+
+    font-size: 17px;
+
+}
+
+.lorem {
+    font-size: 17px;
+}
+
+
+.usefull {
+
+    font-size: 17px;
+}
+
+
+
+.like img{
+    width: 78px;
+    height: 78px;
+ 
+}
+
+.dislike img{
+    width: 78px;
+   height: 78px;
+}
+
+
+
+.percent {
+
+    font-size: 17px;
+
+
+}
+
+.percent_10 {
+
+    font-size: 17px;
+
+}
+
+.btn {
+font-size: 17px;
+}
+
+.review {
+    font-size: 17px;
+
+}
+
+.comment_section {
+    width: 100%;
+}
+
+
+.left_part img {
+    width: 100px;
+}
+
+.thumb img {
+    width: 14px;
+    height: 20px;
+}
+
+.name {
+
+    font-size: 19px;
+
+}
+
+.date {
+
+    font-size: 17px;
+
+}
+
+.text {
+
+    font-size: 17px;
+
+}
+
+.likes {
+    font-size: 14px;
+
+}
+
+
+
+
+.more {
+
+    font-size: 17px;
+
+}
+
+
+.drop_down {
+    width: 20px;
+    height: 15px;
+    padding-left: 5%;
+}
+
+}
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+
+    .left_section{
+        width: 85%;
+        float: left;
+    }
+    .right_section{
+        width: 15%;
+        float: right;
+    }
+    .posh{
+        font-size: 45px;
+    }
+    
+    .notification{
+       width: 24%;
+    }
+    
+    .profile_pic img{
+        width: px;
+    }
+    
+    .notification img {
+        width: 40px;
+        }
+     
+        .down_icon{
+            width: 80px;
+            width: 17px;
+            height: 17px;
+        }
+
+        .faq {
+
+            font-size: 23px;
+    
+        }
+        .group img{
+         width: 559.29px;
+         height: 471px;
+        }
+    
+        .explore img {
+            width:52px;
+            height: 52px;
+        }
+    
+        .topics {
+            font-size: 23px;
+    
+        }
+    
+        
+        .meant {
+    
+            font-size: 23px;
+       
+        }
+        
+        .lorem {
+            font-size: 23px;
+        }
+    
+        
+        .usefull {
+    
+            font-size: 23px;
+        }
+    
+    
+        
+        .like img{
+            width: 103.8px;
+            height: 103.5px;
+         
+        }
+        
+        .dislike img{
+            width: 103.5px;
+            height: 103.5px;
+         
+        }
+     
+    
+        
+        .percent {
+    
+            font-size: 23px;
+    
+    
+        }
+        
+        .percent_10 {
+    
+            font-size: 23px;
+    
+        }
+        
+        .btn {
+       font-size: 23px;
+        }
+        
+        .review {
+            font-size: 23px;
+    
+        }
+        
+        .left_part img {
+            width: 100px;
+        }
+        
+        .thumb img {
+            width: 30px;
+            height: 35px;
+        }
+        
+        .name {
+    
+            font-size: 25px;
+    
+        }
+        
+        .date {
+     
+            font-size: 23px;
+        
+        }
+        
+        .text {
+    
+            font-size: 23px;
+    
+        }
+        
+        .likes {
+            font-size: 18.7px;
+    
+        }
+        
+      
+        
+      
+        .more {
+    
+            font-size: 23px;
+    
+        }
+        
+        .footer {
+            width: 12%;
+            margin: auto
+        }
+        
+        .drop_down {
+            width: 25px;
+            height: 15px;
+            padding-left: 5%;
+        }
+    
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .posh{
+        font-size: 60px;
+    }
+    
+    .profile_pic img{
+        width: 80px;
+    }
+    
+    .notification img{
+        width: 80px;
+    }
+    .lucy{
+        font-size: 28px;
+    }
+    .down_icon{
+        width: 22px;
+        height: 22px;
+    }
+
+    .faq {
+
+        font-size: 30px;
+
+    }
+    .group img{
+     width: 750px;
+     height: 651px;
+    }
+
+    .explore img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .topics {
+        font-size: 30px;
+
+    }
+
+    
+    .meant {
+
+        font-size: 30px;
+   
+    }
+    
+    .lorem {
+        font-size: 30px;
+    }
+
+    
+    .usefull {
+
+        font-size: 30px;
+    }
+
+
+    
+    .like img{
+        width: 138px;
+        height: 138px;
+     
+    }
+    
+    .dislike img{
+        width: 138px;
+        height: 138px;
+     
+    }
+ 
+
+    
+    .percent {
+
+        font-size: 30px;
+
+
+    }
+    
+    .percent_10 {
+
+        font-size: 30px;
+
+    }
+    
+    .btn {
+   font-size: 30px;
+    }
+    
+    .review {
+        font-size: 30px;
+
+    }
+    
+    
+    .left_part img {
+        width: 100px;
+    }
+    
+    .thumb img {
+        width: 20px;
+    }
+    
+    .name {
+
+        font-size: 15px;
+
+    }
+    
+    .date {
+        font-size: 30px;
+    }
+    
+    .text {
+        font-size: 30px;
+    }
+    
+    .likes {
+        font-size: 24px;
+
+    }
+    
+  
+    .more {
+
+        font-size: 30px;
+
+    }
+    
+    .drop_down {
+        width: 24px;
+        height: 18px;
+        padding-left: 5%;
+    }
+
+}
+
