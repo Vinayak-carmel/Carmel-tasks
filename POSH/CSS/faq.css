@@ -1,31 +1,35 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.main_container{
+
+.main_container {
     background-color: #FFFFFF;
     box-shadow: 0 0 6px #00000029;
 }
-.header{
+
+.header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-.faq_top{
-    padding: 6.81%  0 7.84% 4.81%;
-}
-.faq{
-text-align: left;
-font-family: "Anton";
-font-size: 14px;
-letter-spacing: 1.4px;
-color: #000000;
+.faq_top {
+    padding: 6.81% 0 7.84% 4.81%;
 }
 
-.explore_top{
-    padding: 0 5.56% 3.30% 0;
+.faq {
+    text-align: left;
+    font-family: "Anton";
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #000000;
 }
-.explore{
+
+.explore_top {
+    padding: 0 5.56% 5.125% 0;
+}
+
+.explore {
     float: right;
     text-align: left;
     font-family: "Lato";
@@ -34,36 +38,36 @@ color: #000000;
     font-size: 12px;
     font-weight: 600;
     padding-right: 1%;
-
 }
-.icon{
+
+.icon {
     padding-top: 0.3%;
     width: 8.61px;
     float: right;
     vertical-align: middle;
-
 }
 
-.message{
+.message {
     margin: 8.56% 5.56% 8.61% 5.56%;
 }
-  
-.quesition{
+
+.quesition {
     background-color: #EEEEEE;
     border-radius: 15px;
-    padding: 4.80% 5.16% 5.5% ;
+    padding: 4.80% 5.16% 5.5%;
     margin-bottom: 3.81%;
 }
 
-.meant{
+.meant {
     text-align: left;
     font-family: "Lato";
     font-size: 14px;
     letter-spacing: 0;
     color: #505050;
-   
 }
-.lorem{
+
+.lorem {
+    width: 88%;
     padding: 3.95% 0 3.84% 0;
     text-align: left;
     font-family: "Lato";
@@ -71,168 +75,169 @@ color: #000000;
     letter-spacing: 0.6px;
     color: #909090;
 }
-.read{
+
+.read {
     text-align: right;
     font-family: "Lato";
     font-size: 7px;
     letter-spacing: 0.35px;
     color: #505050;
     font-weight: bold;
-   
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     align-content: center;
-    margin:  0 0 6.16% 5.56%;
+    padding: 0 0 6.16% 5.96%;
 }
-.left_icon{
+
+.left_icon {
     width: 1%;
 }
-.right_icon{
-    width: 92%;
+
+.right_icon {
+    width: 88%;
 }
-.number{
-    width: 6%;
+
+.number {
+    width: 12%;
+    text-align: center;
 }
-.left_icon img{
+
+.left_icon img {
     width: 8.02px;
+    vertical-align: middle;
 }
-.right_icon img{
+
+.right_icon img {
     width: 8.02px;
+    vertical-align: middle;
 }
-.number{
+
+.number {
     font-size: 8px;
-    font-family:'Lato';
+    font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #B5B5B5;
-    padding: 0 1%;
 }
 
 @media only screen and (max-width: 768px) {
-         .faq{
+    .faq {
         font-size: 10px;
-        }
+    }
+    .explore {
+        font-size: 9px;
+    }
+    .icon {
+        width: 7px;
+    }
+    .meant {
+        font-size: 10px;
+    }
+    .lorem {
+        font-size: 9px;
+    }
+    .read {
+        font-size: 5px;
+    }
+    .left_icon img {
+        width: 5px;
+    }
+    .right_icon img {
+        width: 5px;
+    }
+    .number {
+        font-size: 5px;
+    }
+}
 
-
-        .explore{
-            font-size: 9px;
-        }
-        .icon{
-            width: 7px;
-        }
-        .meant{
-            font-size: 10px;
-        }
-        .lorem{
-            font-size: 9px;
-        }
-        .read{
-            font-size: 5px;
-        }
-    
-        .left_icon img{
-            width: 5px;
-        }
-        .right_icon img{
-            width: 5px;
-        }
-        .number{
-            font-size: 5px;
-        }
- }
- 
- @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-       .faq{
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .faq {
         font-size: 19px;
-        }
-        .explore{
-            font-size: 17px;
-        }
-        .icon{
-            width: 10px;
-        }
-        .meant{
-            font-size: 19px;
-        }
-        .lorem{
-            font-size: 17px;
-        }
-        .read{
-            font-size: 13px;
-        }
-    
-        .left_icon img{
-            width: 10px;
-        }
-        .right_icon img{
-            width: 10px;
-        }
-        .number{
-            font-size: 10px;
-        }
- }
- 
- 
- @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    
-    .faq{
-    font-size: 29px;
     }
-    .explore{
-        font-size: 23px;
+    .explore {
+        font-size: 17px;
     }
-    .icon{
-        width: 18px;
+    .icon {
+        width: 10px;
     }
-    .meant{
-        font-size: 25px;
+    .meant {
+        font-size: 19px;
     }
-    .lorem{
-        font-size: 23px;
+    .lorem {
+        font-size: 17px;
     }
-    .read{
+    .read {
         font-size: 13px;
     }
+    .left_icon img {
+        width: 10px;
+    }
+    .right_icon img {
+        width: 10px;
+    }
+    .number {
+        font-size: 10px;
+    }
+}
 
-    .left_icon img{
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .faq {
+        font-size: 29px;
+    }
+    .explore {
+        font-size: 23px;
+    }
+    .icon {
+        width: 18px;
+    }
+    .meant {
+        font-size: 25px;
+    }
+    .lorem {
+        font-size: 23px;
+    }
+    .read {
+        font-size: 13px;
+    }
+    .left_icon img {
         width: 15px;
     }
-    .right_icon img{
+    .right_icon img {
         width: 14px;
     }
-    .number{
+    .number {
         font-size: 14px;
     }
- }
- 
- @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-          .faq{
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .faq {
         font-size: 35px;
-        }
-        .explore{
-            font-size: 30px;
-        }
-        .icon{
-            width: 18px;
-        }
-        .meant{
-            font-size: 35px;
-        }
-        .lorem{
-            font-size: 30px;
-        }
-        .read{
-            font-size: 17px;
-        }
-    
-        .left_icon img{
-            width: 17px;
-        }
-        .right_icon img{
-            width: 17px;
-        }
-        .number{
-            font-size: 17px;
-        }
- }
+    }
+    .explore {
+        font-size: 30px;
+    }
+    .icon {
+        width: 18px;
+    }
+    .meant {
+        font-size: 35px;
+    }
+    .lorem {
+        font-size: 30px;
+    }
+    .read {
+        font-size: 17px;
+    }
+    .left_icon img {
+        width: 17px;
+    }
+    .right_icon img {
+        width: 17px;
+    }
+    .number {
+        font-size: 17px;
+    }
+}

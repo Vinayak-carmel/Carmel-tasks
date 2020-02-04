@@ -1,203 +1,192 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.header_container{
+
+.header_container {
     width: 100%;
     box-shadow: 0px 0px 4px #00000029;
-    padding: 01%;
+    padding: 1.17% 2.44%;
 }
-.left_section{
+
+.left_section {
     width: 78%;
     float: left;
 }
-.right_section{
+
+.right_section {
     width: 22%;
     float: right;
+    padding-top: 0.3%;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.containt{
+
+.containt {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.posh{
+.posh {
     font-family: 'Anton';
     font-size: 24px;
     letter-spacing: 1.1px;
     color: #000000;
+    padding-top: .7%;
 }
 
-.notification img{
+.notification img {
     width: 40px;
+    vertical-align: middle;
 }
-.lucy{
+
+.lucy {
     text-align: center;
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     letter-spacing: 0.9px;
     color: #595959;
 }
-.down_icon img{
+
+.down_icon img {
     width: 12px;
-}
-.notification{
-   width: 24%;
-}
-
-.profile_pic img{
     width: 40px;
+    vertical-align: middle;
 }
 
-.down_icon{
+.notification {
+    padding-right: 02.63%;
+}
+
+.profile_pic img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.down_icon {
     width: 9.32px;
     height: 5.83px;
 }
 
-
 @media only screen and (max-width: 768px) {
-
-    .left_section{
+    .left_section {
         width: 80%;
         float: left;
     }
-    .right_section{
+    .right_section {
         width: 20%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 17.9px;
     }
-    .profile_pic img{
+    .profile_pic img {
         width: 24px;
     }
-
-    .notification img{
+    .notification img {
         width: 24px;
     }
-    .lucy{
+    .lucy {
         font-size: 10px;
     }
-    .down_icon img{
+    .down_icon img {
         width: 10px;
     }
-    
-    .first_colom{
-    
-        
-    }
-    .second_colom{
-
+    .second_colom {
         padding-right: 17%;
     }
-    .third_colom{ 
-
-       
-    }
-
-
-    .down_icon{
+    .down_icon {
         width: 6.5px;
         height: 6.5px;
     }
-    
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .left_section{
+    .left_section {
         width: 80%;
         float: left;
     }
-    .right_section{
+    .right_section {
         width: 20%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 37.7px;
     }
-    
-    .profile_pic img{
+    .profile_pic img {
         width: 45px;
     }
-
-    .notification img{
+    .notification img {
         width: 45px;
     }
-    .lucy{
-
-        font-size: 15px;
+    .lucy {
+        font-size: 17px;
     }
-    .down_icon img{
+    .down_icon img {
         width: 17px;
-    } .down_icon{
+    }
+    .down_icon {
         width: 17px;
         height: 17px;
     }
-    .secod_colom{
-         padding-right: 17%;
-     }
-     
-     .down_icon{
+    .down_icon {
         width: 12.5px;
         height: 12.5px;
     }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-
-    .left_section{
-        width: 85%;
+    .left_section {
+        width: 80%;
         float: left;
     }
-    .right_section{
-        width: 15%;
+    .right_section {
+        width: 20%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 45px;
     }
-    
-    .notification{
-       width: 24%;
+    .lucy {
+        font-size: 23px;
     }
-    
-    .profile_pic img{
-        width: px;
+    .notification {
+        width: 24%;
     }
-    
+    .profile_pic img {
+        width: 60.3px;
+        vertical-align: middle;
+    }
     .notification img {
-        width: 40px;
-        }
-     
-        .down_icon{
-            width: 17px;
-            height: 17px;
-        }
+        width: 60px;
+        vertical-align: middle;
+    }
+    .down_icon {
+        width: 17px;
+        height: 17px;
+    }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .posh{
+    .posh {
         font-size: 60px;
+        padding-top: .2%;
     }
-    
-    .profile_pic img{
+    .profile_pic img {
         width: 80px;
     }
-    
-    .notification img{
+    .notification img {
         width: 80px;
     }
-    .lucy{
-        font-size: 28px;
+    .lucy {
+        font-size: 30px;
     }
-    .down_icon{
+    .down_icon {
         width: 22px;
         height: 22px;
     }
-
 }
-

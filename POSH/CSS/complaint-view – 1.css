@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+}
+
+.userImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 10px;
+}
+
+.dropIcon {
+    width: 9px;
+    height: 9px;
+}
+
+.clear {
+    clear: both;
+}
+
+.listContainer {
+    width: 95%;
+    margin: 2.5%;
+    box-shadow: 0px 0px 6px #00000029;
+    background-color: #FFFFFF;
+    padding: 6.91% 8.9% 8.7%;
+}
+
+.returnImage {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 7%;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #00000029;
+}
+
+.underBox {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 3.5%;
+}
+
+.greyUnderBar {
+    padding: 3.4% 4.2%;
+    background-color: #EEEEEE;
+}
+
+.buttonBox {
+    width: 40%;
+    float: left;
+}
+
+.underButton {
+    background-color: #D05224;
+    color: #FFFFFF;
+    border: 0;
+    padding: 6px 15px;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 900;
+}
+
+.detailsBox {
+    width: 30%;
+    float: left;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.underBody {
+    padding: 3.4% 4.2%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+
+.container{
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 12.62% 0 15.04% 0;
+    position: relative;
+}
+.svg_container{
+    width: 30%;
+    float: left;
+}
+.svg_viewport{
+    width: 5.09vw;
+    margin-left: auto;
+}
+.data_container{
+    width: 65%;
+    float: right;
+    margin-left:5%;
+}
+.clear{
+    clear: both;
+}
+
+.days{
+    font-size: 1.66vw;
+    font-family: 'Lato';
+    letter-spacing: 1.7px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+
+.complaint{
+    margin-top: 43.5%;
+}
+
+.date_time{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+}
+
+.sent{
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+}
+
+.jeret{
+    padding-top: 1%;
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+}
+
+
+.member{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.mob_number{
+    width: 25%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+
+.Gurgaon{
+    width: 38%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+.accepted{
+    margin-top: 30%;
+}
+
+
+
+
+.task_container{
+    width: 6.8%;
+    background-color: #32BDD2;
+    border: 1px solid #D6D4E0;
+    padding-top:2%;
+    border-radius: 3.6vw;
+    position: absolute;
+    top: 4.6%;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.mail img{
+    display: block;
+    margin:auto;
+    width: 16px;
+    height: 16px;
+}
+
+.mail_mail img{
+    display: block;
+    margin:auto;
+    width: 16px;
+    height: 16px;
+}
+
+.mail{
+    padding: 50% 0;
+}
+.mail_mail{
+    padding: 50% 0;
+}
+
+.home img{
+    display: block;
+    margin:auto;
+    width: 16px;
+    height: 16px;
+}
+.home{
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #3B3B3B29;
+    border-radius: 50%;
+    margin: 32% 15% ;
+    padding: 29%;
+}
+
+@media screen and (max-device-width: 768px) {
+    .notiIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .userImage {
+        width: 24px;
+        height: 24px;
+    }
+    .dropIcon {
+        width: 6.75px;
+        height: 6.75px;
+    }
+    .returnImage {
+        width: 24px;
+        height: 24px;
+    }
+
+    .mail img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .mail_mail img{
+        width: 17px;
+        height: 17px;
+    }
+   
+    
+    .home img{
+        width: 20px;
+        height: 20px;
+    }
+    .home{
+        padding-top: 10%;
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .notiIcon {
+        width: 45px;
+        height: 45px;
+    }
+    .userImage {
+        width: 45px;
+        height: 45px;
+    }
+    .dropIcon {
+        width: 12.7px;
+        height: 12.7px;
+    }
+    .returnImage {
+        width: 45px;
+        height: 45px;
+    }
+
+    .mail img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mail_mail img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    .home img{
+        width: 30px;
+        height: 30px;
+    }
+    .home{
+        padding-top: 5%;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .notiIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+    .dropIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .returnImage {
+        width: 60px;
+        height: 60px;
+    }
+
+    .mail img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mail_mail img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .home img{
+        width: 30px;
+        height: 30px;
+    }
+    .home{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .notiIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .userImage {
+        width: 80px;
+        height: 80px;
+    }
+    .dropIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .returnImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .mail img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .mail_mail img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .home img{
+        width: 60px;
+        height: 60px;
+    }
+    .home{
+        padding-top: 4%;
+        width: 70px;
+        height: 70px;
+    }
+}

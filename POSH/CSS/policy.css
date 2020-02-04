@@ -1,125 +1,133 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.policy_header{
+
+.policy_header {
     border-bottom: 1px solid #505050;
     padding: 2.95% 3.0% 2.82% 3.49%;
 }
 
-.download{
+.download {
     width: 12%;
     float: right;
 }
-.policy{
-    font-family: "Anton";
+
+.policy {
+    font-family: 'Anton';
     font-size: 14px;
     text-align: left;
     letter-spacing: 1.4px;
     color: #000000;
-   
 }
 
-.left_container{
+.left_container {
     width: 88%;
     float: left;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.last{
+
+.last {
     text-align: left;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 12px;
     letter-spacing: 0;
     color: #747474;
 }
-.kb{ 
+
+.kb {
     padding-right: 01%;
     text-align: right;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 12px;
     letter-spacing: 0.3px;
     color: #747474;
 }
 
-.kb_1{
+.kb_1 {
     font-weight: 600;
 }
 
-.pdf{
+.pdf {
     width: 75%;
     float: left;
     padding-right: 5%;
 }
 
-.image{
+.image {
     width: 25%;
     float: right;
 }
-.image img{
+
+.image img {
     width: 34px;
     height: 34px;
     vertical-align: middle;
 }
-.policies{
+
+.policies {
     padding: 3.62% 3.0% 4.4% 3.44%;
 }
-.comment{
-    margin-bottom: 6.18%;
-}
-.paragraph{
+
+.paragraph {
     text-align: left;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 14px;
     color: #505050;
-   padding-top: 1%;
+    padding-top: 1%;
 }
-.comment_bar{
-    width: 98%;
+
+.comment_bar {
+    width: 89%;
     margin: auto;
     display: flex;
-    align-content: center;
-    justify-content: center;
-    border:0.35px  solid #B5B5B5;
+    border: 0.35px solid #B5B5B5;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: #fff;
 }
-.bar{
+
+.bar {
     background-color: #EAF2F4;
-    padding: 3% 5.3%;
-    margin-bottom: 6.98%;
-}
-.profile img{
-    width: 43px;
-    height: 43px;
-    align-content: center;
+    padding: 3% 0%;
+    margin-bottom: 8.18%;
 }
 
-.profile{
-    width: 10%;
+.profile img {
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
 }
 
-.drop_comment input{
-   flex: 0;
-   width: 100%;
-   border: 0px;
-   font-size: 12px; 
+.profile {
+    width: 6%;
+    padding-top: .2%;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
-.drop_comment{
-   width: 80%;
-   margin: 2.10%;
- }
+.drop_comment input {
+    width: 100%;
+    border: 0px;
+    font-size: 12px;
+    height: 100%;
+}
 
- .btn{
-     width: 10%;
- }
-.submit{
+.drop_comment {
+    width: 82%;
+}
+
+.btn {
+    width: 12%;
+}
+
+.submit {
     background-color: #32BDD2;
     color: #fff;
     border: #32BDD2;
@@ -129,378 +137,349 @@
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     cursor: pointer;
-   
+    text-align: center;
 }
-.comment_section{
+
+.comment_section {
     width: 100%;
 }
 
-.right_containt{
+.right_containt {
     width: 60.48%;
-   padding-right: 3.49%;
+    padding-left: 3.41%;
+    padding-bottom: 8.18%;
 }
-.left_part{
+
+.left_part {
     width: 10%;
     float: left;
     padding-left: 2.82%;
 }
-.left_part img{
+
+.left_part img {
     width: 58px;
     width: 58px;
 }
-.thumb{
+
+.thumb {
     padding-top: 3.36%;
 }
-.thumb img{
+
+.thumb img {
     width: 010px;
     height: 15px;
 }
-.right_part{
+
+.right_part {
     width: 90%;
     float: right;
-
 }
-.name{
- text-align: left;
-   font-size: 14px;
-   font-family: "Lato";
+
+.name {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
     letter-spacing: 0;
     color: #505050;
-    padding:.5%;
+    padding: .5%;
 }
-.date{
+
+.date {
     text-align: left;
     font-size: 12px;
-    font-family: "Lato";
+    font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #909090;
-    padding:.3%;
+    padding: .3%;
 }
-.text{
+
+.text {
     text-align: left;
     font-size: 11px;
-    font-family: "Lato";
+    font-family: 'Lato';
     letter-spacing: 1.1px;
     color: #747474;
     padding-top: 1.61%;
 }
-.likes{
+
+.likes {
     text-align: left;
     font-size: 12px;
-    font-family: "Lato";
+    font-family: 'Lato';
     letter-spacing: 0.5px;
     color: #909090;
-    padding:.5%;
+    padding: .5%;
     padding-right: 2%;
 }
-.show_more{
+
+.show_more {
     background-color: #EEEEEE;
-    margin: 9% 2.82% 4.97% 2.82%;
+    margin: 0% 2.82% 4.97% 2.82%;
 }
-.center{
+
+.center {
     width: 12%;
     margin: auto;
     padding: 2.82% 0%;
 }
-.show{
+
+.show {
     text-align: left;
     font-size: 12px;
-    font-family: "Lato";
+    font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #505050;
     font-weight: bold;
 }
-.down img{
-  width: 9.91px;
-  height: 6.51px;
-  vertical-align: middle;
+
+.down img {
+    width: 9.91px;
+    height: 6.51px;
+    vertical-align: middle;
 }
 
-.down{
+.down {
     padding-left: 1%;
-  }
+}
 
-  @media only screen and (max-width: 768px) {
-    .policy{
+@media only screen and (max-width: 768px) {
+    .policy {
         font-size: 10px;
     }
-    
-    .last{
+    .last {
         font-size: 9px;
     }
-
-    .kb{ 
+    .kb {
         font-size: 9px;
-
     }
-    
-    .image img{
+    .image img {
         width: 25.5px;
         height: 23.5px;
     }
-
-    .paragraph{
+    .paragraph {
         font-size: 10px;
     }
-
-    .profile img{
+    .profile img {
         width: 32px;
         height: 32px;
     }
-    .drop_comment input{
-       font-size: 10px; 
+    .drop_comment input {
+        font-size: 10px;
     }
-    
-    .submit{
+    .submit {
         font-size: 10px;
         padding: 15.5px 35px;
-       
     }
-
-    .left_part img{
+    .left_part img {
         width: 42px;
         height: 43px;
     }
-    .thumb img{
+    .thumb img {
         width: 010px;
         height: 15px;
     }
-    .name{
-       font-size: 10px;
+    .name {
+        font-size: 10px;
     }
-    .date{
+    .date {
         font-size: 9px;
     }
-    .text{
+    .text {
         font-size: 8px;
     }
-    .likes{
+    .likes {
         font-size: 9px;
     }
-
-    .show{
+    .show {
         font-size: 9px;
     }
-    .down img{
-      width: 6.75px;
-      height: 7.75px;
+    .down img {
+        width: 6.75px;
+        height: 7.75px;
     }
-    
-  }
-  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+}
 
-    .policy{
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .policy {
         font-size: 19px;
     }
-    
-    .last{
+    .last {
         font-size: 19px;
     }
-    .kb{ 
+    .kb {
         font-size: 17px;
-
     }
-    
-    
-    .image img{
+    .image img {
         width: 47.8px;
         height: 47.8px;
     }
-
-    .paragraph{
+    .paragraph {
         font-size: 19px;
     }
-
-    .profile img{
+    .profile img {
         width: 59.5px;
         height: 59.5px;
     }
-    .drop_comment input{
-       font-size: 12px; 
+    .drop_comment input {
+        font-size: 12px;
     }
-    
-    .submit{
+    .submit {
         font-size: 12px;
         padding: 26px 47px;
-       
     }
-
-    .left_part img{
+    .left_part img {
         width: 81.5px;
         height: 81.5px;
     }
-    .thumb img{
+    .thumb img {
         width: 18px;
         height: 20.5px;
     }
-    .name{
-       font-size: 19px;
+    .name {
+        font-size: 19px;
     }
-    .date{
+    .date {
         font-size: 17px;
     }
-    .text{
+    .text {
         font-size: 15px;
     }
-    .likes{
+    .likes {
         font-size: 17px;
     }
-
-    .show{
+    .show {
         font-size: 17px;
     }
-    .down img{
-      width: 17.7px;
-      height: 12.51px;
+    .down img {
+        width: 17.7px;
+        height: 12.51px;
     }
-  }
-  @media only screen and (min-width: 1441px) and (max-width: 1920px) {
+}
 
-    .policy{
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .policy {
         font-size: 25px;
     }
-    
-    .last{
+    .last {
         font-size: 23px;
     }
-    .kb{ 
+    .kb {
         font-size: 23px;
-
     }
-    
-    .image img{
+    .image img {
         width: 63.7px;
         height: 63.7px;
     }
-
-    .paragraph{
+    .paragraph {
         font-size: 25px;
     }
-
-    .profile img{
+    .profile img {
         width: 105px;
         height: 105px;
     }
-    .drop_comment input{
-       font-size: 12px; 
+    .drop_comment input {
+        font-size: 12px;
     }
-    
-  
-
-    .drop_comment{
+    .drop_comment {
         flex-grow: 10;
-     }
-    .submit{
+    }
+    .submit {
         font-size: 23px;
         padding: 26px 47px;
-    
     }
-
-    .left_part img{
+    .left_part img {
         width: 142px;
         height: 142px;
     }
-    .thumb img{
+    .thumb img {
         width: 30px;
         height: 45.5px;
     }
-    .name{
-       font-size: 25px;
-    }
-    .date{
+    .name {
         font-size: 25px;
     }
-    .text{
+    .date {
+        font-size: 25px;
+    }
+    .text {
         font-size: 27px;
     }
-    .likes{
+    .likes {
         font-size: 23px;
     }
-
-    .show{
+    .show {
         font-size: 23px;
     }
-    .down img{
-      width: 17px;
-      height: 18px;
+    .down img {
+        width: 17px;
+        height: 18px;
     }
-  }
-  @media only screen and (min-width: 1921px) and (max-width: 2560px) {
+}
 
-    .policy{
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .policy {
         font-size: 35px;
     }
-    
-    .last{
+    .last {
         font-size: 30px;
     }
-    .kb{ 
+    .kb {
         font-size: 30px;
-
     }
-    
-    
-    .image img{
+    .image img {
         width: 85px;
         height: 85px;
     }
-
-    .paragraph{
+    .paragraph {
         font-size: 35px;
     }
-
-    .profile img{
+    .profile img {
         width: 105px;
         height: 105px;
     }
-    .drop_comment input{
-       font-size: 30px; 
+    .drop_comment input {
+        font-size: 30px;
     }
-    
-    .drop_comment{
+    .drop_comment {
         flex-grow: 10;
-     }
-    .submit{
+    }
+    .submit {
         font-size: 30px;
         padding: 44px 87.5px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-       
     }
-
     .comment_bar {
         border-top-left-radius: 90px;
         border-bottom-left-radius: 90px;
         border-top-right-radius: 80px;
         border-bottom-right-radius: 90px;
     }
-
-    .left_part img{
+    .left_part img {
         width: 142px;
         height: 142px;
     }
-    .thumb img{
+    .thumb img {
         width: 24.9px;
         height: 36.5px;
     }
-    .name{
-       font-size: 35px;
+    .name {
+        font-size: 35px;
     }
-    .date{
+    .date {
         font-size: 30px;
     }
-    .text{
+    .text {
         font-size: 26.5px;
     }
-    .likes{
+    .likes {
         font-size: 30px;
     }
-
-    .show{
+    .show {
         font-size: 30px;
     }
-    .down img{
-      width: 32.6px;
-      height: 24.8px;
+    .down img {
+        width: 32.6px;
+        height: 24.8px;
     }
-  }
+}

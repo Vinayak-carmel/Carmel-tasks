@@ -1,38 +1,62 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.left_part{
- width: 20%;
- float: left;
+
+body {
+    background-color: #000000B2;
 }
-.right_part{
-    width: 80%;
+
+.container {
+    width: 74%;
+    margin: auto;
+    background-color: #E9F0F1;
+}
+
+.containt {
+    margin: 14% 0;
+}
+
+.logo_part {
+    padding: 8.50% 0 10.47% 0;
+}
+
+.left_part {
+    width: 30%;
+    float: left;
+}
+
+.right_part {
+    width: 70%;
     float: right;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.logo{
+
+.logo {
     display: block;
     margin-left: auto;
-
     width: 100px;
     height: 100px;
 }
-.title{
+
+.title {
     padding: 1% 0 0 2%;
 }
-.cirtificate{
+
+.cirtificate {
     text-align: left;
     font-family: 'Roboto';
     font-size: 25px;
     letter-spacing: 2.5px;
     color: #505050;
 }
-.attendance{
-    padding-top:1%;
+
+.attendance {
+    padding-top: 1%;
     text-align: left;
     font-family: 'Roboto';
     font-size: 14px;
@@ -40,33 +64,151 @@
     color: #505050;
 }
 
-.naming_senction{
-width: 20%;
-float: left;
-margin-right: auto;
-}
-.participation{
-    width: 78%;
-    float: right;
+.naming_senction {
+    width: 30%;
+    float: left;
+    margin-right: auto;
 }
 
-.left_senction{
+.participation {
+    width: 70%;
+    float: right;
+    padding-left: 6%;
+    margin-bottom: 8.37%;
+}
+
+.left_senction {
     text-align: right;
 }
 
-.name{
+.name {
     font-size: 16px;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
     color: #747474;
-
+    padding-bottom: 10.10%;
 }
 
-.person{
+.person {
     font-size: 16px;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
     color: #505050;
     font-weight: 500;
+    padding-bottom: 5.10%;
+}
 
+.dr {
+    padding-top: 4%;
+    font-size: 16px;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #505050;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+    .title {
+        padding: 1% 0 0 2%;
+    }
+    .cirtificate {
+        font-size: 18.7px;
+    }
+    .attendance {
+        font-size: 10px;
+    }
+    .name {
+        font-size: 12px;
+    }
+    .person {
+        font-size: 12px;
+    }
+    .dr {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .logo {
+        width: 140.5px;
+        height: 140.5px;
+    }
+    .cirtificate {
+        font-size: 35.5px;
+    }
+    .attendance {
+        font-size: 19px;
+    }
+    .left_senction {
+        text-align: right;
+    }
+    .name {
+        font-size: 22.6px;
+    }
+    .person {
+        font-size: 22.6px;
+    }
+    .dr {
+        font-size: 22.6px;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .logo {
+        width: 188px;
+        height: 188px;
+    }
+    .title {
+        padding: 1% 0 0 2%;
+    }
+    .cirtificate {
+        font-size: 47px;
+    }
+    .attendance {
+        font-size: 25px;
+    }
+    .left_senction {
+        text-align: right;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .person {
+        font-size: 30px;
+    }
+    .dr {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .logo {
+        width: 249px;
+        height: 249px;
+    }
+    .title {
+        padding: 1% 0 0 2%;
+    }
+    .cirtificate {
+        font-size: 62.5px;
+    }
+    .attendance {
+        font-size: 35px;
+    }
+    .left_senction {
+        text-align: right;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .person {
+        font-size: 40px;
+    }
+    .dr {
+        font-size: 40px;
+    }
 }
