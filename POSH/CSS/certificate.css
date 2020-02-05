@@ -10,8 +10,8 @@ body {
 
 .container {
     width: 74%;
-    margin: auto;
     background-color: #E9F0F1;
+    margin: auto;
 }
 
 .containt {
@@ -19,7 +19,7 @@ body {
 }
 
 .logo_part {
-    padding: 8.50% 0 10.47% 0;
+    padding: 9.94% 0 11.25% 0;
 }
 
 .left_part {
@@ -39,8 +39,7 @@ body {
 .logo {
     display: block;
     margin-left: auto;
-    width: 100px;
-    height: 100px;
+    width: 6.78vw;
 }
 
 .title {
@@ -50,7 +49,7 @@ body {
 .cirtificate {
     text-align: left;
     font-family: 'Roboto';
-    font-size: 25px;
+    font-size: 2.44vw;
     letter-spacing: 2.5px;
     color: #505050;
 }
@@ -59,7 +58,7 @@ body {
     padding-top: 1%;
     text-align: left;
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0.7px;
     color: #505050;
 }
@@ -74,7 +73,6 @@ body {
     width: 70%;
     float: right;
     padding-left: 6%;
-    margin-bottom: 8.37%;
 }
 
 .left_senction {
@@ -82,7 +80,7 @@ body {
 }
 
 .name {
-    font-size: 16px;
+    font-size: 1.56vw;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
     color: #747474;
@@ -90,7 +88,7 @@ body {
 }
 
 .person {
-    font-size: 16px;
+    font-size: 1.56vw;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
     color: #505050;
@@ -100,115 +98,13 @@ body {
 
 .dr {
     padding-top: 4%;
-    font-size: 16px;
+    font-size: 1.56vw;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
     color: #505050;
     font-weight: 500;
 }
 
-@media only screen and (max-width: 768px) {
-    .logo {
-        width: 75px;
-        height: 75px;
-    }
-    .title {
-        padding: 1% 0 0 2%;
-    }
-    .cirtificate {
-        font-size: 18.7px;
-    }
-    .attendance {
-        font-size: 10px;
-    }
-    .name {
-        font-size: 12px;
-    }
-    .person {
-        font-size: 12px;
-    }
-    .dr {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .logo {
-        width: 140.5px;
-        height: 140.5px;
-    }
-    .cirtificate {
-        font-size: 35.5px;
-    }
-    .attendance {
-        font-size: 19px;
-    }
-    .left_senction {
-        text-align: right;
-    }
-    .name {
-        font-size: 22.6px;
-    }
-    .person {
-        font-size: 22.6px;
-    }
-    .dr {
-        font-size: 22.6px;
-    }
-}
-
-@media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    .logo {
-        width: 188px;
-        height: 188px;
-    }
-    .title {
-        padding: 1% 0 0 2%;
-    }
-    .cirtificate {
-        font-size: 47px;
-    }
-    .attendance {
-        font-size: 25px;
-    }
-    .left_senction {
-        text-align: right;
-    }
-    .name {
-        font-size: 30px;
-    }
-    .person {
-        font-size: 30px;
-    }
-    .dr {
-        font-size: 30px;
-    }
-}
-
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .logo {
-        width: 249px;
-        height: 249px;
-    }
-    .title {
-        padding: 1% 0 0 2%;
-    }
-    .cirtificate {
-        font-size: 62.5px;
-    }
-    .attendance {
-        font-size: 35px;
-    }
-    .left_senction {
-        text-align: right;
-    }
-    .name {
-        font-size: 40px;
-    }
-    .person {
-        font-size: 40px;
-    }
-    .dr {
-        font-size: 40px;
-    }
+.second_row{
+    padding-bottom: 8.37%;
 }

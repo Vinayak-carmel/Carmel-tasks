@@ -16,7 +16,7 @@
 
 .policy {
     font-family: 'Anton';
-    font-size: 14px;
+    font-size: 1.36vw;
     text-align: left;
     letter-spacing: 1.4px;
     color: #000000;
@@ -34,7 +34,7 @@
 .last {
     text-align: left;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0;
     color: #747474;
 }
@@ -43,7 +43,7 @@
     padding-right: 01%;
     text-align: right;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.3px;
     color: #747474;
 }
@@ -64,8 +64,8 @@
 }
 
 .image img {
-    width: 34px;
-    height: 34px;
+    width: 34.47px;
+    height: 34.47;
     vertical-align: middle;
 }
 
@@ -76,14 +76,12 @@
 .paragraph {
     text-align: left;
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     color: #505050;
     padding-top: 1%;
 }
 
 .comment_bar {
-    width: 89%;
-    margin: auto;
     display: flex;
     border: 0.35px solid #B5B5B5;
     border-top-left-radius: 50px;
@@ -94,18 +92,18 @@
 
 .bar {
     background-color: #EAF2F4;
-    padding: 3% 0%;
+    padding: 3.2% 5.3%;
     margin-bottom: 8.18%;
 }
 
 .profile img {
-    width: 45px;
-    height: 45px;
+    width: 43px;
+    height: 43px;
     vertical-align: middle;
 }
 
 .profile {
-    width: 6%;
+    width: fit-content;
     padding-top: .2%;
     background-color: #fff;
     border-top-left-radius: 50px;
@@ -117,21 +115,22 @@
     border: 0px;
     font-size: 12px;
     height: 100%;
+    padding-left: 1%;
 }
 
 .drop_comment {
-    width: 82%;
+    width: 80%;
 }
 
 .btn {
-    width: 12%;
+    width: 16%;
 }
 
 .submit {
     background-color: #32BDD2;
     color: #fff;
     border: #32BDD2;
-    font-size: 12px;
+    font-size: 1.17vw;
     height: 100%;
     width: 100%;
     border-top-right-radius: 40px;
@@ -157,8 +156,8 @@
 }
 
 .left_part img {
-    width: 58px;
-    width: 58px;
+    width: 58.16px;
+    width: 58.16px;
 }
 
 .thumb {
@@ -166,8 +165,8 @@
 }
 
 .thumb img {
-    width: 010px;
-    height: 15px;
+    width: 14.47px;
+    height: 15.12px;
 }
 
 .right_part {
@@ -177,7 +176,7 @@
 
 .name {
     text-align: left;
-    font-size: 14px;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 0;
     color: #505050;
@@ -186,7 +185,7 @@
 
 .date {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #909090;
@@ -195,7 +194,7 @@
 
 .text {
     text-align: left;
-    font-size: 11px;
+    font-size: 1.07;
     font-family: 'Lato';
     letter-spacing: 1.1px;
     color: #747474;
@@ -204,7 +203,7 @@
 
 .likes {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.5px;
     color: #909090;
@@ -218,14 +217,14 @@
 }
 
 .center {
-    width: 12%;
+    width: 14%;
     margin: auto;
     padding: 2.82% 0%;
 }
 
 .show {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #505050;
@@ -243,243 +242,123 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .policy {
-        font-size: 10px;
-    }
-    .last {
-        font-size: 9px;
-    }
-    .kb {
-        font-size: 9px;
-    }
+
     .image img {
-        width: 25.5px;
-        height: 23.5px;
+        width: 34.47px;
+        height: 34.47px;
+        vertical-align: middle;
     }
-    .paragraph {
-        font-size: 10px;
-    }
+
     .profile img {
-        width: 32px;
-        height: 32px;
-    }
-    .drop_comment input {
-        font-size: 10px;
-    }
-    .submit {
-        font-size: 10px;
-        padding: 15.5px 35px;
-    }
-    .left_part img {
-        width: 42px;
+        width: 43px;
         height: 43px;
+        vertical-align: middle;
+    }
+
+
+    .left_part img {
+        width: 58.16px;
+        width: 58.16px;
     }
     .thumb img {
-        width: 010px;
-        height: 15px;
+        width: 14.47px;
+        height: 15.12px;
     }
-    .name {
-        font-size: 10px;
-    }
-    .date {
-        font-size: 9px;
-    }
-    .text {
-        font-size: 8px;
-    }
-    .likes {
-        font-size: 9px;
-    }
-    .show {
-        font-size: 9px;
-    }
+    
     .down img {
-        width: 6.75px;
-        height: 7.75px;
+        width: 9.91px;
+        height: 6.51px;
+        vertical-align: middle;
     }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .policy {
-        font-size: 19px;
-    }
-    .last {
-        font-size: 19px;
-    }
-    .kb {
-        font-size: 17px;
-    }
+   
     .image img {
-        width: 47.8px;
-        height: 47.8px;
+        width: 47.81px;
+        height: 47.81px;
+        vertical-align: middle;
     }
-    .paragraph {
-        font-size: 19px;
-    }
+
     .profile img {
-        width: 59.5px;
-        height: 59.5px;
+        width: 60.46px;
+        height: 60.46px;
+        vertical-align: middle;
     }
-    .drop_comment input {
-        font-size: 12px;
-    }
-    .submit {
-        font-size: 12px;
-        padding: 26px 47px;
-    }
+
+
     .left_part img {
-        width: 81.5px;
-        height: 81.5px;
+        width: 81.56px;
+        width: 81.56px;
     }
     .thumb img {
-        width: 18px;
-        height: 20.5px;
+        width: 19.6px;
+        height: 21px;
     }
-    .name {
-        font-size: 19px;
-    }
-    .date {
-        font-size: 17px;
-    }
-    .text {
-        font-size: 15px;
-    }
-    .likes {
-        font-size: 17px;
-    }
-    .show {
-        font-size: 17px;
-    }
+    
     .down img {
-        width: 17.7px;
-        height: 12.51px;
+        width: 14px;
+        height: 8.5px;
+        vertical-align: middle;
     }
 }
-
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    .policy {
-        font-size: 25px;
-    }
-    .last {
-        font-size: 23px;
-    }
-    .kb {
-        font-size: 23px;
-    }
+    
     .image img {
-        width: 63.7px;
-        height: 63.7px;
+        width: 63.75px;
+        height: 63.75;
+        vertical-align: middle;
     }
-    .paragraph {
-        font-size: 25px;
-    }
+
     .profile img {
-        width: 105px;
-        height: 105px;
+        width: 80.62px;
+        height: 80.625px;
+        vertical-align: middle;
     }
-    .drop_comment input {
-        font-size: 12px;
-    }
-    .drop_comment {
-        flex-grow: 10;
-    }
-    .submit {
-        font-size: 23px;
-        padding: 26px 47px;
-    }
+
+
     .left_part img {
-        width: 142px;
-        height: 142px;
+        width: 109.05px;
+        width: 109.05px;
     }
     .thumb img {
-        width: 30px;
-        height: 45.5px;
+        width: 26px;
+        height: 28px;
     }
-    .name {
-        font-size: 25px;
-    }
-    .date {
-        font-size: 25px;
-    }
-    .text {
-        font-size: 27px;
-    }
-    .likes {
-        font-size: 23px;
-    }
-    .show {
-        font-size: 23px;
-    }
+    
     .down img {
-        width: 17px;
-        height: 18px;
+        width: 18.6px;
+        height: 11px;
+        vertical-align: middle;
     }
 }
-
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .policy {
-        font-size: 35px;
-    }
-    .last {
-        font-size: 30px;
-    }
-    .kb {
-        font-size: 30px;
-    }
+    
     .image img {
         width: 85px;
         height: 85px;
+        vertical-align: middle;
     }
-    .paragraph {
-        font-size: 35px;
-    }
+
     .profile img {
-        width: 105px;
-        height: 105px;
+        width: 107.5px;
+        height: 107.5px;
+        vertical-align: middle;
     }
-    .drop_comment input {
-        font-size: 30px;
-    }
-    .drop_comment {
-        flex-grow: 10;
-    }
-    .submit {
-        font-size: 30px;
-        padding: 44px 87.5px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 60px;
-    }
-    .comment_bar {
-        border-top-left-radius: 90px;
-        border-bottom-left-radius: 90px;
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 90px;
-    }
+
+
     .left_part img {
-        width: 142px;
-        height: 142px;
+        width: 145.4px;
+        width: 145px.4;
     }
     .thumb img {
-        width: 24.9px;
-        height: 36.5px;
+        width: 34.47px;
+        height: 37.12px;
     }
-    .name {
-        font-size: 35px;
-    }
-    .date {
-        font-size: 30px;
-    }
-    .text {
-        font-size: 26.5px;
-    }
-    .likes {
-        font-size: 30px;
-    }
-    .show {
-        font-size: 30px;
-    }
+    
     .down img {
-        width: 32.6px;
-        height: 24.8px;
+        width: 24px;
+        height: 15px;
+        vertical-align: middle;
     }
 }

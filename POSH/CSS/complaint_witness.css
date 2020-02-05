@@ -5,15 +5,15 @@
 }
 
 .witness_top{
-    width: 7%;
+    width: 15%;
     padding: 1%;
     background: #F3F5B3;
     border-top-left-radius: 20px;
+    text-align: center;
 }
 .witness{
     background: #F3F5B3;
-    text-align: left;
-    font-size: 23px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 1.2px;
     color: #505050;
@@ -23,12 +23,13 @@
 }
 .description{
     background: #FBFCE7;
-    padding: 2%;
+    padding: 2.98%;
+    width: 86%;
 }
 .lorem{
     width: 86%;
     text-align: left;
-    font-size: 23px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #505050;
@@ -37,7 +38,7 @@
 .customer{
     text-align: left;
     font-family: 'Lato';
-    font-size: 23px;
+    font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #747474;
 }
@@ -47,28 +48,29 @@
 
 .first_witness{
     border-bottom: 1px solid #F3F5B3;
-    padding: 02%;
+    padding: 3.9%  2.5%;
+    width: 25.34%;
 }
 .append_witness{
     background-color: #FBFCE7 ;
-    padding: 2%;
+    padding: 2.30% 2.68%;
     border-bottom: 1px solid #F3F5B3;
 }
 .plus_icon{
-    width: 48px;
-    height: 48px;
+    width: 2.53vw;
+    height: 2.53vw;
     vertical-align: middle;
 }
 .dropdown{
-    width: 18px;
-    height: 18px;
+    width: 0.95vw;
+    height: 0.58vw;
     vertical-align: middle;
 }
 
 .append{
     text-align: left;
     font-family: 'Lato';
-    font-size: 23px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
     padding-right: 0.5%;
@@ -77,13 +79,14 @@
 }
 .name{
     font-family: 'Lato';
-    font-size: 23px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #595959;
     padding: 1% 0%; 
 }
 .input_text{
-    padding: 1% 0;
+padding-top: 4.58%;
+
 }
 
 .input_text input{
@@ -91,19 +94,20 @@
     box-shadow: 0px 0px 6px #0000001A;
     border-radius: 4px;
     border: 1px solid #0000001A;
-    padding: 1%;
-    width: 35%;
+   padding: 1.78%;
+   width: 70%;
 }
 .email_text{
-    padding: 1% 0;
+    padding-top: 4.58%;
+
 }
 .mobile_input {
     background: #FFFFFF ;
     border: 1px solid #00000019;
     box-shadow: 0px 0px 6px #00000019;
     border-radius: 4px;
-    padding: 1%;
-    width: 25%;
+    padding: 1.78%;
+    width: 51%;
 }
 
 .submit_btn{
@@ -112,164 +116,16 @@
     border-radius: 4px;
     text-align: left;
     font-family: 'Lato';
-    font-size: 23px;
+    font-size: 1.17vw;
+    font-weight: 600;
     letter-spacing: 0.6px;
     color: #FFFFFF;
     padding: 1% 3%;
-    margin-top: 02%;
 }
 .contact_info{
-    padding: 2% 6%;
+    padding: 0 7.8%;
 }
-
-@media only screen and (max-width: 768px) {
-    .witness_top{
-        width: 8%
-    }
-    .witness{
-        font-size: 9px;
-    }
-    .lorem{
-        font-size: 9px;
-    }
-    
-    .customer{
-        font-size: 9px;
-    }
-
-    .plus_icon{
-        width: 19px;
-        height: 19px;
-    }
-    .dropdown{
-        width: 8px;
-        height: 8px;
-    }
-    
-    .append{
-        font-size: 9px;
-    }
-    .name{
-        font-size: 9px;
-    }
-
-    
-    .submit_btn{
-        font-size: 9px;
-    }
-
-}
-
-@media only screen and (min-width: 769px)  and (max-width: 1024px) {
-    .witness_top{
-        width: 8%
-    }
-    .witness{
-        font-size: 12px;
-    }
-    .lorem{
-        font-size: 12px;
-    }
-    
-    .customer{
-        font-size: 12px;
-    }
-
-    .plus_icon{
-        width: 26px;
-        height: 24px;
-    }
-    .dropdown{
-        width: 12.39px;
-        height: 10.83px;
-    }
-    
-    .append{
-        font-size: 12px;
-    }
-    .name{
-        font-size: 12px;
-    }
-
-    
-    .submit_btn{
-        font-size: 12px;
-    }
-
-}
-
-@media only screen and (min-width: 1025px)  and (max-width: 1440px) {
-    .witness_top{
-        width: 8%
-    }
-    .witness{
-        font-size: 17px;
-    }
-    .lorem{
-        font-size: 17px;
-    }
-    
-    .customer{
-        font-size: 17px;
-    }
-
-    .plus_icon{
-        width: 36px;
-        height: 36px;
-    }
-    .dropdown{
-        width: 15px;
-        height: 15px;
-    }
-    
-    .append{
-        font-size: 17px;
-    }
-    .name{
-        font-size: 17px;
-    }
-
-    
-    .submit_btn{
-        font-size: 17px;
-    }
-
-}
-
-@media only screen and (min-width: 1921px)  and (max-width: 2560px) {
-    .witness_top{
-        width: 8%
-    }
-    .witness{
-        font-size: 30px;
-    }
-    .lorem{
-        font-size: 30px;
-    }
-    
-    .customer{
-        font-size: 30px;
-    }
-
-    .plus_icon{
-        width: 65px;
-        height: 65px;
-    }
-    .dropdown{
-        width: 30px;
-        height: 30px;
-    }
-    
-    .append{
-        font-size: 30px;
-    }
-    .name{
-        font-size: 30px;
-    }
-
-    
-    .submit_btn{
-        font-size: 30px;
-    }
-
+.btn{
+    padding-top: 4.58%;
+    padding-bottom: 3.68%;
 }

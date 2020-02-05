@@ -1,0 +1,931 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+}
+
+.userImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 10px;
+}
+
+.dropIcon {
+    width: 9px;
+    height: 9px;
+}
+
+.clear {
+    clear: both;
+}
+
+.listContainer {
+    width: 95%;
+    margin: 2.5%;
+    box-shadow: 0px 0px 4px #00000029;
+    background-color: #FFFFFF;
+    padding: 5.8% 7.6%;
+   
+}
+
+.returnImage {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 7%;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #00000029;
+}
+
+.underBox {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 3.5%;
+}
+
+.greyUnderBar {
+    padding: 3.4% 4.2%;
+    background-color: #EEEEEE;
+}
+
+.buttonBox {
+    width: 40%;
+    float: left;
+}
+
+.underButton {
+    background-color: #D05224;
+    color: #FFFFFF;
+    border: 0;
+    padding: 6px 15px;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 900;
+}
+
+.detailsBox {
+    width: 30%;
+    float: left;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.underBody {
+    padding: 3.4% 4.2%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.charges_container{
+    border: 1px solid #CCCCCC;
+    padding-left: 12.5%;
+    padding-right: 8.37%;
+    position: relative;
+}
+
+.first_row{
+    padding-top: 4.61%;
+}
+.charges{
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.lorem_text{
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+} 
+
+.text{
+    text-align: left;
+    font-size:1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 2.54%
+} 
+
+
+.may{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #747474;
+    padding-bottom: 3.64%;
+}
+
+.heading{
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #464646;
+    font-weight: bold;
+    padding: 2.0% 0 0.8% 0;
+}
+
+.appendparent{
+    padding-top: 4.24%;
+}
+
+.evidenceHeading_top{
+    padding-top: 7.28%;
+}
+.evidenceHeading {
+    background-color: #F3F5B3;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.evidenceDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.yellowCard {
+    background-color: #fbfce7;
+    padding: 4% 2.7%;
+}
+
+.borderBox {
+    border: 1px solid #F3F5B3;
+}
+
+.rows {
+    padding: 4.4% 2.7%;
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.leftColumns {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
+.rightColumns {
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+
+.latoReg {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.latoBold {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #595959;
+}
+
+.appendEvidenceBox {
+    background-color: #fbfce7;
+    padding: 0 2.7% 3%;
+}
+
+.add {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.up {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.evidenceBar {
+    padding: 1.4% 0;
+    margin-bottom: 3%;
+}
+
+.fileContainer {
+    display: flex;
+}
+
+.selectContainer {
+    background-color: white;
+    border: 1px solid #DFEBEF;
+    padding: 2% 2% 1%;
+    width: 45%;
+}
+
+.select {
+    padding-bottom: 1%;
+    font-size: 1.17vw;
+    color: #747474;
+    font-family: 'Lato';
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.maximum {
+    padding-bottom: 3%;
+    font-size: 0.97vw;
+    color: #747474;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+}
+
+.browse {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    background-color: #32BDD2;
+    font-weight: 700;
+    border-radius: 6%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    border: 0;
+    letter-spacing: 0.6px;
+}
+
+.uploadContainer {
+    background-color: #32BDD2;
+    border: 1px solid #DFEBEF;
+    padding: 2%;
+    width: 45%;
+}
+
+.uploadBackground {
+    border: 2px dashed white;
+    padding: 4% 0;
+}
+
+.upload {
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+}
+
+.drop {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 1.17vw;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.75;
+}
+
+
+.witness_top{
+    width: 15%;
+    padding: 1%;
+    background: #F3F5B3;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
+.witness{
+    background: #F3F5B3;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+}
+.border{
+    border: 01px solid #F3F5B3;
+}
+.description{
+    background: #FBFCE7;
+    padding: 2.98%;
+    width: 86%;
+}
+.lorem{
+    width: 86%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.customer{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+.bold{
+    font-weight: bold;
+}
+
+.first_witness{
+    border-bottom: 1px solid #F3F5B3;
+    padding: 3.9%  2.5%;
+    width: 25.34%;
+}
+.append_witness{
+    background-color: #FBFCE7 ;
+    padding: 2.30% 2.68%;
+    border-bottom: 1px solid #F3F5B3;
+}
+.plus_icon{
+    width: 2.53vw;
+    height: 2.53vw;
+    vertical-align: middle;
+}
+.dropdown{
+    width: 0.95vw;
+    height: 0.58vw;
+    vertical-align: middle;
+}
+
+.append{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-right: 0.5%;
+    padding-left: 1%;
+    vertical-align: middle;
+}
+.name{
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding: 1% 0%; 
+}
+.input_text{
+padding-top: 4.58%;
+
+}
+
+.input_text input{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px #0000001A;
+    border-radius: 4px;
+    border: 1px solid #0000001A;
+   padding: 1.78%;
+   width: 70%;
+}
+.email_text{
+    padding-top: 4.58%;
+
+}
+.mobile_input {
+    background: #FFFFFF ;
+    border: 1px solid #00000019;
+    box-shadow: 0px 0px 6px #00000019;
+    border-radius: 4px;
+    padding: 1.78%;
+    width: 51%;
+}
+
+.submit_btn{
+    background: #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 4px;
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    padding: 1% 3%;
+}
+.contact_info{
+    padding: 0 7.8%;
+}
+.btn{
+    padding-top: 4.58%;
+    padding-bottom: 3.68%;
+}
+
+
+
+.cancelIcon {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.appendChargeText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #505050;
+    margin-left: 10px;
+}
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+
+.profilePic {
+    width: 34px;
+    vertical-align: middle;
+}
+
+.appendBox {
+    width: 81.25%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 12.5%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 5.27vw 5.27vw 0px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+.text_02{
+    text-align: left;
+    font-size:1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 10.80%
+} 
+
+.may_2018{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #747474;
+    padding-bottom: 1.69%;
+}
+
+.append_charges{
+    padding-top: 01%;
+}
+
+.append{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    vertical-align: middle;
+    padding: 0% 1% .5%;
+}
+
+.pluse_icon{
+        width: 2.53vw;
+        height: 2.53vw;
+        vertical-align: middle;
+}
+
+.error_msg{
+   background: #F0F0F0;
+   border-radius: 50px;
+   padding: 01% 02%;
+   margin-bottom:2.91% ;
+   width: 38%;
+}
+
+.error_icon{
+    width: 1.46vw;
+    height: 1.36vw;
+    vertical-align:middle;
+}
+
+.msg{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.evidence_section{
+    padding-top: 10.80%;
+}
+
+.witness_section{
+    padding-top: 7.40%;
+}
+.evidence_container{
+    padding: 2.98%;
+    background-color: #FBFCE7;
+    border: 1px solid #F3F5B3;
+}
+
+
+.append_container{
+    padding: 1.53% 2.94%;
+    background-color: #FBFCE7;
+}
+
+.witness_append_container{
+    padding: 1.53% 2.94%;
+    background-color: #FBFCE7;
+    margin-bottom: 4.24%;
+}
+.drop_down{
+    width: 0.88vw;
+    height: 0.58vw;
+    vertical-align: middle;
+}
+
+.evidence_description{
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    width: 86%;
+}
+
+.evidence{
+    width: 15.36%;
+    background: #F3F5B3;
+    border-top-left-radius: 20px;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
+.task_container {
+    width: 7%;
+    background-color: #32BDD2;
+    border: 1px solid #D6D4E0;
+    border-radius: 3.6vw;
+    position: absolute;
+    top: 1.6%;
+    left: 0%;
+    transform: translateX(-50%);
+}
+
+.task_container_home {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #3B3B3B29;
+    border-radius: 50%;
+    margin: 32% 8%;
+    padding: 19.5%;
+}
+
+.task_container_mail {
+    margin-top: 84%;
+}
+
+.task_container_eiro {
+    margin-top: 84%;
+    margin-bottom: 55.35%;
+}
+
+.home {
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
+    margin: auto;
+}
+
+.mail {
+    width: 2.56vw;
+    height: 2.27vw;
+    display: block;
+    margin: auto;
+}
+
+.calender {
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
+    margin: auto;
+}
+
+.pencil {
+    width: 2.75vw;
+    height: 2.75vw;
+    display: block;
+    margin: auto;
+}
+
+.eiro {
+    width: 2.50vw;
+    height:1.50vw;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 768px) {
+    .notiIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .userImage {
+        width: 24px;
+        height: 24px;
+    }
+    .dropIcon {
+        width: 6.75px;
+        height: 6.75px;
+    }
+    .returnImage {
+        width: 24px;
+        height: 24px;
+    }
+
+    .add {
+        width: 20px;
+        height: 20px;
+    }
+    .up {
+        width: 9px;
+        height: 9px;
+    }
+    .upload {
+        width: 21px;
+        height: 21px;
+    }
+
+    .cancelIcon {
+        width: 19.4px;
+        height: 19.4px;
+    }
+    .profilePic {
+        width: 25.5px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .notiIcon {
+        width: 45px;
+        height: 45px;
+    }
+    .userImage {
+        width: 45px;
+        height: 45px;
+    }
+    .dropIcon {
+        width: 12.7px;
+        height: 12.7px;
+    }
+    .returnImage {
+        width: 45px;
+        height: 45px;
+    }
+
+    .add {
+        width: 37.8px;
+        height: 37.8px;
+    }
+    .up {
+        width: 16.8px;
+        height: 16.8px;
+    }
+    .upload {
+        width: 39.3px;
+        height: 39.3px;
+    }
+
+    .cancelIcon {
+        width: 36.4px;
+        height: 36.4px;
+    }
+    .profilePic {
+        width: 47.8px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .notiIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+    .dropIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .returnImage {
+        width: 60px;
+        height: 60px;
+    }
+
+    .add {
+        width: 50.5px;
+        height: 50.5px;
+    }
+    .up {
+        width: 22.4px;
+        height: 22.4px;
+    }
+    .upload {
+        width: 52.5px;
+        height: 52.5px;
+    }
+
+    .cancelIcon {
+        width: 48.5px;
+        height: 48.5px;
+    }
+    .profilePic {
+        width: 63.7px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .notiIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .userImage {
+        width: 80px;
+        height: 80px;
+    }
+    .dropIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .returnImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .add {
+        width: 67.3px;
+        height: 67.3px;
+    }
+    .up {
+        width: 30px;
+        height: 30px;
+    }
+    .upload {
+        width: 70px;
+        height: 70px;
+    }
+
+    .cancelIcon {
+        width: 64.7px;
+        height: 64.7px;
+    }
+    .profilePic {
+        width: 85px;
+    }
+}

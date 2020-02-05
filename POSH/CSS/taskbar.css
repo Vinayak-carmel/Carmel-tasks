@@ -1,148 +1,64 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-.task_container{
-    width: 5%;
-    margin: auto;
+.task_container {
+    width: 7%;
     background-color: #32BDD2;
     border: 1px solid #D6D4E0;
-    padding-top:2%;
-    border-radius: 50px;
+    border-radius: 3.6vw;
 }
 
-.mail img{
-    display: block;
-    margin:auto;
-    width: 40px;
-    height: 40px;
-}
-
-.mail_mail img{
-    display: block;
-    margin:auto;
-    width: 30px;
-    height: 30px;
-}
-
-.mail{
-    padding: 50% 0;
-}
-.mail_mail{
-    padding: 50% 0;
-}
-
-.home img{
-    display: block;
-    margin:auto;
-    width: 40px;
-    height: 40px;
-}
-.home{
-    padding: 2% 0 0 5%;
-    width: 50px;
-    height: 50px;
-    margin: auto;
+.task_container_home {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 6px #3B3B3B29;
-    border-radius: 200px;
+    border-radius: 50%;
+    margin: 32% 8%;
+    padding: 19.5%;
 }
 
-
-@media only screen and (max-width: 768px) {
-        .mail img{
-            width: 20px;
-            height: 20px;
-        }
-        
-        .mail_mail img{
-            width: 17px;
-            height: 17px;
-        }
-        
-        
-        .home img{
-            width: 20px;
-            height: 20px;
-        }
-        .home{
-            padding-top: 10%;
-            width: 30px;
-            height: 30px;
-        }
+.task_container_mail {
+    margin-top: 84%;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .mail img{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .mail_mail img{
-        width: 20px;
-        height: 20px;
-    }
-    
-    
-    .home img{
-        width: 25px;
-        height: 25px;
-    }
-    .home{
-        padding-top: 10%;
-        width: 35px;
-        height: 35px;
-    }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .mail img{
-        width: 30px;
-        height: 30px;
-    }
-    
-    .mail_mail img{
-        width: 25px;
-        height: 25px;
-    }
-    
-    
-    .home img{
-        width: 30px;
-        height: 30px;
-    }
-    .home{
-        padding-top: 5%;
-        width: 40px;
-        height: 40px;
-    }
+.task_container_eiro {
+    margin-top: 84%;
+    margin-bottom: 55.35%;
 }
 
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-
-.container{
-    border-radius: 70px;
-}
-    .mail img{
-        width: 60px;
-        height: 60px;
-    }
-    
-    .mail_mail img{
-        width: 45px;
-        height: 45px;
-    }
-    
-    
-    .home img{
-        width: 60px;
-        height: 60px;
-    }
-    .home{
-        padding-top: 4%;
-        width: 70px;
-        height: 70px;
-    }
+.home {
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
+    margin: auto;
 }
 
+.mail {
+    width: 2.56vw;
+    height: 2.27vw;
+    display: block;
+    margin: auto;
+}
+
+.calender {
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
+    margin: auto;
+}
+
+.pencil {
+    width: 2.75vw;
+    height: 2.75vw;
+    display: block;
+    margin: auto;
+}
+
+.eiro {
+    width: 2.50vw;
+    height:1.50vw;
+    display: block;
+    margin: auto;
+}
