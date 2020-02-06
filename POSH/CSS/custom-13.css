@@ -1,0 +1,567 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header_container {
+    width: 100%;
+    box-shadow: 0px 0px 4px #00000029;
+    padding: 1.17% 2.44%;
+}
+
+.left_section {
+    width: 78%;
+    float: left;
+}
+
+.right_section {
+    width: 22%;
+    float: right;
+    padding-top: 0.3%;
+}
+
+.clear {
+    clear: both;
+}
+
+.header_containt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.notification img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.lucy {
+    text-align: center;
+    font-size: 1.36vw;
+    font-family: "Roboto";
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+
+.notification {
+    padding-right: 02.63%;
+}
+
+.profile_pic img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.down_icon {
+    width: 9.32px;
+    height: 5.83px;
+    vertical-align: middle;
+}
+
+.left_section {
+    width: 78%;
+    float: left;
+}
+
+.right_section {
+    width: 22%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.containt {
+    padding: 6.88% 4.4% 4.31% 4.31%;
+    background-color: #fff;
+}
+
+.parent {
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+
+.video {
+    padding: 3% 0;
+}
+
+.faq {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding: 2% 0;
+}
+
+.group img {
+    width: 305px;
+    height: 249px;
+}
+
+.group {
+    padding-bottom: 2%;
+}
+
+.explore img {
+    width: 28px;
+}
+
+.explore {
+    width: 3%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.topics {
+    width: 97%;
+    float: right;
+    padding-top: 0.5%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding-left: 01%;
+}
+
+.description {
+    margin-top: 5%;
+}
+
+.meant {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0;
+    color: #505050;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+
+.lorem {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.helpfull {
+    width: 100%;
+    display: flex;
+    margin-bottom: 6.88%;
+}
+
+.coloumn_one {
+    width: 29%;
+    background-color: #EEEEEE;
+}
+
+.coloumn_two {
+    width: 71%;
+    background-color: #EEEEEE;
+    padding: 4.84% 11%;
+    border-left: 3px solid #fff;
+}
+
+.usefull {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0;
+    color: #505050;
+    font-weight: bold;
+    padding-bottom: 7.5%;
+    padding-top: 17.95%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.like_part {
+    width: 50%;
+    float: left;
+    padding-bottom: 17.95%;
+}
+
+.like img {
+    width: 56px;
+    vertical-align: middle;
+}
+
+.dislike img {
+    width: 56px;
+    vertical-align: middle;
+}
+.like{
+    width: 50%;
+    margin: auto;
+   }
+   
+
+.dislike{
+ width: 50%;
+ margin: auto;
+}
+
+.dis_like_part {
+    width: 50%;
+    float: right;
+    padding-bottom: 17.95%;
+}
+
+.percent {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-top: 1.65%;
+}
+
+.percent_10 {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-top: 1.65%;
+}
+
+.btn {
+    color: #fff;
+    padding: 6px 15px;
+    cursor: pointer;
+    background-color: #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 8px;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 1.17vw;
+    margin-top: 2.83%;
+}
+
+.review {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 3.5%;
+}
+
+.comment_section {
+    width: 100%;
+}
+
+.right_containt {
+    width: 75.48%;
+    padding-left: 3.41%;
+    padding-bottom: 8.18%;
+}
+
+.left_part {
+    width: 13%;
+    float: left;
+    padding-left: 5.96%;
+}
+
+.left_part img {
+    width: 58px;
+    width: 58px;
+}
+
+.thumb {
+    padding-top: 3.36%;
+}
+
+.thumb img {
+    width: 010px;
+    height: 15px;
+}
+
+.right_part {
+    width: 87%;
+    float: right;
+}
+
+.name {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #505050;
+    padding: .5%;
+}
+
+.date {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding: .3%;
+}
+
+.text {
+    text-align: left;
+    font-size: 1.07vw;
+    font-family: 'Lato';
+    letter-spacing: 1.1px;
+    color: #747474;
+    padding-top: 1.61%;
+}
+
+.likes {
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    color: #909090;
+}
+
+.show_more {
+    width: 95%;
+    margin: auto;
+    background-color: #EEEEEE;
+    padding: 2%;
+}
+
+.show {
+    padding: 2%;
+    background-color: #EEEEEE;
+}
+
+.more {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: 600;
+}
+
+.footer {
+    width: 14%;
+    margin: auto
+}
+
+.drop_down {
+    width: 15px;
+    height: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .profile_pic img {
+        width: 24px;
+    }
+    .notification img {
+        width: 24px;
+    }
+    .down_icon img {
+        width: 6.75px;
+        height: 4px;
+    }
+    .second_colom {
+        padding-right: 17%;
+    }
+    .down_icon {
+        width: 6.5px;
+        height: 6.5px;
+    }
+
+    .group img {
+        width:228.7px;
+        height: 186.75px;
+    }
+    .explore img {
+        width: 21px;
+        height: 21px;
+    }
+  
+    .like img {
+        width: 42px;
+        height: 42px;
+    }
+    .dislike img {
+        width: 42px;
+        height: 42px;
+    }
+  
+    .left_part img {
+        width: 43.75px;
+        height: 43.74px;
+    }
+    .thumb img {
+        width: 10.5px;
+        height: 12px;
+    }
+    .drop_down {
+        width: 7.5px;
+        height: 5.5px;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+ 
+    .profile_pic img {
+        width: 45px;
+    }
+    .notification img {
+        width: 45px;
+    }
+    .down_icon img {
+        width: 17px;
+    }
+    .down_icon {
+        width: 17px;
+        height: 17px;
+    }
+    .down_icon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .group img {
+        width: 420px;
+        height: 349px;
+    }
+    .explore img {
+        width: 39.3px;
+        height: 38.5px;
+    }
+  
+    .like img {
+        width: 78.75px;
+        height: 78.75px;
+    }
+    .dislike img {
+        width: 78.75px;
+        height: 78.75px;
+    }
+  
+    .left_part img {
+        width: 80px;
+        height: 80px;
+    }
+    .thumb img {
+        width: 14px;
+        height: 20px;
+    }
+    .drop_down {
+        width: 20px;
+        height: 15px;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+ 
+
+    .notification img{
+        width: 60px;
+    }
+    .profile_pic img {
+        width: 60px;
+    }
+    .down_icon {
+        width: 17px;
+        height: 17px;
+    }
+    .group img {
+        width: 559.29px;
+        height: 471px;
+    }
+    .explore img {
+        width: 52px;
+        height: 52px;
+    }
+   
+    .like img {
+        width: 105px;
+        height: 105px;
+    }
+    .dislike img {
+        width: 105px;
+        height: 105px;
+    }
+  
+    .left_part img {
+        width: 106px;
+        height: 106%;
+    }
+    .thumb img {
+        width: 30px;
+        height: 35px;
+    }
+    .drop_down {
+        width: 25px;
+        height: 15px;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+   
+    .profile_pic img {
+        width: 80px;
+    }
+    .notification img {
+        width: 80px;
+    }
+    .down_icon {
+        width: 22px;
+        height: 22px;
+    }
+  
+    .group img {
+        width: 750px;
+        height: 651px;
+    }
+    .explore img {
+        width: 70px;
+        height: 70px;
+    }
+   
+    .like img {
+        width: 140px;
+        height: 140px;
+    }
+    .dislike img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .left_part img {
+        width: 142px;
+        height: 142px;
+    }
+    .thumb img {
+        width: 20px;
+    }
+    .drop_down {
+        width: 24px;
+        height: 14.8px;
+    }
+}

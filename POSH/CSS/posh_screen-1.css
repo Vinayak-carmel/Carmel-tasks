@@ -1,0 +1,1508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pageParent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+}
+
+.userImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 10px;
+}
+
+.dropIcon {
+    width: 9px;
+    height: 9px;
+}
+
+.clear {
+    clear: both;
+}
+
+.paddedContainer {
+    padding: 0 13.6% 5.5%;
+    position: relative;
+}
+
+
+/* ----------------------COO Card-------------------------------- */
+
+.cooContainer {
+    background-color: #FFFFFF;
+    padding: 3% 6%;
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 20px;
+    position: absolute;
+    top: -10%;
+    width: 72.7%;
+}
+
+.cooLeft {
+    width: 16%;
+    float: left;
+}
+
+.cooImageContainer {
+    width: 50%;
+    margin-top: 25%;
+}
+
+.cooImage {
+    width: 61px;
+}
+
+.cooRight {
+    width: 84%;
+    float: right;
+}
+
+.cooHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.cooText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 4%;
+    text-align: justify;
+}
+
+.cooName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    font-weight: 900;
+    padding-bottom: 7px;
+    color: #505050;
+}
+
+.cooDesignation {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+    color: #505050;
+}
+
+
+/* -----------------------Training------------------------------- */
+
+.trainContainer {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+    box-shadow: 0px 0px 6px #00000029;
+    margin-top: 40%;
+}
+
+.trainingContainer {
+    padding: 3% 5% 4% 5%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.training {
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.trainingSubtext {
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.listContainer {
+    padding: 4% 6.7% 7% 6.7%;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+}
+
+.greenCard {
+    padding: 2%;
+    background-color: #EFFAF6;
+    border: 0.5px solid #B6D1C8;
+}
+
+.statusMessage {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.subMessage {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.redCard {
+    padding: 2%;
+    background-color: #FFE8E8;
+    border: 0.5px solid #BA8C8C;
+}
+
+.row {
+    padding: 2%;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.darkText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: 900;
+}
+
+.lightText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.greyText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.Image {
+    width: 22px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.underline {
+    border-bottom: 1px solid #505050;
+}
+
+.space {
+    padding-bottom: 11px;
+}
+
+.columnOne {
+    width: 34%;
+    float: left;
+    text-align: left;
+    clear: left;
+}
+
+.columnTwo {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.columnThree {
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+
+/* ------------------------Carousel------------------------------ */
+
+.carouselContainer {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 1.95vw;
+    margin-top: 6.5%;
+}
+
+.leftColumn {
+    padding-top: 28%;
+    padding-left: 4%;
+    width: 17%;
+    float: left;
+}
+
+.navLeft {
+    width: 27px;
+    height: 33px;
+}
+
+.middleColumn {
+    padding-top: 15%;
+    padding-bottom: 5%;
+    width: 66%;
+    float: left;
+}
+
+.loremCard {
+    padding: 7.3%;
+    background-color: #F7F6EF;
+    margin-bottom: 22%;
+}
+
+.caraouselHeading {
+    font-family: 'Merriweather';
+    font-size: 2.14vw;
+    letter-spacing: 3.2px;
+    font-weight: 900;
+    color: #521A1A;
+    text-align: center;
+}
+
+.caraouselText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #521A1A;
+    text-align: center;
+    padding-top: 4.5%;
+}
+
+.rightColumn {
+    padding-top: 28%;
+    padding-right: 4%;
+    width: 17%;
+    float: left;
+}
+
+.navRight {
+    margin-left: 4%;
+    width: 27px;
+    height: 33px;
+    float: right;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: auto;
+}
+
+.navCircles {
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+}
+
+
+/* ------------------------FAQ--------------------------- */
+
+.main_container {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 6px #00000029;
+    width: 47%;
+    float: left;
+}
+
+.faqheader {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.faq_top {
+    padding: 6.81% 0 7.84% 4.81%;
+}
+
+.faq {
+    text-align: left;
+    font-family: "Anton";
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.explore_top {
+    padding: 0 5.56% 5.125% 0;
+}
+
+.explore {
+    float: right;
+    text-align: left;
+    font-family: "Lato";
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 1%;
+}
+
+.icon {
+    padding-top: 0.3%;
+    width: 8.61px;
+    float: right;
+    vertical-align: middle;
+}
+
+.message {
+    margin: 8.56% 5.56% 8.61% 5.56%;
+}
+
+.quesition {
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding: 4.80% 5.16% 5.5%;
+    margin-bottom: 3.81%;
+}
+
+.meant {
+    text-align: left;
+    font-family: "Lato";
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #505050;
+}
+
+.lorem {
+    width: 88%;
+    padding: 3.95% 0 3.84% 0;
+    text-align: left;
+    font-family: "Lato";
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.read {
+    text-align: right;
+    font-family: "Lato";
+    font-size: 7px;
+    letter-spacing: 0.35px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 6.16% 5.96%;
+}
+
+.left_icon {
+    width: 1%;
+}
+
+.right_icon {
+    width: 88%;
+}
+
+.number {
+    width: 12%;
+    text-align: center;
+}
+
+.left_icon img {
+    width: 8.02px;
+    vertical-align: middle;
+}
+
+.right_icon img {
+    width: 8.02px;
+    vertical-align: middle;
+}
+
+.number {
+    font-size: 8px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+}
+
+
+/* ---------------------CONTACTS--------------------------- */
+
+.faqContactContainer {
+    margin-top: 6.5%;
+}
+
+.contactContainer {
+    background-color: #FFFFFF;
+    width: 47%;
+    float: right;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.firstRow {
+    padding: 7% 8%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.contacts {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+
+.contactsSubtext {
+    padding-top: 4.5%;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    color: #909090;
+}
+
+.listsContainer {
+    padding: 6%;
+}
+
+.card {
+    background-color: #EEEEEE;
+    padding: 6% 0;
+}
+
+.spaces {
+    margin-bottom: 6%;
+}
+
+.imageContainer {
+    width: 35%;
+    float: left;
+    padding: 0 7% 0 8%;
+}
+
+.profilePicContainer {
+    border-radius: 15%;
+}
+
+.profilePic {
+    width: 55px;
+    height: 55px;
+}
+
+.textContainer {
+    width: 65%;
+    float: right;
+}
+
+.name {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 1.07vw;
+    color: #4D4F5C;
+    padding-bottom: 2%;
+}
+
+.designation {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    color: #747474;
+    padding-bottom: 4%;
+}
+
+.email {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.mobileNumber {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #747474;
+}
+
+.lastRow {
+    padding: 0% 6% 6% 6%;
+}
+
+.navImage {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+.indexText {
+    font-family: 'Lato';
+    font-size: 0.8vw;
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    padding: 2% 1%;
+    transform: translateY(-50%);
+}
+
+
+/* ----------------------Submit Complaint------------------------ */
+
+.subComplaintContainer {
+    box-shadow: 0px 0px 6px #00000029;
+    margin-top: 6.5%;
+    background-color: #FFFFFF;
+}
+
+.headingHolder {
+    padding: 5% 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.buttonHolder {
+    padding: 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.complaintButton {
+    background-color: #FF0000;
+    box-shadow: 2px 2px 3px #FF000043;
+    border-radius: 27px;
+    color: #FFFFFF;
+    padding: 0.97vw 2.93vw;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    border: 0;
+}
+
+.trackHolder {
+    padding: 4%;
+}
+
+.registeredText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.trackText {
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 600;
+    font-family: 'Lato';
+    border-bottom: 1px solid #505050;
+    padding-bottom: 5px;
+}
+
+
+/* -----------------------policy--------------------------------- */
+
+.policyContainer {
+    background-color: #FFFFFF;
+    margin-top: 6.5%;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.policy_header {
+    border-bottom: 1px solid #505050;
+    padding: 2.95% 3.0% 2.82% 3.49%;
+}
+
+.download {
+    width: 12%;
+    float: right;
+}
+
+.policy {
+    font-family: 'Anton';
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.left_container {
+    width: 88%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.last {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #747474;
+}
+
+.kb {
+    padding-right: 01%;
+    text-align: right;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #747474;
+}
+
+.kb_1 {
+    font-weight: 600;
+}
+
+.pdf {
+    width: 75%;
+    float: left;
+    padding-right: 5%;
+}
+
+.image {
+    width: 25%;
+    float: right;
+}
+
+.image img {
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+}
+
+.policies {
+    padding: 3.62% 3.0% 4.4% 3.44%;
+}
+
+.paragraph {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #505050;
+    padding-top: 1%;
+}
+
+.comment_bar {
+    display: flex;
+    border: 0.35px solid #B5B5B5;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.bar {
+    background-color: #EAF2F4;
+    padding: 3.2% 5.3%;
+    margin-bottom: 8.18%;
+}
+
+.profile img {
+    width: 45px;
+    vertical-align: middle;
+}
+
+.profile {
+    width: fit-content;
+    padding-top: .2%;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.drop_comment input {
+    width: 100%;
+    border: 0px;
+    font-size: 12px;
+    height: 100%;
+}
+
+.drop_comment {
+    width: 80%;
+}
+
+.btn {
+    width: 13%;
+}
+
+.submit {
+    background-color: #32BDD2;
+    color: #fff;
+    border: #32BDD2;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.comment_section {
+    width: 100%;
+}
+
+.right_containt {
+    width: 60.48%;
+    padding-left: 3.41%;
+    padding-bottom: 8.18%;
+}
+
+.left_part {
+    width: 10%;
+    float: left;
+    padding-left: 2.82%;
+}
+
+.left_part img {
+    width: 58px;
+    width: 58px;
+}
+
+.thumb {
+    padding-top: 3.36%;
+}
+
+.thumb img {
+    width: 15px;
+    height: 15px;
+}
+
+.right_part {
+    width: 90%;
+    float: right;
+}
+
+.name {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #505050;
+    padding: .5%;
+}
+
+.date {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding: .3%;
+}
+
+.text {
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Lato';
+    letter-spacing: 1.1px;
+    color: #747474;
+    padding-top: 1.61%;
+}
+
+.likes {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding: .5%;
+    padding-right: 2%;
+}
+
+.show_more {
+    background-color: #EEEEEE;
+    margin: 0% 2.82% 4.97% 2.82%;
+}
+
+.center {
+    width: 14.83%;
+    margin: auto;
+    padding: 2.82% 0%;
+}
+
+.show {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.down img {
+    width: 9.91px;
+    height: 6.51px;
+    vertical-align: middle;
+}
+
+.down {
+    padding-left: 1%;
+}
+
+
+/* -----------------------carousel ---------------------- */
+
+.stop {
+    font-family: 'Roboto';
+    font-size: 8.59vw;
+    fill: #FFFFFF;
+    font-weight: bold;
+}
+
+.harassment {
+    font-family: 'Roboto';
+    font-size: 3.02vw;
+    fill: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Unwelcome {
+    font-family: 'Roboto';
+    font-size: 1.56vw;
+    letter-spacing: 0.4px;
+    fill: #FFFFFF;
+}
+
+.icon {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    fill: #fff;
+    font-weight: 700;
+}
+
+
+/* ------------------------Media Queries------------------------- */
+
+@media screen and (max-device-width: 768px) {
+    .notiIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .userImage {
+        width: 24px;
+        height: 24px;
+    }
+    .dropIcon {
+        width: 6.75px;
+        height: 6.75px;
+    }
+    .cooImage {
+        width: 46px;
+    }
+    .training {
+        font-size: 10.4px;
+    }
+    .trainingSubtext {
+        font-size: 8.9px;
+    }
+    .statusMessage {
+        font-size: 8.9px;
+    }
+    .subMessage {
+        font-size: 8.9px;
+    }
+    .darkText {
+        font-size: 8.9px;
+    }
+    .lightText {
+        font-size: 8.9px;
+    }
+    .greyText {
+        font-size: 8.9px;
+    }
+    .Image {
+        width: 16.4px;
+    }
+    .navLeft {
+        width: 20px;
+        height: 25px;
+    }
+    .navRight {
+        width: 20px;
+        height: 25px;
+    }
+    .navCircles {
+        width: 8px;
+        height: 8px;
+    }
+    .navImage {
+        width: 7.4px;
+        height: 7.4px;
+    }
+    .profilePic {
+        width: 41px;
+        height: 41px;
+    }
+    .faq {
+        font-size: 10px;
+    }
+    .explore {
+        font-size: 9px;
+    }
+    .icon {
+        width: 7px;
+    }
+    .meant {
+        font-size: 10px;
+    }
+    .lorem {
+        font-size: 9px;
+    }
+    .read {
+        font-size: 5px;
+    }
+    .left_icon img {
+        width: 5px;
+    }
+    .right_icon img {
+        width: 5px;
+    }
+    .number {
+        font-size: 5px;
+    }
+    .policy {
+        font-size: 10px;
+    }
+    .last {
+        font-size: 9px;
+    }
+    .kb {
+        font-size: 9px;
+    }
+    .image img {
+        width: 25.5px;
+        height: 23.5px;
+    }
+    .paragraph {
+        font-size: 10px;
+    }
+    .profile img {
+        width: 32px;
+        height: 32px;
+    }
+    .drop_comment input {
+        font-size: 10px;
+    }
+    .submit {
+        font-size: 10px;
+    }
+    .left_part img {
+        width: 43px;
+        height: 43px;
+    }
+    .thumb img {
+        width: 11.2px;
+        height: 11.2px;
+    }
+    .name {
+        font-size: 10px;
+    }
+    .date {
+        font-size: 9px;
+    }
+    .text {
+        font-size: 8px;
+    }
+    .likes {
+        font-size: 9px;
+    }
+    .show {
+        font-size: 9px;
+    }
+    .down img {
+        width: 6.75px;
+        height: 7.75px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .notiIcon {
+        width: 45px;
+        height: 45px;
+    }
+    .userImage {
+        width: 45px;
+        height: 45px;
+    }
+    .dropIcon {
+        width: 12.7px;
+        height: 12.7px;
+    }
+    .cooImage {
+        width: 86px;
+    }
+    .training {
+        font-size: 19.58px;
+    }
+    .trainingSubtext {
+        font-size: 16.84px;
+    }
+    .statusMessage {
+        font-size: 16.84px;
+    }
+    .subMessage {
+        font-size: 16.84px;
+    }
+    .darkText {
+        font-size: 16.84px;
+    }
+    .lightText {
+        font-size: 16.84px;
+    }
+    .greyText {
+        font-size: 16.84px;
+    }
+    .Image {
+        width: 30.8px;
+    }
+    .navLeft {
+        width: 38px;
+        height: 46px;
+    }
+    .navRight {
+        width: 38px;
+        height: 46px;
+    }
+    .navCircles {
+        width: 14px;
+        height: 14px;
+    }
+    .navImage {
+        width: 14px;
+        height: 14px;
+    }
+    .profilePic {
+        width: 77px;
+        height: 77px;
+    }
+    .faq {
+        font-size: 19px;
+    }
+    .explore {
+        font-size: 17px;
+    }
+    .icon {
+        width: 10px;
+    }
+    .meant {
+        font-size: 19px;
+    }
+    .lorem {
+        font-size: 17px;
+    }
+    .read {
+        font-size: 13px;
+    }
+    .left_icon img {
+        width: 10px;
+    }
+    .right_icon img {
+        width: 10px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .policy {
+        font-size: 19px;
+    }
+    .last {
+        font-size: 19px;
+    }
+    .kb {
+        font-size: 17px;
+    }
+    .image img {
+        width: 47.8px;
+        height: 47.8px;
+    }
+    .paragraph {
+        font-size: 19px;
+    }
+    .profile img {
+        width: 59.5px;
+        height: 59.5px;
+    }
+    .drop_comment input {
+        font-size: 12px;
+    }
+    .submit {
+        font-size: 12px;
+    }
+    .left_part img {
+        width: 80.5px;
+        height: 80.5px;
+    }
+    .thumb img {
+        width: 21px;
+        height: 21px;
+    }
+    .name {
+        font-size: 19px;
+    }
+    .date {
+        font-size: 17px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .likes {
+        font-size: 17px;
+    }
+    .show {
+        font-size: 17px;
+    }
+    .down img {
+        width: 17.7px;
+        height: 12.51px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .notiIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+    .dropIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .cooImage {
+        width: 114px;
+    }
+    .training {
+        font-size: 26.112px;
+    }
+    .trainingSubtext {
+        font-size: 22.46px;
+    }
+    .statusMessage {
+        font-size: 22.46px;
+    }
+    .subMessage {
+        font-size: 22.46px;
+    }
+    .darkText {
+        font-size: 22.46px;
+    }
+    .lightText {
+        font-size: 22.46px;
+    }
+    .greyText {
+        font-size: 22.46px;
+    }
+    .Image {
+        width: 41px;
+    }
+    .navLeft {
+        width: 51px;
+        height: 62px;
+    }
+    .navRight {
+        width: 51px;
+        height: 62px;
+    }
+    .navCircles {
+        width: 19px;
+        height: 19px;
+    }
+    .navImage {
+        width: 19px;
+        height: 19px;
+    }
+    .profilePic {
+        width: 103px;
+        height: 103px;
+    }
+    .faq {
+        font-size: 29px;
+    }
+    .explore {
+        font-size: 23px;
+    }
+    .icon {
+        width: 18px;
+    }
+    .meant {
+        font-size: 25px;
+    }
+    .lorem {
+        font-size: 23px;
+    }
+    .read {
+        font-size: 13px;
+    }
+    .left_icon img {
+        width: 15px;
+    }
+    .right_icon img {
+        width: 14px;
+    }
+    .number {
+        font-size: 14px;
+    }
+    .policy {
+        font-size: 25px;
+    }
+    .last {
+        font-size: 23px;
+    }
+    .kb {
+        font-size: 23px;
+    }
+    .image img {
+        width: 63.7px;
+        height: 63.7px;
+    }
+    .paragraph {
+        font-size: 25px;
+    }
+    .profile img {
+        width: 78.72px;
+    }
+    .drop_comment input {
+        font-size: 12px;
+    }
+    .drop_comment {
+        flex-grow: 10;
+    }
+    .submit {
+        font-size: 23px;
+    }
+    .left_part img {
+        width: 107.52px;
+        height: 107.52px;
+    }
+    .thumb img {
+        width: 28.5px;
+        height: 28.5px;
+    }
+    .name {
+        font-size: 25px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    .text {
+        font-size: 27px;
+    }
+    .likes {
+        font-size: 23px;
+    }
+    .show {
+        font-size: 23px;
+    }
+    .down img {
+        width: 17px;
+        height: 18px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .notiIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .userImage {
+        width: 80px;
+        height: 80px;
+    }
+    .dropIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .cooImage {
+        width: 152px;
+    }
+    .training {
+        font-size: 34.81px;
+    }
+    .trainingSubtext {
+        font-size: 29.95px;
+    }
+    .statusMessage {
+        font-size: 29.95px;
+    }
+    .subMessage {
+        font-size: 29.95px;
+    }
+    .darkText {
+        font-size: 29.95px;
+    }
+    .lightText {
+        font-size: 29.95px;
+    }
+    .greyText {
+        font-size: 29.95px;
+    }
+    .Image {
+        width: 54.78px;
+    }
+    .navLeft {
+        width: 67px;
+        height: 83px;
+    }
+    .navRight {
+        width: 67px;
+        height: 83px;
+    }
+    .navCircles {
+        width: 25px;
+        height: 25px;
+    }
+    .navImage {
+        width: 25px;
+        height: 25px;
+    }
+    .profilePic {
+        width: 105px;
+        height: 105px;
+    }
+    .faq {
+        font-size: 35px;
+    }
+    .explore {
+        font-size: 30px;
+    }
+    .icon {
+        width: 18px;
+    }
+    .meant {
+        font-size: 35px;
+    }
+    .lorem {
+        font-size: 30px;
+    }
+    .read {
+        font-size: 17px;
+    }
+    .left_icon img {
+        width: 17px;
+    }
+    .right_icon img {
+        width: 17px;
+    }
+    .number {
+        font-size: 17px;
+    }
+    .policy {
+        font-size: 35px;
+    }
+    .last {
+        font-size: 30px;
+    }
+    .kb {
+        font-size: 30px;
+    }
+    .image img {
+        width: 85px;
+        height: 85px;
+    }
+    .paragraph {
+        font-size: 35px;
+    }
+    .profile img {
+        width: 105px;
+        height: 105px;
+    }
+    .drop_comment input {
+        font-size: 30px;
+    }
+    .drop_comment {
+        flex-grow: 10;
+    }
+    .submit {
+        font-size: 30px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+    .comment_bar {
+        border-top-left-radius: 90px;
+        border-bottom-left-radius: 90px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 90px;
+    }
+    .left_part img {
+        width: 143.36px;
+        height: 143.36px;
+    }
+    .thumb img {
+        width: 37.5px;
+        height: 37.5px;
+    }
+    .name {
+        font-size: 35px;
+    }
+    .date {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 26.5px;
+    }
+    .likes {
+        font-size: 30px;
+    }
+    .show {
+        font-size: 30px;
+    }
+    .down img {
+        width: 32.6px;
+        height: 24.8px;
+    }
+}

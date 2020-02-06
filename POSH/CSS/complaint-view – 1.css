@@ -69,7 +69,7 @@
     margin: 2.5%;
     box-shadow: 0px 0px 6px #00000029;
     background-color: #FFFFFF;
-    padding: 6.91% 8.9% 8.7%;
+    padding: 5.8% 7.6% 7.3% 7.6%;
 }
 
 .returnImage {
@@ -179,7 +179,7 @@
 .container{
     width: 100%;
     border: 1px solid #CCCCCC;
-    padding: 12.62% 0 15.04% 0;
+    padding: 12.62% 0 13.47% 0;
     position: relative;
 }
 .svg_container{
@@ -286,7 +286,7 @@
     border: 1px solid #D6D4E0;
     border-radius: 3.6vw;
     position: absolute;
-    top: 4.6%;
+    top: 4.62%;
     left: 0;
     transform: translateX(-50%);
 }
