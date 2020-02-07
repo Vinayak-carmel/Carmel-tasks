@@ -11,12 +11,12 @@
 }
 
 .left_section {
-    width: 78%;
+    width: 80%;
     float: left;
 }
 
 .right_section {
-    width: 22%;
+    width: 20%;
     float: right;
 }
 
@@ -32,36 +32,38 @@
 
 .posh {
     font-family: 'Anton';
-    font-size: 24px;
+    font-size: 2.35vw;
     letter-spacing: 1.1px;
     color: #000000;
 }
 
 .notification img {
-    width: 40px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
 }
 
 .lucy {
     text-align: center;
-    font-size: 14px;
-    font-family: "Roboto";
+    font-size: 1.35vw;
+    font-family: 'Roboto';
     letter-spacing: 0.9px;
     color: #595959;
 }
 
 .down_icon img {
-    width: 12px;
+    width: 9.38px;
+    height: 5.83px;
     vertical-align: middle;
 }
 
 .notification {
-    width: 24%;
-    vertical-align: middle;
+padding-right: 3%;
 }
 
 .profile_pic img {
-    width: 40px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
 }
 
@@ -77,12 +79,11 @@
 
 .containt {
     background-color: #fff;
-    padding: 2%;
 }
 
 .faq {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #424242;
@@ -102,7 +103,7 @@
 
 .search {
     padding-top: 6.5%;
-    padding-bottom: 9.55%;
+    padding-bottom: 10.48%;
 }
 
 .search_bar {
@@ -114,7 +115,7 @@
 
 .found {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #909090;
@@ -131,7 +132,7 @@
 .meant {
     text-align: left;
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.35vw;
     letter-spacing: 0;
     color: #505050;
     padding-bottom: 1.17%;
@@ -139,25 +140,25 @@
 
 .lorem {
     text-align: left;
-    font-family: "Lato";
-    font-size: 14px;
+    font-family: 'Lato';
+    font-size: 1.35vw;
     letter-spacing: 0.6px;
     color: #909090;
 }
 
 .read {
     text-align: right;
-    font-family: "Lato";
-    font-size: 12px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
     letter-spacing: 0.35px;
     color: #505050;
     font-weight: bold;
-    padding-bottom: 2.2%;
+    padding-top: 2.26%;
 }
 
 .coloumn_two {
     background-color: #EEEEEE;
-    padding: 2% 4%;
+    padding: 5.14% 6.82%;
 }
 
 textarea {
@@ -167,31 +168,36 @@ textarea {
 
 .btn {
     color: #fff;
-    padding: 6px 15px;
+    padding: 1% 3%;
     cursor: pointer;
     background-color: #32BDD2;
     border: 1px solid #32BDD2;
     border-radius: 8px;
-    margin-top: 2%;
+    margin-top: 1.76%;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 1.17vw;
 }
 
 .review {
     text-align: left;
-    font-size: 14px;
+    font-size: 1.35vw;
     font-family: 'Lato';
     color: #000000;
     font-weight: 600;
     letter-spacing: 0.6px;
     color: #505050;
-    padding-bottom: 3.5%;
+    padding-bottom: 3.44%;
 }
 
-.question_senction {
-    padding: 0 5%;
+
+
+.quetion_top{
+    padding:  0 10%;
 }
 
+.quetion_section{
+    padding: 0 10% 4.11% 10%;
+}
 .show_more {
     width: 95%;
     margin: auto;
@@ -201,18 +207,19 @@ textarea {
 
 .show {
     padding: 1.19%;
-    margin: 1.13% 5.5% 5.56% 5.5%;
+    margin: 1.13% 10% 5.56% 10%;
     background-color: #EEEEEE;
 }
 
 .more {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     color: #000000;
     letter-spacing: 0.6px;
     color: #505050;
     font-weight: 600;
+    padding-right: 10%;
 }
 
 .footer {
@@ -221,69 +228,28 @@ textarea {
 }
 
 .drop_down {
-    width: 15px;
-    height: 12px;
+    width: 10.91px;
+    height: 8.15px;
+
 }
 
 @media only screen and (max-width: 768px) {
-    .left_section {
-        width: 80%;
-        float: left;
-    }
-    .right_section {
-        width: 20%;
-        float: right;
-    }
-    .posh {
-        font-size: 17.9px;
-    }
+
     .profile_pic img {
+        width: 24px;
         width: 24px;
     }
     .notification img {
         width: 24px;
+        width: 24px;
     }
-    .lucy {
-        font-size: 10px;
-    }
-    .down_icon img {
-        width: 10px;
-    }
-    .first_colom {}
-    .second_colom {
-        padding-right: 17%;
-    }
-    .third_colom {}
+
     .down_icon {
-        width: 6.5px;
-        height: 6.5px;
-    }
-    .faq {
-        font-size: 12px;
+        width: 7.4px;
+        width: 4.45px;
     }
     .search_bar img {
         width: 15px;
-    }
-    .found {
-        font-size: 12px;
-    }
-    .meant {
-        font-size: 14px;
-    }
-    .lorem {
-        font-size: 14px;
-    }
-    .read {
-        font-size: 12px;
-    }
-    .btn {
-        font-size: 12px;
-    }
-    .review {
-        font-size: 14px;
-    }
-    .more {
-        font-size: 9px;
     }
     .drop_down {
         width: 7.5px;
@@ -293,180 +259,81 @@ textarea {
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .left_section {
-        width: 80%;
-        float: left;
-    }
-    .right_section {
-        width: 20%;
-        float: right;
-    }
-    .posh {
-        font-size: 37.7px;
-    }
+
     .profile_pic img {
         width: 45px;
+        height: 45px;
     }
     .notification img {
         width: 45px;
+        height: 45px;
     }
-    .lucy {
-        font-size: 15px;
-    }
-    .down_icon img {
-        width: 17px;
-    }
+
     .down_icon {
-        width: 17px;
-        height: 17px;
+        width: 14.27px;
+        height: 8.35px;
     }
-    .secod_colom {
-        padding-right: 17%;
-    }
-    .down_icon {
-        width: 12.5px;
-        height: 12.5px;
-    }
+
     .faq {
         font-size: 17px;
     }
     .search_bar img {
         width: 17px;
     }
-    .found {
-        font-size: 17px;
-    }
-    .meant {
-        font-size: 19px;
-    }
-    .lorem {
-        font-size: 19px;
-    }
-    .read {
-        font-size: 17px;
-    }
-    .btn {
-        font-size: 17px;
-    }
-    .review {
-        font-size: 19px;
-    }
-    .more {
-        font-size: 17px;
-    }
     .drop_down {
-        width: 20px;
-        height: 15px;
-        padding-left: 5%;
+        width: 14.27px;
+        height: 8.35px;
     }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    .left_section {
-        width: 85%;
-        float: left;
-    }
-    .right_section {
-        width: 15%;
-        float: right;
-    }
-    .posh {
-        font-size: 45px;
-    }
-    .notification {
-        width: 24%;
-    }
+   
     .profile_pic img {
-        width: px;
+        width: 60px;
+        height: 60px;
     }
     .notification img {
-        width: 40px;
+        width: 60px;
+        height: 60px;
     }
     .down_icon {
-        width: 17px;
-        height: 17px;
+        width: 18.6px;
+        height: 11px;
     }
-    .faq {
-        font-size: 23px;
-    }
+   
     .search_bar img {
         width: 20px;
     }
-    .found {
-        font-size: 23px;
-    }
-    .meant {
-        font-size: 25px;
-    }
-    .lorem {
-        font-size: 25px;
-    }
-    .read {
-        font-size: 23px;
-    }
-    .btn {
-        font-size: 23px;
-    }
-    .review {
-        font-size: 25px;
-    }
-    .more {
-        font-size: 23px;
-    }
+    
     .drop_down {
-        width: 25px;
-        height: 15px;
-        padding-left: 5%;
+        width: 18.6px;
+        height: 11px;
     }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .posh {
-        font-size: 60px;
-    }
+
     .profile_pic img {
         width: 80px;
+        height: 80px;
     }
     .notification img {
         width: 80px;
+        height: 80px;
     }
     .lucy {
         font-size: 28px;
     }
     .down_icon {
-        width: 22px;
-        height: 22px;
-    }
-    .faq {
-        font-size: 30px;
+        width: 24.8px;
+        height: 14.48px;
     }
     .search_bar img {
         width: 23px;
     }
-    .found {
-        font-size: 30px;
-    }
-    .meant {
-        font-size: 35px;
-    }
-    .lorem {
-        font-size: 35px;
-    }
-    .read {
-        font-size: 30px;
-    }
-    .btn {
-        font-size: 30px;
-    }
-    .review {
-        font-size: 35px;
-    }
-    .more {
-        font-size: 30px;
-    }
+  
     .drop_down {
-        width: 24px;
-        height: 18px;
-        padding-left: 5%;
+        width: 24.8px;
+        height: 14.48px;
     }
 }

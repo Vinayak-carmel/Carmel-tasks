@@ -1,0 +1,513 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header_container {
+    width: 100%;
+    box-shadow: 0px 0px 4px #00000029;
+    padding: 1.17% 2.44%;
+}
+
+.left_section {
+    width: 78%;
+    float: left;
+}
+
+.right_section {
+    width: 22%;
+    float: right;
+    padding-top: 0.3%;
+}
+
+.clear {
+    clear: both;
+}
+
+.containt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+    padding-top: .7%;
+}
+
+.notification img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.lucy {
+    text-align: center;
+    font-size: 1.35vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+
+.down_icon img {
+    width: 12px;
+    width: 40px;
+    vertical-align: middle;
+}
+.notification {
+    padding-right: 02.63%;
+}
+
+.profile_pic img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.down_icon {
+    width: 9.32px;
+    height: 5.83px;
+}
+
+.main_container{
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+.container{
+    display: flex;
+}
+.side_bar{
+    width: 7.60%;
+    background-color: #FFFFFF;
+    padding-top: 4%;
+}
+.containt_bar{
+    width: 92.4%;
+    background-color: #FCFCFC;
+    box-shadow: 0px 0px 4px #00000029;
+    padding-left:6.67%;
+    padding-right: 9.89%;
+}
+
+.sidebar_complaint_top{
+    width: 28.37%;
+    margin: auto;
+    /* text-align: center; */
+    padding-bottom: 63.51%;
+   
+}
+.complainant{
+    font-size: 1.17vw;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg); 
+}
+
+.circle_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.svg_viewport{
+    width: 50%;
+    margin: auto;
+}
+.preview_top{
+    padding-top: 06.11%;
+}
+.preview{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #000000;
+    font-weight: 400;
+}
+.description{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.comolaint_top{
+    padding-top: 09.34%;
+}
+
+.type{
+    font-family: 'Lato';
+    text-align: left;
+    font-size: 1.35vw;
+    letter-spacing: 1.4px;
+    color: #909090;
+}
+.name{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 2.09%;
+}
+.address{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.4px;
+    color: #505050;
+    width: 35%;
+    padding-top: 1.42%;
+    line-height: 1.7;
+}
+
+.charges_top{
+    padding-top: 03.78%;
+}
+
+.charges{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+    font-weight: bold;
+    padding: 1.5% 0;
+}
+
+.text{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #909090;
+    line-height: 1.7;
+    padding-top: 2.38%;
+} 
+
+
+.lorem_text{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    line-height: 1.7;
+    padding-top: 03.34%;
+} 
+
+.may{
+    text-align: left;
+    font-size: 1.14vw;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #747474;
+    width: 83%;
+}
+
+.respodent{
+    padding-top: 4.11%;
+}
+
+.evidence_top{
+    padding: 2.90% 5.5% 0 5.55%;
+}
+.evidence_tag {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    background-color: #EEEEEE;
+    border-top-left-radius: 1.83vw;
+    padding: 01%;
+    width: 13.57%;
+}
+
+.uploaded_files_container {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.uploade_files {
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    padding: 4.74% 2.0% 4.74% 5.05%;
+}
+
+.colom_one {
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+}
+
+.img {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.colom_two {
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+}
+
+.kb {
+    text-align: right;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #595959;
+    padding-top: 2%;
+}
+.witness_title{
+    padding: 5.56%  5.5% 0 5.55%;
+}
+.witness_top{
+    width: 15%;
+    padding: 1%;
+    background: #EEEEEE;
+    border-top-left-radius: 1.83vw;
+    text-align: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.witness{
+    background: #EEEEEE;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 01%;
+}
+
+
+.first_witness{
+    border-bottom: 1px solid #EEEEEE;
+   padding: 5.05% 0 3.21% 2.60%;
+    width: 25.34%;
+}
+
+
+.customer{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+.bold{
+    font-weight: bold;
+}
+
+.witness_details{
+    border: 1px solid #EEEEEE;
+}
+
+.charge_02{
+    padding-top: 8.45%;
+}
+
+.charge_02_lorem_text{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: 505050;
+    line-height: 1.7;
+    padding-top: 02.66%;
+} 
+.text_02{
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+    font-weight: bold;
+    line-height: 1.7;
+} 
+
+
+.error_msg{
+    background: #F0F0F0;
+    border-radius: 50px;
+    padding: 01% 02%;
+    margin-top: 1.55%;
+    width: 34%;
+ }
+ 
+ .error_icon{
+     width: 14.85px;
+     height: 13.77px;
+     vertical-align:middle;
+ }
+ 
+ .msg{
+     text-align: left;
+     font-size: 1.17vw;
+     font-family: 'Lato';
+     letter-spacing: 0.6px;
+     color: #CB1720;
+     vertical-align: middle;
+     padding-left: 01%;
+ }
+ .footer{
+     display: flex;
+     align-items: center;
+     padding-top: 8.00%;
+     padding-bottom: 8.6%;
+ }
+ .save{
+     width: 81.66%;
+ }
+ .back{
+     width: 8.34%;
+ }
+ .submit{
+     width: 10%;
+ }
+.draft{
+    text-align: left;
+   font-family: 'Lato';
+   font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #595959; 
+    border-bottom: 2px solid #595959;
+    padding-bottom: 1px;
+}
+
+.back span{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #32BDD2;
+    border-bottom:3px solid  #32BDD2;
+}
+.submit input{
+    background: #32BDD2;
+    border-radius: 32vw;
+    text-align: center;
+    font-size: 1.07vw;
+    font-family: 'Lato';
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+    border:2px solid  #32BDD2;
+    padding: 3% 08%;
+}
+
+@media only screen and (max-width: 768px) {
+    .left_section {
+        width: 80%;
+        float: left;
+    }
+    .right_section {
+        width: 20%;
+        float: right;
+    }
+    .profile_pic img {
+        width: 24px;
+    }
+    .notification img {
+        width: 24px;
+    }
+    .down_icon img {
+        width: 10px;
+    }
+    .down_icon {
+        width: 6.5px;
+        height: 6.5px;
+    }
+
+    .error_icon{
+     width: 10.4px;
+     height: 9.75px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .profile_pic img {
+        width: 45px;
+    }
+    .notification img {
+        width: 45px;
+    }
+    .down_icon img {
+        width: 17px;
+    }
+    .down_icon {
+        width: 17px;
+        height: 17px;
+    }
+    .down_icon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    .error_icon{
+        width: 19.6px;
+        height: 18.3px;
+       }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+
+    .notification {
+        width: 24%;
+    }
+    .profile_pic img {
+        width: 60.3px;
+        vertical-align: middle;
+    }
+    .notification img {
+        width: 60px;
+        vertical-align: middle;
+    }
+    .down_icon {
+        width: 17px;
+        height: 17px;
+    }
+    .error_icon{
+        width: 26px;
+        height: 24.4px;
+       }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+
+    .profile_pic img {
+        width: 80px;
+    }
+    .notification img {
+        width: 80px;
+    }
+    .lucy {
+        font-size: 30px;
+    }
+    .down_icon {
+        width: 22px;
+        height: 22px;
+    }
+    .error_icon{
+        width: 34.9px;
+        height: 32.8px;
+       }
+}
