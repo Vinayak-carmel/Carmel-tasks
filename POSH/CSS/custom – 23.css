@@ -15,6 +15,31 @@
     float: left;
 }
 
+
+.stop{
+    font-family: 'Roboto';
+    font-size: 8.89vw;
+    fill: #FFFFFF;
+    font-weight: bold;
+}
+.harassment{
+    font-family: 'Roboto';
+    font-size: 3.0vw;
+    fill: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.Unwelcome{
+    font-family: 'Roboto';
+    font-size: 1.56vw;
+    letter-spacing: 0.4px;
+    fill: #FFFFFF;
+}
+.icon{
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    fill: #fff;
+}
+
 .posh {
     font-family: 'Anton';
     font-size: 2.34vw;
