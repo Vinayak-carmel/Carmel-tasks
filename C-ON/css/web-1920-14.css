@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00000066;
+}
+.text{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.dropdown{
+    width: 11.22px;
+    height: 6.06px;
+    vertical-align: middle;
+    float: right;
+}
+.delete{
+    float: right;
+    width: 13.60px;
+    height: 13.60px;
+    vertical-align: middle;
+}
+
+.cancel{
+    width: 19.60px;
+    height: 19.60px;
+    vertical-align: bottom;
+}
+.top{
+    padding: 11.49%  0 8.33% 0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.container{
+
+    padding: 0 11.50% 0 11.50%;
+    box-shadow: 0px 0px 20px #60606029;
+    background-color: #fff;
+}
+
+.parent{
+    width: 22.07%;
+}
+
+.cancel_row{
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown{
+        width: 8.22px;
+        height: 4.06px;
+
+    }
+    .delete{
+        float: right;
+        width: 8px;
+        height: 8px;
+ 
+    }
+    
+    .cancel{
+
+        width: 15.60px;
+        height: 15.60px;
+    }
+}
+
+@media only screen and (max-width: 1440px)  and  (min-width: 1025px) {
+    .dropdown{
+        width: 15.22px;
+        height: 8.06px;
+    }
+    .delete{
+        width: 18.60px;
+        height: 18.60px;
+
+    }
+    
+    .cancel{
+        width: 26.60px;
+        height: 26.60px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width:1441px) {
+    .dropdown{
+        width: 20.22px;
+        height: 11.06px;
+
+    }
+    .delete{
+        float: right;
+        width: 24.60px;
+        height: 24.60px;
+
+    }
+    
+    .cancel{
+
+        width: 35.60px;
+        height: 35.60px;
+
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width:1991px){
+    .dropdown{
+        width: 27.22px;
+        height: 14.06px;
+ 
+    }
+    .delete{
+
+        width: 32.60px;
+        height: 32.60px;
+
+    }
+    
+    .cancel{
+        width: 47.60px;
+        height: 47.60px;
+    }
+}
