@@ -5,9 +5,9 @@
 }
 
 .parent{
-    width: 30%;
+    width: 19.43%;
     background-color: #FCFCFC;
-    padding: 2.14%;
+    padding: 2.14% 2.14% 3% 2.14%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -17,14 +17,18 @@
     background-color: #FFFFFF;
     box-shadow: 0px 4px 8px #60606029;
     padding: 0 11.40%;
-    border: 1px solid #F7F7F7;
+    border: 1px solid #EDEDED;
+    border: 1px solid #CECECE;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+
 }
 .self{
     text-align: left;
     font-size: 1.17vw;
     color:#595959;
     font-family: 'Roboto';
-    border-bottom: 1px solid #F7F7F7;
+    border-bottom: 1px solid #EDEDED;
     padding: 9.88% 0% 6.84% 0%;
 }
 .led{
@@ -33,7 +37,7 @@
     font-size: 1.17vw;
     color:#595959;
     font-family: 'Roboto';
-    border-bottom: 1px solid #F7F7F7;
+    border-bottom: 1px solid #EDEDED;
     padding: 05% 0;
     padding: 9.88% 0% 6.84% 0%;
 }

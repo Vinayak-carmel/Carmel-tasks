@@ -84,7 +84,6 @@
 
 .profile_pic{
     width: 32.15px;
-    height: 32.15px;
     vertical-align: middle;
 }
 
@@ -97,7 +96,6 @@
 }
 .dropdown{
     width: 9.89px;
-    height: 6.35px;
     vertical-align: middle;
 }
 
@@ -115,7 +113,6 @@
 .parent{
     background-color: #FAFAFA;
     padding: 4.19% 2.44% 3.02% 2.44%;
-    box-shadow: 0px 3px 6px #00000029;
 }
 
 .container{
@@ -140,10 +137,8 @@
 }
 
 .seleted_option{
-     border-bottom: 1px solid #00000029;
-    border-top: 1px solid #00000029; 
     padding: 5.13% 3% 6.06% 3%;
-    /* box-shadow: 0px 3px 6px #00000029; */
+ box-shadow: 0px 3px 6px #00000029; 
 }
 
 .Section{
@@ -158,10 +153,9 @@
 }
 
 .climate{
-     border-bottom: 1px solid #00000029;
-    border-top: 1px solid #00000029; 
+
     padding:  3% 3%;
-    /* box-shadow: 0px 3px 6px #00000029; */
+    box-shadow: 0px 3px 6px #00000029; 
 }
 
 .basic{
@@ -207,7 +201,6 @@
 
 .pluse{
     width: 30px;
-    height: 29px;
     vertical-align: middle;
 }
 
@@ -228,7 +221,6 @@
 
 .changr_dropdown{
     width: 13.8px;
-    height: 7.45px;
     vertical-align: middle;
 }
 
@@ -285,7 +277,7 @@ width: 2%;
     display: flex;
     align-items: center;
     border: 2px solid #F0F0F0;
-    padding: 0 5.94% 0 3.08%;
+    padding: 0 3.08% 0 5.94%;
 }
 
 .change{
@@ -320,29 +312,23 @@ width: 2%;
 @media only screen and (max-width: 768px) {
     .dropdown{
         width: 7.2px;
-        height: 5px;
     }
 
     .profile_pic{
         width: 24.15px;
-        height: 24.15px;
     }
 
     .icon{
         width: 8.2px;
-        height: 8.2px;
      }
 
     .pluse{
          width: 21.70px;
-        height: 21px;
 
     }
 
     .changr_dropdown{
         width: 9.75px;
-        height: 6px;
-        vertical-align: middle;
     }
     
 }
@@ -350,89 +336,70 @@ width: 2%;
 @media only screen and (max-width: 1440px)  and  (min-width: 1025px) {
     .dropdown{
         width: 12.59px;
-        height: 8.85px;
-
     }
 
     .profile_pic{
         width: 45.15px;
-        height: 45.15px;
     }
 
     .icon{
         width: 15.4px;
-        height: 15.4px;
         }
         
      .pluse{
             width: 42.2px;
-            height: 40.75px;
 
     }
 
     .changr_dropdown{
         width: 18.8px;
-        height: 14px;
-        vertical-align: middle;
     }
     
 }
 @media only screen and (max-width: 1920px) and (min-width:1441px) {
     .dropdown{
         width: 18.89px;
-        height: 11.35px;
     }
 
     .profile_pic{
         width: 60.15px;
-        height: 60.15px;
     }
 
     .icon{
         width: 20.5px;
-        height: 20.5px;
      }
     .pluse{
             width: 56px;
-            height: 54px;
+
      }
 
      .changr_dropdown{
         width: 24.8px;
-        height: 20.45px;
-        vertical-align: middle;
     }
     
-
         
     }
 
 @media only screen and (max-width: 2560px) and (min-width:1991px){
     .dropdown{
         width: 22.89px;
-        height: 14.85px;
     }
 
     .profile_pic{
         width: 80.15px;
-        height: 80.15px;
         
     }
 
     .icon{
         width: 30px;
-        height: 30px;
      }
 
     .pluse{
             width: 75px;
-            height: 75px;
     }
 
     .changr_dropdown{
         width: 32.8px;
-        height: 25.45px;
-        vertical-align: middle;
     }
     
     }
