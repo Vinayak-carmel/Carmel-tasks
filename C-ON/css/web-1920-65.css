@@ -197,12 +197,13 @@ border-radius: .4vw;
     display: flex;
     align-items: center;
     background: #FFFFFF;
+    border: 0.5px solid #B5B5B5;
 }
 
 .browse_container{
     width: 50%;
     padding: 5%;
-    border: 0.5px solid #B5B5B5;
+   
 }
 
 .drop_container{

@@ -277,7 +277,12 @@
     text-align: right;
 }
 
-
+.stop{
+    width: 494px;
+    height: 263px;
+    display: block;
+    margin: auto;
+}
 /* ------------------------Carousel------------------------------ */
 
 .carouselContainer {
@@ -1050,6 +1055,12 @@
         width: 6.75px;
         height: 7.75px;
     }
+
+
+.stop{
+    width: 372px;
+    height: 197px;
+}
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
@@ -1191,6 +1202,11 @@
     .down img {
         width: 17.7px;
         height: 12.51px;
+    }
+
+    .stop{
+        width: 657px;
+        height: 369px;
     }
 }
 
@@ -1335,6 +1351,10 @@
     .down img {
         width: 17px;
         height: 18px;
+    }
+    .stop{
+        width:930px;
+        height: 493px;
     }
 }
 
@@ -1488,5 +1508,10 @@
     .down img {
         width: 32.6px;
         height: 24.8px;
+    }
+
+    .stop{
+        width:1246px;
+        height: 657px;
     }
 }
