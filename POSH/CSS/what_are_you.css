@@ -39,7 +39,6 @@
 
 .notification img {
     width: 32px;
-    height: 32px;
     vertical-align: middle;
 }
 
@@ -53,23 +52,20 @@
 
 .down_icon img {
     width: 9.38px;
-    height: 5.83px;
     vertical-align: middle;
 }
 
 .notification {
-padding-right: 3%;
+    padding-right: 3%;
 }
 
 .profile_pic img {
     width: 32px;
-    height: 32px;
     vertical-align: middle;
 }
 
 .down_icon {
     width: 9.32px;
-    height: 5.83px;
 }
 
 .parent {
@@ -91,25 +87,33 @@ padding-right: 3%;
     padding-top: 6.86%;
 }
 
-.search_bar img {
-    width: 15px;
-}
-
-.search_bar input {
-    border: 0px;
-    margin: 1.5%;
-    width: 90%;
-}
-
 .search {
     padding-top: 6.5%;
     padding-bottom: 10.48%;
 }
 
+.search_bar img {
+    width: 1.95vw;
+    vertical-align: middle;
+}
+
+.search_bar input {
+    border: 0px;
+    margin: 1.5%;
+    width: 92%;
+    font: 400 1.17vw Lato;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.search {
+    padding-top: 6.5%;
+}
+
 .search_bar {
     border: 1px solid #B5B5B5;
-    border-radius: 20px;
-    width: 70%;
+    border-radius: 3.81vw;
+    width: 66%;
     margin: auto;
 }
 
@@ -189,15 +193,14 @@ textarea {
     padding-bottom: 3.44%;
 }
 
-
-
-.quetion_top{
-    padding:  0 10%;
+.quetion_top {
+    padding: 0 10%;
 }
 
-.quetion_section{
+.quetion_section {
     padding: 0 10% 4.11% 10%;
 }
+
 .show_more {
     width: 95%;
     margin: auto;
@@ -229,111 +232,71 @@ textarea {
 
 .drop_down {
     width: 10.91px;
-    height: 8.15px;
-
 }
 
 @media only screen and (max-width: 768px) {
-
     .profile_pic img {
-        width: 24px;
         width: 24px;
     }
     .notification img {
         width: 24px;
-        width: 24px;
     }
-
     .down_icon {
         width: 7.4px;
-        width: 4.45px;
-    }
-    .search_bar img {
-        width: 15px;
     }
     .drop_down {
         width: 7.5px;
-        height: 5.2px;
         padding-left: 5%;
     }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-
     .profile_pic img {
         width: 45px;
-        height: 45px;
     }
     .notification img {
         width: 45px;
-        height: 45px;
     }
-
     .down_icon {
         width: 14.27px;
-        height: 8.35px;
     }
-
     .faq {
         font-size: 17px;
     }
-    .search_bar img {
-        width: 17px;
-    }
     .drop_down {
         width: 14.27px;
-        height: 8.35px;
     }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-   
     .profile_pic img {
         width: 60px;
-        height: 60px;
     }
     .notification img {
         width: 60px;
-        height: 60px;
     }
     .down_icon {
         width: 18.6px;
-        height: 11px;
     }
-   
-    .search_bar img {
-        width: 20px;
-    }
-    
     .drop_down {
         width: 18.6px;
-        height: 11px;
     }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-
     .profile_pic img {
         width: 80px;
-        height: 80px;
     }
     .notification img {
         width: 80px;
-        height: 80px;
     }
     .lucy {
         font-size: 28px;
     }
     .down_icon {
         width: 24.8px;
-        height: 14.48px;
     }
-    .search_bar img {
-        width: 23px;
-    }
-  
     .drop_down {
         width: 24.8px;
-        height: 14.48px;
     }
 }

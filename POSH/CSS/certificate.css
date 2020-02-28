@@ -4,30 +4,33 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #000000B2;
-}
 
-.container {
-    width: 74%;
-    background-color: #E9F0F1;
-    margin: auto;
+.certcontainer {
+    background-color: #000000B2;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 .containt {
-    margin: 14% 0;
+    width: 74%;
+    background-color: #E9F0F1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .logo_part {
     padding: 9.94% 0 11.25% 0;
 }
 
-.left_part {
+.left_part_cert {
     width: 30%;
     float: left;
 }
 
-.right_part {
+.right_part_cert {
     width: 70%;
     float: right;
 }
@@ -79,6 +82,14 @@ body {
     text-align: right;
 }
 
+.venue {
+    font-size: 1.56vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #747474;
+    padding: 0 5.2% 0;
+}
+
 .name {
     font-size: 1.56vw;
     font-family: 'Roboto';
@@ -105,6 +116,6 @@ body {
     font-weight: 500;
 }
 
-.second_row{
+.second_row {
     padding-bottom: 8.37%;
 }
