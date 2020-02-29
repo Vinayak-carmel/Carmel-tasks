@@ -4,22 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
+.main {
     background-color: #ECF0F0;
+    padding: 2.92%;
+    /* height: 100vh; */
 }
 
 .parent {
+    height: 92.18vh;
     position: relative;
-    height: 92.1vh;
     background-color: #fff;
-    margin: 2.92%;
 }
 
 .container {
     width: 45.53%;
+    position: absolute;
     top: 50%;
     left: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
 }
 
@@ -78,7 +79,7 @@ body {
     font: 400 1.36vw/16px 'Roboto';
     letter-spacing: 0.7px;
     color: #BF574A;
-    padding: 4% 2%;
+    padding: 1.68% 0 0 5%;
 }
 
 .showDetails {

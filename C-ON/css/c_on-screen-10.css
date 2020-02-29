@@ -1,0 +1,135 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECF0F0;
+    padding: 2.94%;
+}
+
+.parent {
+    position: relative;
+    height: 92vh;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.container {
+    width: 31.48%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.verification {
+    text-align: center;
+    font: 600 1.75vw/21px 'Roboto';
+    letter-spacing: 0.9px;
+    color: #747474;
+}
+
+.msg {
+    text-align: center;
+    font: 400 1.36vw/20px 'Roboto';
+    letter-spacing: 1px;
+    color: #747474;
+    line-height: 1.6;
+    padding-top: 3.46%;
+}
+
+.errorBackgnd {
+    background: #FFEEEB;
+    margin-top: 6.49%;
+}
+
+.errorMsg {
+    text-align: left;
+    font: 500 1.36vw/16px 'Roboto';
+    letter-spacing: 1.05px;
+    color: #BF574A;
+    padding: 3.28% 4.87%;
+}
+
+.timeTop {
+    padding-top: 6.49%;
+}
+
+.time {
+    text-align: right;
+    font: 500 1.36vw/16px 'Roboto';
+    letter-spacing: 1.4px;
+    color: #909090;
+}
+
+.boxTop {
+    padding-top: 5.24%;
+}
+
+.box {
+    width: 16.82%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #BF574A;
+    border-radius: 0.68vw;
+    padding: 5%;
+}
+
+.marginbtwnOne {
+    margin: 0 9.2%;
+}
+
+.marginbtwnTwo {
+    margin-right: 9.2%;
+}
+
+.otoTop {
+    padding-top: 14.82%;
+    text-align: center;
+}
+
+.OTP {
+    text-align: center;
+    font: 600 1.17vw/14px 'Roboto';
+    letter-spacing: 0.6px;
+    color: #32BDD2;
+    border-bottom: 1px solid #32BDD2;
+}
+
+.btnTop {
+    padding-top: 18.83%;
+    text-align: center;
+}
+
+.BTN {
+    text-align: center;
+    font: 600 1.36vw/16px 'Roboto';
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #5E646980;
+    border-radius: 1.75vw;
+    padding: 1vw 2vw;
+    border: 1px solid #32BDD2;
+}
+
+.accountTop {
+    padding-top: 10.06%;
+    text-align: center;
+}
+
+.account {
+    font: 400 1.36vw/16px 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+}
+
+.signUp {
+    text-align: left;
+    font: 500 1.36vw/16px 'Roboto';
+    letter-spacing: 0;
+    color: #32BDD2;
+    border-bottom: 1px solid #32BDD2;
+}
