@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
 }
 
 .header {
@@ -137,100 +138,53 @@
     letter-spacing: 0.9px;
     color: #000000;
     border-bottom: .3vw solid #32BDD2;
-    padding-bottom: 0%;
+    padding-bottom: 0.74%;
 }
 
 .Lessons {
     text-align: left;
-    width: fit-content;
-    font-family: 'Roboto';
-    font-size: 1.17vw;
-    letter-spacing: 0.9px;
+    font: 600 1.36vw/16px 'Roboto';
+    letter-spacing: 1.4px;
     color: #595959;
 }
 
 .Lessons-top {
-    padding: 3.69% 0 2.0% 0;
+    padding-top: 3.69%;
 }
 
-.Lessons-top_1 {
-    padding: 3.69% 0 0% 0;
-}
-
-.Lessons-top input {
-    width: 46.765%;
-    padding: 1%;
-    margin-top: 0.88%;
-    border: 1px solid #CECECE;
-    border-radius: .4vw;
-}
-
-.Lessons-top textarea {
-    width: 36.765%;
-    margin-top: 0.88%;
-    border: 1px solid #CECECE;
-    border-radius: .4vw;
-}
-
-.error_container {
-    width: 46.4%;
-    display: flex;
-    background-color: #FFF5F5;
-    align-items: center;
-}
-
-.textarea_error_container {
-    width: 35.90%;
-    display: flex;
-    background-color: #FFF5F5;
-    align-items: center;
-}
-
-.icon_part {
-    width: 6.59%;
-    background-color: #CB1720;
-}
-
-.msg_part {
-    width: 93.41%;
-}
-
-.textarea_icon_part {
-    width: 8.42%;
-    background-color: #CB1720;
-}
-
-.textarea_msg_part {
-    width: 91.58%;
-}
-
-.msg {
+.desc {
+    width: 40.69%;
     text-align: left;
-    font-family: 'Roboto';
-    font-size: 1.17vw;
-    letter-spacing: 0.6px;
-    color: #CB1720;
+    font: 400 1.17vw/14px 'Roboto';
+    letter-spacing: .6px;
+    color: #747474;
+    line-height: 1.1;
+    padding-top: 1.25%;
 }
 
-.error {
-    width: 16.69px;
-    display: block;
-    margin: auto;
+.video {
+    padding-top: 4.41%;
+}
+
+.lorem {
+    width: 53.13%;
+    text-align: left;
+    font: 400 1.17vw/16px 'Roboto';
+    letter-spacing: 0.6px;
+    color: #595959;
+    line-height: 1.1;
+}
+
+.read {
+    text-align: left;
+    font: 600 0.97vw/30px 'Roboto';
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding-top: 2.36%;
 }
 
 .footer {
-    padding: 14.90% 0 5.90% 0;
-}
-
-.footer_left {
-    width: 50%;
-    float: left;
-    padding-top: 1%;
-}
-
-.footer_right {
-    width: 50%;
-    float: right;
+    padding: 13.15% 0 3.699% 0;
 }
 
 .cancel {
@@ -241,6 +195,7 @@
     letter-spacing: 1.2px;
     color: #747474;
     border-bottom: 1px solid #747474;
+    font-weight: 600;
 }
 
 .done {
@@ -269,9 +224,6 @@
     .profile_pic {
         width: 24.15px;
     }
-    .error {
-        width: 12.69px;
-    }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
@@ -281,9 +233,6 @@
     .profile_pic {
         width: 45.15px;
     }
-    .error {
-        width: 22.69px;
-    }
 }
 
 @media only screen and (max-width: 1920px) and (min-width:1441px) {
@@ -292,9 +241,6 @@
     }
     .profile_pic {
         width: 60.15px;
-    }
-    .error {
-        width: 30.69px;
     }
 }
 

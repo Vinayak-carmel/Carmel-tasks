@@ -137,7 +137,7 @@
     letter-spacing: 0.9px;
     color: #000000;
     border-bottom: .3vw solid #32BDD2;
-    padding-bottom: 0%;
+    padding-bottom: 0.74%;
 }
 
 .Lessons {
@@ -150,7 +150,11 @@
 }
 
 .Lessons-top {
-    padding: 3.69% 0 2.0% 0;
+    padding-top: 3.69%;
+}
+
+.top {
+    padding-top: 5.14%;
 }
 
 .Lessons-top_1 {
@@ -165,25 +169,18 @@
     border-radius: .4vw;
 }
 
-.Lessons-top textarea {
-    width: 36.765%;
+textarea {
+    width: 37.51%;
     margin-top: 0.88%;
     border: 1px solid #CECECE;
     border-radius: .4vw;
 }
 
-.error_container {
-    width: 46.4%;
-    display: flex;
-    background-color: #FFF5F5;
-    align-items: center;
-}
-
-.textarea_error_container {
-    width: 35.90%;
-    display: flex;
-    background-color: #FFF5F5;
-    align-items: center;
+.Lessons-top textarea {
+    width: 36.765%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
 }
 
 .icon_part {
@@ -219,13 +216,13 @@
 }
 
 .footer {
-    padding: 14.90% 0 5.90% 0;
+    padding: 17.47% 0 3.699% 0;
 }
 
 .footer_left {
     width: 50%;
     float: left;
-    padding-top: 1%;
+    padding-top: .50%;
 }
 
 .footer_right {
@@ -241,6 +238,7 @@
     letter-spacing: 1.2px;
     color: #747474;
     border-bottom: 1px solid #747474;
+    font-weight: 600;
 }
 
 .done {
@@ -269,9 +267,6 @@
     .profile_pic {
         width: 24.15px;
     }
-    .error {
-        width: 12.69px;
-    }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
@@ -280,9 +275,6 @@
     }
     .profile_pic {
         width: 45.15px;
-    }
-    .error {
-        width: 22.69px;
     }
 }
 
@@ -293,9 +285,6 @@
     .profile_pic {
         width: 60.15px;
     }
-    .error {
-        width: 30.69px;
-    }
 }
 
 @media only screen and (max-width: 2560px) and (min-width:1991px) {
@@ -304,8 +293,5 @@
     }
     .profile_pic {
         width: 80.15px;
-    }
-    .error {
-        width: 40.69px;
     }
 }
