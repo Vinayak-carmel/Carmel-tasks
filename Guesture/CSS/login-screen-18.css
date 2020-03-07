@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.parent {
+    height: 100vh;
+    /* position: relative; */
+}
+
+.container {
+    width: 39.74%;
+    margin: auto;
+    padding: 7% 0 6% 0;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.logo {
+    width: 15.23vw;
+    display: block;
+    margin: auto;
+}
+
+.desc {
+    text-align: center;
+    font: 400 1.36vw/2.05vw 'Roboto';
+    letter-spacing: 0.35px;
+    color: #5A5A5A;
+    padding-top: 5.4%;
+    width: 66.76%;
+    margin: auto;
+}
+
+.loginTop {
+    padding-top: 16%;
+}
+
+.login {
+    text-align: left;
+    font: 700 1.75vw/21px 'Roboto';
+    letter-spacing: 0.35px;
+    color: #747474;
+}
+
+.lorem {
+    font: 400 1.36vw/1.95vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    padding-top: 2.66%;
+    padding-bottom: 11%;
+}
+
+.link {
+    font: 500 1.36vw/20px 'Roboto';
+    letter-spacing: 0;
+    color: #32BDD2;
+    border-bottom: 1px solid #32BDD2;
+}
+
+.address {
+    font: 400 1.36vw/20px 'Roboto';
+    letter-spacing: 0;
+    color: #909090;
+    padding-top: 7.12%;
+}
+
+.addressTop {
+    font: 400 1.36vw/20px 'Roboto';
+    letter-spacing: 0;
+    color: #909090;
+}
