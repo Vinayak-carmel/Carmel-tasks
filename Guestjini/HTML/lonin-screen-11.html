@@ -20,28 +20,29 @@
                 <p class="login">APP ACCESS REQUEST</p>
                 <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim felis et magna mattis finibus.</p>
             </div>
-            <div class="credentials" style="display: none;">
+            <div class="credentials" id="reg" style="display: none;">
                 <p class="invalid">
                     Invalid login credentials
                 </p>
             </div>
-            <div class="inputTop">
+            <div class="inputTop" id="spacatop">
                 <p class="heading">REGISTERED EMAIL</p>
                 <input type="text" class="inputTxt" placeholder="example@address.com">
                 <p class="error" style="display: none;"> This field is required</p>
             </div>
             <div class="passwordPart">
                 <p class="heading">REGISTERED MOBILE NUMBER</p>
-                <input type="password" class="inputTxt" placeholder="98445 54783">
+                <input type="text" class="inputTxt" placeholder="98445 54783">
                 <p class="error" style="display: none;"> This field is required</p>
             </div>
 
             <div class="btnTop">
-                <button class="loginBtn">SUBMIT</button>
+                <button class="loginBtn" onclick="appAccess('inputTxt','error','reg','spacatop')">SUBMIT</button>
             </div>
 
         </div>
     </div>
+    <script src="../js/navigation.js"></script>
 </body>
 
 </html>

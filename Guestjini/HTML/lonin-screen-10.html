@@ -22,10 +22,10 @@
                 <p class="verification">Verification Code</p>
                 <p class="msg">Please type the verification code sent to your mobile number.</p>
             </div>
-            <div class="errorBackgnd" style="display: none;">
+            <div class="errorBackgnd" id="wrong" style="display: none;">
                 <p class="errorMsg">You have entered wrong OTP.</p>
             </div>
-            <div class="timeTop">
+            <div class="timeTop" id="space">
                 <p class="time">0:59</p>
             </div>
             <div class="boxTop">
@@ -38,7 +38,7 @@
                 <span class="OTP">Resend OTP?</span>
             </div>
             <div class="btnTop">
-                <input class="BTN" type="button" value="SUBMIT">
+                <input class="BTN" onclick="otpEnter('wrong','box','space')" type="button" value="SUBMIT">
             </div>
             <div class="accountTop">
                 <span class="account">Don’t have an account yet?</span>
@@ -46,6 +46,7 @@
             </div>
         </div>
     </div>
+    <script src="../js/navigation.js"></script>
 </body>
 
 </html>

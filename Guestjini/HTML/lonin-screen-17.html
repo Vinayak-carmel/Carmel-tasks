@@ -24,12 +24,12 @@
                 <div>
                     <p class="heading">NEW PASSWORD</p>
                 </div>
-                <div class="password">
+                <div class="password" id="newborder">
                     <div class="psdLeft">
-                        <input type="password" class="text" placeholder="********">
+                        <input type="password" id="newPswd" class="text">
                     </div>
                     <div class="psdRight">
-                        <img class="hideIcon" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="">
+                        <img class="hideIcon" id="hideimg" onclick="showPswd('newPswd','hideimg')" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="unclick">
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -39,12 +39,12 @@
                 <div>
                     <p class="heading">CONFIRM PASSWORD</p>
                 </div>
-                <div class="password">
+                <div class="password" id="confborder">
                     <div class="psdLeft">
-                        <input type="password" class="text" placeholder="********">
+                        <input id="confermPswd" type="password" class="text">
                     </div>
                     <div class="psdRight">
-                        <img class="hideIcon" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="">
+                        <img class="hideIcon" id="hide" onclick="showPswd('confermPswd','hide')" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="unclick">
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -52,11 +52,11 @@
             </div>
 
             <div class="btnTop">
-                <button class="loginBtn">SUBMIT</button>
+                <button class="loginBtn" onclick="accActivation('text','error','newborder','confborder')">SUBMIT</button>
             </div>
-
         </div>
     </div>
+    <script src="../js/navigation.js"></script>
 </body>
 
 </html>

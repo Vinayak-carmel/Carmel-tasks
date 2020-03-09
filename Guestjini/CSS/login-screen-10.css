@@ -7,17 +7,17 @@
 
 .parent {
     position: relative;
-    height: 100vh;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 6px #00000029;
+    padding: 7.4% 0 10.54%;
 }
 
 .container {
-    width: 30%;
-    position: absolute;
+    width: 29.58%;
+    margin: auto;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .verificationTop {

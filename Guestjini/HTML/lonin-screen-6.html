@@ -21,32 +21,33 @@
                 <p class="login">Forgot password?</p>
                 <p class="link">The link to reset your password will be sent to your registered email address and mobile number.</p>
             </div>
-            <div class="credentials" style="display: none;">
+            <div class="credentials" id="email" style="display: none;">
                 <p class="invalid">
                     This email is not registered with GuestJini.
                 </p>
             </div>
-            <div class="credentials" style="display: none;">
+            <div class="credentials" id="cellNum" style="display: none;">
                 <p class="invalid">
                     This mobile number is not registered with GuestJini.
                 </p>
             </div>
 
             <div class="inputTop">
-                <input type="text" class="inputTxt" placeholder="Email or Mobile Number">
-                <p class="error" style="display: none;"> This field is required</p>
+                <input id="inputText" type="text" class="inputTxt" placeholder="Email or Mobile Number">
+                <p class="error" id="error" style="display: none;"> This field is required</p>
             </div>
 
 
             <div class="btnTop">
-                <button class="loginBtn">RESET PASSWORD</button>
+                <button class="loginBtn" onclick="forgotPswd('error','inputText','credentials')">RESET PASSWORD</button>
             </div>
             <div class="accountTop">
                 <span class="account">Don’t have an account yet?</span>
-                <span class="newOne">Get one now.</span>
+                <span class="newOne" onclick="nextNav('../HTML/lonin-screen-11.html')">Get one now.</span>
             </div>
         </div>
     </div>
+    <script src="../js/navigation.js"></script>
 </body>
 
 </html>

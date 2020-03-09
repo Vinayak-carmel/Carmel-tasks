@@ -32,7 +32,7 @@
     letter-spacing: 0.35px;
     color: #5A5A5A;
     padding-top: 5.4%;
-    width: 66.76%;
+    width: 67.76%;
     margin: auto;
 }
 
@@ -60,6 +60,7 @@
     letter-spacing: 0;
     color: #32BDD2;
     border-bottom: 1px solid #32BDD2;
+    cursor: pointer;
 }
 
 .address {
@@ -73,4 +74,15 @@
     font: 400 1.36vw/20px 'Roboto';
     letter-spacing: 0;
     color: #909090;
+}
+
+.playStore {
+    width: 9.5vw;
+    vertical-align: middle;
+    margin-right: 6.3%;
+}
+
+.appStore {
+    width: 9.5vw;
+    vertical-align: middle;
 }

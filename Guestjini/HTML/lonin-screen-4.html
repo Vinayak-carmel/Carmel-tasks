@@ -19,39 +19,40 @@
             <div class="loginTop">
                 <p class="login">Login</p>
             </div>
-            <div class="credentials" style="display: none;">
+            <div id="invalid" class="credentials" style="display: none;">
                 <p class="invalid">
                     Invalid login credentials
                 </p>
             </div>
             <div class="inputTop">
-                <input type="text" class="inputTxt" placeholder="Email or Mobile Number">
+                <input type="text" id="email" class="inputTxt" placeholder="Email or Mobile Number">
                 <p class="error" style="display: none;"> This field is required</p>
             </div>
             <div class="passwordPart">
-                <div class="password">
+                <div class="password" id="pswdBorder">
                     <div class="psdLeft">
-                        <input type="password" class="text" placeholder="Password">
+                        <input type="password" id="pswd" class="text" placeholder="Password">
                     </div>
                     <div class="psdRight">
-                        <img class="hideIcon" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="">
+                        <img class="hideIcon" id="hide" onclick="showPswd('pswd','hide')" src="../ICONS/guestjini-login-assets/Artboard 1 copy 16@16x.png" alt="unclick">
                     </div>
                     <div class="clear"></div>
                 </div>
                 <p class="error" style="display: none;"> This field is required</p>
             </div>
-            <div class="forgotTop">
-                <span class="forgot">Forgot password?</span>
+            <div class="forgotTop" id="forgot">
+                <span class="forgot" onclick="nextNav('../HTML/lonin-screen-6.html')">Forgot password?</span>
             </div>
             <div class="btnTop">
-                <button class="loginBtn">Login</button>
+                <button class="loginBtn" onclick="login('error','email','pswd','pswdBorder','invalid','forgot')">Login</button>
             </div>
             <div class="accountTop">
                 <span class="account">Don’t have an account yet?</span>
-                <span class="newOne">Get one now.</span>
+                <span class="newOne" onclick="nextNav('../HTML/lonin-screen-11.html')">Get one now.</span>
             </div>
         </div>
     </div>
+    <script src="../js/navigation.js"></script>
 </body>
 
 </html>
