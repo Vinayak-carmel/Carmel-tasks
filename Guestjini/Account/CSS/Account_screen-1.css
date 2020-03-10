@@ -1,0 +1,202 @@
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .navBar {
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 3px 6px #BCBCBC40;
+        padding: 1.9% 3.52% 1.9% 2.46%;
+    }
+    
+    .menu {
+        width: 86.38%;
+        float: left;
+        padding-top: .5%;
+    }
+    
+    .burgerMenu {
+        width: 2.24vw;
+        vertical-align: middle;
+    }
+    
+    .profile {
+        width: 13.62%;
+        float: right;
+    }
+    
+    .navRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pic {
+        width: 26.89%;
+    }
+    
+    .profilePic {
+        width: 3.125vw;
+        vertical-align: middle;
+    }
+    
+    .john {
+        width: 48.08%;
+        vertical-align: middle;
+        margin: 0 8.2% 0 8.52%;
+    }
+    
+    .name {
+        font: 500 1.17vw/14px 'Roboto';
+        letter-spacing: 0.9px;
+        color: #5A5A5A;
+    }
+    
+    .drop {
+        width: 8.31%;
+    }
+    
+    .dropDown {
+        width: .97vw;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .parent {
+        background-color: #E5E5E5;
+    }
+    
+    .content {
+        padding: 2.92%;
+    }
+    
+    .container {
+        background-color: #FFFFFF;
+    }
+    
+    .header {
+        padding: 3.73%;
+        border-bottom: 6px solid #E5E5E5;
+    }
+    
+    .account {
+        text-align: left;
+        font: 700 1.36vw/15px 'Roboto';
+        letter-spacing: 1.4px;
+        color: #464646;
+    }
+    
+    .desc {
+        width: 46.12%;
+        text-align: left;
+        font: 400 1.17vw/1.95vw 'Roboto';
+        letter-spacing: 0.6px;
+        color: #707070;
+        padding-top: 1.36%;
+    }
+    
+    .description {
+        display: flex;
+    }
+    
+    .leftPart {
+        width: 41.38%;
+        border-right: 1px solid #CCCCCC;
+        box-shadow: 0px 0px 9px #00000029;
+    }
+    
+    .rent {
+        padding: 8.27% 21.55% 8.27% 9.10%;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 9px #00000029;
+    }
+    
+    .tittle {
+        font: 700 1.36vw/1.56vw 'Roboto';
+        letter-spacing: 1.4px;
+        color: #464646;
+    }
+    
+    .lorem {
+        font: 400 1.17vw/1.75vw 'Roboto';
+        letter-spacing: 0.3px;
+        color: #747474;
+        padding-top: 2.73%;
+    }
+    
+    .recipt {
+        padding: 8.27% 21.55% 8.27% 9.10%;
+        background: #EEEEEE;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .ledger {
+        padding: 8.27% 21.55% 8.27% 9.10%;
+        background: #EEEEEE;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .bills {
+        padding: 8.27% 21.55% 8.27% 9.10%;
+        background: #EEEEEE
+    }
+    
+    .rightPart {
+        width: 58.61%;
+    }
+    
+    .invoicehead {
+        font: Bold 1.36vw/1.46vw 'Roboto';
+        letter-spacing: 1.4px;
+        color: #464646;
+    }
+    
+    .columOne {
+        width: 18.70%;
+        float: left;
+        margin: 0 23.0% 0 6%;
+    }
+    
+    .date {
+        text-align: left;
+        font: 500 1.36vw/16px 'Roboto';
+        letter-spacing: 0.7px;
+        color: #5A5A5A;
+    }
+    
+    .vocherNo {
+        font: 400 1.17vw/13px 'Roboto';
+        letter-spacing: 0.9px;
+        color: #747474;
+    }
+    
+    .columTwo {
+        width: 14.31%;
+        float: left;
+        margin-right: 24.62%;
+    }
+    
+    .price {
+        font: 500 1.17vw/14px 'Roboto';
+        letter-spacing: 0.6px;
+        color: #5A5A5A;
+    }
+    
+    .columThree {
+        width: 5.5%;
+        float: left;
+        background-color: #E4E4E4;
+        border-radius: 2vw;
+        padding: 37.5%;
+    }
+    
+    .Eiro {
+        width: 0.88vw;
+        display: block;
+        margin: auto;
+    }
