@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/login-screen-10.css">
+    <title>Screen-11</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="container">
+            <div class="verificationTop">
+                <p class="verification">Verification Code</p>
+                <p class="msg">Please type the verification code sent to your mobile number.</p>
+            </div>
+            <div class="errorBackgnd" id="wrong" style="display: none;">
+                <p class="errorMsg">You have entered wrong OTP.</p>
+            </div>
+            <div class="timeTop" id="space">
+                <p class="time">0:59</p>
+            </div>
+            <div class="boxTop">
+                <input class="box" type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="1">
+                <input class="box marginbtwnOne" type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="1">
+                <input class="box marginbtwnTwo" type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="1">
+                <input class="box " type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="1">
+            </div>
+            <div class="otoTop">
+                <span class="OTP">Resend OTP?</span>
+            </div>
+            <div class="btnTop">
+                <input class="BTN" onclick="otpEnter('wrong','box','space')" type="button" value="SUBMIT">
+            </div>
+            <div class="accountTop">
+                <span class="account">Don’t have an account yet?</span>
+                <span class="signUp">Sign Up</span>
+            </div>
+        </div>
+    </div>
+    <script src="../js/navigation.js"></script>
+</body>
+
+</html>

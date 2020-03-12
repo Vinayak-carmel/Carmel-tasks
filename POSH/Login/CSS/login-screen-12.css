@@ -1,0 +1,57 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    .parent {
+        height: 100vh;
+        position: relative;
+        background-color: #F6F8F9;
+    }
+    
+    .container {
+        width: 42.87%;
+        /* margin: auto; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .logo {
+        width: 15.23vw;
+        display: block;
+        margin: auto;
+    }
+    
+    .desc {
+        text-align: center;
+        font: 400 1.36vw/2.05vw 'Roboto';
+        letter-spacing: 0.35px;
+        color: #5A5A5A;
+        padding-top: 5%;
+        width: 66.76%;
+        margin: auto;
+    }
+    
+    .passwordTop {
+        background-color: #FFFFFF;
+        border: 1px solid #E6E6E6;
+        border-radius: 1.36vw;
+        padding: 7.5% 15.8%;
+    }
+    
+    .password {
+        font: 700 1.56vw/1.85vw 'Roboto';
+        letter-spacing: 1.6px;
+        color: #32BDD2;
+    }
+    
+    .link {
+        font: 400 1.36vw/2.34vw 'Roboto';
+        letter-spacing: 0.7px;
+        color: #5A5A5A;
+        padding-top: 5.4%;
+    }
