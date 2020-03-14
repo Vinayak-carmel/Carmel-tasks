@@ -42,23 +42,87 @@ function showPswd(pswd, image) {
 
 function forgotPswd(error, inputText, invalid) {
 
+    var emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mobileNumFormat = /^\d{10}$/;
+    var numberOnly = /^[0-9]+$/;
+
     var errorMsg = document.getElementById(error);
     var inputField = document.getElementById(inputText);
-    var mobileNum = document.getElementsByClassName(invalid);
+    var invalid = document.getElementsByClassName(invalid);
 
-    if (inputField.value == "") {
+
+    if (inputField.value == '') {
         inputField.style.border = '1px solid #BF574A';
         errorMsg.style.display = "block";
-    } else if (inputField.value !== 'example@address.com') {
-        mobileNum[0].style.display = 'block';
-        inputField.style.marginTop = '0';
+    } else if (numberOnly.test(inputField.value)) {
+        if (mobileNumFormat.test(inputField.value)) {
+            enteredmobile(inputField, invalid, errorMsg)
+        } else {
+            invalid[2].style.display = "block";
+            invalid[0].style.display = "none";
+            invalid[1].style.display = "none";
+            invalid[3].style.display = "none";
+            errorMsg.style.display = "none";
+            inputField.style.marginTop = '0';
+        }
     } else {
-        nextNav('../HTML/lonin-screen-3.html')
+        if (inputField.value.match(emailFormat)) {
+            emailAddr(inputField, invalid, errorMsg)
+        } else {
+            invalid[3].style.display = "block";
+            invalid[0].style.display = "none";
+            invalid[1].style.display = "none";
+            invalid[2].style.display = "none";
+            errorMsg.style.display = "none";
+            inputField.style.marginTop = '0';
+        }
     }
-
-
 }
 
+function enteredmobile(inputField, invalid, errorMsg) {
+
+    if (inputField.value === '7795347907') {
+        nextNav('../HTML/lonin-screen-10.html')
+    } else {
+        invalid[0].style.display = 'none';
+        invalid[1].style.display = 'block';
+        invalid[2].style.display = 'none';
+        invalid[3].style.display = 'none';
+        inputvalue.style.marginTop = '0';
+    }
+}
+
+
+function emailAddr(inputField, invalid, errorMsg) {
+
+    if (inputField.value === 'example@address.com') {
+        nextNav('../HTML/lonin-screen-3.html')
+    } else {
+        invalid[0].style.display = 'block';
+        invalid[1].style.display = 'none';
+        invalid[2].style.display = 'none';
+        invalid[3].style.display = 'none';
+        inputvalue.style.marginTop = '0';
+    }
+}
+
+function otpEnter(invalidOtp, borderColor, space) {
+    var invalidotp = document.getElementById(invalidOtp);
+    var Otpborder = document.getElementsByClassName(borderColor);
+    var topSpace = document.getElementById(space);
+    OTP = Otpborder[0].value + Otpborder[1].value + Otpborder[2].value + Otpborder[3].value;
+
+    if (OTP === '1234') {
+        nextNav('../HTML/lonin-screen-12.html');
+    } else {
+        Otpborder[0].style.border = '1px solid #BF574A';
+        Otpborder[1].style.border = '1px solid #BF574A';
+        Otpborder[2].style.border = '1px solid #BF574A';
+        Otpborder[3].style.border = '1px solid #BF574A';
+        invalidotp.style.display = 'block'
+        topSpace.style.paddingTop = '0';
+    }
+}
 
 function appAccess(textField, msg, regemail, space) {
 

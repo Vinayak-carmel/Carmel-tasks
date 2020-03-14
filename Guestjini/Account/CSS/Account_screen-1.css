@@ -156,10 +156,14 @@
         color: #464646;
     }
     
+    .invoiceCard {
+        width: 76.22%;
+        background-color: #EEEEEE;
+    }
+    
     .columOne {
-        width: 18.70%;
+        width: 41.08%;
         float: left;
-        margin: 0 23.0% 0 6%;
     }
     
     .date {
@@ -176,9 +180,8 @@
     }
     
     .columTwo {
-        width: 14.31%;
+        width: 38.97%;
         float: left;
-        margin-right: 24.62%;
     }
     
     .price {
@@ -188,10 +191,10 @@
     }
     
     .columThree {
-        width: 5.5%;
+        width: 15.52%;
         float: left;
         background-color: #E4E4E4;
-        border-radius: 2vw;
+        border-radius: 5vw;
         padding: 37.5%;
     }
     
