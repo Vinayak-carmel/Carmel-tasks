@@ -74,7 +74,7 @@
                                         <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
                                     </div>
                                 </div>
-                                <div class="paymnetRow">
+                                <div class="paymnetRow" onclick="nextNav('../HTML/Account_screen-14.html')">
                                     <div class="cardBegin">
                                         <img class="cardIcon" src="../ICONS/Artboard 1 copy 15@16x.png" alt="">
                                     </div>
@@ -107,63 +107,71 @@
                                         <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
                                     </div>
                                 </div>
-                                <div class="paymnetRow">
-                                    <div class="cardBegin">
-                                        <img class="cardIcon" src="../ICONS/Artboard 1 copy 29@16x.png" alt="">
+                                <div>
+                                    <div class="paymnetRow" onclick="morePayment('paymentType','moreOption')" id="moreOption">
+                                        <div class="cardBegin">
+                                            <img class="cardIcon" src="../ICONS/Artboard 1 copy 26@16x.png" alt="">
+                                        </div>
+                                        <div class="cardMidle">
+                                            <p class="googlePay">More Options</p>
+                                        </div>
+                                        <div class="cardLast">
+                                            <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                        </div>
                                     </div>
-                                    <div class="cardMidle">
-                                        <p class="googlePay">Mobile Wallets</p>
-                                    </div>
-                                    <div class="cardLast">
-                                        <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                    <div style="display: none;" id="paymentType">
+                                        <div class="paymnetRow">
+                                            <div class="cardBegin">
+                                                <img class="cardIcon" src="../ICONS/Artboard 1 copy 29@16x.png" alt="">
+                                            </div>
+                                            <div class="cardMidle">
+                                                <p class="googlePay">Mobile Wallets</p>
+                                            </div>
+                                            <div class="cardLast">
+                                                <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="paymnetRow">
+                                            <div class="cardBegin">
+                                                <img class="cardIcon" src="../ICONS/Artboard 1 copy 30@16x.png" alt="">
+                                            </div>
+                                            <div class="cardMidle">
+                                                <p class="googlePay">Gift Voucher</p>
+                                            </div>
+                                            <div class="cardLast">
+                                                <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="paymnetRow">
+                                            <div class="cardBegin">
+                                                <img class="cardIcon" src="../ICONS/Artboard 1 copy 33@16x.png" alt="">
+                                            </div>
+                                            <div class="cardMidle">
+                                                <p class="googlePay">Credit Voucher</p>
+                                            </div>
+                                            <div class="cardLast">
+                                                <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="paymnetRow">
+                                            <div class="cardBegin">
+                                                <img class="cardIcon" src="../ICONS/Artboard 1 copy 57@16x.png" alt="">
+                                            </div>
+                                            <div class="cardMidle">
+                                                <p class="googlePay">Redeem Points</p>
+                                            </div>
+                                            <div class="cardLast">
+                                                <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="paymnetRow">
-                                    <div class="cardBegin">
-                                        <img class="cardIcon" src="../ICONS/Artboard 1 copy 30@16x.png" alt="">
-                                    </div>
-                                    <div class="cardMidle">
-                                        <p class="googlePay">Gift Voucher</p>
-                                    </div>
-                                    <div class="cardLast">
-                                        <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="paymnetRow">
-                                    <div class="cardBegin">
-                                        <img class="cardIcon" src="../ICONS/Artboard 1 copy 33@16x.png" alt="">
-                                    </div>
-                                    <div class="cardMidle">
-                                        <p class="googlePay">Credit Voucher</p>
-                                    </div>
-                                    <div class="cardLast">
-                                        <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="paymnetRow">
-                                    <div class="cardBegin">
-                                        <img class="cardIcon" src="../ICONS/Artboard 1 copy 57@16x.png" alt="">
-                                    </div>
-                                    <div class="cardMidle">
-                                        <p class="googlePay">Redeem Points</p>
-                                    </div>
-                                    <div class="cardLast">
-                                        <img class="rightEiro" src="../ICONS/Artboard 1 copy 13@16x.png" alt="">
-                                    </div>
-                                </div>
-
-
-
                             </div>
-
                         </div>
                         <div class="footer">
                             <div class="footerLeft">
                                 <img class="backIcon" src="../ICONS/Artboard 1 copy 16@16x (copy).png" alt="">
-                                <span class="back">BACK</span>
+                                <span onclick="nextNav('../HTML/Account_screen-2.html')" class="back">BACK</span>
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -173,6 +181,7 @@
         </div>
     </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

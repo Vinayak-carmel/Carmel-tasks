@@ -5,6 +5,10 @@
     outline: none;
 }
 
+.rentInvoiceParent {
+    background-color: #E5E5E5;
+}
+
 .navBar {
     width: 100%;
     background-color: #FFFFFF;
@@ -21,6 +25,7 @@
 .burgerMenu {
     width: 2.24vw;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .profile {
@@ -69,6 +74,7 @@
 
 .parent {
     background-color: #E5E5E5;
+    width: 100%;
 }
 
 .content {
@@ -117,6 +123,9 @@
     padding: 8.27% 21.55% 8.27% 9.10%;
     background: #FFFFFF;
     box-shadow: 0px 0px 9px #00000029;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 
 .tittle {
@@ -136,22 +145,26 @@
     padding: 8.27% 21.55% 8.27% 9.10%;
     background: #EEEEEE;
     border-bottom: 1px solid #CCCCCC;
+    cursor: pointer;
 }
 
 .reciptLedger {
     padding: 8.27% 21.55% 8.27% 9.10%;
     background: #EEEEEE;
+    cursor: pointer;
 }
 
 .ledger {
     padding: 8.27% 21.55% 8.27% 9.10%;
     background: #EEEEEE;
     border-bottom: 1px solid #CCCCCC;
+    cursor: pointer;
 }
 
 .bills {
     padding: 8.27% 21.55% 8.27% 9.10%;
     background: #EEEEEE;
+    cursor: pointer;
 }
 
 .rightPart {
@@ -162,11 +175,15 @@
 }
 
 .rentInvoice {
-    padding: 8.80% 11.92% 16.63% 11.80%;
+    padding: 8.80% 11.92% 11.43% 11.80%;
 }
 
 .rentreadyToPay {
     padding: 8.80% 15.86% 17.59% 14.52%;
+}
+
+.ledgerPay {
+    padding: 8.80% 15.86% 12.13% 14.52%;
 }
 
 .rentpaied {
@@ -175,6 +192,10 @@
 
 .paymentSpace {
     padding: 8.8% 5.8% 8.9% 5.8%;
+}
+
+.billReview {
+    padding: 8.8% 5.8% 11.97% 5.8%;
 }
 
 .moodeOfPayment {
@@ -187,6 +208,18 @@
 
 .ledgerCards {
     padding: 8.80% 11.92% 14.699% 11.80%;
+}
+
+.ledgerContainer {
+    padding: 8.80% 5.81% 28% 5.81%;
+}
+
+.billsContainer {
+    padding: 8.80% 11.97% 14.82% 11.97%;
+}
+
+.receiptContainer {
+    padding: 8.80% 11.97% 51.94% 11.97%;
 }
 
 .invoiceheadContainer {
@@ -208,21 +241,24 @@
     box-shadow: 0px 4px 7px #00000029;
     /* border: 0.25px solid #CCCCCC; */
     margin-bottom: 5.2%;
+    cursor: pointer;
 }
 
-.invoiceCardLast {
+.receiptCard {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #EEEEEE;
-    padding: 6% 7.6% 6% 6%;
+    padding: 4.8% 6.9%;
     box-shadow: 0px 4px 7px #00000029;
     /* border: 0.25px solid #CCCCCC; */
+    margin-bottom: 5.2%;
+    cursor: pointer;
 }
 
 .columOne {
     width: 47.80%;
-    padding: 0 23.09% 0 0;
+    padding: 0 13.09% 0 0;
 }
 
 .date {
@@ -267,7 +303,7 @@
 .rentvocher {
     border: 1px solid #CCCCCC;
     border-radius: 0.97vw;
-    padding: 6%;
+    padding: 6.81%;
 }
 
 .rentCardDate {
@@ -283,6 +319,20 @@
     padding-top: 2.5%;
 }
 
+.monthOfBill {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #909090;
+    padding-top: 4.20%;
+}
+
+.packegeName {
+    font: 400 1.36vw/1.46vw 'Roboto';
+    letter-spacing: 0.35px;
+    color: #747474;
+    padding-top: 6.28%;
+}
+
 .rentCard {
     font-weight: 500;
     color: 500;
@@ -295,8 +345,15 @@
     padding-top: 6%;
 }
 
+.unit {
+    font: 400 1.17vw/1.66vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #747474;
+    padding-top: 3.12%;
+}
+
 .totleAmountSpace {
-    padding-top: 6%;
+    padding-top: 7.46%;
 }
 
 .rentDetails {
@@ -307,23 +364,24 @@
 
 .upwordEiro {
     width: 1.07vw;
-    vertical-align: middle;
     float: right;
     clear: both;
+    vertical-align: middle;
 }
 
 .more {
-    padding: 6% 6%;
+    padding: 6% 6.81%;
+    cursor: pointer;
 }
 
 .rentContent {
-    font: 400 1.17vw/1.55vw 'Roboto';
+    font: 400 1.36vw/1.55vw 'Roboto';
     letter-spacing: 0.7px;
     color: #747474;
 }
 
 .rentPrice {
-    font: 400 1.17vw/1.55vw 'Roboto';
+    font: 400 1.36vw/1.55vw 'Roboto';
     letter-spacing: 0.7px;
     color: #747474;
     float: right;
@@ -331,21 +389,21 @@
 }
 
 .rentDetailsSpace {
-    padding: 3% 6% 0 6%;
-    margin-bottom: 0.96%;
+    padding: 0 6.81% 0 6.81%;
+    margin-bottom: 6%;
 }
 
 .breakAge {
-    padding: 3% 6%;
+    padding: 1% 6% 7% 6%;
 }
 
 .discountSpace {
-    padding: 3% 6%;
+    padding: 6.81%;
     border-top: 0.5px solid #CCCCCC;
 }
 
 .netAmountRow {
-    padding: 3% 6%;
+    padding: 5% 6.81%;
     background-color: #EEEEEE;
     border-bottom-left-radius: 0.97vw;
     border-bottom-right-radius: 0.97vw;
@@ -687,10 +745,16 @@
 }
 
 .mendatoryField {
-    font: 400 0.97vw/1.07vw 'Roboto';
+    font: 400 1.36vw/1.07vw 'Roboto';
     letter-spacing: 0.5px;
     color: #BF574A;
-    padding: 1.99% 0 5.98% 2%;
+    padding: 1.99% 0 0 2%;
+}
+
+.star {
+    font: 400 1.36vw/1.07vw 'Roboto';
+    letter-spacing: 0.5px;
+    color: #BF574A;
 }
 
 .cvvmendatoryField {
@@ -698,6 +762,10 @@
     letter-spacing: 0.5px;
     color: #BF574A;
     padding: 3.99% 0 13.98% 4%;
+}
+
+.inputFieldTopSpace {
+    padding-top: 5.28%;
 }
 
 .quickPay {
@@ -781,7 +849,7 @@
     opacity: 1;
     left: .6vw;
     top: 1px;
-    width: 0.55vw;
+    width: 0.48vw;
     height: 1.1vw;
     border: 1px solid #909090;
     border-width: 0 2px 2px 0;
@@ -841,7 +909,7 @@
     font: 400 1.17vw/1.36vw 'Roboto';
     letter-spacing: 0.6px;
     color: #5A5A5A;
-    text-align: left;
+    text-align: right
 }
 
 .ledgerCard {
@@ -873,4 +941,168 @@
     letter-spacing: 0.5px;
     color: #5A5A5A;
     text-align: right;
+}
+
+.billNUmber {
+    font: 400 1.17vw/1.27vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-top: 1.77%;
+}
+
+.ratesTable {
+    border: 1px solid #CCCCCC;
+    margin-top: 6.98%;
+}
+
+.ledgerTable {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    padding: 3.19% 5.18%;
+    border: 1px solid #CCCCCC;
+}
+
+.head p {
+    font: 500 1.17vw/1.27vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.ledgerTableRates {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 4.19% 5.18%;
+    text-align: right;
+}
+
+.items {
+    width: 20%;
+}
+
+.items p {
+    font: 500 1.17vw/1.27vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #747474;
+    text-align: left;
+}
+
+.rates {
+    width: 11%;
+}
+
+.qty {
+    width: 5%;
+}
+
+.amount {
+    width: 16%;
+}
+
+.billDate {
+    font: 500 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #5A5A5A;
+}
+
+.billNum {
+    font: 400 0.97vw/1.36vw 'Roboto';
+    letter-spacing: 0.5px;
+    color: #747474;
+}
+
+.billItem {
+    font: 500 0.97vw/1.36vw 'Roboto';
+    letter-spacing: 0.5px;
+    color: #5A5A5A;
+    padding-top: 2.3%;
+}
+
+.billCreatedOn {
+    font: 400 1.07vw/1.27vw 'Roboto';
+    letter-spacing: 0.55px;
+    color: #747474;
+    padding-top: 8.23%;
+}
+
+.title {
+    font: 400 1.07vw/1.27vw 'Roboto';
+    letter-spacing: 0.55px;
+    color: #909090;
+}
+
+.receiptdesc {
+    font: 400 1.27vw/1.46vw 'Roboto';
+    letter-spacing: 0.65px;
+    color: #464646;
+    padding-top: 1.6%;
+}
+
+.previewContainerSpace {
+    padding-top: 5.63%;
+}
+
+
+/* ============================================side nav bar==================================================================================================== */
+
+.navigationPage {
+    background-color: #000000b2;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    overflow: scroll;
+}
+
+.navigationColumn {
+    width: 25.75%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.optionsBox {
+    font: 400 1.36vw/4.17vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    vertical-align: middle;
+    margin-bottom: 6.8%;
+    transition: background-color .5s;
+}
+
+.optionsBox:hover {
+    background: #32BDD2;
+    color: #FFFFFF;
+}
+
+.optionsText {
+    padding-left: 14.20%;
+}
+
+.selectedoption {
+    background-color: #32BDD2;
+    color: #FFFFFF;
+}
+
+.rewardsBox {
+    padding: 17.06% 0 13.06% 0;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.optionsImages {
+    width: 1.95vw;
+    vertical-align: middle;
+    margin-left: 14.02%;
+}
+
+.passwordBox {
+    padding: 13.26% 0 13.26%;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.logoutBox {
+    padding: 14.21% 0;
 }
