@@ -2,7 +2,9 @@ package field;
 
 public class Strings {
     final static String STRING_REGEX = "^[a-zA-Z0-9~!?.$%&_,;'\"\\s]+$";
-    final static String INTEGER_REGEX = " /^\\d+$/";
+    final static String INTEGER_REGEX = "^\\d+$";
+    final static String EMAIL_REGEX = "^[_A-Za-z0-9-+]+(\\.[_A-Za-z]+)*@" + "[A-Za-z]+(\\.[A-Za-z]+)*(\\.[A-Za-z]{2,3})$";
+    final static String FLOAT_REGEX = "^[+-]?([0-9]*[.])?[0-9]+";
     final static String DEFAULT_REQUIRED_ERROR_MSG = " is required.";
     final static String DEFAULT_TYPE_ERROR_MSG = " contains invalid value.";
     final static String DEFAULT_ALLOWED_SPECIAL_CHARS_ERROR = " contains invalid characters.";

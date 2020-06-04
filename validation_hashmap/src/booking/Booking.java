@@ -8,6 +8,11 @@ public class Booking {
     private Field checkin;
     private Field checkout;
 
+
+    public enum rules{
+
+    }
+
     public Field getFullname() {
         return fullname;
     }
@@ -34,16 +39,18 @@ public class Booking {
 
     public boolean createBooking(){
 
-        String field[][] = {
+        String[][] field = {
             {"name","fullname"},
             {"type","string"},
             {"mandatory","true"},
             {"value","Vinayak"},
         };
+
         this.fullname = new Field(field);
 
         this.fullname.isValid();
-
+        System.out.println(fullname.getErrorMessage());
+        System.out.println(fullname.isValid());
 
         return true;
     }

@@ -1,5 +1,8 @@
 package field;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Absract {
 
     private String name;
@@ -120,12 +123,9 @@ public class Absract {
             this.setType(_field[1][1]);
             this.setValue(_field[3][1]);
             this.setMandatory(mandatory);
-            this.setRangeMax(50);
+            this.setRangeMax(1);
             this.setRangeMin(1);
             this.setMaxLength(255);
-
-
-
 
             for (int i = 0; i<_field.length; i++){
                 System.out.println(_field[i][0]  + " " + _field[i][1]);
@@ -138,8 +138,9 @@ public class Absract {
     }
 
     public boolean isValid(){
-        boolean valid = true;
-//    try{
+        // Based on the field type we should invoke the appropriate validation function
+
+        //    try{
 //        // Check the mandatory rule
 //        if (!mandatory){
 //            throw new Exception( "Field is not mandatory");
@@ -147,8 +148,6 @@ public class Absract {
 //    }catch (Exception e){
 //        System.out.println(e.getMessage());
 //    }
-
-        // Based on the field type we should invoke the appropriate validation function
 
         boolean result;
         switch(this.type){
@@ -171,11 +170,96 @@ public class Absract {
                 result = isString();
                 break;
         }
+        return result;
+    }
 
-        return valid;
+    //1. Check weather the give String is valid or not.
+    private boolean isString(){
+        if (!mandatoryChecker(mandatory,value)){
+            this.setErrorCode(100);
+            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
+            return false;
+        }
+
+        if(!lengthChecker(maxLength,value)){
+            this.setErrorCode(200);
+            this.setErrorMessage(name + Strings.DEFAULT_LENGTH_ERROR_MSG);
+            return false;
+        }
+
+        if (!checkStringRegex(value)){
+            this.setErrorCode(300);
+            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
+            return false;
+        }
+        return true;
+    }
+
+    //2. Check weather the give Integer number is valid or not.
+    private boolean isInteger(){
+        if (!mandatoryChecker(mandatory, value)) {
+            this.setErrorCode(100);
+            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
+            return false;
+        }
+
+        if(!checkIntRegex(value)){
+            this.setErrorCode(300);
+            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
+            return false;
+        }
+        return true;
+    }
+
+    //3. Check weather the give Float Number is valid or not.
+    private boolean isFloat(){
+        if (!mandatoryChecker(mandatory, value)) {
+            this.setErrorCode(100);
+            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
+            return false;
+        }
+
+        if(!checkFloatRegex(value)){
+            this.setErrorCode(300);
+            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
+            return false;
+        }
+        return true;
+    }
+
+    //4. Check weather the give Date is valid or not.
+    private boolean isDate(){
+        if (!mandatoryChecker(mandatory, value)) {
+            this.setErrorCode(100);
+            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
+            return false;
+        }
+        return true;
+    }
+
+    private boolean isEmail(){
+        if (!mandatoryChecker(mandatory, value)) {
+            this.setErrorCode(100);
+            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
+            return false;
+        }
+
+        if (!lengthChecker(maxLength,value)) {
+            this.setErrorCode(200);
+            this.setErrorMessage(name + Strings.DEFAULT_LENGTH_ERROR_MSG);
+            return false;
+        }
+
+        if(!checkEmailRegex(value)){
+            this.setErrorCode(300);
+            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
+            return false;
+        }
+        return true;
     }
 
     // Helper functions
+    //1. Check the Field attributes.
     private boolean _hasFieldAttribute(String[][]_field, String _attribute){
         boolean found = false;
         for(int i=0; i<_field.length; i++){
@@ -187,82 +271,43 @@ public class Absract {
         return found;
     }
 
-    private boolean isString(){
-        if (!mandatoryChecker(mandatory,value)){
-            this.setErrorCode(100);
-            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
-            System.out.println(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
-            return false;
-        }
-        if(!lengthChecker(maxLength,value)){
-            this.setErrorCode(200);
-            this.setErrorMessage(name + Strings.DEFAULT_LENGTH_ERROR_MSG);
-            System.out.println(name + Strings.DEFAULT_LENGTH_ERROR_MSG);
-            return false;
-        }
-        if (!checkStringRegex(value)){
-            this.setErrorCode(300);
-            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
-            System.out.println(name + Strings.DEFAULT_REGEXP_ERROR);
-            return false;
-        }
-
-        return false;
-
-    }
-
-    private boolean isInteger(){
-        if (!mandatoryChecker(mandatory, value)) {
-            this.setErrorCode(100);
-            this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
-            System.out.println(name +Strings.DEFAULT_REQUIRED_ERROR_MSG);
-            return false;
-        }
-        if (!lengthChecker(rangeMax,value)) {
-            this.setErrorCode(200);
-            this.setErrorMessage(name + Strings.DEFAULT_LENGTH_ERROR_MSG);
-            System.out.println(name+ Strings.DEFAULT_LENGTH_ERROR_MSG);
-            return false;
-        }
-        if(!checkIntRegex(value)){
-            this.setErrorCode(300);
-            this.setErrorMessage(name + Strings.DEFAULT_REGEXP_ERROR);
-            System.out.println(name + Strings.DEFAULT_REGEXP_ERROR );
-            return false;
-        }
-        return false;
-    }
-
-    private boolean isFloat(){
-        System.out.println("this is isfloat method");
-        return false;
-    }
-    private boolean isDate(){
-        System.out.println("this is isdate method");
-        return false;
-    }
-    private boolean isEmail(){
-        System.out.println("this is isEmail method");
-        return false;
-    }
-
+    //2.Check the Mandatory rule.
     private  Boolean mandatoryChecker(boolean isMandatory, String enteredString){
         return !isMandatory || (enteredString != null && !enteredString.isEmpty());
     }
+
+    //3.Check the Length rule.
     private  boolean lengthChecker(Integer maxLength, String enteredString) {
         return enteredString.length() <= maxLength;
     }
+
+    //4.Check the Regular Expression rule.
     private  boolean checkStringRegex(String enteredString) {
         if (enteredString.length() == 0){
             return true;
         }
         return enteredString.matches(Strings.STRING_REGEX);
     }
+
     private boolean checkIntRegex(String value){
-        if (!value.equals(null)){
-            return true;
+        if(!value.equals(" ")){
+            return (value.matches(Strings.INTEGER_REGEX));
+        }else{
+            return false;
         }
-        return value.matches(Strings.INTEGER_REGEX);
     }
 
+    private boolean checkEmailRegex(String value){
+        if(!value.equals(" ")){
+            return value.matches(Strings.EMAIL_REGEX);
+        }else{
+            return false;
+        }
+    }
+    private boolean checkFloatRegex(String value){
+        if (!value.equals(" ")){
+            return value.matches(Strings.FLOAT_REGEX);
+        }
+        return false;
+    }
 }
