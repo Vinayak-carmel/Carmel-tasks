@@ -2,16 +2,24 @@ package booking;
 
 import field.Field;
 
+enum rules{
+    name("fullname"),type("string"),mandatory("true"),value("Vinayak");
+
+    private String rule;
+
+    public String getRule() {
+        return this.rule;
+    }
+
+    rules(String rule) {
+        this.rule = rule;
+    }
+}
 public class Booking {
 
     private Field fullname;
     private Field checkin;
     private Field checkout;
-
-
-    public enum rules{
-
-    }
 
     public Field getFullname() {
         return fullname;
@@ -38,19 +46,22 @@ public class Booking {
     }
 
     public boolean createBooking(){
+    rules[] fields = rules.values();
+    for (rules rule : fields){
+        System.out.println(rule.name() + " " + rule.getRule());
+    }
 
         String[][] field = {
-            {"name","fullname"},
-            {"type","string"},
-            {"mandatory","true"},
-            {"value","Vinayak"},
+                {"name","fullname"},
+                {"type","string"},
+                {"mandatory","true"},
+                {"value","Vinayak"},
         };
 
         this.fullname = new Field(field);
-
         this.fullname.isValid();
-        System.out.println(fullname.getErrorMessage());
-        System.out.println(fullname.isValid());
+//        System.out.println(fullname.getErrorMessage());
+//        System.out.println("entered full_name is " + fullname.isValid());
 
         return true;
     }

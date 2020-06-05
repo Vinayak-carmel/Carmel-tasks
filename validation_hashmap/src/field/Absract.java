@@ -1,8 +1,5 @@
 package field;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class Absract {
 
     private String name;
@@ -115,7 +112,6 @@ public class Absract {
                 throw new Exception("Attribute value is not given.");
             }
 
-
             // Set the values to the private members
             String booleanvalue = _field[2][1];
             mandatory = Boolean.parseBoolean(booleanvalue);
@@ -133,44 +129,44 @@ public class Absract {
 
         }catch (Exception e){
             System.out.println(e.getMessage());
-
         }
     }
 
     public boolean isValid(){
         // Based on the field type we should invoke the appropriate validation function
+            try{
+           // Check the mandatory rule
+              if (!mandatory){
+                throw new Exception( "Field is not mandatory");
 
-        //    try{
-//        // Check the mandatory rule
-//        if (!mandatory){
-//            throw new Exception( "Field is not mandatory");
-//        }
-//    }catch (Exception e){
-//        System.out.println(e.getMessage());
-//    }
-
-        boolean result;
-        switch(this.type){
-            case "string":
-                result = isString();
-                break;
-            case "int":
-                result = isInteger();
-                break;
-            case "float":
-                result = isFloat();
-                break;
-            case "date":
-                result = isDate();
-                break;
-            case "email":
-                result = isEmail();
-                break;
-            default:
-                result = isString();
-                break;
-        }
-        return result;
+            }else{
+                 boolean result;
+                 switch(this.type){
+                     case "string":
+                         result = isString();
+                         break;
+                     case "int":
+                         result = isInteger();
+                         break;
+                     case "float":
+                         result = isFloat();
+                         break;
+                     case "date":
+                         result = isDate();
+                         break;
+                     case "email":
+                         result = isEmail();
+                        break;
+                     default:
+                        result = isString();
+                        break;
+                }
+            return result;
+            }
+            }catch (Exception e){
+            System.out.println(e.getMessage());
+    }
+            return true;
     }
 
     //1. Check weather the give String is valid or not.
@@ -234,6 +230,11 @@ public class Absract {
             this.setErrorMessage(name + Strings.DEFAULT_REQUIRED_ERROR_MSG);
             return false;
         }
+        if (!checkDateRegex( value)) {
+            this.setErrorCode(300);
+            this.setErrorMessage(name + Strings.DEFAULT_DATE_FORMAT_ERROR_MSG);
+            return false;
+        }
         return true;
     }
 
@@ -272,21 +273,22 @@ public class Absract {
     }
 
     //2.Check the Mandatory rule.
-    private  Boolean mandatoryChecker(boolean isMandatory, String enteredString){
-        return !isMandatory || (enteredString != null && !enteredString.isEmpty());
+    private  Boolean mandatoryChecker(boolean isMandatory, String value){
+        return !isMandatory || (value != null && !value.isEmpty());
     }
 
     //3.Check the Length rule.
-    private  boolean lengthChecker(Integer maxLength, String enteredString) {
-        return enteredString.length() <= maxLength;
+    private  boolean lengthChecker(Integer maxLength, String value) {
+        return value.length() <= maxLength;
     }
 
     //4.Check the Regular Expression rule.
-    private  boolean checkStringRegex(String enteredString) {
-        if (enteredString.length() == 0){
+    private  boolean checkStringRegex(String value) {
+        if (value.length() == 0){
+            System.out.println("String length is zero");
             return true;
         }
-        return enteredString.matches(Strings.STRING_REGEX);
+        return value.matches(Strings.STRING_REGEX);
     }
 
     private boolean checkIntRegex(String value){
@@ -295,6 +297,13 @@ public class Absract {
         }else{
             return false;
         }
+    }
+
+    private boolean checkDateRegex(String value){
+        if (!value.equals(" ")){
+            return (value.matches(Strings.DATE_REGEX));
+        }
+        return false;
     }
 
     private boolean checkEmailRegex(String value){
