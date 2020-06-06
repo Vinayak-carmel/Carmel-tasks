@@ -1,0 +1,86 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.parent {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+.rentInvoiceParent {
+    background-color: #E5E5E5;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding: 1.9% 3.52% 1.9% 2.46%;
+}
+
+.menu {
+    width: 78.90%;
+    float: left;
+}
+.posh{
+    font: 400 2.34vw/3.5vw "Anton";
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+.burgerMenu {
+    width: 2.24vw;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile {
+    width: 21.073%;
+    float: right;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification img {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.pic {
+    width: 15.89%;
+    margin-left: 10%;
+}
+
+.profilePic {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.john {
+    width: 48.08%;
+text-align: center;
+    margin: 0 6%;
+}
+
+.name {
+    font: 500 1.17vw/14px 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.drop {
+    width: 8.31%;
+}
+
+.dropDown {
+    width: 0.97vw;
+}
+
+.clear {
+    clear: both;
+}
