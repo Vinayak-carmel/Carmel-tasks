@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 24.58%;
+}
+.close_row img{
+    width: 3.125vw;
+    float: right;
+    cursor: pointer;
+}
+.body{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0.97vw 0px 0.97vw 0.97vw;
+    padding-left: 15%;
+}
+.move_up{
+    padding: 15% 0;
+    border-bottom: 1px solid #cccccc;
+}
+.image{
+    width: 25%;
+    float: left;
+}
+.text{
+    width: 75%;
+    float: right;
+    margin-top: 2%;
+}
+.image img{
+    width: 2.93vw;
+    background: #FFFFFF 0% 0% ;
+    box-shadow: 0px 0px 6px #32BDD2;
+    border: 0.5px solid #32BDD2;
+    border-radius: 1.85vw;
+}
+.delete_icon{
+    width: 25%;
+    float: left;
+}
+.delete_icon img{
+    width: 2.93vw;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 6px #E65959;
+    border: 0.5px solid #E65959;
+    border-radius: 1.85vw;
+}
+.text span{
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-top: 5%;
+}
+.delete{
+    padding: 15% 0;
+}

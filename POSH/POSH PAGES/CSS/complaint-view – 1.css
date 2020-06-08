@@ -8,56 +8,74 @@
     background-color: #F6F8F9;
 }
 
-.listHeader {
-    padding: 1.3%;
+.navBar {
+    width: 100%;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 4px #00000029;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding: 1.9% 2.44% 1.9% 2.46%;
 }
 
-.headerLeftPart {
-    width: 75%;
+.menu {
+    width: 80.3%;
     float: left;
 }
 
 .posh {
-    font-family: 'Anton';
-    font-size: 2.34vw;
+    font: 400 2.34vw/3.5vw "Anton";
     letter-spacing: 1.1px;
     color: #000000;
 }
 
-.headerRightPart {
-    width: 25%;
+.burgerMenu {
+    width: 2.24vw;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile {
+    width: 19.7%;
     float: right;
+}
+
+.navRight {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: center;
 }
 
-.notiIcon {
-    width: 32px;
-    height: 32px;
-    margin-right: 27px;
+.notification img {
+    width: 3.125vw;
+    vertical-align: middle;
 }
 
-.userImage {
-    width: 32px;
-    height: 32px;
-    margin-right: 9px;
+.pic {
+    width: 15.89%;
+    margin-left: 7%;
 }
 
-.userName {
-    font-family: 'Roboto';
-    font-size: 1.17vw;
+.profilePic {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.john {
+    width: 50.08%;
+    text-align: center;
+    margin: 0 2%;
+}
+
+.name {
+    font: 500 1.17vw/1.36vw 'Roboto';
     letter-spacing: 0.9px;
-    color: #595959;
-    margin-right: 10px;
+    color: #5A5A5A;
 }
 
-.dropIcon {
-    width: 9px;
-    height: 9px;
+.drop {
+    width: 8.31%;
+}
+
+.dropDown {
+    width: 0.97vw;
 }
 
 .clear {
@@ -195,6 +213,9 @@
     float: right;
     margin-left:5%;
 }
+.complaint_container{
+    padding-top: 5px;
+}
 .clear{
     clear: both;
 }
@@ -204,7 +225,7 @@
     font-family: 'Lato';
     letter-spacing: 1.7px;
     color: #464646;
-    font-weight: bold;
+    font-weight: 700;
     padding-top: 2%;
 }
 
@@ -260,7 +281,7 @@
 }
 
 .Gurgaon{
-    width: 38%;
+    width: 50%;
     text-align: left;
     font-size: 1.17vw;
     font-family: 'Lato';
@@ -270,15 +291,9 @@
     line-height: 1.5;
 }
 .accepted{
-    margin-top: 30%;
+    margin-top: 29%;
 }
 
-
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
 
 .task_container {
     width: 7%;
@@ -293,133 +308,66 @@
 
 .task_container_home {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 6px #3B3B3B29;
-    border-radius: 50%;
-    margin: 32% 8%;
-    padding: 19.5%;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border-radius: 2.73vw 2.73vw 0px 0px;
+    padding: 2vw 0;
+    cursor: pointer;
+}
+.task_name_blue{
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    color: #32BDD2;
+    padding-top: 10.5%;
 }
 
+.task_name_gray{
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    color: #EEEEEE;
+    padding-top: 10.5%;
+}
+
+.dash_border{
+border-top-style:dashed;
+border-color:#A0DCE5;
+}
 .task_container_mail {
-    margin-top: 84%;
+    padding: 1.5vw 0;
+    cursor: pointer;
 }
-
-.task_container_eiro {
-    margin-top: 84%;
-    margin-bottom: 55.35%;
-}
-
 .home {
-    width: 2.56vw;
-    height: 2.56vw;
+    width: 1.56vw;
+    height: 1.56vw;
     display: block;
     margin: auto;
 }
 
 .mail {
-    width: 2.56vw;
-    height: 2.27vw;
+    width: 1.56vw;
+    height: 1.27vw;
     display: block;
     margin: auto;
 }
 
 .calender {
-    width: 2.56vw;
-    height: 2.56vw;
+    width: 1.56vw;
+    height: 1.56vw;
     display: block;
     margin: auto;
 }
 
 .pencil {
-    width: 2.75vw;
-    height: 2.75vw;
+    width: 1.75vw;
+    height: 1.75vw;
     display: block;
     margin: auto;
 }
 
 .eiro {
-    width: 2.50vw;
-    height:2.50vw;
+    width: 1.50vw;
+    height:1.37vw;
     display: block;
     margin: auto;
-}
-
-
-@media screen and (max-device-width: 768px) {
-    .notiIcon {
-        width: 24px;
-        height: 24px;
-    }
-    .userImage {
-        width: 24px;
-        height: 24px;
-    }
-    .dropIcon {
-        width: 6.75px;
-        height: 6.75px;
-    }
-    .returnImage {
-        width: 24px;
-        height: 24px;
-    }
-
-
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .notiIcon {
-        width: 45px;
-        height: 45px;
-    }
-    .userImage {
-        width: 45px;
-        height: 45px;
-    }
-    .dropIcon {
-        width: 12.7px;
-        height: 12.7px;
-    }
-    .returnImage {
-        width: 45px;
-        height: 45px;
-    }
-
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .notiIcon {
-        width: 60px;
-        height: 60px;
-    }
-    .userImage {
-        width: 60px;
-        height: 60px;
-    }
-    .dropIcon {
-        width: 17px;
-        height: 17px;
-    }
-    .returnImage {
-        width: 60px;
-        height: 60px;
-    }
-
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .notiIcon {
-        width: 80px;
-        height: 80px;
-    }
-    .userImage {
-        width: 80px;
-        height: 80px;
-    }
-    .dropIcon {
-        width: 22.5px;
-        height: 22.5px;
-    }
-    .returnImage {
-        width: 80px;
-        height: 80px;
-    }
 }

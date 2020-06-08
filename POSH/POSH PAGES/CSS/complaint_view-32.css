@@ -3,62 +3,96 @@
     margin: 0%;
     box-sizing: border-box;
 }
-.header_container{
+.navBar {
     width: 100%;
-    box-shadow: 0px 0px 4px #212121;
-    padding: 01.17% 2.44%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding: 1.9% 2.44% 1.9% 2.46%;
 }
-.left_section{
-    width: 80%;
+
+.menu {
+    width: 80.3%;
     float: left;
 }
-.right_section{
-    width: 20%;
-    float: right;
-}
-.clear{
-    clear: both;
-}
-.posh{
-    font-family: 'Anton';
-    font-size: 2.34vw;
+
+.posh {
+    font: 400 2.34vw/3.5vw "Anton";
     letter-spacing: 1.1px;
     color: #000000;
 }
 
-.profile_pic img{
-    width: 32px;
+.burgerMenu {
+    width: 2.24vw;
+    vertical-align: middle;
+    cursor: pointer;
 }
-.containt{
+
+.profile {
+    width: 19.7%;
+    float: right;
+}
+
+.navRight {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
+
 .notification img {
-width: 32px;
+    width: 3.125vw;
+    vertical-align: middle;
+}
 
+.pic {
+    width: 15.89%;
+    margin-left: 7%;
 }
-.dropdown{
-    padding-right: 5%;
+
+.profilePic {
+    width: 3.125vw;
+    vertical-align: middle;
 }
-.lucy{
+
+.john {
+    width: 50.08%;
     text-align: center;
-    font-size: 1.17vw;
-    font-family: "Roboto";
-    letter-spacing: 0.9px;
-    color: #595959;
+    margin: 0 2%;
 }
 
-.down_icon{
-    width: 9.39px;
-    height: 6px;
+.name {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.drop {
+    width: 8.31%;
+}
+
+.dropDown {
+    width: 0.97vw;
+}
+
+.clear {
+    clear: both;
 }
 
 .container{
     background-color: #F6F8F9;
     padding: 02.44%;
+    box-shadow: 0px 0px 4px #00000029;
 }
-
+.complaint_header{
+    background-color: #FFFFFF;
+    padding: 4% 3.57%;
+    border-bottom: 1px solid #CCCCCC;
+ }
+ .complaint_header p{
+     font: 400 1.36vw/1.95vw "Anton";
+     letter-spacing: 2.8px;
+     color: #000000;
+ 
+ }
 .under_riview{
 height: 273px;
 border: 1px solid #CCCCCC;
@@ -67,26 +101,12 @@ margin: 2% 0;
 
 .containt_background{
     background-color: #fff;
-    box-shadow: 0px 0px 4px #00000029;
-    padding: 0% 7.47% 2.79% 7.66%;
-}
-
-.return_container{
-    padding: 7.0% 0% 7.19% 0%;
-   
-}
-
-.return{
-    width: 32px;
-    height: 32px;
-    box-shadow: 0px 0px 8px #00000029;
-    border-radius: 42px;
-    background-color: #fff;
+    padding: 6.5% 7.47% 2.79% 7.66%;
 }
 
 .charges_container{
     border: 1px solid #CCCCCC;
-    padding: 4.60% 8.37% 0% 12.62%;
+    padding: 4.60% 8.37% 6% 12.62%;
     position: relative;
 }
 
@@ -119,7 +139,6 @@ margin: 2% 0;
     letter-spacing: 1.4px;
     color: #4C5264;
     line-height: 1.7;
-    padding-top: 3.6%;
 } 
 
 .may{
@@ -151,13 +170,13 @@ margin: 2% 0;
 
 
 .append_charges{
-    padding: 01.6% 2.6%;
-    margin-top: 3.7%;
+
+    margin-top: 1.7%;
 }
 
 .witness_charges{
-    padding: 01.6% 2.6%;
-    background-color: #FBFCE7;
+    padding: 01.6% 4%;
+    background-color: #EEEEEE;
 }
 .evidence_table{
     padding-top: 7.2%;
@@ -173,11 +192,11 @@ margin: 2% 0;
 }
 
 .pluse_icon{
-        width: 26px;
-        height: 26px;
+        width: 2.53vw;
+        box-shadow: 0px 0px 6px #32BDD2;
+        border-radius: 10vw;
         vertical-align: middle;
 }
-
 .error_msg{
    background: #F0F0F0;
    border-radius: 50px;
@@ -187,8 +206,8 @@ margin: 2% 0;
 }
 
 .error_icon{
-    width: 14.85px;
-    height: 13.5px;
+    width: 1.36vw;
+    height: 1.27vw;
     vertical-align:middle;
 }
 
@@ -236,11 +255,20 @@ margin: 2% 0;
 }
 
 .drop_down{
-    width: 9.39px;
-    height: 5.85px;
+    width: 0.97vw;
+    height: 0.85vw;
     vertical-align: middle;
 }
+.image{
+    width: 95%;
+    float: left;
 
+}
+.append_charge{
+    width: 5%;
+    float: right;
+    text-align: right;
+}
 .evidence_description{
     text-align: left;
     font-size: 1.17vw;
@@ -257,69 +285,92 @@ margin: 2% 0;
 }
 
 
+
 .task_container {
     width: 7%;
     background-color: #32BDD2;
     border: 1px solid #D6D4E0;
     border-radius: 3.6vw;
     position: absolute;
-    top: 4.6%;
+    top: 4.62%;
     left: 0;
     transform: translateX(-50%);
 }
 
 .task_container_home {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 6px #3B3B3B29;
-    border-radius: 50%;
-    margin: 32% 8%;
-    padding: 19.5%;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border-radius: 2.73vw 2.73vw 0px 0px;
+    padding: 2vw 0;
+    cursor: pointer;
 }
 
+
+.task_container_charge {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    padding: 2vw 0;
+    cursor: pointer;
+}
+
+.task_name_blue{
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    color: #32BDD2;
+    padding-top: 10.5%;
+}
+
+.task_name_gray{
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    color: #EEEEEE;
+    padding-top: 10.5%;
+}
+
+.dash_border{
+border-top-style:dashed;
+border-color:#A0DCE5;
+}
 .task_container_mail {
-    margin-top: 84%;
+    padding: 1.5vw 0;
+    cursor: pointer;
 }
-
-.task_container_eiro {
-    margin-top: 84%;
-    margin-bottom: 55.35%;
-}
-
 .home {
-    width: 2.56vw;
-    height: 2.56vw;
+    width: 1.56vw;
+    height: 1.56vw;
     display: block;
     margin: auto;
 }
 
 .mail {
-    width: 2.56vw;
-    height: 2.27vw;
+    width: 1.56vw;
+    height: 1.27vw;
     display: block;
     margin: auto;
 }
 
 .calender {
-    width: 2.56vw;
-    height: 2.56vw;
+    width: 1.56vw;
+    height: 1.56vw;
     display: block;
     margin: auto;
 }
 
 .pencil {
-    width: 2.75vw;
-    height: 2.75vw;
+    width: 1.75vw;
+    height: 1.75vw;
     display: block;
     margin: auto;
 }
 
 .eiro {
-    width: 2.50vw;
-    height:2.50vw;
+    width: 1.50vw;
+    height:1.37vw;
     display: block;
     margin: auto;
 }
-
 
 
 /* ==================under review==================== */
@@ -427,7 +478,7 @@ margin: 2% 0;
 
 
 .witnessTag {
-    background-color: #F3F5B3;
+    background-color: #EEEEEE;
     font-family: 'Lato';
     font-size: 1.17vw;
     letter-spacing: 1.2px;
@@ -438,12 +489,15 @@ margin: 2% 0;
 }
 
 .borderContainer {
-    border: 1px solid #F3F5B3;
+    border: 1px solid #CCCCCC;
 }
 
 .yellowCard {
-    background-color: #fbfce7;
+    background-color: #EEEEEE;
     padding: 4% 2.7%;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
 }
 
 .witDescription {
@@ -522,13 +576,16 @@ margin: 2% 0;
 
 
 .evidenceHeading {
-    background-color: #F3F5B3;
+    background-color: #EEEEEE;
     font-family: 'Lato';
     font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #505050;
     padding: 1.2% 2.7%;
-    border-top-left-radius: 12px;
+    border-top-left-radius: 1.17vw;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
     display: inline-block;
 }
 
@@ -540,18 +597,13 @@ margin: 2% 0;
     padding-bottom: 1%;
 }
 
-.yellowCard {
-    background-color: #fbfce7;
-    padding: 4% 2.7%;
-}
-
 .borderBox {
-    border: 1px solid #F3F5B3;
+    border: 1px solid #CCCCCC;
 }
 
 .rows {
-    padding: 4.4% 2.7%;
-    border-bottom: 1px solid #F3F5B3;
+    padding: 3.98% 3.95%;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .leftColumns {
@@ -586,248 +638,3 @@ margin: 2% 0;
     padding-bottom: 2px;
     border-bottom: 1px solid #595959;
 }
-@media only screen and (max-width: 768px) {
-
-    .profile_pic img{
-        width: 25px;
-    }
-
-    .notification img{
-        width: 25px;
-    }
-    .down_icon img{
-        width: 10px;
-    }
-    
-    .return{
-        width: 24px;
-        height: 24px;
-    }
-
-    
-    .lorem_text{
-        font-size: 10px;
-    } 
-    
- 
-    
-
-    
-    .pluse_icon{
-            width: 19px;
-            height: 19px;
-    }
-    
-    .evidence{
-        border-top-left-radius:8px;
-    }
-
-    .error_msg{
-       border-radius: 50px;
-    }
-    
-    .error_icon{    
-        width: 10px;
-        height: 9px;
-    }
-    
-   
-
-    .drop_down{
-        width: 5px;
-        height: 5px;
-    }
-    
-
-    .addIcons {
-        width: 22.5px;
-        height: 22.5px;
-    }
-    .editIcons {
-        width: 25.5px;
-        height: 25.5px;
-    }
-    .deleteIcons {
-        width: 25.5px;
-        height: 25.5px;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
- 
-    
-    .profile_pic img{
-        width: 42px;
-    }
-
-    .notification img{
-        width: 42px;
-    }
-    .down_icon img{
-        width: 15px;
-    }
-
-
-    .return{
-        width: 45px;
-        height: 45px;
-    }
-
-    
-    .pluse_icon{
-            width: 36px;
-            height: 36px;
-    }
-    
-    .error_msg{
-        width: 36%;
-    }
-    .error_icon{    
-        width: 14px;
-        height: 13px;
-    }
-
-    .drop_down{
-        width: 12px;
-        height: 10px;
-        vertical-align: middle;
-    }
-    
-
-    .addIcons {
-        width: 42.2px;
-        height: 42.2px;
-    }
-    .editIcons {
-        width: 47.8px;
-        height: 47.8px;
-    }
-    .deleteIcons {
-        width: 47.8px;
-        height: 47.8px;
-    }
-    
-}
-
-@media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    
-    .profile_pic img{
-        width: 60px;
-    }
-
-    .notification img {
-    width: 60px;
-    
-    }
-    .dropdown{
-        padding-right: 5%;
-    }
-    .down_icon{
-        width: 12px;
-        height: 12px;
-    }
-    
-  
-    .return{
-        width: 48px;
-        height: 48px;
-    }
-     
-
-    
-    .pluse_icon{
-            width: 42px;
-            height: 42px;
-    }
-    
-    
-    .error_icon{
-        width: 20px;
-        height: 20px;
-    }
-    
-
-    
-    .drop_down{
-        width: 15px;
-        height: 15px;
-    }
-    
-    
-
-    .addIcons {
-        width: 56px;
-        height: 56px;
-    }
-    .editIcons {
-        width: 63.7px;
-        height: 63.7px;
-    }
-    .deleteIcons {
-        width: 63.7px;
-        height: 63.7px;
-    }
-}
-
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .down_icon{
-        width: 20px;
-        height: 20px;
-    }
-
-    .complaints{
-        font-size: 32px;
-     }
-     .dropdown {
-        padding-right: 2%;
-    }
-
-    
-        .return{
-            width: 80px;
-            height: 80px;
-        }
-    
-  
-        
-        .pluse_icon{
-                width: 65px;
-                height: 65px;
-        }
-        
-        .error_msg{
-           border-radius: 70px;
-        }
-        
-        .error_icon{    
-            width: 23px;
-            height: 20px;
-            vertical-align:middle;
-        }
-        
-    
-        .drop_down{
-            width: 20px;
-            height: 18px;
-            vertical-align: middle;
-        }
-
-        
-        .evidence{
-            border-top-left-radius: 35px;
-        }
-
-        .addIcons {
-            width: 75px;
-            height: 75px;
-        }
-        .editIcons {
-            width: 85px;
-            height: 85px;
-        }
-        .deleteIcons {
-            width: 85px;
-            height: 85px;
-        }
-}
-

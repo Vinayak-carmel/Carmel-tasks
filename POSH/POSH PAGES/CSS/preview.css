@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
 }
 
 .parent {
@@ -21,7 +22,7 @@
 }
 
 .menu {
-    width: 78.90%;
+    width: 80.3%;
     float: left;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .profile {
-    width: 21.073%;
+    width: 19.7%;
     float: right;
 }
 
@@ -66,7 +67,6 @@
 .john {
     width: 50.08%;
     text-align: center;
-    margin: 0 2%;
 }
 
 .name {
@@ -104,13 +104,14 @@
 }
 
 .containt_bar {
-    padding-left: 6.67%;
+    padding-left: 3.72%;
     padding-right: 9.89%;
 }
 
 .sidebar_complaint_top {
-    width: 82%;
+    width: 77%;
     float: left;
+    padding-top: 0.5%;
 }
 
 .complainant {
@@ -122,21 +123,21 @@
 }
 
 .circle_color {
-    font-size: 1.17vw;
+    font-size: 2px;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #fff;
 }
 
 .circle_without_color {
-    font-size: 1vw;
+    font-size: 2px;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #d3d3d3;
 }
 
 .svg_viewport {
-    width: 18%;
+    width: 23%;
     float: right;
 }
 
@@ -168,7 +169,7 @@
     color: #909090;
 }
 
-.name {
+.complanter_name {
     text-align: left;
     font-family: 'Lato';
     font-size: 1.35vw;
@@ -178,12 +179,10 @@
 }
 
 .address {
-    text-align: left;
-    font-family: 'Lato';
-    font-size: 1.17vw;
-    letter-spacing: 1.4px;
+    font: 400 1.17vw/2.24 "Lato";
+    letter-spacing: 1.2px;
     color: #505050;
-    width: 35%;
+    width: 26.5%;
     padding-top: 1.42%;
     line-height: 1.7;
 }
@@ -371,8 +370,8 @@
 }
 
 .error_icon {
-    width: 14.85px;
-    height: 13.77px;
+    width: 1.45vw;
+    height: 1.37vw;
     vertical-align: middle;
 }
 
@@ -393,40 +392,41 @@
     box-shadow: 0px 0px 4px #00000029;
 }
 
-.save {
-    width: 7%;
-}
-
-.back {
-    width: 60%;
-    padding-left: 05%;
-}
 
 .submit {
-    width: 79.25%;
+    width: 85%;
     text-align: right;
 }
 
 .draft {
-    text-align: left;
+   width: 8%;
+   text-align: right;
+}
+.save_draft{
+    cursor: pointer;
     font-family: 'Lato';
-    font-size: 1.17vw;
+    font-size: 0.97vw;
     letter-spacing: 1.2px;
     color: #595959;
+    padding-bottom: 05%;
     border-bottom: 2px solid #595959;
-    padding-bottom: 1px;
 }
-
+.back{
+    width: 7%;
+}
 .back span {
+    cursor: pointer;
     text-align: center;
     font-family: 'Lato';
-    font-size: 1.17vw;
+    font-size: 0.97vw;
     letter-spacing: 1.2px;
-    color: #32BDD2;
-    border-bottom: 3px solid #32BDD2;
+    color: #595959;
+    padding-bottom: 07%;
+    border-bottom: 2px solid #595959;
 }
 
 .submit input {
+    cursor: pointer;
     background: #32BDD2;
     border-radius: 2.83vw;
     text-align: center;
