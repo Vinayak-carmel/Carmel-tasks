@@ -2,110 +2,166 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
 }
 
-.header_container {
+.parent {
+    background-color: #E5E5E5;
     width: 100%;
-    box-shadow: 0px 0px 4px #212121;
-    padding: 01%;
 }
 
-.left_section {
-    width: 85%;
+.rentInvoiceParent {
+    background-color: #E5E5E5;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding: 1.9% 2.44% 1.9% 2.46%;
+}
+
+.menu {
+    width: 80.3%;
     float: left;
 }
 
-.right_section {
-    width: 15%;
+.posh {
+    font: 400 2.34vw/3.5vw "Anton";
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.burgerMenu {
+    width: 2.24vw;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile {
+    width: 19.7%;
     float: right;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification img {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.pic {
+    width: 15.89%;
+    margin-left: 7%;
+}
+
+.profilePic {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.john {
+    width: 50.08%;
+    text-align: center;
+}
+
+.name {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.drop {
+    width: 8.31%;
+}
+
+.dropDown {
+    width: 0.97vw;
 }
 
 .clear {
     clear: both;
 }
 
-.posh {
-    font-family: 'Anton';
-    font-size: 30px;
-    letter-spacing: 1.1px;
-    color: #000000;
-}
-
-.notification {
-    width: 24%;
-}
-
-.profile_pic img {
-    width: 40px;
-}
-
-.header_containt {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.notification img {
-    width: 40px;
-}
-
-.dropdown {
-    padding-right: 5%;
-}
-
-.lucy {
-    text-align: center;
-    font-size: 14px;
-    font-family: "Roboto";
-    letter-spacing: 0.9px;
-    color: #595959;
-}
-
-.down_icon {
-    width: 12px;
-    height: 12px;
-}
-
 .main_container {
     background-color: #F6F8F9;
-    padding: 2.44;
+    padding: 2.44%;
 }
 
-.containt_container {
-    display: flex;
-    padding: 2%;
-    height: 88vh;
+.container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
 }
 
-.left_part {
+.side_bar {
     background-color: #fff;
-    padding-top: 4%;
-    width: 07.60%;
+    padding: 04% 5.13% 4% 3.5%;
+    border-bottom: 1px solid #CCCCCC;
 }
 
-.rotate {
-    text-align: center;
-    padding-bottom: 50%;
+.containt_bar {
+    padding: 03.5% 3.5% 34.26% 3.5%;
+}
+
+.sidebar_complaint_top {
+    width: 77%;
+    float: left;
+    padding-top: 0.5%;
 }
 
 .complainant {
-    font-size: 25px;
+    font-size: 1.36vw;
     font-family: 'Anton';
     letter-spacing: 2.8px;
     color: #000000;
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
+    padding-top: 01%;
 }
 
 .circle_color {
-    font-size: 12px;
+    font-size: 2px;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #fff;
 }
 
 .circle_without_color {
-    font-size: 12px;
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.svg_viewport {
+    width: 23%;
+    float: right;
+}
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #d3d3d3;
@@ -120,28 +176,24 @@
     background-color: #FCFCFC;
 }
 
-.containt {
-    padding: 7.89% 0 0 6.45%;
-}
-
 .heading {
-    text-align: left;
-    font-family: 'Lato';
-    font-size: 25px;
+    font: 900 1.36vw/2.24vw "Lato";
     letter-spacing: 1.4px;
     color: #B5B5B5;
 }
 
 .ack {
-    font-weight: bold;
-    color: #505050;
     padding-top: 3.44%;
+    font: 700 1.36vw/2.24vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
 }
 
 .lorem {
-    color: #505050;
     padding-top: 1.44%;
-    width: 72.76%;
+    font: 400 1.36vw/2.14vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
 }
 
 .links {
@@ -149,12 +201,11 @@
 }
 
 .print {
-    text-align: left;
-    font-family: 'Lato';
-    font-size: 23px;
+    font: 400 1.17vw/1.75vw "Lato";
     letter-spacing: 0.6px;
-    color: #505050;
-    border-bottom: 1px solid #505050;
+    color: #32BDD2;
+    padding-bottom: .5%;
+    border-bottom: 1px solid #32BDD2;
 }
 
 a {
@@ -162,187 +213,9 @@ a {
     padding-right: 2.89%;
 }
 
-@media only screen and (max-width: 768px) {
-    .posh {
-        font-size: 15px;
-    }
-    .left_section {
-        width: 78%;
-        float: left;
-    }
-    .right_section {
-        width: 22%;
-        float: right;
-    }
-    .posh {
-        font-size: 15px;
-    }
-    .profile_pic img {
-        width: 25px;
-    }
-    .notification img {
-        width: 25px;
-    }
-    .lucy {
-        font-size: 10px;
-    }
-    .down_icon img {
-        width: 10px;
-    }
-    .complainant {
-        font-size: 10px;
-    }
-    .circle_color {
-        font-size: 12px;
-    }
-    .circle_without_color {
-        font-size: 12px;
-    }
-    .heading {
-        font-size: 10px
-    }
-    .lorem {
-        color: #505050;
-        padding-top: 1%;
-    }
-    .links {
-        padding-top: 2%;
-    }
-    .print {
-        font-size: 9px;
-    }
-}
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .posh {
-        font-size: 24px;
-    }
-    .left_section {
-        width: 78%;
-        float: left;
-    }
-    .right_section {
-        width: 22%;
-        float: right;
-    }
-    .posh {
-        font-size: 24px;
-    }
-    .profile_pic img {
-        width: 40px;
-    }
-    .notification img {
-        width: 40px;
-    }
-    .lucy {
-        font-size: 12px;
-    }
-    .down_icon img {
-        width: 12px;
-    }
-    .complainant {
-        font-size: 14px;
-    }
-    .circle_color {
-        font-size: 12px;
-    }
-    .circle_without_color {
-        font-size: 12px;
-    }
-    .heading {
-        font-size: 14px
-    }
-    .links {
-        padding-top: 2%;
-    }
-    .print {
-        font-size: 10px;
-    }
-}
 
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .posh {
-        font-size: 27px;
-    }
-    .left_section {
-        width: 82%;
-        float: left;
-    }
-    .right_section {
-        width: 18%;
-        float: right;
-    }
-    .posh {
-        font-size: 27px;
-    }
-    .profile_pic img {
-        width: 42px;
-    }
-    .notification img {
-        width: 42px;
-    }
-    .lucy {
-        font-size: 15px;
-    }
-    .down_icon img {
-        width: 15px;
-    }
-    .complainant {
-        font-size: 19px;
-    }
-    .circle_color {
-        font-size: 12px;
-    }
-    .circle_without_color {
-        font-size: 12px;
-    }
-    .heading {
-        font-size: 19px
-    }
-    .print {
-        font-size: 17px;
-    }
-}
 
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .posh {
-        font-size: 50px;
-    }
-    .profile_pic img {
-        width: 70px;
-    }
-    .notification img {
-        width: 70px;
-    }
-    .lucy {
-        font-size: 28px;
-    }
-    .down_icon {
-        width: 20px;
-        height: 20px;
-    }
-    .complaints {
-        font-size: 35px;
-    }
-    .dropdown {
-        padding-right: 2%;
-    }
-    .complainant {
-        font-size: 35px;
-    }
-    .circle_color {
-        font-size: 12px;
-    }
-    .circle_without_color {
-        font-size: 12px;
-    }
-    .heading {
-        font-size: 35px
-    }
-    .links {
-        padding-top: 2%;
-    }
-    .print {
-        font-size: 30px;
-    }
-}
+
+
+

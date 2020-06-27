@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
 }
 .navBar {
     width: 100%;
@@ -101,7 +102,7 @@ margin: 2% 0;
 
 .containt_background{
     background-color: #fff;
-    padding: 6.5% 7.47% 2.79% 7.66%;
+    padding: 6.50% 7.50% 5.1% 7.50%;
 }
 
 .charges_container{
@@ -110,6 +111,60 @@ margin: 2% 0;
     position: relative;
 }
 
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+.appendImage img{
+    width: 4.3vw;
+    vertical-align: middle;
+}
+.appendBox {
+    width: 79.25%;
+}
+.appendBox input{
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-left: 2%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 14.5%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 5.27vw 5.27vw 0px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
 
 
 .charges{
@@ -132,7 +187,7 @@ margin: 2% 0;
 } 
 
 .lorem_text{
-    
+    padding-top: 3.68%;
     text-align: left;
     font-size: 1.36vw;
     font-family: 'Lato';
@@ -146,6 +201,7 @@ margin: 2% 0;
     font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 1.4px;
+    font-weight: 700;
     color: #747474;
 }
 
@@ -170,8 +226,7 @@ margin: 2% 0;
 
 
 .append_charges{
-
-    margin-top: 1.7%;
+    margin-top: 3.8%;
 }
 
 .witness_charges{
@@ -181,9 +236,16 @@ margin: 2% 0;
 .evidence_table{
     padding-top: 7.2%;
 }
+.witness_table{
+    padding-top: 7.2%;
+}
+
+.charge_two{
+    padding-top: 7.2%;
+}
 .append{
     text-align: left;
-    font-size: 1.17vw;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #505050;
@@ -196,6 +258,13 @@ margin: 2% 0;
         box-shadow: 0px 0px 6px #32BDD2;
         border-radius: 10vw;
         vertical-align: middle;
+}
+.close_X{
+    width: 2.63vw;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0.58vw #32BDD2;
 }
 .error_msg{
    background: #F0F0F0;
@@ -269,6 +338,155 @@ margin: 2% 0;
     float: right;
     text-align: right;
 }
+.append_evidence_container{
+    background-color: #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    padding-left: 6.19%;
+}
+.fileContainer {
+    display: flex;
+    padding: 3.8% 6.19% 4.4% 0;
+}
+
+.selectContainer {
+    background-color: white;
+    border: 1px solid #DFEBEF;
+    padding: 2% 2% 1%;
+    width: 50%;
+}
+
+.select {
+    padding-bottom: 1%;
+    font-size: 1.17vw;
+    color: #747474;
+    font-family: 'Lato';
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.maximum {
+    padding-bottom: 3%;
+    font-size: 0.97vw;
+    color: #747474;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+}
+
+.browse {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    background-color: #32BDD2;
+    font-weight: 700;
+    border-radius: 6%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    border: 0;
+    letter-spacing: 0.6px;
+}
+
+.uploadContainer {
+    background-color: #32BDD2;
+    border: 1px solid #DFEBEF;
+    padding: 2%;
+    width: 50%;
+}
+
+.uploadBackground {
+    border: 2px dashed white;
+    padding: 6% 0;
+}
+
+.upload {
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+}
+
+.drop_guide_line {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 1.17vw;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    padding-top: 2%;
+}
+.updated_files{
+    padding: 5% 6.19% 4.6% 0;
+    border-top: 1px dashed #CCCCCC;
+}
+.file{
+    font: 400 1.17vw/2.14vw "Lato";
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+.file_status{
+    margin-top: 03.3%;
+    padding: 2.097% 4.52% 2.097% 2.77%;
+    background: #FFFFFF;
+    border-radius: 0.78vw;
+}
+.file_type_img{
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #464646;
+}
+.file_type_mp4{
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #E65959;
+}
+.file_type_pdf{
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #F0C142;
+}
+.file_name{
+    width: 55%;
+    float: left;
+    padding-top:1%;
+}
+.file_name p{
+    font: 400 1.17vw/1.4vw "Lato";
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+.file_size{
+    float: left;
+    width: 35%;
+    padding-top: 1%;
+}
+.file_size p{
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 0px;
+    color: #464646;
+}
+.status{
+    float: right;
+    width: 10%;
+    text-align: right;
+    
+}
+.status img{
+    width: 2.20vw;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0.58vw #E6595980;
+    border: 0.5px solid #E65959;
+    border-radius: 1.85vw;
+}
+.btn_container{
+    padding-top: 5.5%;
+    text-align: right;
+}
+.submit{
+    background: #32BDD2;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 0.48vw;
+    font: 700 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    padding: 1% 3%;
+}
 .evidence_description{
     text-align: left;
     font-size: 1.17vw;
@@ -276,15 +494,42 @@ margin: 2% 0;
     letter-spacing: 0.6px;
     color: #505050;
 }
-
+.contact_info{
+    padding: 0 7.8%;
+    border-top: 1px solid #CCCCCC;
+}
+.btn{
+    padding-top: 4.58%;
+    padding-bottom: 3.99%;
+}
+.witness_name{
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding: 1% 0%; 
+} 
+.input_text{
+    padding-top: 4.58%;
+    }
+    .email_text{
+        padding-top: 4.58%;
+    
+    }
+    .mobile_input {
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #F7F4F4;
+        border-radius: 10px;
+        padding: 2%;
+        width: 69%;
+    }
+    
 .evidence{
     width: 12%;
     background: #F3F5B3;
     border-top-left-radius: 15px;
     padding: 1%;
 }
-
-
 
 .task_container {
     width: 7%;
@@ -304,8 +549,11 @@ margin: 2% 0;
     padding: 2vw 0;
     cursor: pointer;
 }
-
-
+.text{
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #747474;
+}
 .task_container_charge {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 0.78vw #32BDD2;
@@ -494,7 +742,7 @@ border-color:#A0DCE5;
 
 .yellowCard {
     background-color: #EEEEEE;
-    padding: 4% 2.7%;
+    padding: 3% 2.7%;
     border-top: 1px solid #CCCCCC;
     border-left: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
@@ -590,6 +838,7 @@ border-color:#A0DCE5;
 }
 
 .evidenceDescription {
+    width: 86%;
     font-family: 'Lato';
     font-size: 1.17vw;
     letter-spacing: 0.6px;

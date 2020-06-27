@@ -104,8 +104,7 @@
 }
 
 .containt_bar {
-    padding-left: 3.72%;
-    padding-right: 9.89%;
+    padding: 03.6%  0  5.1% 3.72%;
 }
 
 .sidebar_complaint_top {
@@ -115,7 +114,7 @@
 }
 
 .complainant {
-    font-size: 1.17vw;
+    font-size: 1.36vw;
     font-family: 'Anton';
     letter-spacing: 2.8px;
     color: #000000;
@@ -141,10 +140,6 @@
     float: right;
 }
 
-.preview_top {
-    padding-top: 06.11%;
-}
-
 .preview {
     font: 900 1.36vw/1.66vw 'Lato';
     letter-spacing: 1.4px;
@@ -158,7 +153,8 @@
 }
 
 .comolaint_top {
-    padding-top: 09.34%;
+    width: 32.47%;
+    padding-top: 08.72%;
 }
 
 .type {
@@ -175,19 +171,19 @@
     font-size: 1.35vw;
     letter-spacing: 1.4px;
     color: #505050;
-    padding-top: 2.09%;
+    padding-top: 5.02%;
 }
 
 .address {
     font: 400 1.17vw/2.24 "Lato";
     letter-spacing: 1.2px;
     color: #505050;
-    width: 26.5%;
     padding-top: 1.42%;
     line-height: 1.7;
 }
 
 .charges_top {
+    width: 77.07%;
     padding-top: 03.78%;
 }
 
@@ -233,7 +229,7 @@
 }
 
 .respodent {
-    padding-top: 4.11%;
+    padding-top: 10.11%;
 }
 
 .evidence_top {
@@ -338,7 +334,8 @@
 }
 
 .charge_02 {
-    padding: 8.45% 0 5.1% 0;
+    width: 77.07%;
+    padding-top: 8.45%;
 }
 
 .charge_02_lorem_text {
