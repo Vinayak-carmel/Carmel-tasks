@@ -3,32 +3,28 @@
 
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-
     <meta charset="utf-8">
-    <title>Custom Overlays</title>
-    <style>
-        /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-        
-        #map {
-            height: 100%;
-        }
-        /* Optional: Makes the sample page fill the window. */
-        
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYefAeg8um3T0qibvfrKlstd8VRPZihmE&callback=initMap&libraries=&v=weekly" defer></script>
-
+    <title>Showing/Hiding Overlays</title>
+    <link rel="stylesheet" href="newmap.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYefAeg8um3T0qibvfrKlstd8VRPZihmE"></script>
 </head>
 
 <body>
-    <div id="map"></div>
-    <script src="newmap.js"></script>
+    <div id="map">
+        <div id="gxrid">
+            <!-- <div class="gridparent">
+                <div class="grid">
+                    <div class="tielOne">1</div>
+                    <div class="tielOne">1</div>
+                    <div class="tielOne">1</div>
+                    <div class="tielOne">1</div>
+                </div>
+                <p>5KM</p>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="rectAngle.js"></script>
 </body>
 
-</html>
+</html
