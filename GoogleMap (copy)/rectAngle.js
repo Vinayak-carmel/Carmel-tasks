@@ -1,38 +1,21 @@
 function initMap() {
-    var topLeft = {
+    var hubli2 = {
         lat: 15.3650,
-        lng: 75.1235
+        lng: 75.1245
     };
 
-    var center = {
+    var hubli = {
         lat: 15.3647,
         lng: 75.1240
     };
-    var bottomRight = {
+    var hubli1 = {
         lat: 15.3644,
-        lng: 75.1245
-    }
-    var notiDot = {
-        lat: 15.36497,
-        lng: 75.12367
-    }
-    var squirCenter = {
-        lat: 15.3649,
-        lng: 75.1236
-    }
-
-    var containerTopLeft = {
-        lat: 15.3651,
-        lng: 75.1234
-    }
-    var containerBottonRight = {
-        lat: 15.3643,
-        lng: 75.1246
+        lng: 75.1235
     }
 
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 19,
-        center: center,
+        center: hubli,
 
     });
 
@@ -52,29 +35,12 @@ function initMap() {
         }
 
     });
-
-    var container = new google.maps.Rectangle({
-        strokeColor: '#CCC',
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillColor: '#FF00000',
-        fillOpacity: 0.1,
-        map: map,
-        bounds: {
-            north: 15.3651,
-            south: 15.3643,
-
-            west: 75.1234,
-            east: 75.1246
-        }
-
-    });
     // First Row
     var rectangle = new google.maps.Rectangle({
         strokeColor: '#000000',
         strokeOpacity: 0.8,
         strokeWeight: 2,
-        fillColor: '#FFF',
+        fillColor: '#000',
         fillOpacity: 0.7,
         map: map,
 
@@ -339,50 +305,19 @@ function initMap() {
         }
 
     });
-
-    var play = {
-        url: 'play.png',
-        size: new google.maps.Size(50, 25),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(10, 10),
-        scaledSize: new google.maps.Size(20, 20)
-    };
-
-    var noti = {
-        url: 'reddot.png',
-        size: new google.maps.Size(10, 10),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(5, 5),
-        scaledSize: new google.maps.Size(10, 10)
-    };
-    var notification = new google.maps.Marker({
-        position: notiDot,
-        map: map,
-        icon: noti
+    var marker = new google.maps.Marker({
+        position: hubli,
+        map: map
+    });
+    var marker = new google.maps.Marker({
+        position: hubli1,
+        map: map
+    });
+    var marker = new google.maps.Marker({
+        position: hubli2,
+        map: map
     });
 
-    var play = new google.maps.Marker({
-        position: squirCenter,
-        map: map,
-        icon: play,
-        title: 'click to zoom'
-    });
-
-    play.addListener("click", function() {
-        map.setZoom(30);
-        map.setCenter(play.getPosition());
-    });
-
-    google.maps.event.addListener(map, 'zoom_changed', function() {
-        var zoom = map.getZoom();
-        if (zoom >= 19) {
-            notification.setVisible(true);
-            play.setVisible(true);
-        } else {
-            notification.setVisible(false);
-            play.setVisible(false);
-        }
-    })
 }
 
 

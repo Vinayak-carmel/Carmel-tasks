@@ -56,11 +56,3 @@
         padding: 01%;
         border: 1px solid #cccccc;
     }
-    
-    .dot {
-        width: 2.931vw;
-        height: 2.931vw;
-        background-color: red;
-        border: 0.098vw solid red;
-        border-radius: 50%;
-    }
