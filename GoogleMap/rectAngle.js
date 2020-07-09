@@ -69,6 +69,8 @@ function initMap() {
         }
 
     });
+
+
     // First Row
     var rectangle = new google.maps.Rectangle({
         strokeColor: '#000000',
@@ -353,19 +355,20 @@ function initMap() {
         size: new google.maps.Size(10, 10),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(5, 5),
-        scaledSize: new google.maps.Size(10, 10)
+        scaledSize: new google.maps.Size(10, 10),
     };
     var notification = new google.maps.Marker({
         position: notiDot,
         map: map,
-        icon: noti
+        icon: noti,
     });
 
     var play = new google.maps.Marker({
         position: squirCenter,
         map: map,
         icon: play,
-        title: 'click to zoom'
+        title: 'click to zoom',
+        // label: '5 Km'
     });
 
     play.addListener("click", function() {
@@ -383,6 +386,7 @@ function initMap() {
             play.setVisible(false);
         }
     })
+
 }
 
 
