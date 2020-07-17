@@ -96,20 +96,6 @@ function drawGrid() {
         defferanceLng = (newLng[1] - newLng[0]);
         nextcellLng = nextcellLng - (defferanceLng * (cols + 1)); 
     } 
-    var boundingbox = new google.maps.Rectangle({
-        strokeColor: '#ff0000',
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillColor: '#ff0000',
-        fillOpacity: 0.1,
-        map: map,
-        bounds: {
-            north: north,
-            south: south,
-            west: west,
-            east: east
-        }
-    });
 }
 
 google.maps.event.addDomListener(window,'load',initMap)
