@@ -1,12 +1,11 @@
 //required inputs to map to generate grid system.
 var main_center_point;
-var width = 4; // width of main rectangle in KM
-var height = 4; // height of main rectangle in KM
-var sub_cell_width = 1; // width of subcell in KM.
-var sub_cell_height = 1; // height of subcell in KM.
+var width = 10; // width of main rectangle in KM
+var height = 10; // height of main rectangle in KM
+var sub_cell_width = 2.5; // width of subcell in KM.
+var sub_cell_height = 2.5; // height of subcell in KM.
 var sub_cell_center_pointLat = (sub_cell_height) / 111.32;
 var sub_cell_center_pointLng = (sub_cell_width) / 111.32;
-
 
 var map;
 var marker;
@@ -29,7 +28,7 @@ function initMap() {
     };
 
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 21,
+        zoom: 19,
         center: main_center_point,
     });
     // marker = new google.maps.Marker({
@@ -72,7 +71,6 @@ function boundingBox() {
     } else {
         alert('Width and Height should less then you mentioned')
     }
-
 }
 
 function drawGrid() {
@@ -88,13 +86,14 @@ function drawGrid() {
     nextcellLng = cellLng;
 
     // Marker point.
+    // Play Icon.
     var play = {
         url: 'play.png',
         size: new google.maps.Size(50, 50),
         origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(18, 18),
-        scaledSize: new google.maps.Size(50, 50)
-    }; // Play Icon
+        anchor: new google.maps.Point(20, 15),
+        scaledSize: new google.maps.Size(30, 30)
+    };
 
     // calculate the center point of each subCell
     for (let i = 1; i <= rows; i++) {
@@ -104,56 +103,46 @@ function drawGrid() {
             nextcellLng = nextcellLng;
             newLng.push(nextcellLng);
             // console.log("center point " + ([j]) + " = " + " " + nextcellLat, nextcellLng);
-            var cell = {
+            var subcellcenterPoint = {
                 lat: nextcellLat,
                 lng: nextcellLng
             }
-            if (map.getZoom > 18) {
-                var icon = play
-            } else {
-                var icon = reddot
-            }
+
             var playMarker = new google.maps.Marker({
-                position: cell,
+                position: subcellcenterPoint,
                 map: map,
                 icon: play,
-                title: 'click to zoom',
+                title: 'click to Play',
             });
 
-            function hideIcon(j) {
-                google.maps.event.addListener(map, 'zoom_changed', function() {
-                    var zoom = map.getZoom();
-                    if (zoom > 20) {
-                        playMarker.setVisible(true);
-                        Notification.setVisible(true)
-                    } else {
-                        playMarker.setVisible(false);
-                        Notification.setVisible(false)
-                    }
-                })
-            }
-            hideIcon(j);
+            google.maps.event.addListener(map, 'zoom_changed', function() {
+                var zoom = map.getZoom();
+                if (zoom > 20) {
+                    playMarker.setVisible(true);
 
-            function clickPlay(j) {
-                playMarker.addListener("click", function() {
-                    map.setZoom(30);
-                    map.setCenter(playMarker.getPosition());
-                });
-            }
-            clickPlay(j)
+                } else {
+                    playMarker.setVisible(false);
+                }
+            })
+
+            playMarker.addListener("click", function() {
+                alert("clicked button is in " + " " + [i] + " " + "Row" + " " + [j] + " " + "Colum.");
+            });
+
             nextcellLng = nextcellLng + (sub_cell_center_pointLng / EARTH_RADIUSE) * (180 / PI) / Math.cos(cellLat * PI / 180);
         }
         nextcellLat = nextcellLat - (sub_cell_center_pointLat / EARTH_RADIUSE) * (180 / PI);
         defferanceLng = (newLng[1] - newLng[0]);
         nextcellLng = nextcellLng - (defferanceLng * (cols));
     }
+    // Notification Icon
     var reddot = {
         url: 'reddot.png',
         size: new google.maps.Size(50, 50),
         origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(30, -18),
+        anchor: new google.maps.Point(22, -6),
         scaledSize: new google.maps.Size(15, 15)
-    }; // Notification Icon
+    };
     // ploat the Sub cell w.r.t Center point.
     for (let i = 0; i < newLat.length; i++) {
         subcellNorth = newLat[i] + (subcelllat / EARTH_RADIUSE) * (180 / PI);
@@ -175,12 +164,21 @@ function drawGrid() {
                 map: map,
                 icon: reddot
             });
-
+            google.maps.event.addListener(map, 'zoom_changed', function() {
+                var zoom = map.getZoom();
+                if (zoom > 20) {
+                    Notification.setVisible(true)
+                } else {
+                    Notification.setVisible(false)
+                }
+            })
             if (j % 2 == 0) {
                 fillColor = '#000000';
             } else {
                 fillColor = '#FFFFFF'
             }
+
+
             var boundingbox = new google.maps.Rectangle({
                 strokeColor: '#CCCCCC',
                 strokeOpacity: 0.2,
