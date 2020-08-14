@@ -9,6 +9,20 @@
     }
     
     #map {
-        height: 100vh;
+        height: 95vh;
         width: 100vw;
+    }
+    
+    .rorate {
+        background-color: #008CBA;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 0.293vw 0.488vw;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.12vw;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
     }

@@ -1,9 +1,9 @@
 //required inputs to map to generate grid system.
 var main_center_point;
-var width = 12; // width of main rectangle in KM
-var height = 15; // height of main rectangle in KM
-var sub_cell_width = 4; // width of subcell in KM.
-var sub_cell_height = 3; // height of subcell in KM.
+var width = 10; // width of main rectangle in KM
+var height = 5; // height of main rectangle in KM
+var sub_cell_width = 10; // width of subcell in KM.
+var sub_cell_height = 2.5 // height of subcell in KM.
 var sub_cell_center_pointLat = (sub_cell_height) / 111.32;
 var sub_cell_center_pointLng = (sub_cell_width) / 111.32;
 
@@ -21,7 +21,8 @@ var subcellWest;
 var EARTH_RADIUSE = 6378; //radius of the earth in kilometer
 var PI = Math.PI;
 
-function initMap() {
+function initMap(horizontal) {
+    var ratation = horizontal
     main_center_point = {
         lat: 15.3647,
         lng: 75.1240
@@ -35,21 +36,42 @@ function initMap() {
     //     position: main_center_point,
     //     map: map
     // });
-    boundingBox();
+    rotate(ratation);
 
 }
 
+function rotate(ratation) {
+    var rotate = ratation;
+    var rotatedHeight;
+    var rotatedWidth;
+    if (rotate === "horizontal") {
+        rotatedHeight = height;
+        rotatedWidth = width;
+        boundingBox(rotatedHeight, rotatedWidth)
+    } else if (rotate === "vertical") {
+        rotatedHeight = width;
+        rotatedWidth = height;
+        boundingBox(rotatedHeight, rotatedWidth)
+    } else {
+        rotatedHeight = height;
+        rotatedWidth = width;
+        boundingBox(rotatedHeight, rotatedWidth)
+    }
+
+}
 // 180/PI radians to degree.
 // center_point.lat * PI / 180 degree to radian.
 // number of km per degree = ~111km (111.32 in google maps, but range varies 
 // between 110.567km at the equator and 111.699km at the poles)
 // 1km in degree = 1 / 111.32km = 0.008983
-function boundingBox() {
-    // width =  (width / 111.32)    KM to Deegree Convert. 
-    north = main_center_point.lat + (((height / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI);
-    south = main_center_point.lat - (((height / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI);
-    east = main_center_point.lng + (((width / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI) / Math.cos(main_center_point.lat * PI / 180);
-    west = main_center_point.lng - (((width / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI) / Math.cos(main_center_point.lat * PI / 180);
+function boundingBox(rotatedHeight, rotatedWidth) {
+    // width =  (width / 111.32)    KM to Deegree Convert.
+    var rotatedHeight = rotatedHeight;
+    var rotatedWidth = rotatedWidth;
+    north = main_center_point.lat + (((rotatedHeight / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI);
+    south = main_center_point.lat - (((rotatedHeight / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI);
+    east = main_center_point.lng + (((rotatedWidth / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI) / Math.cos(main_center_point.lat * PI / 180);
+    west = main_center_point.lng - (((rotatedWidth / 111.32) / 2) / EARTH_RADIUSE) * (180 / PI) / Math.cos(main_center_point.lat * PI / 180);
 
     var boundingbox = new google.maps.Rectangle({
         strokeColor: '#ff0000',
@@ -66,18 +88,20 @@ function boundingBox() {
         }
     });
     // ploat the grid System,only when the Sub cell Width and Height are valid.
-    var is_height_valid = height / sub_cell_height;
-    var is_width_valid = width / sub_cell_width;
+    var is_height_valid = rotatedHeight / sub_cell_height;
+    var is_width_valid = rotatedWidth / sub_cell_width;
     if (Number.isInteger(is_width_valid) && (Number.isInteger(is_height_valid))) {
-        drawGrid()
+        drawGrid(rotatedHeight, rotatedWidth)
     } else {
         alert('Width and Height should less then you mentioned')
     }
 }
 
-function drawGrid() {
-    var rows = height / sub_cell_height;
-    var cols = width / sub_cell_width;
+function drawGrid(rotatedHeight, rotatedWidth) {
+    var rotatedHeight = rotatedHeight;
+    var rotatedWidth = rotatedWidth;
+    var rows = rotatedHeight / sub_cell_height;
+    var cols = rotatedWidth / sub_cell_width;
     var newLat = []; // Array of New Lat.
     var newLng = []; // Array of New Lng
     var subcelllat = (sub_cell_height / 2) / 111.32;
