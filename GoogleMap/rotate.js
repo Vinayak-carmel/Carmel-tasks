@@ -2,7 +2,7 @@
 var main_center_point;
 var width = 10; // width of main rectangle in KM
 var height = 5; // height of main rectangle in KM
-var sub_cell_width = 10; // width of subcell in KM.
+var sub_cell_width = 2.5; // width of subcell in KM.
 var sub_cell_height = 2.5 // height of subcell in KM.
 var sub_cell_center_pointLat = (sub_cell_height) / 111.32;
 var sub_cell_center_pointLng = (sub_cell_width) / 111.32;
