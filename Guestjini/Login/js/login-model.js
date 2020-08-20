@@ -1,4 +1,4 @@
-var model = {
+var login_model = {
     fields: [{
             name: "email",
             displayName: "Email",
@@ -26,12 +26,12 @@ var model = {
         {
             name: "pswd",
             displayName: "Password",
-            type: "password",
-            typeErrorMessage: "Password, Please enter valid phone",
+            type: "number",
+            typeErrorMessage: "Please enter valid Password",
             defaultValue: null,
             validate: true,
             display: false,
-            required: false,
+            required: true,
             requiredErrorMsg: "Password, is required.",
             allowedSpecialChars: "",
             allowedSpecialCharsError: "",
@@ -48,5 +48,9 @@ var model = {
             errorPlaceHolder: ""
         },
 
-    ]
+    ],
+    type: "simple",
+    readType: "value",
+    dataHolderClass: "",
+    errorPlaceHolder: ""
 };
